@@ -184,6 +184,8 @@ survey-corps/
 ├── config/                  # Settings and configuration
 ├── requirements.txt
 └── .env.example
+
+> **Note:** Bank statement files and upload data are excluded from version control (contain PII).
 ```
 
 ---

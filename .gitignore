@@ -16,6 +16,12 @@ env/
 storage/chromadb/
 storage/llm_cache/
 
+# Real bank statement dataset — contains PII, never commit
+Bank-statements-dataset/
+
+# Streamlit dev/testing interface — local tool only, not production code
+app.py
+
 # Upload folder — investigator files are not part of the codebase
 uploads/
 
