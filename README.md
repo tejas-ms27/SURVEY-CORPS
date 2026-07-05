@@ -50,19 +50,6 @@ uploads/  →  Extraction  →  Analysis Engine  →  Reporting  →  Chatbot (R
 
 ---
 
-## Key Features
-
-- **Multi-format ingestion** — PDF (digital and scanned via OCR), Excel, CSV, DOCX, JPG, PNG covering multiple suspect accounts in a single session
-- **LLM-guided extraction** — Claude/Groq identifies document structure and standardises transactions regardless of bank format
-- **25 fraud detection cases** across seven categories with weighted composite suspicion scoring (0–100 per account)
-- **Interactive money-flow graph** — NetworkX-powered visualisation of the full suspect transaction network
-- **Court-ready forensic reports** — PDF and Excel with executive summary, per-account findings, graph exports, and technical appendix
-- **RAG-powered investigation chatbot** — ChromaDB + sentence-transformers lets investigators query transaction data in plain English
-- **React + TypeScript frontend** — full-featured UI for case management, upload, analysis dashboard, and chatbot
-- **FastAPI backend** — RESTful API serving all pipeline stages with session management
-
----
-
 ## Implementation Status
 
 | Phase | Component | Status |
@@ -79,6 +66,19 @@ uploads/  →  Extraction  →  Analysis Engine  →  Reporting  →  Chatbot (R
 | Phase 4 | RAG chatbot (ChromaDB + sentence-transformers) | ✅ Complete |
 | API | FastAPI backend with full routing | ✅ Complete |
 | Frontend | React + TypeScript + Tailwind UI | ✅ Complete |
+
+---
+
+## Key Features
+
+- **Multi-format ingestion** — PDF (digital and scanned via OCR), Excel, CSV, DOCX, JPG, PNG covering multiple suspect accounts in a single session
+- **LLM-guided extraction** — Claude/Groq identifies document structure and standardises transactions regardless of bank format
+- **25 fraud detection cases** across seven categories with weighted composite suspicion scoring (0–100 per account)
+- **Interactive money-flow graph** — NetworkX-powered visualisation of the full suspect transaction network
+- **Court-ready forensic reports** — PDF and Excel with executive summary, per-account findings, graph exports, and technical appendix
+- **RAG-powered investigation chatbot** — ChromaDB + sentence-transformers lets investigators query transaction data in plain English
+- **React + TypeScript frontend** — full-featured UI for case management, upload, analysis dashboard, and chatbot
+- **FastAPI backend** — RESTful API serving all pipeline stages with session management
 
 ---
 
@@ -179,10 +179,8 @@ survey-corps/
 ├── api/                     # FastAPI backend
 │   ├── main.py
 │   └── routers/
-├── chatbot_ui/              # React + TypeScript frontend
-│   └── frontend/
-│       └── src/
-├── synthetic_test_data/     # Synthetic fraud patterns for evaluation
+├── frontend/                # React + TypeScript frontend
+│   └── src/
 ├── config/                  # Settings and configuration
 ├── requirements.txt
 └── .env.example
@@ -202,7 +200,7 @@ pip install -r requirements.txt
 brew install tesseract
 
 # Frontend dependencies
-cd chatbot_ui/frontend && npm install
+cd frontend && npm install
 ```
 
 ### Environment Variables
@@ -223,37 +221,7 @@ uvicorn api.main:app --reload --port 8000
 ### Running the Frontend
 
 ```bash
-cd chatbot_ui/frontend && npm run dev
-```
-
----
-
-## Synthetic Test Dataset
-
-The repository includes a synthetic dataset with deliberately planted fraud patterns used as the accuracy benchmark during development:
-
-```
-synthetic_test_data/
-├── pattern_01_duplicate_verification/
-├── pattern_02_failed_reversed_transaction/
-├── pattern_03_pass_through_routing/
-├── pattern_04_fund_pooling/
-├── pattern_05_structuring_smurfing/
-├── pattern_07_circular_flow/
-├── pattern_08_money_trail/
-├── pattern_09_credit_to_cash_out/
-├── pattern_10_cross_statement_links/
-├── pattern_11_balance_parking/
-├── pattern_12_hub_ranking/
-├── pattern_13_low_value_testing/
-├── pattern_14_reversal_clusters/
-├── pattern_15_round_value_debit/
-├── pattern_16_shared_upi/
-├── pattern_17_round_trip/
-├── pattern_18_dormant_reactivation/
-├── pattern_19_first_contact_large_transfer/
-├── pattern_22_llm_lead_unknown_shape/
-└── pattern_23_ml_ensemble_unknown_shape/
+cd frontend && npm run dev
 ```
 
 ---

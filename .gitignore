@@ -54,8 +54,11 @@ tools/
 *.swp
 chroma_store/
 
-# Synthetic test dataset
+# Synthetic test dataset and synthetic dev artifacts
 synthetic_test_data/
+analysis/synthetic_cases/
+scripts/validate_synthetic_patterns.py
+tmp/
 
 # Internal planning and dev-phase documents (never push)
 ZDOCUMENTS/
