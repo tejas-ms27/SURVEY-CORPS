@@ -1,0 +1,115 @@
+============================================================
+  FRAUD-DETECTION PIPELINE — EVALUATION RESULTS
+============================================================
+
+## Overall Results
+
+Patterns Present : 38
+Detected         : 23
+Missed           : 15
+False Positives  : 33
+Not Evaluable    : 2  (population-scale leads on tiny fixtures — see notes)
+
+Precision        : 41.1%
+Recall           : 60.5%
+F1 Score         : 48.9%
+
+## Pattern Breakdown
+
+ ID  Pattern                         Exp  Det Miss   FP  Recall
+------------------------------------------------------------
+  1  duplicate_verification            2    2    0    2    100%
+  2  failed_reversed_transaction       2    2    0    0    100%
+  3  pass_through_routing              2    2    0    0    100%
+  4  fund_pooling                      2    0    2    0      0%
+  5  structuring_smurfing              2    0    2    3      0%
+  7  circular_flow                     2    1    1    0     50%
+  8  money_trail                       2    2    0    0    100%
+  9  credit_to_cash_out                2    2    0    0    100%
+ 10  cross_statement_links             2    2    0    1    100%
+ 11  balance_parking                   2    0    2    0      0%
+ 12  hub_ranking                       2    0    2    0      0%
+ 13  low_value_testing                 2    2    0    0    100%
+ 14  reversal_clusters                 2    2    0    0    100%
+ 15  round_value_debit                 2    2    0    1    100%
+ 16  shared_upi                        2    1    1   19     50%
+ 17  round_trip                        2    2    0    2    100%
+ 18  dormant_reactivation              2    0    2    0      0%
+ 19  first_contact_large_transfer      2    1    1    5     50%
+ 22  llm_lead_unknown_shape            1    0    1    0      0%
+ 23  ml_ensemble_unknown_shape         1    0    1    0      0%
+
+## Misses (expected but not detected)
+  - combined_all_patterns: pattern 4 on ['06555427844681']
+  - combined_all_patterns: pattern 5 on ['6369331266799686']
+  - combined_all_patterns: pattern 11 on ['49914742547252']
+  - combined_all_patterns: pattern 12 on ['00837844971737', '1157402870460715', '3185728472711726', '3922181054742642', '55794792847269', '9454583674913372', '9791722953307803']
+  - combined_all_patterns: pattern 18 on ['93649988897865']
+  - combined_all_patterns: pattern 22 on ['940797593562472']
+  - combined_all_patterns: pattern 23 on ['9824732161017095']
+  - pattern_04_fund_pooling: pattern 4 on ['39557477253057']
+  - pattern_05_structuring_smurfing: pattern 5 on ['01441964801494']
+  - pattern_07_circular_flow: pattern 7 on ['44000827893', '48880432099033', '6332927949015177', '68699629400471', '96465802265']
+  - pattern_11_balance_parking: pattern 11 on ['08959469915']
+  - pattern_12_hub_ranking: pattern 12 on ['35986543405557', '3982799780574773', '5007288473965366', '5112945020', '8687279450866072', '9233632350372247', '94079742466285', '9517122164']
+  - pattern_16_shared_upi: pattern 16 on ['172372078937018', '6752720432718688']
+  - pattern_18_dormant_reactivation: pattern 18 on ['1351667800484732']
+  - pattern_19_first_contact_large_transfer: pattern 19 on ['3646678344002840', '7937753974154053']
+
+## False positives (scored pattern on clean/non-finding)
+  - combined_all_patterns: pattern 1 on account 12244398223872
+  - combined_all_patterns: pattern 1 on account 46222788658678
+  - combined_all_patterns: pattern 5 on account 25429361452
+  - combined_all_patterns: pattern 10 on account 6590397142208598
+  - combined_all_patterns: pattern 16 on account 01541244528922
+  - combined_all_patterns: pattern 16 on account 21733893993601
+  - combined_all_patterns: pattern 16 on account 68327262930584
+  - combined_all_patterns: pattern 17 on account 47455115930805
+  - combined_all_patterns: pattern 17 on account 648876988058022
+  - combined_all_patterns: pattern 19 on account 08962225500023
+  - combined_all_patterns: pattern 19 on account 42224070805318
+  - combined_all_patterns: pattern 19 on account 47455115930805
+  - combined_all_patterns: pattern 19 on account 63265662163410
+  - pattern_02_failed_reversed_transaction: pattern 16 on account 4580064736
+  - pattern_02_failed_reversed_transaction: pattern 16 on account 51051343030311
+  - pattern_07_circular_flow: pattern 19 on account 84975745891270
+  - pattern_09_credit_to_cash_out: pattern 16 on account 6563986075289003
+  - pattern_09_credit_to_cash_out: pattern 16 on account 81505882184559
+  - pattern_10_cross_statement_links: pattern 16 on account 0984146900879825
+  - pattern_11_balance_parking: pattern 16 on account 3851062425
+  - pattern_11_balance_parking: pattern 16 on account 8008270503
+  - pattern_11_balance_parking: pattern 16 on account 97556000042808
+  - pattern_12_hub_ranking: pattern 15 on account 3656963468
+  - pattern_12_hub_ranking: pattern 16 on account 3656963468
+  - pattern_12_hub_ranking: pattern 16 on account 6325120086
+  - pattern_13_low_value_testing: pattern 5 on account 94316247379
+  - pattern_18_dormant_reactivation: pattern 16 on account 64062840118450
+  - pattern_18_dormant_reactivation: pattern 16 on account 8061995370719974
+  - pattern_19_first_contact_large_transfer: pattern 5 on account 0012685434741507
+  - pattern_19_first_contact_large_transfer: pattern 16 on account 0012685434741507
+  - pattern_19_first_contact_large_transfer: pattern 16 on account 1573834194604305
+  - pattern_23_ml_ensemble_unknown_shape: pattern 16 on account 9299158039552286
+  - pattern_23_ml_ensemble_unknown_shape: pattern 16 on account 98880270931
+
+## Not evaluable (reported honestly, never scored)
+  - pattern_22_llm_lead_unknown_shape: Pattern 22 is a population-scale lead; the fixture has only 2 account(s) (< 5). Not faithfully exercisable in isolation — measured on combined_all_patterns.
+  - pattern_23_ml_ensemble_unknown_shape: Pattern 23 is a population-scale lead; the fixture has only 3 account(s) (< 5). Not faithfully exercisable in isolation — measured on combined_all_patterns.
+
+## Leads raised on clean accounts (informational — not counted as FP)
+  - clean_control: lead pattern 22 on ['9905651287101229']
+  - combined_all_patterns: lead pattern 22 on ['33565604015218']
+  - combined_all_patterns: lead pattern 22 on ['17827883120358']
+  - combined_all_patterns: lead pattern 23 on ['307456363299274']
+  - combined_all_patterns: lead pattern 23 on ['351544452945333']
+  - combined_all_patterns: lead pattern 23 on ['980588499302989']
+  - pattern_01_duplicate_verification: lead pattern 22 on ['0709015866']
+  - pattern_02_failed_reversed_transaction: lead pattern 22 on ['77849479467322']
+  - pattern_03_pass_through_routing: lead pattern 22 on ['97042978075723']
+  - pattern_04_fund_pooling: lead pattern 22 on ['2749784479808556']
+  - pattern_05_structuring_smurfing: lead pattern 22 on ['59731337686839']
+  - pattern_08_money_trail: lead pattern 22 on ['00057753678707']
+  - pattern_08_money_trail: lead pattern 23 on ['052367692850118']
+  - pattern_10_cross_statement_links: lead pattern 22 on ['62426182162468']
+  - pattern_12_hub_ranking: lead pattern 23 on ['6263452588']
+  - pattern_14_reversal_clusters: lead pattern 22 on ['4118260700258613']
+  - pattern_14_reversal_clusters: lead pattern 23 on ['596700606676173']

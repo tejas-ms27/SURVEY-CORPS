@@ -1,0 +1,67 @@
+fastapi
+uvicorn
+python-dotenv
+pandas
+numpy
+pdfplumber
+pytesseract
+pillow
+opencv-python
+python-docx
+groq
+pymupdf
+chromadb
+sentence-transformers
+scikit-learn
+networkx
+reportlab
+openpyxl
+matplotlib
+plotly
+kaleido
+python-multipart
+aiofiles
+streamlit
+xlrd>=2.0.1
+requests
+
+
+# Survey Corps — backend dependencies
+# Install with:  ₹
+
+# --- Web API (serves the React frontend) ---
+fastapi
+uvicorn
+python-multipart
+aiofiles
+python-dotenv
+
+# --- Data / numeric core ---
+pandas
+numpy
+scikit-learn
+networkx
+
+# --- Document & statement parsing ---
+pdfplumber
+pymupdf
+pytesseract
+pillow
+opencv-python
+python-docx
+openpyxl
+
+# --- LLM + RAG (chatbot) ---
+groq
+requests
+chromadb
+sentence-transformers
+
+# --- Charts / graphs / reports ---
+matplotlib
+plotly
+pyvis
+reportlab
+
+# --- Streamlit (imported by some shared modules) ---
+streamlit

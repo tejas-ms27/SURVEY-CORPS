@@ -1,0 +1,7 @@
+[21:57:22] VALIDATION RUN validation_original_20260703_215722
+[21:57:22] Dataset: /Users/tejas.m.s/Automated-Financial-Data-Analysis-System-Survey-Corps-/DATASET FOLDER/original bank statements
+[21:57:22] Discovered 0 files (0 to process, 0 skipped). Formats: {}
+[21:57:22] PHASE 1/3 — EXTRACTION starting ...
+[21:57:23] EXTRACTION done in 0.7s: 0 processed, 0 failed, 0 under-extracted, 0 clean rows, 0 LLM calls.
+[21:57:23] PHASE 2/3 — ANALYSIS starting ...
+[21:57:24] ANALYSIS PHASE CRASHED: No transaction rows found in /Users/tejas.m.s/Automated-Financial-Data-Analysis-System-Survey-Corps-/outputs/extractions/validation_original_20260703_215722

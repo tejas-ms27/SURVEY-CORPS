@@ -1,0 +1,241 @@
+/* ==========================================================================
+   Survey Corps — Financial Forensics Engine · Landing page (/)
+   Built to landing_page_instructions.md. Scoped under `.sc` so it never
+   collides with the dashboard's (teal/light) design system.
+
+   Palette follows the blueprint's dark-canvas + indigo/orange-red spec:
+   dark #05040C / #0E0C20 canvas, near-white #F4F3FA text, #291EC7 indigo
+   (for the white Extraction section) / #4A3FFF light-indigo (for dark
+   sections), #FF5B39 orange-red accent.
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.sc {
+  --sc-bg: #05040c;
+  --sc-bg-2: #0e0c20;
+  --sc-panel: #14122e;
+  --sc-fg: #f4f3fa;
+  --sc-muted: rgba(244, 243, 250, 0.62);
+  --sc-faint: rgba(244, 243, 250, 0.4);
+  --sc-border: rgba(244, 243, 250, 0.12);
+  --sc-indigo: #291ec7;        /* on white */
+  --sc-indigo-lt: #6a60ff;     /* on dark  */
+  --sc-accent: #ff5b39;        /* orange-red */
+  /* Rockwell (local, MS Office); slab-serif fallbacks for other machines. */
+  --sc-slab: 'Rockwell', 'Rockwell Nova', 'Roboto Slab', 'Zilla Slab', Georgia, serif;
+  --sc-sans: 'Rockwell', 'Rockwell Nova', 'Roboto Slab', 'Zilla Slab', Georgia, serif;
+  --sc-mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+
+  background: var(--sc-bg);
+  color: var(--sc-fg);
+  font-family: var(--sc-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sc *,
+.sc *::before,
+.sc *::after { box-sizing: border-box; }
+.sc a { color: inherit; text-decoration: none; }
+.sc button { font-family: inherit; cursor: pointer; }
+.sc h1, .sc h2, .sc h3 { font-family: var(--sc-slab); font-weight: 700; letter-spacing: -0.01em; margin: 0; }
+.sc section { scroll-margin-top: 84px; }
+
+.sc-wrap { width: 100%; max-width: 1140px; margin-inline: auto; padding-inline: 24px; }
+.sc-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--sc-mono); font-size: 12px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--sc-indigo-lt);
+}
+.sc-eyebrow::before { content: ''; width: 22px; height: 2px; background: var(--sc-accent); }
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+.sc-nav {
+  position: fixed; top: 0; left: 0; z-index: 50; width: 100%;
+  transition: background 0.3s ease, border-color 0.3s ease, backdrop-filter 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+.sc-nav.scrolled {
+  background: rgba(5, 4, 12, 0.72);
+  backdrop-filter: blur(12px);
+  border-bottom-color: var(--sc-border);
+}
+.sc-nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
+.sc-brand { display: flex; align-items: center; gap: 14px; font-family: var(--sc-slab); font-weight: 700; font-size: 18px; letter-spacing: 0.02em; }
+.sc-logo { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; flex: none; }
+.sc-nav-links { display: none; align-items: center; gap: 6px; }
+.sc-nav-link {
+  padding: 8px 14px; background: none; border: none; color: var(--sc-muted);
+  font-family: var(--sc-mono); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+.sc-nav-link:hover { color: var(--sc-fg); }
+@media (min-width: 768px) { .sc-nav-links { display: flex; } }
+
+/* ==========================================================================
+   Hero (fullscreen)
+   ========================================================================== */
+.sc-hero {
+  position: relative; min-height: 100vh;
+  display: flex; flex-direction: column;
+  padding: 88px 0 0;
+  background:
+    radial-gradient(60% 50% at 50% 38%, rgba(74, 63, 255, 0.16), transparent 70%),
+    radial-gradient(40% 40% at 80% 80%, rgba(255, 91, 57, 0.08), transparent 70%),
+    var(--sc-bg);
+}
+.sc-hero::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 1;
+  background-image:
+    linear-gradient(rgba(244, 243, 250, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244, 243, 250, 0.04) 1px, transparent 1px);
+  background-size: 72px 72px;
+  -webkit-mask-image: radial-gradient(70% 65% at 50% 40%, #000, transparent 85%);
+  mask-image: radial-gradient(70% 65% at 50% 40%, #000, transparent 85%);
+}
+/* Looping background video — covers the hero at any resolution, sits behind
+   the grid, scrim and content. */
+.sc-hero-video {
+  position: absolute; inset: 0; z-index: 0;
+  width: 100%; height: 100%; object-fit: cover;
+  pointer-events: none; user-select: none;
+}
+/* Dark scrim over the video so the white hero text stays readable, whatever
+   the video shows — a touch darker toward the centre behind the headline. */
+.sc-hero-scrim {
+  position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background: radial-gradient(78% 70% at 50% 44%, rgba(5, 4, 12, 0.78), rgba(5, 4, 12, 0.58) 60%, rgba(5, 4, 12, 0.72));
+}
+.sc-hero-inner {
+  position: relative; z-index: 3; flex: 1;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; max-width: 760px; margin-inline: auto; padding: 24px;
+}
+.sc-hero h1 { font-size: clamp(3rem, 9vw, 6rem); font-weight: 700; line-height: 1.02; }
+.sc-hero .rule { width: 72px; height: 3px; background: var(--sc-accent); margin: 22px auto; }
+.sc-hero-sub { max-width: 620px; margin: 0 auto; font-size: clamp(1rem, 2.4vw, 1.2rem); line-height: 1.72; color: var(--sc-muted); }
+.sc-hero-cta { margin-top: 38px; }
+
+.sc-btn-white {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: #ffffff; color: #05040c; font-family: var(--sc-mono); font-weight: 500;
+  font-size: 15px; letter-spacing: 0.03em; padding: 14px 28px; border: none;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+.sc-btn-white:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(255, 255, 255, 0.18); }
+
+/* ==========================================================================
+   Sliding marquee bar
+   ========================================================================== */
+.sc-marquee { position: relative; z-index: 3; overflow: hidden; border-top: 1px solid var(--sc-border); border-bottom: 1px solid var(--sc-border); background: var(--sc-bg-2); padding: 14px 0; }
+.sc-marquee-track { display: flex; gap: 48px; width: max-content; animation: sc-marquee 30s linear infinite; }
+.sc-marquee-item { display: inline-flex; align-items: center; gap: 48px; font-family: var(--sc-mono); font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sc-muted); white-space: nowrap; }
+.sc-marquee-item::before { content: '▸▸'; color: var(--sc-accent); letter-spacing: -2px; }
+@keyframes sc-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ==========================================================================
+   Explainer sections (shared)
+   ========================================================================== */
+.sc-explainer { padding: 104px 0; }
+.sc-explainer .num { font-family: var(--sc-mono); font-size: 13px; color: var(--sc-faint); letter-spacing: 0.1em; }
+.sc-explainer h2 { font-size: clamp(2rem, 4.5vw, 3.1rem); margin: 14px 0 20px; line-height: 1.16; }
+.sc-explainer .lead { max-width: 640px; font-size: 1.08rem; line-height: 1.75; }
+.sc-cards { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 44px; }
+@media (min-width: 720px) { .sc-cards { grid-template-columns: repeat(3, 1fr); } }
+.sc-card { border: 1px solid; padding: 22px; }
+.sc-card .ic { font-family: var(--sc-mono); font-size: 12px; letter-spacing: 0.08em; }
+.sc-card h3 { font-size: 1.2rem; margin: 12px 0 8px; line-height: 1.3; }
+.sc-card p { font-size: 0.92rem; line-height: 1.65; margin: 0; }
+
+/* --- Extraction: WHITE section (deliberate contrast break) --- */
+.sc-white { background: #ffffff; color: #0f172a; }
+.sc-white .num { color: #64748b; }
+.sc-white .sc-eyebrow { color: var(--sc-indigo); }
+.sc-white h2 { color: #0f172a; }
+.sc-white .lead { color: #475569; }
+.sc-white .sc-card { border-color: #e2e8f0; background: #f8fafc; }
+.sc-white .sc-card .ic { color: var(--sc-indigo); }
+.sc-white .sc-card h3 { color: #0f172a; }
+.sc-white .sc-card p { color: #475569; }
+
+/* --- Dark sections (Analysis, Chatbot) --- */
+.sc-dark { background: var(--sc-bg); }
+.sc-dark .lead { color: var(--sc-muted); }
+.sc-dark .sc-card { border-color: var(--sc-border); background: var(--sc-panel); }
+.sc-dark .sc-card .ic { color: var(--sc-indigo-lt); }
+.sc-dark .sc-card p { color: var(--sc-muted); }
+.sc-dark.alt { background: var(--sc-bg-2); }
+
+/* Chatbot flourish — animated chat mock */
+.sc-chat { border: 1px solid var(--sc-border); background: var(--sc-panel); padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+/* On the white Chatbot section the mock must be a LIGHT card, or it reads as a
+   blacked-out box (round 3, item 3). Re-theme the card and everything in it so
+   text stays legible against the white section. */
+.sc-white .sc-chat {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.14);
+  border-radius: 8px;
+}
+.sc-white .sc-chat-head { color: #64748b; border-bottom-color: #e2e8f0; }
+.sc-white .sc-bubble { border-color: #e2e8f0; color: #0f172a; }
+.sc-white .sc-bubble.user { background: rgba(41, 30, 199, 0.08); border-color: rgba(41, 30, 199, 0.28); }
+.sc-white .sc-bubble.bot { background: #f8fafc; }
+.sc-white .sc-bubble b { color: #0f172a; }
+.sc-white .sc-bubble .cite { color: var(--sc-indigo); }
+.sc-white .sc-typing { background: #f1f5f9; border-color: #e2e8f0; }
+.sc-white .sc-typing i { background: #94a3b8; }
+.sc-chat-head { display: flex; align-items: center; gap: 8px; font-family: var(--sc-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--sc-faint); border-bottom: 1px solid var(--sc-border); padding-bottom: 12px; }
+.sc-chat-head .live { width: 7px; height: 7px; border-radius: 50%; background: var(--sc-accent); animation: sc-pulse 1.6s infinite; }
+.sc-bubble { max-width: 82%; padding: 11px 14px; font-size: 0.9rem; line-height: 1.5; border: 1px solid var(--sc-border); }
+.sc-bubble.user { align-self: flex-end; background: rgba(106, 96, 255, 0.14); border-color: rgba(106, 96, 255, 0.4); }
+.sc-bubble.bot { align-self: flex-start; background: rgba(244, 243, 250, 0.04); }
+.sc-bubble .cite { display: block; margin-top: 6px; font-family: var(--sc-mono); font-size: 10.5px; color: var(--sc-indigo-lt); }
+.sc-typing { align-self: flex-start; display: inline-flex; gap: 5px; padding: 12px 14px; border: 1px solid var(--sc-border); background: rgba(244, 243, 250, 0.04); }
+.sc-typing i { width: 7px; height: 7px; border-radius: 50%; background: var(--sc-muted); animation: sc-typing 1.3s ease-in-out infinite; }
+.sc-typing i:nth-child(2) { animation-delay: 0.15s; }
+.sc-typing i:nth-child(3) { animation-delay: 0.3s; }
+@media (min-width: 900px) { .sc-chat-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; } }
+
+/* ==========================================================================
+   Footer + credit bar
+   ========================================================================== */
+.sc-footer { border-top: 1px solid var(--sc-border); background: var(--sc-bg); padding: 72px 0 0; }
+.sc-footer-top { display: flex; flex-direction: column; gap: 8px; margin-bottom: 44px; }
+.sc-footer-top h3 { font-size: 1.5rem; line-height: 1.25; }
+.sc-footer-top p { color: var(--sc-muted); max-width: 460px; font-size: 0.95rem; line-height: 1.65; margin: 0; }
+.sc-team { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; padding-bottom: 56px; }
+@media (min-width: 768px) { .sc-team { grid-template-columns: repeat(4, 1fr); } }
+.sc-member .nm { font-family: var(--sc-slab); font-weight: 600; font-size: 1.05rem; }
+.sc-member a { display: block; margin-top: 6px; font-size: 0.85rem; color: var(--sc-muted); transition: color 0.2s ease; }
+.sc-member a:hover { color: var(--sc-indigo-lt); }
+.sc-member .role { margin-top: 4px; font-family: var(--sc-mono); font-size: 10.5px; letter-spacing: 0.06em; color: var(--sc-faint); text-transform: uppercase; }
+
+.sc-credit { border-top: 1px solid var(--sc-border); }
+.sc-credit-inner { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 0; font-size: 0.9rem; color: var(--sc-muted); }
+.sc-credit .name { font-family: var(--sc-slab); font-weight: 700; color: var(--sc-fg); }
+.sc-credit .rot { display: inline-block; min-width: 90px; text-align: left; color: var(--sc-indigo-lt); font-family: var(--sc-mono); font-size: 0.85rem; }
+
+/* ---------- hover polish ----------
+   The lift/scale is driven by Framer Motion (whileHover) on .sc-card; CSS here
+   handles the shadow + text emphasis so the card "pops" on hover (round 3 item 1). */
+.sc-card { transition: box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease; }
+.sc-card h3, .sc-card p { transition: color 0.2s ease; }
+.sc-white .sc-card:hover { border-color: var(--sc-indigo); box-shadow: 0 18px 44px rgba(41, 30, 199, 0.18); }
+.sc-white .sc-card:hover h3 { color: var(--sc-indigo); }
+.sc-white .sc-card:hover p { color: #0f172a; }
+.sc-dark .sc-card:hover { border-color: rgba(106, 96, 255, 0.6); background: #1a1740; box-shadow: 0 18px 44px rgba(0, 0, 0, 0.5); }
+.sc-dark .sc-card:hover h3 { color: #ffffff; }
+.sc-dark .sc-card:hover p { color: var(--sc-fg); }
+.sc-nav-link { position: relative; }
+.sc-nav-link::after {
+  content: ''; position: absolute; left: 14px; right: 14px; bottom: 4px; height: 1px;
+  background: var(--sc-accent); transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease;
+}
+.sc-nav-link:hover::after { transform: scaleX(1); }
+
+@keyframes sc-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+@keyframes sc-typing { 0%, 100% { opacity: 0.3; } 40% { opacity: 1; } }

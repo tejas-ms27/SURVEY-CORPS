@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Roboto+Slab:wght@400;500;600;700&family=Zilla+Slab:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --radius: 0.75rem;
+
+  /* Survey Corps app palette (round 3, item 5) — the in-app pages
+     (Extraction / Analysis / Reports + shared chrome) read as black + off-white
+     with red as the secondary accent and green as the least-used (success only).
+     Token *names* are kept (teal = accent one) but repointed, so every existing
+     utility flips theme in one place. The landing keeps its own `.sc` tokens. */
+  --canvas: #050505;           /* near-black page background */
+  --paper: #111113;            /* elevated card surface */
+  --ink: #ebebeb;              /* off-white — primary text/structure */
+  --muted-ink: rgba(235, 235, 235, 0.60);
+  --faint: rgba(235, 235, 235, 0.38);
+  --line: rgba(235, 235, 235, 0.14);
+  --line-soft: rgba(235, 235, 235, 0.07);
+  --navy: #000000;             /* pure-black top bar / sidebar */
+  --navy-2: #1a1a1a;
+  --teal: #cf2727;             /* accent-1 → RED (secondary accent) */
+  --teal-bright: #e03636;
+  --teal-pale: rgba(207, 39, 39, 0.14);
+  --lime: #ebebeb;             /* accent-2 → off-white (neutral emphasis) */
+  --amber: #d89a20;
+  --red: #cf2727;
+  --green: #27cf4e;            /* tertiary → green (success/confirmation only) */
+  --blue: #ebebeb;
+
+  --background: var(--canvas);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--teal);
+  --primary-foreground: #ffffff;
+  --secondary: var(--teal-pale);
+  --secondary-foreground: var(--ink);
+  --muted: var(--line-soft);
+  --muted-foreground: var(--muted-ink);
+  --accent: var(--lime);
+  --accent-foreground: var(--navy);
+  --destructive: var(--red);
+  --destructive-foreground: #fff;
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--teal-bright);
+
+  --sidebar: var(--navy);
+  --sidebar-foreground: #d9ebe7;
+  --sidebar-primary: var(--lime);
+  --sidebar-primary-foreground: var(--navy);
+  --sidebar-accent: rgba(255, 255, 255, 0.06);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.09);
+  --sidebar-ring: var(--lime);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Brand tokens for direct utility use: bg-navy, text-lime, border-teal, etc. */
+  --color-canvas: var(--canvas);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted-ink: var(--muted-ink);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-teal: var(--teal);
+  --color-teal-bright: var(--teal-bright);
+  --color-teal-pale: var(--teal-pale);
+  --color-lime: var(--lime);
+  --color-amber: var(--amber);
+  --color-red: var(--red);
+  --color-green: var(--green);
+  --color-blue: var(--blue);
+
+  /* Sans-serif everywhere (clean, modern, readable). Manrope carries the display
+     personality; DM Sans is the workhorse body/UI face. Both load from Google Fonts above. */
+  --font-sans: "DM Sans", "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Manrope", "DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  code, pre {
+    font-family: var(--font-mono);
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--canvas);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(244, 243, 250, 0.18);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--teal);
+  }
+}
+
+/* ==========================================================================
+   In-app ambient side pattern (round 5, item 6)
+   A subtle, slowly-drifting line grid — echoing the landing hero's line
+   pattern — pinned to the empty gutters either side of the page content.
+   Only shown on wide viewports where real side margins exist, so the forms,
+   tables and graphs in the centre column always stay clear and static.
+   ========================================================================== */
+.sc-app-side {
+  position: fixed;
+  top: 64px; /* clears the fixed top bar (h-16) */
+  bottom: 0;
+  width: 170px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.55;
+  display: none;
+  background-image:
+    linear-gradient(rgba(235, 235, 235, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(235, 235, 235, 0.07) 1px, transparent 1px);
+  background-size: 42px 42px;
+  animation: sc-app-grid 22s linear infinite;
+}
+.sc-app-side.left {
+  left: 0;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 50%, transparent 100%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 50%, transparent 100%);
+}
+.sc-app-side.right {
+  right: 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 50%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 50%, #000 100%);
+}
+@keyframes sc-app-grid {
+  from { background-position: 0 0, 0 0; }
+  to { background-position: 0 -42px, -42px 0; }
+}
+/* Only reveal where the centered content column leaves gutters. */
+@media (min-width: 1440px) {
+  .sc-app-side { display: block; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sc-app-side { animation: none; }
+}
+
+/* Looping background video for the Open Case File workspace. Fixed behind the
+   centered content column (z-index 0, below the z-10 main), starting below the
+   64px top bar so the nav is never covered. */
+.sc-case-bg-video {
+  position: fixed;
+  top: 64px; left: 0; right: 0; bottom: 0;
+  width: 100%; height: calc(100% - 64px);
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+/* Subtle scrim over the video so the content above it stays readable. */
+.sc-case-bg-scrim {
+  position: fixed;
+  top: 64px; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: rgba(5, 4, 12, 0.55);
+}

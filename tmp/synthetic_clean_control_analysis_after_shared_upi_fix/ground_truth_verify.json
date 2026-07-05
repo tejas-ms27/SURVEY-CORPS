@@ -1,0 +1,288 @@
+{
+  "folder": "clean_control",
+  "passed": false,
+  "summary": {
+    "matched": 0,
+    "missed": 0,
+    "unexpected_extra": 34,
+    "failing_unexpected_extra": 34
+  },
+  "by_pattern": {
+    "1": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 2
+    },
+    "2": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 8
+    },
+    "3": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 6
+    },
+    "6": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 2
+    },
+    "8": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 2
+    },
+    "15": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 12
+    },
+    "22": {
+      "matched": 0,
+      "missed": 0,
+      "unexpected_extra": 2
+    }
+  },
+  "matches": [],
+  "misses": [],
+  "unexpected_extras": [
+    {
+      "pattern_id": 1,
+      "accounts": [],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 3,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 3,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 6,
+      "accounts": [
+        "acct_001",
+        "acct_003",
+        "acct_006"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 8,
+      "accounts": [],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_006"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 22,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 1,
+      "accounts": [],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 3,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 3,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 6,
+      "accounts": [
+        "acct_001",
+        "acct_003",
+        "acct_006"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 8,
+      "accounts": [],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_006"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 22,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 3,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 3,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 2,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_001"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_003"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_006"
+      ],
+      "tier": "unknown"
+    },
+    {
+      "pattern_id": 15,
+      "accounts": [
+        "acct_006"
+      ],
+      "tier": "unknown"
+    }
+  ],
+  "notes": [
+    "Pattern-only matching is used when pipeline output does not expose synthetic IDs or bank references."
+  ]
+}

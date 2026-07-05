@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!--
+  report_template.html — Single-source visual design for the forensic report.
+  Jinja2-filled by build_report.py, rendered to A4 PDF by Playwright (page.pdf).
+  Tier colour system (strong / weak / lead) is reused in the live interface so the
+  PDF and the app feel like one product.
+-->
+<html lang="{{ language or 'en' }}">
+<head>
+<meta charset="utf-8">
+<style>
+  /* Modern grotesque display face (fetched by headless Chromium when online; degrades
+     to a heavy system sans offline). Gives the bold title look. */
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap');
+  :root{
+    --ink:#1a2332; --muted:#5b6b7f; --line:#d8e0ea; --paper:#ffffff;
+    --brand:#0f3d6e; --brand-soft:#eaf1f9;
+    --strong:#b3261e; --strong-soft:#fbeae8;      /* strong-tier findings */
+    --weak:#8a6d00; --weak-soft:#fbf4dd;          /* weak-tier findings   */
+    --lead:#5a2ea6; --lead-soft:#f0eafb;          /* AI-flagged leads     */
+    --ok:#1d7a4d;
+  }
+  @page{ size:A4; margin:20mm 18mm; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"Helvetica Neue","Noto Sans Kannada","Kannada MN","Kannada Sangam MN",Arial,"Segoe UI",sans-serif;
+    color:var(--ink); font-size:10.5pt; line-height:1.5;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  h1,h2,h3,.display{ font-family:"Archivo","Noto Sans Kannada","Kannada MN","Helvetica Neue","Arial Black",Arial,sans-serif; }
+  h1,h2,h3{ color:var(--brand); font-weight:800; line-height:1.15; }
+  h2{ font-size:16pt; margin:0 0 3.5mm; padding-bottom:2mm; border-bottom:2px solid var(--brand); }
+  h3{ font-size:12pt; margin:0 0 2mm; }
+  p{ margin:0 0 3mm; }
+  .muted{ color:var(--muted); }
+  /* Continuous flow: sections follow one another with light spacing — no forced page
+     break between them, so there is far less blank space. Only the title page and the
+     first content section start on fresh pages; tables/blocks still avoid mid-split. */
+  .section{ margin-top:8mm; }
+  .section.first{ page-break-before:always; }
+
+  /* ── Title page — full-bleed blue gradient, bold display title ── */
+  .title-page{
+    position:relative; box-sizing:border-box;
+    margin:-20mm -18mm 0; padding:26mm 24mm; min-height:297mm;
+    display:flex; flex-direction:column; justify-content:space-between;
+    background:linear-gradient(158deg,#ffffff 0%, #eef6fc 38%, #cfe6f6 72%, #a9cfec 100%);
+    page-break-after:always;
+  }
+  .tp-rule{ height:1.5px; background:#20364d; opacity:.75; }
+  .tp-brand{ margin-top:10mm; }
+  .tp-logo{ width:16mm; height:16mm; background:#16233a; color:#fff; border-radius:2mm;
+            display:flex; align-items:center; justify-content:center; font-weight:900; font-size:15pt; letter-spacing:1px; }
+  .tp-company{ margin-top:3mm; font-weight:700; letter-spacing:.5px; color:#2c3e52; text-transform:uppercase; font-size:10pt; }
+  .tp-kicker{ letter-spacing:3px; text-transform:uppercase; color:#3a5470; font-size:9.5pt; font-weight:600; }
+  .tp-title{ font-size:44pt; font-weight:900; line-height:1.03; letter-spacing:-1.2px; color:#16233a;
+             text-transform:uppercase; margin:4mm 0 0; }
+  .tp-prepared{ font-size:11pt; color:#2c3e52; }
+  .tp-prepared strong{ color:#16233a; font-size:12.5pt; }
+  .tp-meta{ margin-top:5mm; color:#3a5470; font-size:9.5pt; line-height:1.6; }
+  .tp-note{ margin-top:6mm; color:#4a5f75; font-size:8.5pt; font-style:italic; max-width:130mm; }
+  .tp-bottom .tp-rule{ margin-top:6mm; }
+
+  /* ── Tables ── */
+  table{ width:100%; border-collapse:collapse; margin:2mm 0 4mm; font-size:9.5pt; page-break-inside:avoid; }
+  th{ background:var(--brand-soft); color:var(--brand); text-align:left; font-weight:700;
+      padding:2mm 3mm; border-bottom:1.5px solid var(--brand); }
+  td{ padding:1.8mm 3mm; border-bottom:1px solid var(--line); vertical-align:top; }
+  tr:nth-child(even) td{ background:#fafcff; }
+  td.num,th.num{ text-align:right; font-variant-numeric:tabular-nums; }
+
+  /* ── Stat strip ── */
+  .stats{ display:flex; flex-wrap:wrap; gap:3mm; margin:3mm 0 5mm; }
+  .stat{ flex:1 1 30%; min-width:40mm; border:1px solid var(--line); border-radius:2mm; padding:3mm; background:var(--paper); }
+  .stat .n{ font-size:16pt; font-weight:700; color:var(--brand); }
+  .stat .l{ font-size:8.5pt; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; }
+
+  /* ── Account finding blocks ── */
+  /* Account blocks may flow across pages (some are tall); we only forbid splitting
+     the header row and the evidence table, so nothing important breaks mid-element
+     and a tall first block never forces a near-empty heading page. */
+  .account{ margin-bottom:7mm; border:1px solid var(--line); border-radius:2mm; overflow:hidden; }
+  .account-head{ display:flex; justify-content:space-between; align-items:center; page-break-inside:avoid;
+                 padding:3mm 4mm; background:var(--brand-soft); border-bottom:1px solid var(--line); }
+  .account-head .who{ font-size:12pt; font-weight:700; color:var(--brand); }
+  .account-head .sub{ font-size:9pt; color:var(--muted); }
+  .rankpill{ background:var(--brand); color:#fff; font-weight:700; font-size:9pt; padding:1mm 3mm; border-radius:10mm; }
+  .account-body{ padding:3mm 4mm; }
+  .account-overview{ margin:0 0 3mm; padding:2.5mm 3mm; background:#f7fafd; border-left:3px solid var(--brand);
+                     border-radius:0 2mm 2mm 0; color:var(--ink); font-size:10pt; }
+  ul.findings{ margin:0 0 3mm; padding-left:5mm; }
+  ul.findings li{ margin-bottom:2mm; }
+  ul.findings li .ptag{ font-weight:700; }
+  .assess{ margin-top:2mm; padding:2mm 3mm; border-radius:2mm; font-weight:600; font-size:9.5pt; }
+  .tag-strong{ color:var(--strong); }
+  .tag-weak{ color:var(--weak); }
+  .badge{ display:inline-block; font-size:7.5pt; font-weight:700; text-transform:uppercase; letter-spacing:.5px;
+          padding:.5mm 2mm; border-radius:2mm; vertical-align:middle; }
+  .badge.strong{ background:var(--strong-soft); color:var(--strong); }
+  .badge.weak{ background:var(--weak-soft); color:var(--weak); }
+  .badge.lead{ background:var(--lead-soft); color:var(--lead); }
+  .assess.a-strong{ background:var(--strong-soft); color:var(--strong); }
+  .assess.a-weak{ background:var(--weak-soft); color:var(--weak); }
+
+  /* ── Graphs ── */
+  .graph-block{ page-break-inside:avoid; margin-bottom:6mm; }
+  .graph-block img{ width:100%; border:1px solid var(--line); border-radius:2mm; }
+  .graph-note{ padding:8mm; text-align:center; color:var(--muted); font-style:italic;
+               border:1px dashed var(--line); border-radius:2mm; }
+
+  /* ── AI leads (distinct heading colour) ── */
+  .leads h2{ color:var(--lead); border-bottom-color:var(--lead); }
+	  .lead-item{ page-break-inside:avoid; border-left:3px solid var(--lead); background:var(--lead-soft);
+	              padding:2mm 3mm; margin-bottom:3mm; border-radius:0 2mm 2mm 0; }
+	  .case-panel{ border:1.5px solid var(--brand); border-radius:2mm; padding:4mm; background:#f7fafd; margin-bottom:5mm; }
+	  .cluster-card{ page-break-inside:avoid; border:1px solid var(--line); border-radius:2mm; padding:3mm; margin-bottom:3mm; background:#fff; }
+	  .cluster-title{ font-weight:800; color:var(--brand); margin-bottom:1mm; }
+	  .cluster-meta{ color:var(--muted); font-size:9pt; margin-bottom:1.5mm; }
+	  .member-list{ font-size:8.7pt; color:#2c3e52; }
+
+  /* ── TOC ── */
+  .toc li{ margin-bottom:2mm; }
+  .toc .dots{ color:var(--line); }
+
+  .legend td:first-child{ font-weight:700; white-space:nowrap; }
+</style>
+</head>
+<body>
+
+<!-- ══════════ 4.1 TITLE PAGE ══════════ -->
+<div class="title-page">
+  <div>
+    <div class="tp-rule"></div>
+    <div class="tp-brand">
+      <div class="tp-logo">SC</div>
+      <div class="tp-company">Team {{ meta.team }}</div>
+    </div>
+  </div>
+  <div>
+    <div class="tp-kicker">{{ meta.hackathon }} · {{ t.confidential_use }}</div>
+    <h1 class="tp-title">{{ t.report_title_html|safe }}</h1>
+  </div>
+  <div class="tp-bottom">
+    <div class="tp-prepared">{{ t.prepared_by }}<br><strong>{{ t.engine_name }}</strong></div>
+    <div class="tp-meta">
+      {{ t.case_reference }}: {{ meta.run_id }}<br>
+      {{ t.generated }}: {{ meta.generated_at }}
+    </div>
+    <div class="tp-note">
+      {{ t.cover_note }}
+    </div>
+    <div class="tp-rule"></div>
+  </div>
+</div>
+
+<!-- ══════════ CASE NARRATIVE (officer-first, plain language) ══════════ -->
+<div class="section first">
+  <h2>{{ t.case_narrative }}</h2>
+  <div class="case-panel">
+    <p class="muted" style="margin-top:0;">{{ t.case_narrative_intro }}</p>
+    {% if case_narrative.lines %}
+    <ul style="margin:0;padding-left:5mm;line-height:1.55;">
+      {% for line in case_narrative.lines %}<li>{{ line }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    <div class="stats" style="margin-top:4mm;">
+      <div class="stat"><div class="n">{{ case_narrative.total_moved_display }}</div><div class="l">{{ t.total_moved_label }}</div></div>
+      <div class="stat"><div class="n">{{ case_narrative.money_into_network_display }}</div><div class="l">{{ t.into_network_label }}</div></div>
+      <div class="stat"><div class="n">{{ case_narrative.first_target or "—" }}</div><div class="l">{{ t.first_investigation_target }}</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ PRIME SUSPECTS (officer-first triage) ══════════ -->
+{% if prime_suspects %}
+<div class="section">
+  <h2>{{ t.prime_suspects }}</h2>
+  <p class="muted" style="margin-top:0;">{{ t.prime_suspects_intro }}</p>
+  {% for s in prime_suspects %}
+  <div class="cluster-card">
+    <div class="cluster-title">#{{ s.rank }} · {{ s.holder }}{% if s.account_number %} ({{ s.account_number }}){% endif %}
+      <span class="badge {{ 'strong' if s.band in ['strong','ಬಲವಾದ'] else 'weak' }}">{{ s.band }}</span>
+      · {{ t.score }} {{ "{:,}".format(s.score) }}</div>
+    <div class="cluster-meta">{{ t.key_concern }}: {{ s.key_concern }}</div>
+    {% if s.top_finding %}<p style="margin:2mm 0 0;">{{ s.top_finding }}</p>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- ══════════ 4.2 TABLE OF CONTENTS ══════════ -->
+<div class="section">
+  <h2>{{ t.toc }}</h2>
+	  <ul class="toc" style="list-style:none;padding:0;">
+	    <li>★ &nbsp; {{ t.case_narrative }}</li>
+	    <li>1 &nbsp; {{ t.case_reconstruction }}</li>
+	    <li>2 &nbsp; {{ t.input_summary }}</li>
+	    <li>3 &nbsp; {{ t.analysis_summary }}</li>
+	    <li>4 &nbsp; {{ t.findings_by_account }}</li>
+	    <li>5 &nbsp; {{ t.money_flow_graphs }}</li>
+	    {% if ai_leads.present %}<li>6 &nbsp; {{ t.ai_flagged_leads }}</li>{% endif %}
+	    <li>{{ 7 if ai_leads.present else 6 }} &nbsp; {{ t.final_summary }}</li>
+	  </ul>
+	</div>
+
+	<!-- ══════════ CASE RECONSTRUCTION ══════════ -->
+	<div class="section">
+	  <h2>1 · {{ t.case_reconstruction }}</h2>
+	  <div class="case-panel">
+	    <p>{{ case_reconstruction.summary or t.no_case_summary }}</p>
+	    <div class="stats">
+	      <div class="stat"><div class="n">{{ case_reconstruction.cluster_count }}</div><div class="l">{{ t.clusters }}</div></div>
+	      <div class="stat"><div class="n">{{ case_reconstruction.connected_clusters|length }}</div><div class="l">{{ t.connected_clusters }}</div></div>
+	      <div class="stat"><div class="n">{{ case_reconstruction.isolated_clusters|length }}</div><div class="l">{{ t.isolated_clusters }}</div></div>
+	    </div>
+	  </div>
+	  {% for c in case_reconstruction.connected_clusters %}
+	  <div class="cluster-card">
+	    <div class="cluster-title">{{ c.cluster_id }} · {{ c.account_count }} {{ t.account_s }}, {{ c.edge_count }} {{ t.edge_s }}</div>
+	    <div class="cluster-meta">{{ t.highest_priority_account }}: {{ c.highest_priority_account or "—" }} · {{ t.cluster_score }} {{ c.total_score }}</div>
+	    <p>{{ c.summary or t.connected_cluster_fallback }}</p>
+	    <div class="member-list"><strong>{{ t.members }}:</strong> {{ c.members[:60]|join(", ") }}{% if c.members|length > 60 %}, {{ t.and }} {{ c.members|length - 60 }} {{ t.more }}{% endif %}</div>
+	  </div>
+	  {% endfor %}
+	  {% if case_reconstruction.isolated_clusters %}
+	  <h3>{{ t.isolated_accounts_heading }}</h3>
+	  {% for c in case_reconstruction.isolated_clusters %}
+	  <div class="cluster-card">
+	    <div class="cluster-title">{{ c.cluster_id }}</div>
+	    <p>{{ c.summary or t.isolated_cluster_fallback }}</p>
+	    <div class="member-list">{{ c.members|join(", ") }}</div>
+	  </div>
+	  {% endfor %}
+	  {% endif %}
+	</div>
+
+	<!-- ══════════ 4.3 INPUT SUMMARY ══════════ -->
+	<div class="section">
+	  <h2>2 · {{ t.input_summary }}</h2>
+  {% if language == 'kn' %}
+  <p>ಈ ವರದಿ <strong>{{ input_summary.n_files }}</strong> ಅಪ್ಲೋಡ್ ಮಾಡಿದ ಸ್ಟೇಟ್‌ಮೆಂಟ್
+     ಫೈಲ್(ಗಳು), <strong>{{ input_summary.n_accounts }}</strong> ಖಾತೆ(ಗಳು) ಮತ್ತು
+     <strong>{{ "{:,}".format(input_summary.n_transactions) }}</strong> {{ t.report_basis_suffix }}
+     {{ input_summary.date_start }} {{ t.report_basis_to }} {{ input_summary.date_end }}.</p>
+  {% else %}
+  <p>This report is based on <strong>{{ input_summary.n_files }}</strong> uploaded statement
+     file(s) covering <strong>{{ input_summary.n_accounts }}</strong> account(s) and
+     <strong>{{ "{:,}".format(input_summary.n_transactions) }}</strong> transactions, spanning
+     {{ input_summary.date_start }} to {{ input_summary.date_end }}.</p>
+  {% endif %}
+  <table>
+    <thead><tr><th>{{ t.account_number }}</th><th>{{ t.account_holder }}</th><th>{{ t.bank }}</th><th>{{ t.ifsc }}</th></tr></thead>
+    <tbody>
+    {% for a in input_summary.accounts %}
+      <tr><td>{{ a.account_number or "—" }}</td>
+          <td>{{ a.holder or "—" }}</td><td>{{ a.bank or "—" }}</td><td>{{ a.ifsc or "—" }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<!-- ══════════ 4.4 ANALYSIS SUMMARY ══════════ -->
+	<div class="section">
+	  <h2>3 · {{ t.analysis_summary }}</h2>
+  {% if language == 'kn' %}
+  <p>ಎಂಜಿನ್ <strong>{{ analysis_summary.accounts_analyzed }}</strong> ಖಾತೆ(ಗಳನ್ನು) ಸಂಪೂರ್ಣ
+     ನಿರ್ಧಿಷ್ಟ ಡಿಟೆಕ್ಟರ್ ಸಮೂಹದ ಮೂಲಕ ವಿಶ್ಲೇಷಿಸಿ,
+     <strong>{{ "{:,}".format(analysis_summary.graph_nodes) }}</strong> ನೋಡ್‌ಗಳು ಮತ್ತು
+     <strong>{{ "{:,}".format(analysis_summary.graph_edges) }}</strong> ವ್ಯವಹಾರ ಎಡ್ಜ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಹಣದ ಹರಿವು ಗ್ರಾಫ್ ನಿರ್ಮಿಸಿದೆ.</p>
+  {% else %}
+  <p>The engine ran {{ analysis_summary.accounts_analyzed }} account(s) through the full
+     deterministic detector suite and built a money-flow graph of
+     {{ "{:,}".format(analysis_summary.graph_nodes) }} nodes and
+     {{ "{:,}".format(analysis_summary.graph_edges) }} transaction edges.</p>
+  {% endif %}
+  <div class="stats">
+    <div class="stat"><div class="n">{{ analysis_summary.accounts_analyzed }}</div><div class="l">{{ t.accounts_analysed }}</div></div>
+    <div class="stat"><div class="n">{{ "{:,}".format(analysis_summary.total_transactions) }}</div><div class="l">{{ t.transactions }}</div></div>
+    <div class="stat"><div class="n">{{ analysis_summary.counterparty_resolution_rate }}%</div><div class="l">{{ t.counterparties_resolved }}</div></div>
+    <div class="stat"><div class="n">{{ analysis_summary.accounts_flagged }}</div><div class="l">{{ t.accounts_flagged }}</div></div>
+  </div>
+  {% if analysis_summary.balance_note %}<p class="muted">{{ analysis_summary.balance_note }}</p>{% endif %}
+</div>
+
+<!-- ══════════ 4.5 FINDINGS — ONE BLOCK PER RANKED ACCOUNT ══════════ -->
+	<div class="section">
+	  <h2>4 · {{ t.findings_by_account }}</h2>
+  {% if ranked_total > ranked_shown %}
+  <p class="muted">{{ t.priority_note_a }} {{ ranked_shown }} {{ t.priority_note_b }} {{ ranked_total }} {{ t.priority_note_c }}</p>
+  {% endif %}
+  {% if ranked_accounts %}
+  {% for acc in ranked_accounts %}
+  <div class="account">
+    <div class="account-head">
+      <div>
+        <div class="who">{{ acc.holder }} <span class="badge {{ acc.assessment_tag }}">{{ acc.band_label or acc.band }}</span></div>
+        <div class="sub">{% if acc.account_number %}{{ t.account_number }} {{ acc.account_number }}{% endif %}{% if acc.bank %} · {{ acc.bank }}{% endif %} · {{ t.score }} {{ "{:,}".format(acc.score) }}</div>
+      </div>
+      <div class="rankpill">{{ t.rank }} #{{ acc.rank }}</div>
+    </div>
+    <div class="account-body">
+      {% if acc.overview %}<p class="account-overview">{{ acc.overview }}</p>{% endif %}
+      <ul class="findings">
+        {% for b in acc.bullets %}
+        <li><span class="ptag">{{ b.pattern }}</span>
+            <span class="badge {{ 'strong' if b.evidence_strength=='strong' else 'weak' }}">{{ b.evidence_strength_label or b.evidence_strength }}</span>
+            — {{ b.text }}{% if b.count > 1 %} <span class="muted">(+{{ b.count - 1 }} {% if language == 'kn' %}ಇದೇ ಪ್ರಕಾರದ ಇನ್ನಷ್ಟು{% else %}more of this type{% endif %})</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+      {% if acc.evidence_rows %}
+      <h3>{{ t.supporting_transactions }}</h3>
+      <table>
+        <thead><tr><th>{{ t.date }}</th><th>{{ t.type }}</th><th class="num">{{ t.amount }}</th><th>{{ t.counterparty }}</th><th>{{ t.reference }}</th></tr></thead>
+        <tbody>
+        {% for r in acc.evidence_rows %}
+          <tr><td>{{ r.date }}</td><td>{{ r.type }}</td><td class="num">{{ r.amount }}</td>
+              <td>{{ r.counterparty }}</td><td>{{ r.reference or "—" }}</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% endif %}
+      <div class="assess a-{{ acc.assessment_tag }}">
+        {{ t.assessment }}: {{ acc.strong_pattern_count }} {{ t.strong_pattern_types }} {{ t.and }}
+        {{ acc.distinct_pattern_count }} {{ t.distinct_patterns }} — {{ acc.band_label or acc.band }} {{ t.evidence }}.
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% else %}
+  <p>{{ t.no_accounts_flagged }}</p>
+  {% endif %}
+</div>
+
+<!-- ══════════ 4.6 GRAPHS ══════════ -->
+	<div class="section">
+	  <h2>5 · {{ t.money_flow_graphs }}</h2>
+  {% for g in graphs %}
+  <div class="graph-block">
+    <h3>{{ g.title }}</h3>
+    {% if g.has_data and g.image_data_uri %}
+      <img src="{{ g.image_data_uri }}" alt="{{ g.title }}">
+    {% else %}
+      <div class="graph-note">{{ t.graph_missing }}</div>
+    {% endif %}
+    <p class="muted">{{ g.explanation }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ══════════ 4.7 AI-FLAGGED LEADS (conditional) ══════════ -->
+{% if ai_leads.present %}
+	<div class="section leads">
+	  <h2>6 · {{ t.ai_flagged_leads }}</h2>
+  <p class="muted">{{ t.lead_note }}</p>
+  {% for f in ai_leads.findings %}
+  <div class="lead-item"><span class="badge lead">{{ t.lead }}</span> {{ f.text }}{% if f.accounts %} <span class="muted">({{ f.accounts }})</span>{% endif %}</div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- ══════════ 4.8 FINAL SUMMARY ══════════ -->
+	<div class="section">
+	  <h2>{{ 7 if ai_leads.present else 6 }} · {{ t.final_summary }}</h2>
+  {% if final_summary.ranked_table %}
+  {% if language == 'kn' %}
+  <p>{{ final_summary.ranked_table|length }} ಖಾತೆ(ಗಳು) ಸಂಯುಕ್ತ ಸಂದೇಹ ಅಂಕದ ಆಧಾರದ ಮೇಲೆ ಶ್ರೇಯಾಂಕಗೊಂಡಿವೆ.
+     ಹೆಚ್ಚು ಅಂಕ ಪಡೆದ ಖಾತೆಗಳು ವಿಶಾಲ ಮತ್ತು ಬಲವಾದ ಮಾದರಿ ಸಾಕ್ಷ್ಯ ತೋರಿಸುತ್ತವೆ ಮತ್ತು ಆದ್ಯತೆಯ ಪರಿಶೀಲನೆಗೆ ಅರ್ಹವಾಗಿವೆ.</p>
+  {% else %}
+  <p>{{ final_summary.ranked_table|length }} account(s) were ranked by composite suspicion score.
+     The highest-scoring accounts show the broadest, strongest pattern evidence and warrant priority review.</p>
+  {% endif %}
+  <table>
+    <thead><tr><th>{{ t.rank }}</th><th>{{ t.account_holder }}</th><th class="num">{{ t.score }}</th><th>{{ t.key_concern }}</th></tr></thead>
+    <tbody>
+    {% for r in final_summary.ranked_table %}
+      <tr><td>{{ r.rank }}</td><td>{{ r.account }}</td><td class="num">{{ "{:,}".format(r.score) }}</td><td>{{ r.key_concern }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>{{ t.no_accounts_flagged }}</p>
+  {% endif %}
+  <h3>{{ t.score_legend }}</h3>
+  <table class="legend">
+    <thead><tr><th>{{ t.score_range }}</th><th>{{ t.what_it_means }}</th></tr></thead>
+    <tbody>
+    {% for l in final_summary.legend %}
+      <tr><td>{{ l.range }}</td><td>{{ l.meaning }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="muted" style="margin-top:6mm;font-size:8.5pt;">
+    {{ t.footer_prefix }} {{ meta.team }} Investigation Engine for {{ meta.hackathon }} · Run {{ meta.run_id }} · {{ meta.generated_at }}.
+    {{ t.footer_suffix }}
+  </p>
+</div>
+
+<!-- ══════════ APPENDIX · DATA SECURITY & METHOD ══════════ -->
+<div class="section">
+  <h2>{{ t.data_security }}</h2>
+  <h3>{{ t.what_stays_local }}</h3>
+  <ul style="line-height:1.5;">
+    {% for item in data_security.local_items %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+  <h3>{{ t.what_leaves_machine }}</h3>
+  <ul style="line-height:1.5;">
+    {% for item in data_security.external_items %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+  <p class="muted">{{ t.llm_usage_label }}: {{ data_security.llm_call_count }} · {{ data_security.llm_status }}</p>
+</div>
+
+</body>
+</html>
