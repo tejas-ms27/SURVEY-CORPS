@@ -1,0 +1,2 @@
+Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
+16/12/2025,,UPI-Ola Cabs-olamoney@ola-712764292614-DR VIA UPI 242783105801 NEFT*N3157973882826/Cipla Limited/CR 595682121980 16/12/25 16/12/25,,,3157973882826,,0.0,2100.06,681489.96,credit,01441964801494,HDFC Bank,HDFC0347711,balance_mismatch,direction_inverted,acct_001

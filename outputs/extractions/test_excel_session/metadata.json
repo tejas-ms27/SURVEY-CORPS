@@ -1,0 +1,53 @@
+{
+  "session_id": "test_excel_session",
+  "created_at": "2026-06-21T22:33:08",
+  "summary": {
+    "total_rows": 8254,
+    "clean_rows": 8254,
+    "flagged_rows": 0,
+    "files_processed": 1,
+    "files_failed": []
+  },
+  "files": [
+    {
+      "file": "ACC026_Canara_Statement.xlsx",
+      "account_ref": "ACC026",
+      "bank_name": "Canara",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "excel_csv",
+      "raw_text_chars": 0,
+      "column_map": {
+        "date": "Date",
+        "narration": "Particulars",
+        "debit": "Debit",
+        "credit": "Credit",
+        "balance": "Balance"
+      },
+      "column_map_source": "cache",
+      "account_details": {
+        "account_holder": "",
+        "account_number": "UNKNOWN-ACC026_Canara_Statement",
+        "ifsc_code": "",
+        "bank_name": "Canara",
+        "branch": "",
+        "account_type": "",
+        "statement_period": "",
+        "opening_balance": "",
+        "closing_balance": "22743957.38",
+        "account_ref": "ACC026"
+      },
+      "rows_standardised": 8254,
+      "rows_clean": 8254,
+      "rows_flagged": 0
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "unknown_UNKNOWN-ACC026_Canara_Statement.json"
+    ]
+  }
+}

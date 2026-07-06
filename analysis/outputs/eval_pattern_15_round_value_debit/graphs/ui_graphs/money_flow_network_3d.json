@@ -1,0 +1,1824 @@
+{
+  "data": {
+    "clusters": [
+      {
+        "cluster_id": "cluster_001",
+        "omitted_node_count": 551,
+        "risk_label": "Watchlist",
+        "visible_edge_count": 108,
+        "visible_node_count": 20
+      }
+    ],
+    "edges": [
+      {
+        "amount": 1860.55,
+        "confidence_score": 1.0,
+        "date": "2025-02-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->bigbasket@ybl::acct_001_000175",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "bigbasket@ybl",
+        "txn_ids": [
+          "acct_001_000175"
+        ]
+      },
+      {
+        "amount": 990.69,
+        "confidence_score": 1.0,
+        "date": "2025-03-01",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->bigbasket@ybl::acct_001_000177",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "bigbasket@ybl",
+        "txn_ids": [
+          "acct_001_000177"
+        ]
+      },
+      {
+        "amount": 2630.98,
+        "confidence_score": 1.0,
+        "date": "2025-03-07",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->bigbasket@ybl::acct_001_000196",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "bigbasket@ybl",
+        "txn_ids": [
+          "acct_001_000196"
+        ]
+      },
+      {
+        "amount": 1660.31,
+        "confidence_score": 1.0,
+        "date": "2025-01-10",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->dunzo@razorpay::acct_002_001128",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "dunzo@razorpay",
+        "txn_ids": [
+          "acct_002_001128"
+        ]
+      },
+      {
+        "amount": 1730.79,
+        "confidence_score": 1.0,
+        "date": "2025-02-06",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->dunzo@razorpay::acct_002_001185",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "dunzo@razorpay",
+        "txn_ids": [
+          "acct_002_001185"
+        ]
+      },
+      {
+        "amount": 590.56,
+        "confidence_score": 1.0,
+        "date": "2025-03-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->dunzo@razorpay::acct_002_001276",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "dunzo@razorpay",
+        "txn_ids": [
+          "acct_002_001276"
+        ]
+      },
+      {
+        "amount": 850.09,
+        "confidence_score": 1.0,
+        "date": "2024-12-19",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->nykaa@razorpay::acct_002_001088",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "nykaa@razorpay",
+        "txn_ids": [
+          "acct_002_001088"
+        ]
+      },
+      {
+        "amount": 4950.03,
+        "confidence_score": 1.0,
+        "date": "2024-12-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->nykaa@razorpay::acct_002_001095",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "nykaa@razorpay",
+        "txn_ids": [
+          "acct_002_001095"
+        ]
+      },
+      {
+        "amount": 5100.07,
+        "confidence_score": 1.0,
+        "date": "2025-02-08",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->nykaa@razorpay::acct_002_001190",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "nykaa@razorpay",
+        "txn_ids": [
+          "acct_002_001190"
+        ]
+      },
+      {
+        "amount": 3750.93,
+        "confidence_score": 1.0,
+        "date": "2024-12-10",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->myntra@ybl::acct_001_000014",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "myntra@ybl",
+        "txn_ids": [
+          "acct_001_000014"
+        ]
+      },
+      {
+        "amount": 2800.23,
+        "confidence_score": 1.0,
+        "date": "2025-02-17",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->myntra@ybl::acct_001_000156",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "myntra@ybl",
+        "txn_ids": [
+          "acct_001_000156"
+        ]
+      },
+      {
+        "amount": 3400.81,
+        "confidence_score": 1.0,
+        "date": "2025-03-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->myntra@ybl::acct_001_000233",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "myntra@ybl",
+        "txn_ids": [
+          "acct_001_000233"
+        ]
+      },
+      {
+        "amount": 339.0,
+        "confidence_score": 1.0,
+        "date": "2024-12-07",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->jio@paytm::acct_002_001063",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "jio@paytm",
+        "txn_ids": [
+          "acct_002_001063"
+        ]
+      },
+      {
+        "amount": 429.0,
+        "confidence_score": 1.0,
+        "date": "2024-12-09",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->jio@paytm::acct_002_001068",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "jio@paytm",
+        "txn_ids": [
+          "acct_002_001068"
+        ]
+      },
+      {
+        "amount": 789.0,
+        "confidence_score": 1.0,
+        "date": "2024-12-15",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->jio@paytm::acct_002_001081",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "jio@paytm",
+        "txn_ids": [
+          "acct_002_001081"
+        ]
+      },
+      {
+        "amount": 2180.9,
+        "confidence_score": 1.0,
+        "date": "2024-12-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->zomato@axisbank::acct_002_001053",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "zomato@axisbank",
+        "txn_ids": [
+          "acct_002_001053"
+        ]
+      },
+      {
+        "amount": 570.3,
+        "confidence_score": 1.0,
+        "date": "2024-12-27",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->zomato@axisbank::acct_002_001106",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "zomato@axisbank",
+        "txn_ids": [
+          "acct_002_001106"
+        ]
+      },
+      {
+        "amount": 980.65,
+        "confidence_score": 1.0,
+        "date": "2025-04-08",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->zomato@axisbank::acct_002_001314",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "zomato@axisbank",
+        "txn_ids": [
+          "acct_002_001314"
+        ]
+      },
+      {
+        "amount": 5600.79,
+        "confidence_score": 1.0,
+        "date": "2025-01-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->meesho@ybl::acct_002_001129",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "meesho@ybl",
+        "txn_ids": [
+          "acct_002_001129"
+        ]
+      },
+      {
+        "amount": 4900.13,
+        "confidence_score": 1.0,
+        "date": "2025-04-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->meesho@ybl::acct_002_001303",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "meesho@ybl",
+        "txn_ids": [
+          "acct_002_001303"
+        ]
+      },
+      {
+        "amount": 4750.21,
+        "confidence_score": 1.0,
+        "date": "2025-09-23",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->meesho@ybl::acct_002_001659",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "meesho@ybl",
+        "txn_ids": [
+          "acct_002_001659"
+        ]
+      },
+      {
+        "amount": 4200.0,
+        "confidence_score": 1.0,
+        "date": "2024-12-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->licindia@licindia::acct_002_001055",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "licindia@licindia",
+        "txn_ids": [
+          "acct_002_001055"
+        ]
+      },
+      {
+        "amount": 4200.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->licindia@licindia::acct_002_001260",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "licindia@licindia",
+        "txn_ids": [
+          "acct_002_001260"
+        ]
+      },
+      {
+        "amount": 4200.0,
+        "confidence_score": 1.0,
+        "date": "2025-06-06",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->licindia@licindia::acct_002_001445",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "licindia@licindia",
+        "txn_ids": [
+          "acct_002_001445"
+        ]
+      },
+      {
+        "amount": 1640.41,
+        "confidence_score": 1.0,
+        "date": "2024-12-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->dunzo@razorpay::acct_001_000003",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "dunzo@razorpay",
+        "txn_ids": [
+          "acct_001_000003"
+        ]
+      },
+      {
+        "amount": 700.06,
+        "confidence_score": 1.0,
+        "date": "2024-12-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->dunzo@razorpay::acct_001_000022",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "dunzo@razorpay",
+        "txn_ids": [
+          "acct_001_000022"
+        ]
+      },
+      {
+        "amount": 1050.83,
+        "confidence_score": 1.0,
+        "date": "2025-01-03",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->dunzo@razorpay::acct_001_000068",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "dunzo@razorpay",
+        "txn_ids": [
+          "acct_001_000068"
+        ]
+      },
+      {
+        "amount": 3300.77,
+        "confidence_score": 1.0,
+        "date": "2025-05-03",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->nykaa@razorpay::acct_001_000316",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "nykaa@razorpay",
+        "txn_ids": [
+          "acct_001_000316"
+        ]
+      },
+      {
+        "amount": 849.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->nykaa@razorpay::acct_001_000318",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "nykaa@razorpay",
+        "txn_ids": [
+          "acct_001_000318"
+        ]
+      },
+      {
+        "amount": 3350.46,
+        "confidence_score": 1.0,
+        "date": "2025-07-18",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->nykaa@razorpay::acct_001_000477",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "nykaa@razorpay",
+        "txn_ids": [
+          "acct_001_000477"
+        ]
+      },
+      {
+        "amount": 549.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-29",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->myntra@ybl::acct_002_001294",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "myntra@ybl",
+        "txn_ids": [
+          "acct_002_001294"
+        ]
+      },
+      {
+        "amount": 1800.5,
+        "confidence_score": 1.0,
+        "date": "2025-08-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->myntra@ybl::acct_002_001567",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "myntra@ybl",
+        "txn_ids": [
+          "acct_002_001567"
+        ]
+      },
+      {
+        "amount": 1350.5,
+        "confidence_score": 1.0,
+        "date": "2025-10-01",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->myntra@ybl::acct_002_001678",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "myntra@ybl",
+        "txn_ids": [
+          "acct_002_001678"
+        ]
+      },
+      {
+        "amount": 490.24,
+        "confidence_score": 1.0,
+        "date": "2024-12-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->olamoney@ola::acct_002_001080",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "olamoney@ola",
+        "txn_ids": [
+          "acct_002_001080"
+        ]
+      },
+      {
+        "amount": 2280.62,
+        "confidence_score": 1.0,
+        "date": "2025-01-30",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->olamoney@ola::acct_002_001165",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "olamoney@ola",
+        "txn_ids": [
+          "acct_002_001165"
+        ]
+      },
+      {
+        "amount": 2270.03,
+        "confidence_score": 1.0,
+        "date": "2025-02-07",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->olamoney@ola::acct_002_001187",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "olamoney@ola",
+        "txn_ids": [
+          "acct_002_001187"
+        ]
+      },
+      {
+        "amount": 2450.32,
+        "confidence_score": 1.0,
+        "date": "2024-12-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->zomato@axisbank::acct_001_000049",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "zomato@axisbank",
+        "txn_ids": [
+          "acct_001_000049"
+        ]
+      },
+      {
+        "amount": 1340.85,
+        "confidence_score": 1.0,
+        "date": "2024-12-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->zomato@axisbank::acct_001_000057",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "zomato@axisbank",
+        "txn_ids": [
+          "acct_001_000057"
+        ]
+      },
+      {
+        "amount": 960.8,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->zomato@axisbank::acct_001_000106",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "zomato@axisbank",
+        "txn_ids": [
+          "acct_001_000106"
+        ]
+      },
+      {
+        "amount": 530.7,
+        "confidence_score": 1.0,
+        "date": "2024-12-18",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->jio@paytm::acct_001_000033",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "jio@paytm",
+        "txn_ids": [
+          "acct_001_000033"
+        ]
+      },
+      {
+        "amount": 210.45,
+        "confidence_score": 1.0,
+        "date": "2025-01-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->jio@paytm::acct_001_000084",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "jio@paytm",
+        "txn_ids": [
+          "acct_001_000084"
+        ]
+      },
+      {
+        "amount": 460.2,
+        "confidence_score": 1.0,
+        "date": "2025-05-11",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->jio@paytm::acct_001_000325",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "jio@paytm",
+        "txn_ids": [
+          "acct_001_000325"
+        ]
+      },
+      {
+        "amount": 4050.66,
+        "confidence_score": 1.0,
+        "date": "2025-01-20",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->meesho@ybl::acct_001_000100",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "meesho@ybl",
+        "txn_ids": [
+          "acct_001_000100"
+        ]
+      },
+      {
+        "amount": 5550.54,
+        "confidence_score": 1.0,
+        "date": "2025-04-13",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->meesho@ybl::acct_001_000266",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "meesho@ybl",
+        "txn_ids": [
+          "acct_001_000266"
+        ]
+      },
+      {
+        "amount": 5250.97,
+        "confidence_score": 1.0,
+        "date": "2025-04-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->meesho@ybl::acct_001_000289",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "meesho@ybl",
+        "txn_ids": [
+          "acct_001_000289"
+        ]
+      },
+      {
+        "amount": 5500.0,
+        "confidence_score": 1.0,
+        "date": "2024-12-07",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->licindia@licindia::acct_001_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "licindia@licindia",
+        "txn_ids": [
+          "acct_001_000007"
+        ]
+      },
+      {
+        "amount": 5500.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-09",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->licindia@licindia::acct_001_000201",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "licindia@licindia",
+        "txn_ids": [
+          "acct_001_000201"
+        ]
+      },
+      {
+        "amount": 5500.0,
+        "confidence_score": 1.0,
+        "date": "2025-06-04",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->licindia@licindia::acct_001_000376",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "licindia@licindia",
+        "txn_ids": [
+          "acct_001_000376"
+        ]
+      },
+      {
+        "amount": 1620.68,
+        "confidence_score": 1.0,
+        "date": "2024-12-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->blinkit@kotak::acct_002_001054",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "blinkit@kotak",
+        "txn_ids": [
+          "acct_002_001054"
+        ]
+      },
+      {
+        "amount": 190.66,
+        "confidence_score": 1.0,
+        "date": "2025-01-03",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->blinkit@kotak::acct_002_001119",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "blinkit@kotak",
+        "txn_ids": [
+          "acct_002_001119"
+        ]
+      },
+      {
+        "amount": 1700.85,
+        "confidence_score": 1.0,
+        "date": "2025-01-25",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->blinkit@kotak::acct_002_001152",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "blinkit@kotak",
+        "txn_ids": [
+          "acct_002_001152"
+        ]
+      },
+      {
+        "amount": 2700.8,
+        "confidence_score": 1.0,
+        "date": "2024-12-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->indanegas@upi::acct_002_001096",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "indanegas@upi",
+        "txn_ids": [
+          "acct_002_001096"
+        ]
+      },
+      {
+        "amount": 2150.54,
+        "confidence_score": 1.0,
+        "date": "2025-01-21",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->indanegas@upi::acct_002_001145",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "indanegas@upi",
+        "txn_ids": [
+          "acct_002_001145"
+        ]
+      },
+      {
+        "amount": 1800.34,
+        "confidence_score": 1.0,
+        "date": "2025-02-11",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->indanegas@upi::acct_002_001195",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "indanegas@upi",
+        "txn_ids": [
+          "acct_002_001195"
+        ]
+      },
+      {
+        "amount": 2150.99,
+        "confidence_score": 1.0,
+        "date": "2025-01-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->swiggy@icici::acct_002_001122",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "swiggy@icici",
+        "txn_ids": [
+          "acct_002_001122"
+        ]
+      },
+      {
+        "amount": 970.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->swiggy@icici::acct_002_001130",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "swiggy@icici",
+        "txn_ids": [
+          "acct_002_001130"
+        ]
+      },
+      {
+        "amount": 2110.79,
+        "confidence_score": 1.0,
+        "date": "2025-02-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->swiggy@icici::acct_002_001208",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "swiggy@icici",
+        "txn_ids": [
+          "acct_002_001208"
+        ]
+      },
+      {
+        "amount": 260.69,
+        "confidence_score": 1.0,
+        "date": "2024-12-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->olamoney@ola::acct_001_000023",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "olamoney@ola",
+        "txn_ids": [
+          "acct_001_000023"
+        ]
+      },
+      {
+        "amount": 330.57,
+        "confidence_score": 1.0,
+        "date": "2024-12-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->olamoney@ola::acct_001_000026",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "olamoney@ola",
+        "txn_ids": [
+          "acct_001_000026"
+        ]
+      },
+      {
+        "amount": 1170.87,
+        "confidence_score": 1.0,
+        "date": "2024-12-23",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->olamoney@ola::acct_001_000043",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "olamoney@ola",
+        "txn_ids": [
+          "acct_001_000043"
+        ]
+      },
+      {
+        "amount": 1900.04,
+        "confidence_score": 1.0,
+        "date": "2024-12-10",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->phonepe@ybl::acct_002_001071",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "phonepe@ybl",
+        "txn_ids": [
+          "acct_002_001071"
+        ]
+      },
+      {
+        "amount": 2260.07,
+        "confidence_score": 1.0,
+        "date": "2024-12-13",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->phonepe@ybl::acct_002_001078",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "phonepe@ybl",
+        "txn_ids": [
+          "acct_002_001078"
+        ]
+      },
+      {
+        "amount": 560.66,
+        "confidence_score": 1.0,
+        "date": "2024-12-26",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->phonepe@ybl::acct_002_001100",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "phonepe@ybl",
+        "txn_ids": [
+          "acct_002_001100"
+        ]
+      },
+      {
+        "amount": 400.38,
+        "confidence_score": 1.0,
+        "date": "2024-12-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->blinkit@kotak::acct_001_000018",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "blinkit@kotak",
+        "txn_ids": [
+          "acct_001_000018"
+        ]
+      },
+      {
+        "amount": 2070.36,
+        "confidence_score": 1.0,
+        "date": "2025-01-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->blinkit@kotak::acct_001_000116",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "blinkit@kotak",
+        "txn_ids": [
+          "acct_001_000116"
+        ]
+      },
+      {
+        "amount": 310.94,
+        "confidence_score": 1.0,
+        "date": "2025-02-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->blinkit@kotak::acct_001_000127",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "blinkit@kotak",
+        "txn_ids": [
+          "acct_001_000127"
+        ]
+      },
+      {
+        "amount": 270.48,
+        "confidence_score": 1.0,
+        "date": "2024-12-06",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->uber@paytm::acct_002_001057",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "uber@paytm",
+        "txn_ids": [
+          "acct_002_001057"
+        ]
+      },
+      {
+        "amount": 310.68,
+        "confidence_score": 1.0,
+        "date": "2024-12-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->uber@paytm::acct_002_001076",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "uber@paytm",
+        "txn_ids": [
+          "acct_002_001076"
+        ]
+      },
+      {
+        "amount": 850.69,
+        "confidence_score": 1.0,
+        "date": "2024-12-18",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->uber@paytm::acct_002_001087",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "uber@paytm",
+        "txn_ids": [
+          "acct_002_001087"
+        ]
+      },
+      {
+        "amount": 1750.29,
+        "confidence_score": 1.0,
+        "date": "2024-12-25",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->indanegas@upi::acct_001_000050",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "indanegas@upi",
+        "txn_ids": [
+          "acct_001_000050"
+        ]
+      },
+      {
+        "amount": 950.61,
+        "confidence_score": 1.0,
+        "date": "2025-01-23",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->indanegas@upi::acct_001_000107",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "indanegas@upi",
+        "txn_ids": [
+          "acct_001_000107"
+        ]
+      },
+      {
+        "amount": 2400.14,
+        "confidence_score": 1.0,
+        "date": "2025-02-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->indanegas@upi::acct_001_000166",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "indanegas@upi",
+        "txn_ids": [
+          "acct_001_000166"
+        ]
+      },
+      {
+        "amount": 1830.4,
+        "confidence_score": 1.0,
+        "date": "2024-12-06",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->bsnlbroadband@upi::acct_002_001056",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "bsnlbroadband@upi",
+        "txn_ids": [
+          "acct_002_001056"
+        ]
+      },
+      {
+        "amount": 2050.11,
+        "confidence_score": 1.0,
+        "date": "2024-12-11",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->bsnlbroadband@upi::acct_002_001073",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "bsnlbroadband@upi",
+        "txn_ids": [
+          "acct_002_001073"
+        ]
+      },
+      {
+        "amount": 1020.97,
+        "confidence_score": 1.0,
+        "date": "2025-01-03",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->bsnlbroadband@upi::acct_002_001116",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "bsnlbroadband@upi",
+        "txn_ids": [
+          "acct_002_001116"
+        ]
+      },
+      {
+        "amount": 230.6,
+        "confidence_score": 1.0,
+        "date": "2025-01-23",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->swiggy@icici::acct_001_000108",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "swiggy@icici",
+        "txn_ids": [
+          "acct_001_000108"
+        ]
+      },
+      {
+        "amount": 900.89,
+        "confidence_score": 1.0,
+        "date": "2025-02-09",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->swiggy@icici::acct_001_000133",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "swiggy@icici",
+        "txn_ids": [
+          "acct_001_000133"
+        ]
+      },
+      {
+        "amount": 1290.42,
+        "confidence_score": 1.0,
+        "date": "2025-02-18",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->swiggy@icici::acct_001_000158",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "swiggy@icici",
+        "txn_ids": [
+          "acct_001_000158"
+        ]
+      },
+      {
+        "amount": 2770.59,
+        "confidence_score": 1.0,
+        "date": "2024-12-01",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->phonepe@ybl::acct_001_000000",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "phonepe@ybl",
+        "txn_ids": [
+          "acct_001_000000"
+        ]
+      },
+      {
+        "amount": 2360.48,
+        "confidence_score": 1.0,
+        "date": "2025-02-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->phonepe@ybl::acct_001_000173",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "phonepe@ybl",
+        "txn_ids": [
+          "acct_001_000173"
+        ]
+      },
+      {
+        "amount": 1680.02,
+        "confidence_score": 1.0,
+        "date": "2025-03-20",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->phonepe@ybl::acct_001_000220",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "phonepe@ybl",
+        "txn_ids": [
+          "acct_001_000220"
+        ]
+      },
+      {
+        "amount": 2410.67,
+        "confidence_score": 1.0,
+        "date": "2024-12-20",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->paytm@paytm::acct_002_001091",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "paytm@paytm",
+        "txn_ids": [
+          "acct_002_001091"
+        ]
+      },
+      {
+        "amount": 450.3,
+        "confidence_score": 1.0,
+        "date": "2025-01-31",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->paytm@paytm::acct_002_001172",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "paytm@paytm",
+        "txn_ids": [
+          "acct_002_001172"
+        ]
+      },
+      {
+        "amount": 910.95,
+        "confidence_score": 1.0,
+        "date": "2025-05-11",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->paytm@paytm::acct_002_001398",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "paytm@paytm",
+        "txn_ids": [
+          "acct_002_001398"
+        ]
+      },
+      {
+        "amount": 2720.89,
+        "confidence_score": 1.0,
+        "date": "2024-12-08",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->uber@paytm::acct_001_000010",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "uber@paytm",
+        "txn_ids": [
+          "acct_001_000010"
+        ]
+      },
+      {
+        "amount": 550.77,
+        "confidence_score": 1.0,
+        "date": "2024-12-18",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->uber@paytm::acct_001_000034",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "uber@paytm",
+        "txn_ids": [
+          "acct_001_000034"
+        ]
+      },
+      {
+        "amount": 790.61,
+        "confidence_score": 1.0,
+        "date": "2024-12-21",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->uber@paytm::acct_001_000040",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "uber@paytm",
+        "txn_ids": [
+          "acct_001_000040"
+        ]
+      },
+      {
+        "amount": 6000.56,
+        "confidence_score": 1.0,
+        "date": "2025-01-06",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->flipkart@ybl::acct_002_001125",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "flipkart@ybl",
+        "txn_ids": [
+          "acct_002_001125"
+        ]
+      },
+      {
+        "amount": 410.45,
+        "confidence_score": 1.0,
+        "date": "2025-01-30",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->flipkart@ybl::acct_002_001168",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "flipkart@ybl",
+        "txn_ids": [
+          "acct_002_001168"
+        ]
+      },
+      {
+        "amount": 1050.28,
+        "confidence_score": 1.0,
+        "date": "2025-02-20",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->flipkart@ybl::acct_002_001216",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "flipkart@ybl",
+        "txn_ids": [
+          "acct_002_001216"
+        ]
+      },
+      {
+        "amount": 2750.95,
+        "confidence_score": 1.0,
+        "date": "2024-12-27",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->amazon@apl::acct_002_001107",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "amazon@apl",
+        "txn_ids": [
+          "acct_002_001107"
+        ]
+      },
+      {
+        "amount": 940.42,
+        "confidence_score": 1.0,
+        "date": "2025-03-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->amazon@apl::acct_002_001242",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "amazon@apl",
+        "txn_ids": [
+          "acct_002_001242"
+        ]
+      },
+      {
+        "amount": 3550.76,
+        "confidence_score": 1.0,
+        "date": "2025-05-21",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->amazon@apl::acct_002_001420",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "amazon@apl",
+        "txn_ids": [
+          "acct_002_001420"
+        ]
+      },
+      {
+        "amount": 260.24,
+        "confidence_score": 1.0,
+        "date": "2024-12-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->bsnlbroadband@upi::acct_001_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "bsnlbroadband@upi",
+        "txn_ids": [
+          "acct_001_000005"
+        ]
+      },
+      {
+        "amount": 2130.9,
+        "confidence_score": 1.0,
+        "date": "2025-01-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->bsnlbroadband@upi::acct_001_000064",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "bsnlbroadband@upi",
+        "txn_ids": [
+          "acct_001_000064"
+        ]
+      },
+      {
+        "amount": 2580.31,
+        "confidence_score": 1.0,
+        "date": "2025-01-08",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->bsnlbroadband@upi::acct_001_000074",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "bsnlbroadband@upi",
+        "txn_ids": [
+          "acct_001_000074"
+        ]
+      },
+      {
+        "amount": 2700.81,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->paytm@paytm::acct_001_000105",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "paytm@paytm",
+        "txn_ids": [
+          "acct_001_000105"
+        ]
+      },
+      {
+        "amount": 620.91,
+        "confidence_score": 1.0,
+        "date": "2025-03-26",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->paytm@paytm::acct_001_000237",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "paytm@paytm",
+        "txn_ids": [
+          "acct_001_000237"
+        ]
+      },
+      {
+        "amount": 860.08,
+        "confidence_score": 1.0,
+        "date": "2025-04-23",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->paytm@paytm::acct_001_000290",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "paytm@paytm",
+        "txn_ids": [
+          "acct_001_000290"
+        ]
+      },
+      {
+        "amount": 750.22,
+        "confidence_score": 1.0,
+        "date": "2025-01-18",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->bigbasket@ybl::acct_002_001142",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "bigbasket@ybl",
+        "txn_ids": [
+          "acct_002_001142"
+        ]
+      },
+      {
+        "amount": 1330.97,
+        "confidence_score": 1.0,
+        "date": "2025-02-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->bigbasket@ybl::acct_002_001209",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "bigbasket@ybl",
+        "txn_ids": [
+          "acct_002_001209"
+        ]
+      },
+      {
+        "amount": 1930.53,
+        "confidence_score": 1.0,
+        "date": "2025-04-04",
+        "high_degree_public_endpoint": false,
+        "id": "acct_002->bigbasket@ybl::acct_002_001307",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_002",
+        "target": "bigbasket@ybl",
+        "txn_ids": [
+          "acct_002_001307"
+        ]
+      },
+      {
+        "amount": 1610.25,
+        "confidence_score": 1.0,
+        "date": "2024-12-10",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->flipkart@ybl::acct_001_000015",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "flipkart@ybl",
+        "txn_ids": [
+          "acct_001_000015"
+        ]
+      },
+      {
+        "amount": 2350.52,
+        "confidence_score": 1.0,
+        "date": "2024-12-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->flipkart@ybl::acct_001_000017",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "flipkart@ybl",
+        "txn_ids": [
+          "acct_001_000017"
+        ]
+      },
+      {
+        "amount": 420.34,
+        "confidence_score": 1.0,
+        "date": "2024-12-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->flipkart@ybl::acct_001_000025",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "flipkart@ybl",
+        "txn_ids": [
+          "acct_001_000025"
+        ]
+      },
+      {
+        "amount": 1660.4,
+        "confidence_score": 1.0,
+        "date": "2024-12-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->amazon@apl::acct_001_000048",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "amazon@apl",
+        "txn_ids": [
+          "acct_001_000048"
+        ]
+      },
+      {
+        "amount": 460.96,
+        "confidence_score": 1.0,
+        "date": "2025-01-07",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->amazon@apl::acct_001_000073",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "amazon@apl",
+        "txn_ids": [
+          "acct_001_000073"
+        ]
+      },
+      {
+        "amount": 1840.1,
+        "confidence_score": 1.0,
+        "date": "2025-01-12",
+        "high_degree_public_endpoint": false,
+        "id": "acct_001->amazon@apl::acct_001_000086",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_001",
+        "target": "amazon@apl",
+        "txn_ids": [
+          "acct_001_000086"
+        ]
+      }
+    ],
+    "max_visible_nodes_per_cluster": 20,
+    "nodes": [
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_001",
+        "observed_account": true,
+        "pattern_count": 0,
+        "reconstruction_degree": 289,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_002",
+        "observed_account": true,
+        "pattern_count": 1,
+        "reconstruction_degree": 309,
+        "suspicion_tiers": [
+          3
+        ],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "amazon@apl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "bigbasket@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "blinkit@kotak",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "bsnlbroadband@upi",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "dunzo@razorpay",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "flipkart@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "indanegas@upi",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "jio@paytm",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "licindia@licindia",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "meesho@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "myntra@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "nykaa@razorpay",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "olamoney@ola",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "paytm@paytm",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "phonepe@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "swiggy@icici",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "uber@paytm",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "zomato@axisbank",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      }
+    ],
+    "raw_filtered_edge_count": 1466,
+    "raw_filtered_node_count": 571,
+    "scope": "top_reconstruction_clusters_capped"
+  },
+  "type": "money_flow_network_3d"
+}

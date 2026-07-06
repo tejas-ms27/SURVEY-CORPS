@@ -1,0 +1,10 @@
+{
+  "date_format": "DD/MM/YYYY",
+  "has_time": false,
+  "time_format": "",
+  "debit_credit_method": "",
+  "has_reference_number": false,
+  "has_cheque_number": false,
+  "column_order": [],
+  "source": "groq"
+}

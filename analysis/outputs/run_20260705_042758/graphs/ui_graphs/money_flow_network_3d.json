@@ -1,0 +1,55 @@
+{
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_001",
+        "observed_account": true,
+        "pattern_count": 13,
+        "reconstruction_degree": 0,
+        "suspicion_tiers": [
+          1,
+          3
+        ],
+        "total_score": 199.0
+      },
+      {
+        "cluster_id": "cluster_002",
+        "id": "acct_002",
+        "observed_account": true,
+        "pattern_count": 7,
+        "reconstruction_degree": 0,
+        "suspicion_tiers": [
+          1,
+          3
+        ],
+        "total_score": 153.9916
+      },
+      {
+        "cluster_id": "cluster_003",
+        "id": "acct_003",
+        "observed_account": true,
+        "pattern_count": 13,
+        "reconstruction_degree": 0,
+        "suspicion_tiers": [
+          3
+        ],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_004",
+        "id": "acct_004",
+        "observed_account": true,
+        "pattern_count": 7,
+        "reconstruction_degree": 0,
+        "suspicion_tiers": [
+          1,
+          3
+        ],
+        "total_score": 343.6924
+      }
+    ]
+  },
+  "type": "money_flow_network_3d"
+}

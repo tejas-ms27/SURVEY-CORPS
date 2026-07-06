@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-07-05 08:34:33",
+    "question": "list all the account holders name and number",
+    "answer": "There are 3 accounts in this case:\n  - YASH DUBEY — account 25078124219247 at DCB Bank\n  - Mr. Harish Kumar — account 87889641689 at IDFC First Bank\n  - ARJUN SUMIT PATEL — account 79895082327702 at DCB Bank",
+    "language": "en",
+    "matched_pattern": "list_account_holders"
+  }
+]

@@ -1,0 +1,23 @@
+SHREYA MISHRA Period : 25-10-2025 To 27-11-2025
+Cust.Reln.No : 820430242
+Account No : 4513362998
+Currency : INR
+G989 Branch : JAIPUR-GAUTAM MARG
+SITAPURA INDUSTRIAL AREA Nominee Registered : N
+NEAR GLOBAL CIRCLE SANGANER
+JAIPUR-302022 Branch Address : B-53/54,HANUMAN NAGAR,
+RAJASTHAN,INDIA GAUTAM MARG,VAISHALI,JAIPUR
+JAIPUR-302021
+RAJASTHAN,INDIA
+Branch Phone No. : 7412086813
+MICR Code : 302485015
+IFSC Code : KKBK0003547
+Date Narration Chq/Ref No Withdrawal (Dr) Deposit(Cr) Balance
+B/F 26.24(Cr)
+Statement Summary
+Opening Balance : 26.24(Cr)
+Total Withdrawal Amount : 0.00(Dr)
+Total Deposit Amount : 0.00(Cr)
+Closing Balance : 26.24(Cr)
+Withdrawal Count : 0
+Deposit Count : 0

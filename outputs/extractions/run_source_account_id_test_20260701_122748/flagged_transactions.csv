@@ -1,0 +1,7 @@
+Date,Time,Narration,Debit,Credit,Balance,Account_ID,Bank_Name,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
+07/03/2024,,UPI/DR/252998140861/FAILED/TimeOut/Lakshmi Venkat,5000.0,0.0,9015273.51,UNKNOWN-ACC063_Kotak_Statement,Kotak,,TXN0257552,,,UNKNOWN,balance_mismatch,missing_transaction,acct_001
+31/05/2024,,UPI/DR/995762321797/FAILED/TimeOut/Chandan Sharma,5000.0,0.0,10244674.51,UNKNOWN-ACC063_Kotak_Statement,Kotak,,TXN0257959,,,UNKNOWN,balance_mismatch,missing_transaction,acct_001
+07/01/2023,,UPI/DR/971085988524/FAILED/TimeOut/Sushma Rao,1200.0,0.0,2311526.0,UNKNOWN-ACC064_SBI_Statement,SBI,,TXN0258927,,,UNKNOWN,balance_mismatch,missing_transaction,acct_002
+22/02/2023,,UPI/DR/362829261371/FAILED/TimeOut/Ganesh Kumar,1200.0,0.0,2958165.0,UNKNOWN-ACC064_SBI_Statement,SBI,,TXN0259151,,,UNKNOWN,balance_mismatch,missing_transaction,acct_002
+05/12/2023,,UPI/DR/096719146262/FAILED/TimeOut/Babu Lal,1200.0,0.0,7188042.21,UNKNOWN-ACC065_HDFC_Statement,HDFC,,,,,UNKNOWN,balance_mismatch,missing_transaction,acct_003
+13/05/2024,,UPI/DR/405020040397/FAILED/TimeOut/Savitha Devi,9500.0,0.0,9368766.21,UNKNOWN-ACC065_HDFC_Statement,HDFC,,,,,UNKNOWN,balance_mismatch,missing_transaction,acct_003

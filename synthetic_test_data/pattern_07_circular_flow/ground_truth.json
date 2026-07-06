@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "folder": "pattern_07_circular_flow",
+  "description": "Closed-loop circular flow; every hop corroborated by both statements.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0027",
+      "role": "originator",
+      "file": "statements/statement-44000827893.txt",
+      "files": [
+        "statements/statement-44000827893.txt"
+      ],
+      "fabricated_account_number": "44000827893",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0028",
+      "role": "intermediary",
+      "file": "statements/48880432099033-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/48880432099033-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "48880432099033",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0029",
+      "role": "intermediary",
+      "file": "statements/statement-96465802265.pdf",
+      "files": [
+        "statements/statement-96465802265.pdf"
+      ],
+      "fabricated_account_number": "96465802265",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0030",
+      "role": "intermediary",
+      "file": "statements/68699629400471 statement.csv",
+      "files": [
+        "statements/68699629400471 statement.csv"
+      ],
+      "fabricated_account_number": "68699629400471",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0031",
+      "role": "recipient",
+      "file": "statements/6332927949015177-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/6332927949015177-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "6332927949015177",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0032",
+      "role": "clean_control",
+      "file": "statements/statement-37853420993.txt",
+      "files": [
+        "statements/statement-37853420993.txt"
+      ],
+      "fabricated_account_number": "37853420993",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0033",
+      "role": "clean_control",
+      "file": "statements/84975745891270 statement.pdf",
+      "files": [
+        "statements/84975745891270 statement.pdf"
+      ],
+      "fabricated_account_number": "84975745891270",
+      "bank": "HDFC BANK LTD"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 7,
+      "pattern_name": "circular_flow",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0027",
+        "SYN0028",
+        "SYN0029",
+        "SYN0030",
+        "SYN0031"
+      ],
+      "expected_amount_range": [
+        276578.67,
+        294000.24
+      ],
+      "notes": "Closed-loop circular flow; every hop corroborated by both statements.",
+      "expected_txn_refs": [
+        "N21158961706",
+        "N21158961706",
+        "N49652837781",
+        "N49652837781",
+        "I82260658072",
+        "I82260658072",
+        "R76603974582",
+        "R76603974582",
+        "I07572363242",
+        "I07572363242"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0027_000498",
+        "SYN0028_000543",
+        "SYN0028_000544",
+        "SYN0029_000525",
+        "SYN0029_000526",
+        "SYN0030_000530",
+        "SYN0030_000532",
+        "SYN0031_000529",
+        "SYN0031_000531",
+        "SYN0027_000514"
+      ]
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "pattern_id": 5,
+      "reason": "No unrelated fixture planted for this pattern."
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "account_details": {
+    "account_holder": "Meena Iyer",
+    "account_number": "50105414883065",
+    "ifsc_code": "HDFC0021257",
+    "bank_name": "HDFC Bank",
+    "branch": "Indiranagar Bengaluru",
+    "account_type": "",
+    "statement_period": "01/08/2022 to 30/06/2024",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "01/08/2022",
+      "narration": "UPI/IDR/79587485/MEENA IYER",
+      "debit": "120.00",
+      "credit": "",
+      "balance": "253159.45"
+    },
+    {
+      "date": "01/08/2022",
+      "narration": "IMPS/P2P/131079665/BINCHU",
+      "debit": "",
+      "credit": "18500.00",
+      "balance": "271659.45"
+    },
+    {
+      "date": "03/08/2022",
+      "narration": "UPI/IDR/80771815/NAVEEN KU",
+      "debit": "448.00",
+      "credit": "",
+      "balance": "271211.45"
+    },
+    {
+      "date": "03/08/2022",
+      "narration": "UPI/IDR/97852712/KAVYA RED",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "268831.45"
+    },
+    {
+      "date": "02/08/2022",
+      "narration": "UPI/IDR/0295334425/SUNITA",
+      "debit": "48.00",
+      "credit": "",
+      "balance": "268879.45"
+    },
+    {
+      "date": "02/08/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "269379.45"
+    },
+    {
+      "date": "02/08/2022",
+      "narration": "NEFT/482025960/NAVEEN KUM",
+      "debit": "500.00",
+      "credit": "",
+      "balance": "268881.45"
+    },
+    {
+      "date": "03/08/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "debit": "",
+      "credit": "850.00",
+      "balance": "270131.45"
+    },
+    {
+      "date": "04/08/2022",
+      "narration": "ATM/WDL/003399200/0054/AXFC",
+      "debit": "49.00",
+      "credit": "",
+      "balance": "270082.45"
+    },
+    {
+      "date": "04/08/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "270582.45"
+    },
+    {
+      "date": "04/08/2022",
+      "narration": "",
+      "debit": "",
+      "credit": "1200.00",
+      "balance": "271782.45"
+    },
+    {
+      "date": "04/08/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "272282.45"
+    },
+    {
+      "date": "04/08/2022",
+      "narration": "",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "274782.45"
+    },
+    {
+      "date": "04/08/2022",
+      "narration": "CHQ NO 111284 CLEARING",
+      "debit": "48.00",
+      "credit": "",
+      "balance": "274733.45"
+    },
+    {
+      "date": "06/08/2022",
+      "narration": "UPI/ICR/792781668/MEENA I",
+      "debit": "",
+      "credit": "24000.00",
+      "balance": "298733.45"
+    },
+    {
+      "date": "06/08/2022",
+      "narration": "NEFT/6111006569045/LATHA M",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "296353.45"
+    },
+    {
+      "date": "06/08/2022",
+      "narration": "UPI/IDR/600871732/NDLESH",
+      "debit": "",
+      "credit": "11200.00",
+      "balance": "307553.45"
+    },
+    {
+      "date": "06/08/2022",
+      "narration": "NEFT/17576776122/RAMESH",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "308053.45"
+    },
+    {
+      "date": "06/08/2022",
+      "narration": "UPI/IDR/8687838098/FARHAN",
+      "debit": "449.00",
+      "credit": "",
+      "balance": "307604.45"
+    },
+    {
+      "date": "08/08/2022",
+      "narration": "UPI/IDR/86878384098/FARHAN",
+      "debit": "",
+      "credit": "850.00",
+      "balance": "308454.45"
+    },
+    {
+      "date": "08/08/2022",
+      "narration": "IMPS/P2P/447570728/PREETI",
+      "debit": "3499.00",
+      "credit": "",
+      "balance": "304955.45"
+    },
+    {
+      "date": "08/08/2022",
+      "narration": "UPI/IDR/834075896/VENKAT RA",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "08/08/2022",
+      "narration": "UPI/IDR/371154029855/POOJA",
+      "debit": "3499.00",
+      "credit": "",
+      "balance": "301456.45"
+    },
+    {
+      "date": "08/08/2022",
+      "narration": "NEFT/6888672488932/SHEELA",
+      "debit": "",
+      "credit": "1200.00",
+      "balance": "302656.45"
+    },
+    {
+      "date": "09/08/2022",
+      "narration": "NEFT/6989939251/MOHAMMED",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "300976.45"
+    },
+    {
+      "date": "10/08/2022",
+      "narration": "",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "11/08/2022",
+      "narration": "NEFT/6989939251/MOHAMMED",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "11/08/2022",
+      "narration": "CHQ NO 13510 CLEARING",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "299478.45"
+    },
+    {
+      "date": "11/08/2022",
+      "narration": "UPI/IDR/7706532833/KAVITHA",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "297796.45"
+    },
+    {
+      "date": "11/08/2022",
+      "narration": "UPI/IDR/98302701789/LATHA M",
+      "debit": "310.00",
+      "credit": "",
+      "balance": "296486.45"
+    },
+    {
+      "date": "12/08/2022",
+      "narration": "NEFT/760354517751/IDVYAM",
+      "debit": "7800.00",
+      "credit": "",
+      "balance": "288686.45"
+    },
+    {
+      "date": "12/08/2022",
+      "narration": "NEFT/61777856/NIKHL GUPT",
+      "debit": "449.00",
+      "credit": "",
+      "balance": "288237.45"
+    },
+    {
+      "date": "12/08/2022",
+      "narration": "UPI/IDR/48332234159/VENKAT",
+      "debit": "449.00",
+      "credit": "",
+      "balance": "287788.45"
+    },
+    {
+      "date": "12/08/2022",
+      "narration": "UPI/IDR/7000289919/RAJESH",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "290288.45"
+    },
+    {
+      "date": "13/08/2022",
+      "narration": "ATM/WDL/205350442545/SCANA",
+      "debit": "7800.00",
+      "credit": "",
+      "balance": "282488.45"
+    },
+    {
+      "date": "14/08/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "debit": "",
+      "credit": "4800.00",
+      "balance": "287288.45"
+    },
+    {
+      "date": "15/08/2022",
+      "narration": "UPI/ICR/751844791/RAVI KUMA",
+      "debit": "",
+      "credit": "24000.00",
+      "balance": "311288.45"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 4960,
+  "source": "groq"
+}

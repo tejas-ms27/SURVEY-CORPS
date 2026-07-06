@@ -1,0 +1,3220 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-07-02T08:13:34.868786+00:00",
+  "privacy": "PII-safe: source filenames and field values are excluded; source_id is SHA-256(path) prefix.",
+  "scan_scope": {
+    "folders": [
+      "primary",
+      "Secondary"
+    ],
+    "supported_formats": [
+      ".csv",
+      ".pdf",
+      ".txt",
+      ".xls",
+      ".xlsx"
+    ],
+    "files_discovered": 162,
+    "files_profiled": 162,
+    "errors": [],
+    "format_counts": {
+      "csv": 11,
+      "pdf": 103,
+      "txt": 3,
+      "xls": 22,
+      "xlsx": 23
+    }
+  },
+  "templates": [
+    {
+      "template_id": "OBS_PDF_001",
+      "fingerprint": "010c7801ace3",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "ac9fb59e2a4b3054"
+      ],
+      "columns_in_observed_order": [
+        "TRAN DATE TRAN PARTICULAR",
+        "AMOUNT AMOUNT AMOUNT"
+      ],
+      "header_labels_observed": [],
+      "date_formats_observed": [
+        "DD-Mon-YY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "IMPS/",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        7
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_002",
+      "fingerprint": "0ccaeb38a0ac",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "09d396d7a1862dc6"
+      ],
+      "columns_in_observed_order": [
+        "Tran Date",
+        "Withdrawal",
+        "Deposit",
+        "Balance",
+        "Alpha CHQ. NO.",
+        "Narration"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Currency",
+        "Customer Name",
+        "IFSC",
+        "IFSC Code"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "IMPS-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "disclaimer",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        10
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_003",
+      "fingerprint": "10c4bf2fab17",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "794037b44c8f450e"
+      ],
+      "columns_in_observed_order": [
+        "Txn Dt",
+        "Txn Narration",
+        "Dt Value",
+        "Dr Amount",
+        "Cr Amount"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Status",
+        "Branch",
+        "Currency",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-Mon-YY",
+        "DD/MM/YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CASH DEPOSIT",
+        "IMPS-",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [
+        "registered office"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        222
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_TXT_004",
+      "fingerprint": "183e59383605",
+      "format": "txt",
+      "source_count": 1,
+      "source_ids": [
+        "a51f503731dfb12c"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Date",
+        "Debit Amount",
+        "Credit Amount"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS-",
+        "NEFT/",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [
+        "closing balance",
+        "page"
+      ],
+      "fixed_width": true
+    },
+    {
+      "template_id": "OBS_PDF_005",
+      "fingerprint": "19d532d773db",
+      "format": "pdf",
+      "source_count": 3,
+      "source_ids": [
+        "508cd86bc26cb30e",
+        "4d86d882b5d41e3f",
+        "41e8826145f23afc"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Cheque Number",
+        "Description",
+        "Withdrawal",
+        "Deposit Amt.",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "Account Status",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "Date of Statement",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS/",
+        "NEFT/",
+        "RTGS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "computer generated",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        2,
+        15
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_006",
+      "fingerprint": "1a1934b578eb",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "fbdcb0bf26f7c590"
+      ],
+      "columns_in_observed_order": [
+        "Value Date",
+        "Post Date",
+        "Chq. No.",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "Opening Balance",
+        "Product"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CASH DEPOSIT",
+        "CHQ"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        2
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_XLSX_007",
+      "fingerprint": "1ddfd06575d5",
+      "format": "xlsx",
+      "source_count": 1,
+      "source_ids": [
+        "78b83284894a71ef"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Particulars",
+        "Tran Type",
+        "Cheque Details",
+        "Value Date",
+        "Withdrawals",
+        "Deposits",
+        "Balance",
+        "Dr/Cr"
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "Account Status",
+        "Available Balance",
+        "Branch",
+        "Branch Name",
+        "Currency",
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_008",
+      "fingerprint": "43527f147426",
+      "format": "pdf",
+      "source_count": 9,
+      "source_ids": [
+        "f330f02fc70bf138",
+        "bbc229a1d2b8f5d8",
+        "22f52aaf02682e54",
+        "f1740ac71a6c6a44",
+        "526250f0c29816a2",
+        "0c919736548e1693",
+        "a91b98523e006041",
+        "b75a3fbc45a31b95",
+        "d4c7a180647de4ef"
+      ],
+      "columns_in_observed_order": [
+        "Opening Balance",
+        "Total Debit Amount",
+        "Total Credit Amount",
+        "Debit",
+        "Credit",
+        "Closing Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "Date of Statement",
+        "From Date",
+        "IFSC",
+        "Opening Balance",
+        "Product",
+        "To Date"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS-",
+        "RTGS-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "computer generated",
+        "end of statement"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        5,
+        6,
+        10,
+        11,
+        14,
+        16,
+        34,
+        46
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_CSV_009",
+      "fingerprint": "4576f36a05b2",
+      "format": "csv",
+      "source_count": 3,
+      "source_ids": [
+        "b0c74017f0dd67d6",
+        "a169fda765e96ac9",
+        "3167f1c9cf649729"
+      ],
+      "columns_in_observed_order": [
+        "TRAN-DATE",
+        "TRAN_PARTICULAR",
+        "CHQ-NUM",
+        "WITHDRAWAL",
+        "DEPOSIT",
+        "BALANCE"
+      ],
+      "header_labels_observed": [],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "NEFT/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": "\t"
+    },
+    {
+      "template_id": "OBS_PDF_010",
+      "fingerprint": "4a0ee30a232d",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "e8472e9098edc8aa"
+      ],
+      "columns_in_observed_order": [
+        "TRAN DATE TRAN PARTICULAR",
+        "DEBIT",
+        "CREDIT",
+        "BALANCE"
+      ],
+      "header_labels_observed": [],
+      "date_formats_observed": [
+        "DD-Mon-YY"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        2
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_011",
+      "fingerprint": "4cb610c401e7",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "2d1b83ea4e3d5960"
+      ],
+      "columns_in_observed_order": [
+        "Opening Balance",
+        "Debits",
+        "Credits"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Status",
+        "Branch",
+        "Currency",
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "DD-Mon-YYYY",
+        "DD/MM/YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "IMPS-",
+        "RTGS/",
+        "UPI-"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "page",
+        "registered office"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        3
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_012",
+      "fingerprint": "539a8d8ab802",
+      "format": "pdf",
+      "source_count": 4,
+      "source_ids": [
+        "8d856fb60c2621fd",
+        "8fab63e9551a2a32",
+        "1fb3c1fa73ab5b55",
+        "675d67a8036f8c71"
+      ],
+      "columns_in_observed_order": [
+        "DATE",
+        "TRANSACTION DETAILS",
+        "CHQ.NO.",
+        "VALUE DATE",
+        "WITHDRAWAL AMT",
+        "DEPOSIT AMT",
+        "BALANCE AMT"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Currency",
+        "Date of Statement",
+        "From Date",
+        "IFSC"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "NEFT/",
+        "RTGS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        8,
+        10,
+        14
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_013",
+      "fingerprint": "55eb44fe8fbd",
+      "format": "pdf",
+      "source_count": 7,
+      "source_ids": [
+        "b77e16c9ff828ff8",
+        "3381c02a0449d7a6",
+        "1c6f70e6ed67397b",
+        "8eb17c51a759e4ae",
+        "6ba41eb178888ab3",
+        "9f52f7c71214579a",
+        "318cb849054cbfce"
+      ],
+      "columns_in_observed_order": [
+        "Tran Date",
+        "Chq No",
+        "Particulars",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Available Balance",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "end of statement",
+        "page",
+        "registered office",
+        "this is a system generated"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        4,
+        5,
+        6,
+        7,
+        12,
+        111
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_014",
+      "fingerprint": "5b88dbcb2123",
+      "format": "pdf",
+      "source_count": 4,
+      "source_ids": [
+        "2336226e46bc84f7",
+        "fb0daa129f3209a6",
+        "0fb8843685c8d71b",
+        "3417043fd59b4453"
+      ],
+      "columns_in_observed_order": [
+        "Date*",
+        "Transaction Details",
+        "Cheque",
+        "Withdrawals",
+        "Deposits",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "Account Status",
+        "Branch",
+        "Closing Balance",
+        "Customer Name",
+        "IFSC",
+        "Opening Balance",
+        "Statement Period"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "NEFT/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "end of statement",
+        "page",
+        "registered office"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        2,
+        3,
+        234
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_015",
+      "fingerprint": "62dc063498b2",
+      "format": "pdf",
+      "source_count": 7,
+      "source_ids": [
+        "d84980b86f1fb746",
+        "510823c02197955b",
+        "df6d18457026b6b2",
+        "ea04c2f17c6e19d7",
+        "87b5d8aca73ecab4",
+        "f8044eb9ae1e0e0c",
+        "25c98c69002bb77a"
+      ],
+      "columns_in_observed_order": [],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Number",
+        "Account Status",
+        "Available Balance",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY",
+        "DD-Mon-YYYY",
+        "DD/MM/YY"
+      ],
+      "narration_prefixes_observed": [
+        "ACH/",
+        "ATM/",
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS-",
+        "IMPS/",
+        "NEFT-",
+        "NEFT/",
+        "RTGS-",
+        "RTGS/",
+        "SALARY",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [
+        "closing balance",
+        "page",
+        "registered office"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_016",
+      "fingerprint": "636c34891704",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "dd49913438667c05"
+      ],
+      "columns_in_observed_order": [
+        "TRAN DATE",
+        "DESCRIPTION",
+        "DEBITS",
+        "CREDITS",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Currency",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS/",
+        "NEFT/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "page",
+        "this is a system generated"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        35
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_XLS_017",
+      "fingerprint": "6811810af90c",
+      "format": "xls",
+      "source_count": 1,
+      "source_ids": [
+        "3b4f7f24c629d8dd"
+      ],
+      "columns_in_observed_order": [
+        "Trans Date and Time",
+        "Value Date",
+        "Transaction Details",
+        "Ref/Cheque No",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Status",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YYYY",
+        "DD/MM/YY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS-",
+        "IMPS/",
+        "RTGS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance"
+      ],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_018",
+      "fingerprint": "6d99fd900c4d",
+      "format": "pdf",
+      "source_count": 2,
+      "source_ids": [
+        "ac5fe7881cf00a6f",
+        "c5bed0e19dd064fc"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Tran",
+        "Ref Num",
+        "Particulars",
+        "Debit Amt.",
+        "Credit Amt.",
+        "Balance Amt."
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS/",
+        "NEFT/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        3,
+        8
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_XLS_019",
+      "fingerprint": "752031376ea6",
+      "format": "xls",
+      "source_count": 19,
+      "source_ids": [
+        "de06384aa492334c",
+        "d13b024ba5789b25",
+        "cb6179d6fb6e8ac5",
+        "050a8aec76831dca",
+        "09bef6fd275e516a",
+        "d5d46f88c6d3cb73",
+        "5e7e67f2787c5fdf",
+        "e5725febe9fb36ea",
+        "cc897021c5f15e08",
+        "808ae08b82c6ce84",
+        "17e7203330a225d2",
+        "e2f70c3e5c551435",
+        "dbfbcc4b0910d255",
+        "1cd6a353c5ab84cb",
+        "83ff5d1f23f8f4fd",
+        "6d19d94d9cab3517",
+        "57bfe2d8582c6ec0",
+        "65a3f53170dfc928",
+        "a69f278a764a1104"
+      ],
+      "columns_in_observed_order": [
+        "Post Date",
+        "Value Date",
+        "Description",
+        "ChequeNo/Reference No",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "Account Opening Date",
+        "Account Status",
+        "Branch",
+        "Branch Name",
+        "Closing Balance",
+        "Currency",
+        "Date of Statement",
+        "IFSC",
+        "IFSC Code",
+        "Product",
+        "Statement Period"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS/",
+        "NEFT*",
+        "SALARY",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance"
+      ],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_XLSX_020",
+      "fingerprint": "7643b06ab1dd",
+      "format": "xlsx",
+      "source_count": 3,
+      "source_ids": [
+        "6721b1745741dede",
+        "b991fcd17f1553ed",
+        "7ea2af73109d671f"
+      ],
+      "columns_in_observed_order": [
+        "ACCOUNT NO.",
+        "TRAN DATE",
+        "VALUE DATE",
+        "TRAN PARTICULAR",
+        "INSTRUMENT NO",
+        "DEBIT AMOUNT",
+        "CREDIT AMOUNT",
+        "BALANCE AMOUNT",
+        "BALANCE INDICATOR",
+        "ACCOUNT NAME",
+        "SOL ID",
+        "SOL_DESC",
+        "TRAN ID",
+        "TRAN AMT",
+        "TRAN TYPE",
+        "TRAN SUB TYPE",
+        "PART TRAN TYPE",
+        "TRAN RMKS",
+        "TRAN PART CODE",
+        "TRAN PART 2",
+        "REF NUM",
+        "BENEF/REMIT IFSC CODE",
+        "BENEF/REMIT ACCT NO",
+        "BENEF/REMIT ACCT NAME",
+        "DTH_SOLID",
+        "DTH_SOLDESC"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account Name",
+        "Account No",
+        "Branch",
+        "IFSC",
+        "IFSC Code"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "IMPS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_XLSX_021",
+      "fingerprint": "88175fc572da",
+      "format": "xlsx",
+      "source_count": 1,
+      "source_ids": [
+        "e36343a38339b6e5"
+      ],
+      "columns_in_observed_order": [
+        "ACCOUNT",
+        "ACCT NAME",
+        "TRAN ID",
+        "TRAN DATE",
+        "VALUE DATE",
+        "TRAN TYPE",
+        "TRAN SUB TYPE",
+        "DEBIT",
+        "CREDIT",
+        "BALANCE",
+        "CR/DR",
+        "TRAN PARTICULAR",
+        "TRAN RMKS",
+        "TRAN PARTICULAR 2"
+      ],
+      "header_labels_observed": [
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD/MM/YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS/",
+        "POS/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_022",
+      "fingerprint": "8951367d4a41",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "b6382c00bf2c517e"
+      ],
+      "columns_in_observed_order": [
+        "Tran Date",
+        "Value Date",
+        "Tran Particular",
+        "Tran Crncy Code",
+        "Debit Amount",
+        "Credit Amount",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Currency",
+        "From Date",
+        "IFSC",
+        "To Date"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "NEFT/",
+        "RTGS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        5
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_XLSX_023",
+      "fingerprint": "8d178ca9a765",
+      "format": "xlsx",
+      "source_count": 3,
+      "source_ids": [
+        "08f4f10fb24dd86e",
+        "7f4534f0c1f1663b",
+        "52380672bc07a34d"
+      ],
+      "columns_in_observed_order": [
+        "Ac_No",
+        "AC_Name",
+        "Tran_ID",
+        "Tran_Date",
+        "Tran_Type",
+        "Sub_Type",
+        "Inst_Type",
+        "Inst_Num",
+        "Dr_Amt",
+        "Cr_Amt",
+        "Balance",
+        "Rmks",
+        "Narration",
+        "pstd_dt",
+        "Crncy",
+        "value_dt",
+        "mkr_emp_id",
+        "chk_emp_id"
+      ],
+      "header_labels_observed": [],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS/",
+        "NEFT-",
+        "NEFT/",
+        "RTGS-",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_024",
+      "fingerprint": "8f1edeab4144",
+      "format": "pdf",
+      "source_count": 4,
+      "source_ids": [
+        "830859ef15cbd014",
+        "adf7119a60b53ee9",
+        "aecd3f20a2d81c4f",
+        "f5df1e7954877042"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Particulars",
+        "Cheque/Reference No",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Available Balance",
+        "Branch",
+        "Branch Name",
+        "Closing Balance",
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "CHQ",
+        "IMPS/",
+        "NEFT/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "end of statement",
+        "page",
+        "this is a system generated"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        1,
+        2,
+        11,
+        14
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_025",
+      "fingerprint": "91bd5b7275cb",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "1cccfff9b678963e"
+      ],
+      "columns_in_observed_order": [
+        "TXN DATE",
+        "VALUE DATE",
+        "DESCRIPTION",
+        "REFERENCE",
+        "DEBITS",
+        "CREDITS",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Branch",
+        "Closing Balance",
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "IMPS/",
+        "NEFT-",
+        "RTGS-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        555
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_026",
+      "fingerprint": "93fb8d0c1d5e",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "1e4c24d2584c8775"
+      ],
+      "columns_in_observed_order": [
+        "Txn Date",
+        "Description",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "Account Name",
+        "Account Status",
+        "Available Balance",
+        "Branch",
+        "Branch Name"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YYYY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "IMPS-",
+        "POS/",
+        "SALARY",
+        "UPI-"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        90
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_027",
+      "fingerprint": "990ed8fbd49a",
+      "format": "pdf",
+      "source_count": 2,
+      "source_ids": [
+        "6ba1b658afa5e259",
+        "e6050ae15ff1ba5a"
+      ],
+      "columns_in_observed_order": [
+        "Value",
+        "Chq.No.",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Currency",
+        "Product"
+      ],
+      "date_formats_observed": [
+        "DD/MM/YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        14,
+        36
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_028",
+      "fingerprint": "a04963449f95",
+      "format": "pdf",
+      "source_count": 6,
+      "source_ids": [
+        "b8c9c4b85209f0ec",
+        "b8a47189a581dfe2",
+        "318cf1ac4ba5f68a",
+        "4d4f699fc13e6979",
+        "97d62a4cd65d207c",
+        "c4d57a7b9f041297"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Narration",
+        "Chq/Ref No",
+        "Withdrawal (Dr)",
+        "Deposit(Cr)",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "DD-Mon-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS-",
+        "IMPS/",
+        "UPI-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        1,
+        5,
+        6,
+        21,
+        90,
+        107
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_029",
+      "fingerprint": "b6bd37594617",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "9287e49d2205eb01"
+      ],
+      "columns_in_observed_order": [
+        "Txn Date",
+        "Transaction Description",
+        "Cheque No",
+        "Value Date",
+        "Debit Amount",
+        "Credit Amount",
+        "Running Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Status",
+        "Branch",
+        "Currency",
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YY",
+        "DD/MM/YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "RTGS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "page",
+        "registered office"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        3
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_030",
+      "fingerprint": "b76be4674250",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "fc2c64d0e7cc7fa6"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Date",
+        "Debit Amount",
+        "Credit Amount"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Closing Balance",
+        "Currency",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD/MM/YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS-",
+        "NEFT/",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [
+        "closing balance",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        3
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_031",
+      "fingerprint": "b894879fb082",
+      "format": "pdf",
+      "source_count": 19,
+      "source_ids": [
+        "7a5d47a03b232bd7",
+        "2722a7454ac99f6c",
+        "221af2a59e166513",
+        "3a5bfb4e308be3aa",
+        "5c98ddbbee6cd2bc",
+        "bd3add627b48e050",
+        "dbac0f67c5b63312",
+        "a29e9030f6c01263",
+        "41623ed349a5bfa1",
+        "b95d6f4d2b53098e",
+        "6df6e5a658cadf74",
+        "4822565c4ef0903c",
+        "8a5b3325dbbcdefd",
+        "42c44a3005573c86",
+        "ea6b67ee8cdfed11",
+        "d55f441bbd2c5d30",
+        "88d85edec5443cd4",
+        "4f456718beebee2f",
+        "32b84b11bfabb1a0"
+      ],
+      "columns_in_observed_order": [
+        "Post Date",
+        "Description",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Status",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "Date of Statement",
+        "IFSC",
+        "IFSC Code",
+        "Product"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "DD/MM/YY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS/",
+        "NACH",
+        "NEFT*",
+        "NEFT-",
+        "NEFT/",
+        "POS/",
+        "SALARY",
+        "UPI-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        3,
+        4,
+        8,
+        11,
+        12,
+        32,
+        40,
+        58,
+        110,
+        111,
+        205,
+        370,
+        373,
+        919,
+        1011
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_032",
+      "fingerprint": "c1ff48c06176",
+      "format": "pdf",
+      "source_count": 7,
+      "source_ids": [
+        "0921ad0285da8874",
+        "1e1c918b45a02831",
+        "1ce3b98fb465d8bb",
+        "12544cc36fb18409",
+        "336ed77373bc6d0c",
+        "f26e1e58494a7ef2",
+        "c9a42402c3e2f2fe"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Narration",
+        "Chq./Ref.No.",
+        "Value Dt",
+        "Withdrawal Amt.",
+        "Deposit Amt.",
+        "Closing Balance"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Account Status",
+        "Branch",
+        "Closing Balance",
+        "Currency",
+        "IFSC",
+        "Opening Balance",
+        "Product"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YYYY",
+        "DD/MM/YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS-",
+        "RTGS/",
+        "SALARY",
+        "UPI-"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance",
+        "computer generated",
+        "page",
+        "registered office"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        1,
+        8,
+        80,
+        194,
+        717
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_033",
+      "fingerprint": "c3f5c7f4cef8",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "45e58cee4819803b"
+      ],
+      "columns_in_observed_order": [
+        "DATE",
+        "PARTICULARS",
+        "CHQ.NO.",
+        "DEBIT",
+        "CREDIT",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "IFSC",
+        "IFSC Code"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "IMPS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        46
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_XLSX_034",
+      "fingerprint": "c680a584c3f8",
+      "format": "xlsx",
+      "source_count": 1,
+      "source_ids": [
+        "376278186e754065"
+      ],
+      "columns_in_observed_order": [
+        "REF_TXN_NO",
+        "DAT_TXN_PROCESSING",
+        "REF_SUB_SEQ_NO",
+        "COD_TXN_MNEMONIC",
+        "COD_ACCT_NO",
+        "COD_DRCR",
+        "AMT_TXN_LCY",
+        "TXT_TXN_DESC",
+        "TXT_TRAN_PARTICULAR",
+        "TXT_TXN_NARRATIVE_TO",
+        "REF_TXN_NO_ORG",
+        "COD_AUTH_ID",
+        "REF_USR_NO",
+        "COD_CHNL_ID",
+        "AMT_REFUND",
+        "COD_ACCT_NO_FROM",
+        "COD_ACCT_NO_TO",
+        "COD_CUST_ID_FROM",
+        "COD_CUST_ID_TO",
+        "COD_CUST_TYP_FROM",
+        "COD_CUST_TYP_TO",
+        "DAT_TXN_VALUE",
+        "REF_USR_NO_ORG",
+        "COD_GL_ACCT",
+        "COD_PROD",
+        "TXT_ADDL_DETAILS_FROM",
+        "TXT_ADDL_DETAILS_TO",
+        "TXT_DIFF_CHARGE_PARAM1",
+        "TXT_DIFF_CHARGE_PARAM2",
+        "TXT_DIFF_CHARGE_PARAM3",
+        "COD_CC_BRN",
+        "DAT_TXN_POSTING"
+      ],
+      "header_labels_observed": [
+        "IFSC"
+      ],
+      "date_formats_observed": [
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS-",
+        "IMPS/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_035",
+      "fingerprint": "d290156fc6d1",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "1d4465a500d17af1"
+      ],
+      "columns_in_observed_order": [
+        "TRAN DATE TRAN PARTICULAR",
+        "ENT NO AMOUNT AMOUNT AMOUNT"
+      ],
+      "header_labels_observed": [
+        "Branch"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YY"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS/",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        2
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_XLSX_036",
+      "fingerprint": "d38e1889d2ab",
+      "format": "xlsx",
+      "source_count": 1,
+      "source_ids": [
+        "ff4bf5f99adeb99f"
+      ],
+      "columns_in_observed_order": [
+        "TXN_DATE",
+        "DESCRIPTION",
+        "CHEQUE_NO",
+        "DEBITS",
+        "CREDITS",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Account Name",
+        "Account Status",
+        "Available Balance",
+        "Branch",
+        "Branch Name"
+      ],
+      "date_formats_observed": [
+        "DD-Mon-YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "SALARY",
+        "UPI-"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_037",
+      "fingerprint": "dad96f8e9e99",
+      "format": "pdf",
+      "source_count": 2,
+      "source_ids": [
+        "dc1074bc6a67e8fa",
+        "5700899783e6dcfe"
+      ],
+      "columns_in_observed_order": [
+        "DATE",
+        "PARTICULARS",
+        "CHQ.NO.",
+        "WITHDRAW DEPOSITS",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Account Name",
+        "Branch",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "CHQ",
+        "NEFT/",
+        "POS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "this is a system generated"
+      ],
+      "text_layer": true,
+      "page_header_repeated": false,
+      "pdf_page_counts": [
+        13
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_CSV_038",
+      "fingerprint": "e49e783dc63f",
+      "format": "csv",
+      "source_count": 7,
+      "source_ids": [
+        "8af324b0ef810407",
+        "dcdf608c9bff61d9",
+        "17c2e9b15183e374",
+        "149f85f4a28e201d",
+        "a0dc41548f7d832f",
+        "ad6a21ecc866c55f",
+        "bdc172b27dda3410"
+      ],
+      "columns_in_observed_order": [],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account No",
+        "Currency"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [],
+      "delimiter": ","
+    },
+    {
+      "template_id": "OBS_XLSX_039",
+      "fingerprint": "e82b0aad8b1d",
+      "format": "xlsx",
+      "source_count": 13,
+      "source_ids": [
+        "8541a1959d33b5e9",
+        "bfb4b6ae58582039",
+        "9bb4cb3209578ae2",
+        "c53ccf423ec2302b",
+        "15a37e93b7c09e4b",
+        "ac510d6b6f73c136",
+        "3660b26400f3877e",
+        "f673c0f52f53df4a",
+        "f11b5044ccf22972",
+        "246a6b77ae8e7461",
+        "5de931c2ee6ac79f",
+        "4264252e7aec4a6b",
+        "e29e67a7d93a8460"
+      ],
+      "columns_in_observed_order": [
+        "CTR BATCH NO",
+        "TXN DT",
+        "POST DATE",
+        "TXN TYPE",
+        "REF CHQ NO",
+        "NARRATION",
+        "REF TXN NO",
+        "TXN BRANCH",
+        "DEBIT",
+        "CREDIT",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Branch"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "DD/MM/YY",
+        "DD/MM/YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS-",
+        "NEFT-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_040",
+      "fingerprint": "e8ec2b0833cf",
+      "format": "pdf",
+      "source_count": 3,
+      "source_ids": [
+        "88e481ec234b1812",
+        "e6f25146d9607897",
+        "875b268f39252483"
+      ],
+      "columns_in_observed_order": [
+        "Date",
+        "Particulars",
+        "Withdrawals",
+        "Deposits",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "Account Status",
+        "Available Balance",
+        "Branch",
+        "Branch Name",
+        "Currency",
+        "IFSC",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS-",
+        "IMPS/",
+        "NACH",
+        "POS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "computer generated",
+        "disclaimer",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        7,
+        9,
+        274
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_TXT_041",
+      "fingerprint": "e93b5e65d2fa",
+      "format": "txt",
+      "source_count": 2,
+      "source_ids": [
+        "43fe3f81bc5d6043",
+        "2349db8fb5617b07"
+      ],
+      "columns_in_observed_order": [
+        "Trans Dt Value Dt Transn ID",
+        "Transaction Particulars",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "header_labels_observed": [
+        "Account Number",
+        "From Date",
+        "To Date"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "fixed_width": true
+    },
+    {
+      "template_id": "OBS_PDF_042",
+      "fingerprint": "ede6e80816ae",
+      "format": "pdf",
+      "source_count": 7,
+      "source_ids": [
+        "c263d923ce45c3fa",
+        "f57df6b0a00a431b",
+        "f55fb78b08f5562e",
+        "1bf22469a13a6c60",
+        "38ce5795f1f629c5",
+        "a33cbafd60bf8383",
+        "ab865d14934cd5a2"
+      ],
+      "columns_in_observed_order": [
+        "DATE",
+        "PARTICULARS",
+        "CHQ.NO.",
+        "WITHDRAWALS",
+        "DEPOSITS",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Branch",
+        "Date of Statement",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "CHQ",
+        "IMPS/",
+        "NEFT-",
+        "RTGS-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "computer generated",
+        "end of statement",
+        "page"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        2,
+        12,
+        35,
+        106
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_CSV_043",
+      "fingerprint": "ee6a5d16dca6",
+      "format": "csv",
+      "source_count": 1,
+      "source_ids": [
+        "65da748bfaeb0762"
+      ],
+      "columns_in_observed_order": [
+        "Ac_No",
+        "AC_Name",
+        "Tran_ID",
+        "Tran_Date",
+        "Tran_Type",
+        "Dr_Amt",
+        "Cr_Amt",
+        "Balance",
+        "Narration",
+        "pstd_dt"
+      ],
+      "header_labels_observed": [],
+      "date_formats_observed": [
+        "DD-MM-YY",
+        "DD-MM-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS/",
+        "NEFT-",
+        "UPI/"
+      ],
+      "balance_behavior": "not_determined_from_header",
+      "footer_markers_observed": [],
+      "delimiter": ","
+    },
+    {
+      "template_id": "OBS_XLS_044",
+      "fingerprint": "f6262ab4da28",
+      "format": "xls",
+      "source_count": 2,
+      "source_ids": [
+        "93e2c1fed5a5d34b",
+        "c9c38396b7ddede5"
+      ],
+      "columns_in_observed_order": [
+        "ACCOUNT NO.",
+        "TRAN DATE",
+        "VALUE DATE",
+        "TRAN PARTICULAR",
+        "INSTRUMENT NO",
+        "DEBIT AMOUNT",
+        "CREDIT AMOUNT",
+        "BALANCE AMOUNT",
+        "BALANCE INDICATOR",
+        "ACCOUNT NAME",
+        "SOL ID",
+        "SOL_DESC",
+        "TRAN ID",
+        "TRAN AMT",
+        "TRAN TYPE",
+        "TRAN SUB TYPE",
+        "PART TRAN TYPE",
+        "TRAN RMKS",
+        "TRAN PART CODE",
+        "TRAN PART 2",
+        "REF NUM",
+        "BENEF/REMIT IFSC CODE",
+        "BENEF/REMIT ACCT NO",
+        "BENEF/REMIT ACCT NAME",
+        "DTH_SOLID",
+        "DTH_SOLDESC"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account Name",
+        "Account No",
+        "IFSC",
+        "IFSC Code"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "YYYY-MM-DD"
+      ],
+      "narration_prefixes_observed": [
+        "IMPS/",
+        "UPI-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "delimiter": null
+    },
+    {
+      "template_id": "OBS_PDF_045",
+      "fingerprint": "fe6a25e89727",
+      "format": "pdf",
+      "source_count": 1,
+      "source_ids": [
+        "cc440960250bc9fa"
+      ],
+      "columns_in_observed_order": [
+        "TXN DT",
+        "POST DATE",
+        "TXN TYPE",
+        "REF CHQ NO",
+        "NARRATION",
+        "REF TXN NO",
+        "TXN BRANCH DEBIT",
+        "CREDIT",
+        "BALANCE"
+      ],
+      "header_labels_observed": [
+        "Branch"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YY",
+        "DD/MM/YY",
+        "DD/MM/YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM-CASH",
+        "CASH DEPOSIT",
+        "CHQ",
+        "IMPS-",
+        "NEFT-",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        34
+      ],
+      "pdf_extraction_mode": "text_layer"
+    },
+    {
+      "template_id": "OBS_PDF_046",
+      "fingerprint": "ff38372341c0",
+      "format": "pdf",
+      "source_count": 2,
+      "source_ids": [
+        "5a26abcd90ebde30",
+        "4bd050bd24fecbc2"
+      ],
+      "columns_in_observed_order": [
+        "Tran. Date",
+        "Tran. Type",
+        "Cheque No.",
+        "Transaction Particulars",
+        "Tran. Remarks",
+        "Withdrawals",
+        "Deposits",
+        "Balance(Rs.)"
+      ],
+      "header_labels_observed": [
+        "ACCOUNT NO",
+        "Account Name",
+        "Account No",
+        "Branch",
+        "Closing Balance",
+        "IFSC",
+        "IFSC Code",
+        "Opening Balance"
+      ],
+      "date_formats_observed": [
+        "DD-MM-YYYY",
+        "DD-Mon-YYYY"
+      ],
+      "narration_prefixes_observed": [
+        "ATM/",
+        "IMPS/",
+        "NEFT/",
+        "RTGS/",
+        "UPI/"
+      ],
+      "balance_behavior": "separate_debit_credit_with_running_balance",
+      "footer_markers_observed": [
+        "closing balance"
+      ],
+      "text_layer": true,
+      "page_header_repeated": true,
+      "pdf_page_counts": [
+        157
+      ],
+      "pdf_extraction_mode": "text_layer"
+    }
+  ],
+  "source_coverage": [
+    {
+      "source_id": "d84980b86f1fb746",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "f330f02fc70bf138",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "1cccfff9b678963e",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_025"
+    },
+    {
+      "source_id": "510823c02197955b",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "df6d18457026b6b2",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "ac9fb59e2a4b3054",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_001"
+    },
+    {
+      "source_id": "bbc229a1d2b8f5d8",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "e8472e9098edc8aa",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_010"
+    },
+    {
+      "source_id": "ea04c2f17c6e19d7",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "22f52aaf02682e54",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "f1740ac71a6c6a44",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "526250f0c29816a2",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "0c919736548e1693",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "1d4465a500d17af1",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_035"
+    },
+    {
+      "source_id": "ac5fe7881cf00a6f",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_018"
+    },
+    {
+      "source_id": "87b5d8aca73ecab4",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "a91b98523e006041",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "b75a3fbc45a31b95",
+      "source_set": "primary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "8d856fb60c2621fd",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_012"
+    },
+    {
+      "source_id": "6721b1745741dede",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_020"
+    },
+    {
+      "source_id": "8af324b0ef810407",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "b77e16c9ff828ff8",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "b991fcd17f1553ed",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_020"
+    },
+    {
+      "source_id": "88e481ec234b1812",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_040"
+    },
+    {
+      "source_id": "e36343a38339b6e5",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_021"
+    },
+    {
+      "source_id": "c263d923ce45c3fa",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "b6382c00bf2c517e",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_022"
+    },
+    {
+      "source_id": "8fab63e9551a2a32",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_012"
+    },
+    {
+      "source_id": "dcdf608c9bff61d9",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "3381c02a0449d7a6",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "b0c74017f0dd67d6",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_009"
+    },
+    {
+      "source_id": "17c2e9b15183e374",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "1c6f70e6ed67397b",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "93e2c1fed5a5d34b",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_044"
+    },
+    {
+      "source_id": "376278186e754065",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_034"
+    },
+    {
+      "source_id": "8541a1959d33b5e9",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "bfb4b6ae58582039",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "9bb4cb3209578ae2",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "c53ccf423ec2302b",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "15a37e93b7c09e4b",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "ac510d6b6f73c136",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "3660b26400f3877e",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "f673c0f52f53df4a",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "f11b5044ccf22972",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "246a6b77ae8e7461",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "5de931c2ee6ac79f",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "4264252e7aec4a6b",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "e29e67a7d93a8460",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_039"
+    },
+    {
+      "source_id": "5a26abcd90ebde30",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_046"
+    },
+    {
+      "source_id": "4bd050bd24fecbc2",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_046"
+    },
+    {
+      "source_id": "2336226e46bc84f7",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_014"
+    },
+    {
+      "source_id": "b8c9c4b85209f0ec",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_028"
+    },
+    {
+      "source_id": "78b83284894a71ef",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_007"
+    },
+    {
+      "source_id": "e6f25146d9607897",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_040"
+    },
+    {
+      "source_id": "b8a47189a581dfe2",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_028"
+    },
+    {
+      "source_id": "45e58cee4819803b",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_033"
+    },
+    {
+      "source_id": "fb0daa129f3209a6",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_014"
+    },
+    {
+      "source_id": "0fb8843685c8d71b",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_014"
+    },
+    {
+      "source_id": "149f85f4a28e201d",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "8eb17c51a759e4ae",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "a0dc41548f7d832f",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "6ba41eb178888ab3",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "7ea2af73109d671f",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_020"
+    },
+    {
+      "source_id": "318cf1ac4ba5f68a",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_028"
+    },
+    {
+      "source_id": "cc440960250bc9fa",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_045"
+    },
+    {
+      "source_id": "ad6a21ecc866c55f",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "9f52f7c71214579a",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "1fb3c1fa73ab5b55",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_012"
+    },
+    {
+      "source_id": "4d4f699fc13e6979",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_028"
+    },
+    {
+      "source_id": "a169fda765e96ac9",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_009"
+    },
+    {
+      "source_id": "3167f1c9cf649729",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_009"
+    },
+    {
+      "source_id": "675d67a8036f8c71",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_012"
+    },
+    {
+      "source_id": "dd49913438667c05",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_016"
+    },
+    {
+      "source_id": "97d62a4cd65d207c",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_028"
+    },
+    {
+      "source_id": "c9c38396b7ddede5",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_044"
+    },
+    {
+      "source_id": "bdc172b27dda3410",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_038"
+    },
+    {
+      "source_id": "318cb849054cbfce",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_013"
+    },
+    {
+      "source_id": "c4d57a7b9f041297",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_028"
+    },
+    {
+      "source_id": "f8044eb9ae1e0e0c",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "dc1074bc6a67e8fa",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_037"
+    },
+    {
+      "source_id": "5700899783e6dcfe",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_037"
+    },
+    {
+      "source_id": "3b4f7f24c629d8dd",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_017"
+    },
+    {
+      "source_id": "9287e49d2205eb01",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_029"
+    },
+    {
+      "source_id": "508cd86bc26cb30e",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_005"
+    },
+    {
+      "source_id": "4d86d882b5d41e3f",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_005"
+    },
+    {
+      "source_id": "41e8826145f23afc",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_005"
+    },
+    {
+      "source_id": "830859ef15cbd014",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_024"
+    },
+    {
+      "source_id": "adf7119a60b53ee9",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_024"
+    },
+    {
+      "source_id": "aecd3f20a2d81c4f",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_024"
+    },
+    {
+      "source_id": "f5df1e7954877042",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_024"
+    },
+    {
+      "source_id": "1e4c24d2584c8775",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_026"
+    },
+    {
+      "source_id": "ff4bf5f99adeb99f",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_036"
+    },
+    {
+      "source_id": "fc2c64d0e7cc7fa6",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_030"
+    },
+    {
+      "source_id": "65da748bfaeb0762",
+      "source_set": "secondary",
+      "format": "csv",
+      "template_id": "OBS_CSV_043"
+    },
+    {
+      "source_id": "0921ad0285da8874",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    },
+    {
+      "source_id": "c5bed0e19dd064fc",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_018"
+    },
+    {
+      "source_id": "43fe3f81bc5d6043",
+      "source_set": "secondary",
+      "format": "txt",
+      "template_id": "OBS_TXT_041"
+    },
+    {
+      "source_id": "2349db8fb5617b07",
+      "source_set": "secondary",
+      "format": "txt",
+      "template_id": "OBS_TXT_041"
+    },
+    {
+      "source_id": "2d1b83ea4e3d5960",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_011"
+    },
+    {
+      "source_id": "25c98c69002bb77a",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_015"
+    },
+    {
+      "source_id": "a51f503731dfb12c",
+      "source_set": "secondary",
+      "format": "txt",
+      "template_id": "OBS_TXT_004"
+    },
+    {
+      "source_id": "08f4f10fb24dd86e",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_023"
+    },
+    {
+      "source_id": "d4c7a180647de4ef",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_008"
+    },
+    {
+      "source_id": "794037b44c8f450e",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_003"
+    },
+    {
+      "source_id": "7f4534f0c1f1663b",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_023"
+    },
+    {
+      "source_id": "52380672bc07a34d",
+      "source_set": "secondary",
+      "format": "xlsx",
+      "template_id": "OBS_XLSX_023"
+    },
+    {
+      "source_id": "f57df6b0a00a431b",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "1e1c918b45a02831",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    },
+    {
+      "source_id": "1ce3b98fb465d8bb",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    },
+    {
+      "source_id": "f55fb78b08f5562e",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "12544cc36fb18409",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    },
+    {
+      "source_id": "336ed77373bc6d0c",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    },
+    {
+      "source_id": "875b268f39252483",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_040"
+    },
+    {
+      "source_id": "1bf22469a13a6c60",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "38ce5795f1f629c5",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "f26e1e58494a7ef2",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    },
+    {
+      "source_id": "a33cbafd60bf8383",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "ab865d14934cd5a2",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_042"
+    },
+    {
+      "source_id": "6ba1b658afa5e259",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_027"
+    },
+    {
+      "source_id": "fbdcb0bf26f7c590",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_006"
+    },
+    {
+      "source_id": "7a5d47a03b232bd7",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "2722a7454ac99f6c",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "221af2a59e166513",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "3a5bfb4e308be3aa",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "5c98ddbbee6cd2bc",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "bd3add627b48e050",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "dbac0f67c5b63312",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "a29e9030f6c01263",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "41623ed349a5bfa1",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "b95d6f4d2b53098e",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "6df6e5a658cadf74",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "4822565c4ef0903c",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "8a5b3325dbbcdefd",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "42c44a3005573c86",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "ea6b67ee8cdfed11",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "d55f441bbd2c5d30",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "88d85edec5443cd4",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "4f456718beebee2f",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "32b84b11bfabb1a0",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_031"
+    },
+    {
+      "source_id": "3417043fd59b4453",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_014"
+    },
+    {
+      "source_id": "de06384aa492334c",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "d13b024ba5789b25",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "cb6179d6fb6e8ac5",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "050a8aec76831dca",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "09bef6fd275e516a",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "d5d46f88c6d3cb73",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "5e7e67f2787c5fdf",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "e5725febe9fb36ea",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "cc897021c5f15e08",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "808ae08b82c6ce84",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "17e7203330a225d2",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "e2f70c3e5c551435",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "dbfbcc4b0910d255",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "1cd6a353c5ab84cb",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "83ff5d1f23f8f4fd",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "6d19d94d9cab3517",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "57bfe2d8582c6ec0",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "65a3f53170dfc928",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "a69f278a764a1104",
+      "source_set": "secondary",
+      "format": "xls",
+      "template_id": "OBS_XLS_019"
+    },
+    {
+      "source_id": "e6050ae15ff1ba5a",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_027"
+    },
+    {
+      "source_id": "09d396d7a1862dc6",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_002"
+    },
+    {
+      "source_id": "c9a42402c3e2f2fe",
+      "source_set": "secondary",
+      "format": "pdf",
+      "template_id": "OBS_PDF_032"
+    }
+  ],
+  "generator_template_selection": {
+    "pdf": "OBS_PDF_028",
+    "csv": "OBS_CSV_009",
+    "xlsx": "OBS_XLSX_023",
+    "txt": "OBS_TXT_041"
+  }
+}

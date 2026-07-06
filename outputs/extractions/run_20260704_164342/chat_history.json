@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-07-04 16:49:55",
+    "question": "list all the account holders name and number",
+    "answer": "There are 3 accounts in this case:\n  - SONIA RAO — account 85173206686139 at HDFC BANK LTD\n  - SUSHMA DUBEY — account 8008270503 at KOTAK MAHINDRA BANK LTD\n  - AKASH GHOSH — account 97556000042808 at THE FEDERAL BANK LIMITED",
+    "language": "en",
+    "matched_pattern": "list_account_holders"
+  },
+  {
+    "timestamp": "2026-07-04 16:50:18",
+    "question": "give me the account details for sonia rao",
+    "answer": "Full details for account 85173206686139:\nAccount number: 85173206686139\nAccount holder: SONIA RAO\nBank: HDFC BANK LTD  |  Branch: NEHRU PLACE\nIFSC: HDFC0874946  |  MICR: not extracted\nAccount type: not extracted\nStatement period: 01-12-2024 To 09-05-2026\nOpening balance: not extracted\nClosing balance: ₹207,374.21\nNominee: not extracted\nCustomer ID: not extracted\nGSTIN: not extracted  |  CKYC: not extracted\nCurrency: not extracted\nAddress: not extracted\nTotal transactions: 1069 clean, 0 flagged",
+    "language": "en",
+    "matched_pattern": "account_details"
+  },
+  {
+    "timestamp": "2026-07-04 16:50:54",
+    "question": "show me the money flow graph for that account",
+    "answer": "Money-flow Sankey across 3 account(s) and 3277 transaction(s) totalling ₹23,714,414.24. Top categories by amount: UPI: ₹11,584,477.51, Other: ₹7,828,921.63, NEFT: ₹2,442,779.41.",
+    "language": "en",
+    "matched_pattern": "graph_request_sankey"
+  }
+]

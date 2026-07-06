@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "folder": "pattern_05_structuring_smurfing",
+  "description": "Repeated cash deposits just below a common reporting threshold.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0023",
+      "role": "subject",
+      "file": "statements/01441964801494 statement.pdf",
+      "files": [
+        "statements/01441964801494 statement.pdf"
+      ],
+      "fabricated_account_number": "01441964801494",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0024",
+      "role": "clean_control",
+      "file": "statements/59731337686839-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/59731337686839-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "59731337686839",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0025",
+      "role": "clean_control",
+      "file": "statements/2577033909619367-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/2577033909619367-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "2577033909619367",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0026",
+      "role": "clean_control",
+      "file": "statements/371676562339215_statement.xlsx",
+      "files": [
+        "statements/371676562339215_statement.xlsx"
+      ],
+      "fabricated_account_number": "371676562339215",
+      "bank": "AXIS BANK LIMITED"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 5,
+      "pattern_name": "structuring_smurfing",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0023"
+      ],
+      "expected_amount_range": [
+        42200.0,
+        49900.0
+      ],
+      "notes": "Repeated cash deposits just below a common reporting threshold.",
+      "expected_txn_refs": [
+        "526241052483",
+        "532521735031",
+        "871401609943",
+        "838468610909",
+        "857019413251",
+        "138970001673"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0023_000335",
+        "SYN0023_000337",
+        "SYN0023_000339",
+        "SYN0023_000342",
+        "SYN0023_000349",
+        "SYN0023_000354"
+      ]
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "pattern_id": 7,
+      "reason": "No unrelated fixture planted for this pattern."
+    }
+  ]
+}

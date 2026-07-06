@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "RAM PHALODI",
+    "account_number": "ACCT_1",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "PHALODI",
+    "branch_address": "GOD MEGHWALO KI DHANI PHALO, PHALODI, MORIYA, RJ 342301",
+    "bank_name": "UCO Bank",
+    "statement_period": "19-05-2025 to 03-12-2025",
+    "currency": "",
+    "opening_balance": "0.00",
+    "closing_balance": "10557.10"
+  },
+  "transactions": [],
+  "source": "groq"
+}

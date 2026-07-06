@@ -1,0 +1,292 @@
+{
+  "account_details": {
+    "account_holder_name": "DHARMENDRA KUMAR",
+    "account_number": "12668100018596",
+    "ifsc_code": "BARB0DHAIYA",
+    "branch_name": "DAHIYAWAN",
+    "branch_address": "Jai Ambe Chawl Satsang Bhavan Pokhran Road No 1 Upavan Thane West PIN: 400606",
+    "bank_name": "Bank of Baroda",
+    "statement_period": "01-06-2024 to 29-06-2024",
+    "currency": "INR",
+    "opening_balance": "16389.40",
+    "closing_balance": "25073.92"
+  },
+  "transactions": [
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318262797206/JIVRAYEL /Punjab Na/UPI",
+      "reference_number": "318262797206",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "150.00",
+      "balance": "16,239.40",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318273779413/SANTOSH/India Pos/UPI",
+      "reference_number": "318273779413",
+      "cheque_number": "",
+      "debit": "250.00",
+      "credit": "",
+      "balance": "15,989.40",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "920010065119877:Int.Pd:01-04-2023 to 30-06-2023",
+      "reference_number": "920010065119877",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "305.00",
+      "balance": "16,294.40",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "NRP21555713RatanshahaniJulyRen",
+      "reference_number": "NRP21555713",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "20,000.00",
+      "balance": "36,294.40",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "02-06-2024",
+      "time": "",
+      "description": "ACH-DR-TPCapfrst IDFC FIRST-1177262059-UTIB702160",
+      "reference_number": "1177262059",
+      "cheque_number": "",
+      "debit": "3,172.00",
+      "credit": "",
+      "balance": "33,122.40",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "02-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318395072837/PRINCE J/State Ban/UPI",
+      "reference_number": "318395072837",
+      "cheque_number": "",
+      "debit": "20,000.00",
+      "credit": "",
+      "balance": "13,122.40",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "02-06-2024",
+      "time": "",
+      "description": "UPI/P2M/318315031631/RANE SAPN/Yes Bank /UPI",
+      "reference_number": "318315031631",
+      "cheque_number": "",
+      "debit": "240.00",
+      "credit": "",
+      "balance": "12,882.40",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "03-06-2024",
+      "time": "",
+      "description": "ECS/UTIBDE65064150202305/Bajaj Finance Ltd_SMS OT",
+      "reference_number": "UTIBDE65064150202305",
+      "cheque_number": "",
+      "debit": "5,372.00",
+      "credit": "",
+      "balance": "7,510.40",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "03-06-2024",
+      "time": "",
+      "description": "UPI/P2M/318449527302/TBSB/Yes Bank /UPI",
+      "reference_number": "318449527302",
+      "cheque_number": "",
+      "debit": "80.00",
+      "credit": "",
+      "balance": "7,430.40",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "13-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318464746484/AHUJA TAR/The Kalya/mahavir",
+      "reference_number": "318464746484",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "30,000.00",
+      "balance": "37,430.40",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "15-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318461194849/AHUJA BHA/The Kalya/mahavee",
+      "reference_number": "318461194849",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "37,431.40",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "23-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318422890698/AHUJA BHA/The Kalya/mahavee",
+      "reference_number": "318422890698",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "69,999.00",
+      "balance": "107,430.40",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "23-06-2024",
+      "time": "",
+      "description": "UPI/P2M/318466403242/CredClub/ICICI Ban/cred",
+      "reference_number": "318466403242",
+      "cheque_number": "",
+      "debit": "55,661.48",
+      "credit": "",
+      "balance": "51,768.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "24-06-2024",
+      "time": "",
+      "description": "NEFT/N185232529725945/JOINMAY M/HDFC BANK/NEFT -",
+      "reference_number": "N185232529725945",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "13,993.00",
+      "balance": "65,761.92",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "24-06-2024",
+      "time": "",
+      "description": "UPI/P2M/318576948654/CredClub/ICICI Ban/cred",
+      "reference_number": "318576948654",
+      "cheque_number": "",
+      "debit": "44,333.00",
+      "credit": "",
+      "balance": "21,428.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "24-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318577033982/RAKESH KU/HDFC BANK/UPI",
+      "reference_number": "318577033982",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "6,500.00",
+      "balance": "14,928.92",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "25-06-2024",
+      "time": "",
+      "description": "UPI/P2A/318598716821/AHUJA TAR/The Kalya/mahavir",
+      "reference_number": "318598716821",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "10,240.00",
+      "balance": "25,168.92",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "25-06-2024",
+      "time": "",
+      "description": "UPI/P2M/320232759897/SANGAM SA/Paytm Pay/UPI",
+      "reference_number": "320232759897",
+      "cheque_number": "",
+      "debit": "40.00",
+      "credit": "",
+      "balance": "25,128.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "25-06-2024",
+      "time": "",
+      "description": "GST @18% on Charge",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "9.00",
+      "credit": "",
+      "balance": "25,119.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "26-06-2024",
+      "time": "",
+      "description": "Consolidated Charges for A/c",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "25,069.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "26-06-2024",
+      "time": "",
+      "description": "UPI/P2A/320472635961/VINODKUMA/Karnataka /UPI",
+      "reference_number": "320472635961",
+      "cheque_number": "",
+      "debit": "17,000.00",
+      "credit": "",
+      "balance": "8,069.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "27-06-2024",
+      "time": "",
+      "description": "UPI/P2A/320662564542/Supriya /Airtel Pa/UPI",
+      "reference_number": "320662564542",
+      "cheque_number": "",
+      "debit": "7,000.00",
+      "credit": "",
+      "balance": "1,069.92",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "27-06-2024",
+      "time": "",
+      "description": "SHAIKH HU/HDFC BANK/udhari",
+      "reference_number": "UPI/P2A/320852619993",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "20,000.00",
+      "balance": "21,069.92",
+      "transaction_type": ""
+    },
+    {
+      "date": "28-06-2024",
+      "time": "",
+      "description": "Rakesh Ku/Bank of B/Payment",
+      "reference_number": "UPI/P2A/321112701039",
+      "cheque_number": "",
+      "debit": "6,000.00",
+      "credit": "",
+      "balance": "27,069.92",
+      "transaction_type": ""
+    },
+    {
+      "date": "29-06-2024",
+      "time": "",
+      "description": "CredClub/ICICI Ban/cred",
+      "reference_number": "UPI/P2M/321276428964",
+      "cheque_number": "",
+      "debit": "1,996.00",
+      "credit": "",
+      "balance": "25,073.92",
+      "transaction_type": ""
+    }
+  ],
+  "source": "groq"
+}

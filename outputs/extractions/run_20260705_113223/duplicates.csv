@@ -1,0 +1,94 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+55,40,00869354051,05/05/2025,200152.0,200152.0,0.0,BLKRTGS/OnscreenPayment/6053084803 0,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+101,99,00869354051,06/05/2025,25000.0,25000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+137,107,00869354051,06/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+138,129,00869354051,06/05/2025,20000.0,20000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+140,129,00869354051,06/05/2025,20000.0,20000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+141,129,00869354051,06/05/2025,20000.0,20000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+158,154,00869354051,07/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+160,154,00869354051,07/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+178,161,00869354051,07/05/2025,35000.0,35000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+190,154,00869354051,07/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+199,185,00869354051,07/05/2025,40000.0,40000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+421,409,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/OnscreenPayment/dasdsa,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+441,440,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+454,445,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+455,448,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+456,444,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+457,440,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+496,495,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdasd,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+519,488,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+545,500,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+547,500,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+609,607,92883409730,26/05/2025,300000.0,300000.0,0.0,BLKIFT/OnscreenPayment/50105202521,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+611,607,92883409730,26/05/2025,300000.0,300000.0,0.0,BLKIFT/OnscreenPayment/50105202521,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+612,607,92883409730,26/05/2025,300000.0,300000.0,0.0,BLKIFT/OnscreenPayment/50105202521,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+728,726,110178980040,19/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+731,726,110178980040,19/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+739,737,110178980040,20/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+741,737,110178980040,20/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+743,737,110178980040,20/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+751,748,110178980040,21/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+769,766,110178980040,24/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+770,766,110178980040,24/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+773,766,110178980040,24/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+778,777,110178980040,25/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+781,777,110178980040,25/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+783,777,110178980040,25/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+789,787,110178980040,26/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+792,787,110178980040,26/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+795,787,110178980040,26/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+801,799,110178980040,28/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+803,799,110178980040,28/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+805,799,110178980040,28/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+812,809,110178980040,29/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+813,809,110178980040,29/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+815,809,110178980040,29/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+835,833,110178980040,03/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+838,833,110178980040,03/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+843,841,110178980040,05/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+846,841,110178980040,05/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+849,841,110178980040,05/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+856,854,110178980040,06/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+858,854,110178980040,06/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+859,854,110178980040,06/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+865,864,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+869,864,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+871,864,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+874,864,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+882,879,110178980040,09/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+884,879,110178980040,09/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+886,879,110178980040,09/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+896,893,110178980040,14/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+898,893,110178980040,14/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+900,893,110178980040,14/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+913,909,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+915,912,110178980040,15/05/2025,0.0,-24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+917,909,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+920,909,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+922,909,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+923,909,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+933,932,110178980040,16/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+935,932,110178980040,16/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+939,938,110178980040,16/05/2025,20.06,20.06,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+940,932,110178980040,16/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+948,946,110178980040,17/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+951,946,110178980040,17/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+953,946,110178980040,17/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+961,960,110178980040,19/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+964,960,110178980040,19/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+965,960,110178980040,19/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+975,974,110178980040,20/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+977,974,110178980040,20/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+988,986,110178980040,21/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+989,986,110178980040,21/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+992,986,110178980040,21/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1006,1005,110178980040,26/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1009,1005,110178980040,26/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1011,1005,110178980040,26/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1018,1016,110178980040,27/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1019,1016,110178980040,27/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1022,1016,110178980040,27/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1029,1027,110178980040,29/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1031,1027,110178980040,29/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1033,1027,110178980040,29/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005

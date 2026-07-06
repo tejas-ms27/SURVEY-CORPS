@@ -1,0 +1,197 @@
+{
+  "session_id": "viewer_session",
+  "created_at": "2026-06-22T15:01:44",
+  "summary": {
+    "total_rows": 291,
+    "clean_rows": 183,
+    "flagged_rows": 108,
+    "files_processed": 4,
+    "files_failed": []
+  },
+  "files": [
+    {
+      "file": "00001.pdf",
+      "account_ref": "00001",
+      "bank_name": "",
+      "status": "ok",
+      "ocr": {
+        "engine": "mixed",
+        "pages": [
+          {
+            "page": 1,
+            "path": "tesseract_low_kept",
+            "confidence": 76.2
+          },
+          {
+            "page": 2,
+            "path": "tesseract",
+            "confidence": 82.1
+          },
+          {
+            "page": 3,
+            "path": "tesseract",
+            "confidence": 87.3
+          }
+        ],
+        "tesseract_confidence_avg": 81.9,
+        "vision_pages": 0
+      },
+      "route": "pdf_scanned",
+      "raw_text_chars": 10579,
+      "column_map": {
+        "engine": "llm_structurer"
+      },
+      "column_map_source": "cache",
+      "llm_txn_count": 79,
+      "account_details": {
+        "account_holder": "TRADE LINKS INDIA",
+        "account_number": "78439336112",
+        "ifsc_code": "PROGO0920445",
+        "bank_name": "Progressive National Bank",
+        "branch": "KOLKATA HOWRAH",
+        "account_type": "",
+        "statement_period": "01 Jan 2024 To 31 Mar 2024",
+        "opening_balance": "59,131.72",
+        "closing_balance": "21,661.82",
+        "account_ref": "00001",
+        "branch_address": "Alipore, Kolkata, West Bengal, 700027",
+        "currency": "INR"
+      },
+      "rows_standardised": 79,
+      "rows_clean": 69,
+      "rows_flagged": 10,
+      "validation": {
+        "llm_transactions": 79,
+        "rows_in_output": 79,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": true
+      }
+    },
+    {
+      "file": "672652313-Statement-748xxxx8590-09092023-201306.pdf",
+      "account_ref": "672652313-Statement-748xxxx8590-09092023-201306",
+      "bank_name": "",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "raw_text_chars": 41606,
+      "column_map": {
+        "engine": "llm_structurer_fallback"
+      },
+      "column_map_source": "cache",
+      "llm_txn_count": 186,
+      "account_details": {
+        "account_holder": "BATCHU SATHISH",
+        "account_number": "7486268590",
+        "ifsc_code": "IDIB000M305",
+        "bank_name": "Indian Bank",
+        "branch": "MIRYALAGUDA",
+        "account_type": "",
+        "statement_period": "From 01/05/2023 To 09/09/2023",
+        "opening_balance": "",
+        "closing_balance": "22000.86CR",
+        "account_ref": "672652313-Statement-748xxxx8590-09092023-201306",
+        "branch_address": "",
+        "currency": "INR"
+      },
+      "rows_standardised": 186,
+      "rows_clean": 97,
+      "rows_flagged": 89,
+      "validation": {
+        "llm_transactions": 186,
+        "rows_in_output": 186,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": true
+      }
+    },
+    {
+      "file": "WhatsApp Image 2026-06-22 at 12.46.41.jpeg",
+      "account_ref": "WhatsApp Image 2026-06-22 at 12.46.41",
+      "bank_name": "",
+      "status": "ok",
+      "ocr": {
+        "engine": "groq_vision",
+        "source": "cache",
+        "raw_chars": 2718
+      },
+      "route": "image",
+      "column_map_source": "vision",
+      "raw_text_chars": 2718,
+      "account_details": {
+        "account_holder": "KAMALESH SUBHASH INAMDAR",
+        "account_number": "1357102000000198",
+        "ifsc_code": "",
+        "bank_name": "IDBI BANK",
+        "branch": "Naree-Pune (Sol-1357)",
+        "account_type": "",
+        "statement_period": "01/04/2020 to 31/03/2021",
+        "opening_balance": "",
+        "closing_balance": "27,528.83",
+        "account_ref": "WhatsApp Image 2026-06-22 at 12.46.41"
+      },
+      "rows_standardised": 17,
+      "rows_clean": 9,
+      "rows_flagged": 8,
+      "validation": {
+        "llm_transactions": 17,
+        "rows_in_output": 17,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": false,
+        "ifsc_in_text": false
+      }
+    },
+    {
+      "file": "WhatsApp Image 2026-06-22 at 12.51.18.jpeg",
+      "account_ref": "WhatsApp Image 2026-06-22 at 12.51.18",
+      "bank_name": "",
+      "status": "ok",
+      "ocr": {
+        "engine": "groq_vision",
+        "source": "cache",
+        "raw_chars": 1779
+      },
+      "route": "image",
+      "column_map_source": "vision",
+      "raw_text_chars": 1779,
+      "account_details": {
+        "account_holder": "MR. VINATAK G K",
+        "account_number": "910100819136525",
+        "ifsc_code": "HDFC00001040",
+        "bank_name": "HDFC BANK",
+        "branch": "KANAKAPURA",
+        "account_type": "SALARY - FAMILY SAVINGS ACCOUNT(127)",
+        "statement_period": "01/03/2026  To  31/05/2026",
+        "opening_balance": "1.00",
+        "closing_balance": "3.00",
+        "account_ref": "WhatsApp Image 2026-06-22 at 12.51.18"
+      },
+      "rows_standardised": 9,
+      "rows_clean": 8,
+      "rows_flagged": 1,
+      "validation": {
+        "llm_transactions": 9,
+        "rows_in_output": 9,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": false,
+        "ifsc_in_text": false
+      }
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "TRADE_LINKS_INDIA_78439336112.json",
+      "BATCHU_SATHISH_7486268590.json",
+      "KAMALESH_SUBHASH_INAMDAR_1357102000000198.json",
+      "MR_VINATAK_G_K_910100819136525.json"
+    ]
+  }
+}

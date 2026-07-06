@@ -1,0 +1,26 @@
+[
+  {
+    "file_name": "00002.pdf",
+    "route": "pdf_digital",
+    "parser_tier": "table_structured_fallback",
+    "fallback_method_used": "structured_table",
+    "raw_text_char_count": 22947,
+    "transaction_like_lines": 152,
+    "rows_extracted": 134,
+    "rows_clean": 134,
+    "rows_flagged": 0,
+    "reconciliation_rate": 1.0,
+    "zero_row_status": "ok",
+    "zero_row_reason": "",
+    "account_number_found": false,
+    "account_number": "UNKNOWN-00002",
+    "holder_found": true,
+    "holder": "D D",
+    "ifsc_found": false,
+    "ifsc": "",
+    "bank_name": "Unknown Bank",
+    "metadata_source": "regex",
+    "column_map_source": "pdf_table_header",
+    "llm_calls": 2
+  }
+]

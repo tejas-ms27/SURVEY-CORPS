@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-07-05 11:58:43",
+    "question": "LIST ALL THE ACCOUNT NAMRS AND NUMBER",
+    "answer": "Summary of all 7 accounts in this case:\n• STAR RETAIL LLP — 00869354051 at IDFC First Bank\n  Period: unknown  |  Closing balance: ₹0.00\n  Transactions: 194 clean, 0 flagged\n• VAISHALI TIWARI — 92883409730 at IDFC First Bank\n  Period: unknown  |  Closing balance: ₹0.00\n  Transactions: 129 clean, 0 flagged\n• YASH DUBEY — 25078124219247 at Unknown Bank\n  Period: unknown  |  Closing balance: ₹11,038.48\n  Transactions: 10876 clean, 0 flagged\n• Sumit Rao — 110178980040 at Unknown Bank\n  Period: unknown  |  Closing balance: ₹129.58\n  Transactions: 273 clean, 0 flagged\n• PRIME DISTRIBUTORS ASSOCIATION — 18306700003 at IDFC First Bank\n  Period: unknown  |  Closing balance: ₹0.00\n  Transactions: 171 clean, 0 flagged\n• DEEPA CHHAYA DESAI — 464196045738107 at Unknown Bank\n  Period: 04-01-2024 to 11-12-2025  |  Closing balance: ₹1,403.00\n  Transactions: 154 clean, 0 flagged\n• PIONEER HOLDINGS — 17771917925 at IDFC First Bank\n  Period: unknown  |  Closing balance: ₹0.00\n  Transactions: 178 clean, 0 flagged",
+    "language": "en",
+    "matched_pattern": "all_accounts_summary"
+  },
+  {
+    "timestamp": "2026-07-05 11:59:22",
+    "question": "GIVE ME THE DETAILS OF ACCOUNT 00869354051",
+    "answer": "Full details for account 00869354051:\nAccount number: 00869354051\nAccount holder: STAR RETAIL LLP\nBank: IDFC First Bank  |  Branch: GROUND FLOOR, SOLITAIRE\nIFSC: IDFB0041359  |  MICR: not extracted\nAccount type: Gold\nStatement period: not extracted\nOpening balance: ₹0.00\nClosing balance: ₹0.00\nNominee: not extracted\nCustomer ID: 5401557030\nGSTIN: not extracted  |  CKYC: not extracted\nCurrency: INR\nAddress: not extracted\nTotal transactions: 194 clean, 0 flagged",
+    "language": "en",
+    "matched_pattern": "account_details"
+  }
+]

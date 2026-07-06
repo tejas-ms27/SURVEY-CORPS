@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "CYBERCRAFT SYSTEMS",
+    "account_number": "42H146130224",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "HYDERABAD BANJARA HILLS",
+    "branch_address": "Second Floor Banjara Hills Hyderabad Telangana",
+    "bank_name": "Royal Commerce Bank",
+    "statement_period": "01 Jan 2024 To 31 Mar 2024",
+    "currency": "INR",
+    "opening_balance": "779,226.50",
+    "closing_balance": "2,482,196.19"
+  },
+  "transactions": [],
+  "source": "groq"
+}

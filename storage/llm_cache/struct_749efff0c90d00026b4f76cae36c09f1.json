@@ -1,0 +1,281 @@
+{
+  "account_details": {
+    "account_holder_name": "DHARMENDRA NAME_1",
+    "account_number": "XXXXXXXXX18596",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "DAHIYAWAN",
+    "branch_address": "Jai Ambe Chawl Satsang Bhavan Pokhran Road No 1 Upavan Thane West PIN: 400606",
+    "bank_name": "",
+    "statement_period": "01-06-2024 to 29-06-2024",
+    "currency": "INR",
+    "opening_balance": "16389.40",
+    "closing_balance": "25073.92"
+  },
+  "transactions": [
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_3/JIVRAYEL /Punjab Na",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "150.00",
+      "credit": "",
+      "balance": "16,239.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_4/SANTOSH/India Pos",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "250.00",
+      "credit": "",
+      "balance": "15,989.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "ACCT_5:Int.Pd:01-04-2023 to 30-06-2023",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "305.00",
+      "balance": "16,294.40",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "01-06-2024",
+      "time": "",
+      "description": "NRP21555713RatanshahaniJulyRen",
+      "reference_number": "NRP21555713",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "20,000.00",
+      "balance": "36,294.40",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "02-06-2024",
+      "time": "",
+      "description": "ACH-DR-TPCapfrst IDFC FIRST-ACCT_6-UTIB702160",
+      "reference_number": "UTIB702160",
+      "cheque_number": "",
+      "debit": "3,172.00",
+      "credit": "",
+      "balance": "33,122.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "02-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_7/PRINCE J/State Ban",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "20,000.00",
+      "credit": "",
+      "balance": "13,122.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "02-06-2024",
+      "time": "",
+      "description": "UPI/P2M/ACCT_8/RANE SAPN/Yes Bank",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "240.00",
+      "credit": "",
+      "balance": "12,882.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "03-06-2024",
+      "time": "",
+      "description": "ECS/UTIBDE65064150202305/Bajaj Finance Ltd_SMS OT",
+      "reference_number": "UTIBDE65064150202305",
+      "cheque_number": "",
+      "debit": "5,372.00",
+      "credit": "",
+      "balance": "7,510.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "03-06-2024",
+      "time": "",
+      "description": "UPI/P2M/ACCT_9/TBSB/Yes Bank",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "80.00",
+      "credit": "",
+      "balance": "7,430.40",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "13-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_10/AHUJA TAR/The Kalya/mahavir",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "30,000.00",
+      "balance": "37,430.40",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "15-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_11/AHUJA BHA/The Kalya/mahavee",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "37,431.40",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "23-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_12/AHUJA BHA/The Kalya/mahavee",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "69,999.00",
+      "balance": "107,430.40",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "23-06-2024",
+      "time": "",
+      "description": "UPI/P2M/ACCT_13/CredClub/ICICI Ban/cred",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "55,661.48",
+      "credit": "",
+      "balance": "51,768.92",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "24-06-2024",
+      "time": "",
+      "description": "NEFT/N185232529725945/JOINMAY M/HDFC BANK",
+      "reference_number": "N185232529725945",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "13,993.00",
+      "balance": "65,761.92",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "24-06-2024",
+      "time": "",
+      "description": "UPI/P2M/ACCT_14/CredClub/ICICI Ban/cred",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "44,333.00",
+      "credit": "",
+      "balance": "21,428.92",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "24-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_15/RAKESH KU/HDFC BANK",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "6,500.00",
+      "balance": "14,928.92",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "25-06-2024",
+      "time": "",
+      "description": "UPI/P2M/ACCT_16/SANGAM SA/Paytm Pay",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "40.00",
+      "credit": "",
+      "balance": "25,128.92",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "25-06-2024",
+      "time": "",
+      "description": "GST @18% on Charge",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "9.00",
+      "credit": "",
+      "balance": "25,119.92",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "26-06-2024",
+      "time": "",
+      "description": "Consolidated Charges for A/c",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "25,069.92",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "26-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_17/VINODKUMA/Karnataka",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "17,000.00",
+      "balance": "8,069.92",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "27-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_18/Supriya /Airtel Pa",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "7,000.00",
+      "balance": "1,069.92",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "27-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_19/SHAIKH HU/HDFC",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "20,000.00",
+      "balance": "21,069.92",
+      "transaction_type": "Deposit"
+    },
+    {
+      "date": "28-06-2024",
+      "time": "",
+      "description": "UPI/P2A/ACCT_20/Rakesh Ku/Bank of B",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "6,000.00",
+      "credit": "",
+      "balance": "27,069.92",
+      "transaction_type": "Withdrawal"
+    },
+    {
+      "date": "29-06-2024",
+      "time": "",
+      "description": "UPI/P2M/ACCT_21/CredClub/ICICI Ban/cred",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1,996.00",
+      "credit": "",
+      "balance": "25,073.92",
+      "transaction_type": "Withdrawal"
+    }
+  ],
+  "source": "groq"
+}

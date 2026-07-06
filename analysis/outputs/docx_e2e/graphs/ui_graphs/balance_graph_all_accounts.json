@@ -1,0 +1,843 @@
+{
+  "accounts": [
+    {
+      "account_id": "acct_001",
+      "points": [
+        {
+          "balance": 25100.0,
+          "date": "2025-04-17",
+          "net_amount": 25100.0,
+          "txn_id": "acct_001_000000"
+        },
+        {
+          "balance": 20100.0,
+          "date": "2025-04-17",
+          "net_amount": -5000.0,
+          "txn_id": "acct_001_000001"
+        },
+        {
+          "balance": 15100.0,
+          "date": "2025-04-17",
+          "net_amount": -5000.0,
+          "txn_id": "acct_001_000002"
+        },
+        {
+          "balance": 100.0,
+          "date": "2025-04-17",
+          "net_amount": -15000.0,
+          "txn_id": "acct_001_000003"
+        },
+        {
+          "balance": 50.0,
+          "date": "2025-04-29",
+          "net_amount": -50.0,
+          "txn_id": "acct_001_000004"
+        },
+        {
+          "balance": 40.0,
+          "date": "2025-04-29",
+          "net_amount": -10.0,
+          "txn_id": "acct_001_000005"
+        },
+        {
+          "balance": 197638.0,
+          "date": "2025-04-29",
+          "net_amount": 197598.0,
+          "txn_id": "acct_001_000006"
+        },
+        {
+          "balance": 177638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000007"
+        },
+        {
+          "balance": 157638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000008"
+        },
+        {
+          "balance": 137638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000009"
+        },
+        {
+          "balance": 117638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000010"
+        },
+        {
+          "balance": 97638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000011"
+        },
+        {
+          "balance": 77638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000012"
+        },
+        {
+          "balance": 57638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000013"
+        },
+        {
+          "balance": 37638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000014"
+        },
+        {
+          "balance": 57638.0,
+          "date": "2025-04-29",
+          "net_amount": 20000.0,
+          "txn_id": "acct_001_000015"
+        },
+        {
+          "balance": 37638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000016"
+        },
+        {
+          "balance": 57638.0,
+          "date": "2025-04-29",
+          "net_amount": 20000.0,
+          "txn_id": "acct_001_000017"
+        },
+        {
+          "balance": 37638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000018"
+        },
+        {
+          "balance": 17638.0,
+          "date": "2025-04-29",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000019"
+        },
+        {
+          "balance": 138.0,
+          "date": "2025-04-29",
+          "net_amount": -17500.0,
+          "txn_id": "acct_001_000020"
+        },
+        {
+          "balance": 78.0,
+          "date": "2025-04-29",
+          "net_amount": -60.0,
+          "txn_id": "acct_001_000021"
+        },
+        {
+          "balance": 70.0,
+          "date": "2025-04-30",
+          "net_amount": -8.0,
+          "txn_id": "acct_001_000022"
+        },
+        {
+          "balance": 30.0,
+          "date": "2025-04-30",
+          "net_amount": -40.0,
+          "txn_id": "acct_001_000023"
+        },
+        {
+          "balance": 0.0,
+          "date": "2025-04-30",
+          "net_amount": -30.0,
+          "txn_id": "acct_001_000024"
+        },
+        {
+          "balance": 50.0,
+          "date": "2025-05-01",
+          "net_amount": 50.0,
+          "txn_id": "acct_001_000025"
+        },
+        {
+          "balance": 39.0,
+          "date": "2025-05-01",
+          "net_amount": -11.0,
+          "txn_id": "acct_001_000026"
+        },
+        {
+          "balance": 26.0,
+          "date": "2025-05-02",
+          "net_amount": -13.0,
+          "txn_id": "acct_001_000027"
+        },
+        {
+          "balance": 200612.0,
+          "date": "2025-05-02",
+          "net_amount": 200586.0,
+          "txn_id": "acct_001_000028"
+        },
+        {
+          "balance": 180612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000029"
+        },
+        {
+          "balance": 200612.0,
+          "date": "2025-05-02",
+          "net_amount": 20000.0,
+          "txn_id": "acct_001_000030"
+        },
+        {
+          "balance": 180612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000031"
+        },
+        {
+          "balance": 160612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000032"
+        },
+        {
+          "balance": 140612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000033"
+        },
+        {
+          "balance": 120612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000034"
+        },
+        {
+          "balance": 100612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000035"
+        },
+        {
+          "balance": 80612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000036"
+        },
+        {
+          "balance": 60612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000037"
+        },
+        {
+          "balance": 40612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000038"
+        },
+        {
+          "balance": 20612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000039"
+        },
+        {
+          "balance": 612.0,
+          "date": "2025-05-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000040"
+        },
+        {
+          "balance": 582.0,
+          "date": "2025-05-02",
+          "net_amount": -30.0,
+          "txn_id": "acct_001_000041"
+        },
+        {
+          "balance": 542.0,
+          "date": "2025-05-02",
+          "net_amount": -40.0,
+          "txn_id": "acct_001_000042"
+        },
+        {
+          "balance": 488.0,
+          "date": "2025-05-02",
+          "net_amount": -54.0,
+          "txn_id": "acct_001_000043"
+        },
+        {
+          "balance": 472.0,
+          "date": "2025-05-02",
+          "net_amount": -16.0,
+          "txn_id": "acct_001_000044"
+        },
+        {
+          "balance": 459.0,
+          "date": "2025-05-03",
+          "net_amount": -13.0,
+          "txn_id": "acct_001_000045"
+        },
+        {
+          "balance": 304.0,
+          "date": "2025-05-03",
+          "net_amount": -155.0,
+          "txn_id": "acct_001_000046"
+        },
+        {
+          "balance": 224.0,
+          "date": "2025-05-03",
+          "net_amount": -80.0,
+          "txn_id": "acct_001_000047"
+        },
+        {
+          "balance": 200309.0,
+          "date": "2025-05-03",
+          "net_amount": 200085.0,
+          "txn_id": "acct_001_000048"
+        },
+        {
+          "balance": 180309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000049"
+        },
+        {
+          "balance": 160309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000050"
+        },
+        {
+          "balance": 140309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000051"
+        },
+        {
+          "balance": 120309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000052"
+        },
+        {
+          "balance": 100309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000053"
+        },
+        {
+          "balance": 80309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000054"
+        },
+        {
+          "balance": 60309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000055"
+        },
+        {
+          "balance": 40309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000056"
+        },
+        {
+          "balance": 20309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000057"
+        },
+        {
+          "balance": 309.0,
+          "date": "2025-05-03",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000058"
+        },
+        {
+          "balance": 299.0,
+          "date": "2025-05-03",
+          "net_amount": -10.0,
+          "txn_id": "acct_001_000059"
+        },
+        {
+          "balance": 289.0,
+          "date": "2025-05-03",
+          "net_amount": -10.0,
+          "txn_id": "acct_001_000060"
+        },
+        {
+          "balance": 269.0,
+          "date": "2025-05-03",
+          "net_amount": -20.0,
+          "txn_id": "acct_001_000061"
+        },
+        {
+          "balance": 258.0,
+          "date": "2025-05-04",
+          "net_amount": -11.0,
+          "txn_id": "acct_001_000062"
+        },
+        {
+          "balance": 200343.0,
+          "date": "2025-05-04",
+          "net_amount": 200085.0,
+          "txn_id": "acct_001_000063"
+        },
+        {
+          "balance": 180343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000064"
+        },
+        {
+          "balance": 160343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000065"
+        },
+        {
+          "balance": 140343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000066"
+        },
+        {
+          "balance": 120343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000067"
+        },
+        {
+          "balance": 100343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000068"
+        },
+        {
+          "balance": 80343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000069"
+        },
+        {
+          "balance": 60343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000070"
+        },
+        {
+          "balance": 40343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000071"
+        },
+        {
+          "balance": 20343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000072"
+        },
+        {
+          "balance": 343.0,
+          "date": "2025-05-04",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000073"
+        },
+        {
+          "balance": 233.0,
+          "date": "2025-05-04",
+          "net_amount": -110.0,
+          "txn_id": "acct_001_000074"
+        },
+        {
+          "balance": 215.0,
+          "date": "2025-05-04",
+          "net_amount": -18.0,
+          "txn_id": "acct_001_000075"
+        },
+        {
+          "balance": 147.0,
+          "date": "2025-05-04",
+          "net_amount": -68.0,
+          "txn_id": "acct_001_000076"
+        },
+        {
+          "balance": 111.0,
+          "date": "2025-05-04",
+          "net_amount": -36.0,
+          "txn_id": "acct_001_000077"
+        },
+        {
+          "balance": 100.0,
+          "date": "2025-05-05",
+          "net_amount": -11.0,
+          "txn_id": "acct_001_000078"
+        },
+        {
+          "balance": 50.0,
+          "date": "2025-05-05",
+          "net_amount": -50.0,
+          "txn_id": "acct_001_000079"
+        },
+        {
+          "balance": 200108.0,
+          "date": "2025-05-05",
+          "net_amount": 200058.0,
+          "txn_id": "acct_001_000080"
+        },
+        {
+          "balance": 180108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000081"
+        },
+        {
+          "balance": 160108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000082"
+        },
+        {
+          "balance": 140108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000083"
+        },
+        {
+          "balance": 120108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000084"
+        },
+        {
+          "balance": 100108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000085"
+        },
+        {
+          "balance": 80108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000086"
+        },
+        {
+          "balance": 60108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000087"
+        },
+        {
+          "balance": 40108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000088"
+        },
+        {
+          "balance": 20108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000089"
+        },
+        {
+          "balance": 108.0,
+          "date": "2025-05-05",
+          "net_amount": -20000.0,
+          "txn_id": "acct_001_000090"
+        },
+        {
+          "balance": 70.0,
+          "date": "2025-05-05",
+          "net_amount": -38.0,
+          "txn_id": "acct_001_000091"
+        }
+      ]
+    },
+    {
+      "account_id": "acct_002",
+      "points": [
+        {
+          "balance": 26000.0,
+          "date": "2025-03-06",
+          "net_amount": 26000.0,
+          "txn_id": "acct_002_000092"
+        },
+        {
+          "balance": 25801.0,
+          "date": "2025-03-10",
+          "net_amount": -199.0,
+          "txn_id": "acct_002_000093"
+        },
+        {
+          "balance": 25783.09,
+          "date": "2025-03-10",
+          "net_amount": -17.91,
+          "txn_id": "acct_002_000094"
+        },
+        {
+          "balance": 25765.18,
+          "date": "2025-03-10",
+          "net_amount": -17.91,
+          "txn_id": "acct_002_000095"
+        },
+        {
+          "balance": 25797.18,
+          "date": "2025-03-31",
+          "net_amount": 32.0,
+          "txn_id": "acct_002_000096"
+        },
+        {
+          "balance": 5797.18,
+          "date": "2025-04-02",
+          "net_amount": -20000.0,
+          "txn_id": "acct_002_000097"
+        },
+        {
+          "balance": 2797.18,
+          "date": "2025-04-22",
+          "net_amount": -3000.0,
+          "txn_id": "acct_002_000098"
+        },
+        {
+          "balance": 2805.18,
+          "date": "2025-04-28",
+          "net_amount": 8.0,
+          "txn_id": "acct_002_000099"
+        },
+        {
+          "balance": 5805.18,
+          "date": "2025-04-28",
+          "net_amount": 3000.0,
+          "txn_id": "acct_002_000100"
+        },
+        {
+          "balance": 15805.18,
+          "date": "2025-04-30",
+          "net_amount": 10000.0,
+          "txn_id": "acct_002_000101"
+        },
+        {
+          "balance": 15755.18,
+          "date": "2025-04-30",
+          "net_amount": -50.0,
+          "txn_id": "acct_002_000102"
+        },
+        {
+          "balance": 13755.18,
+          "date": "2025-04-30",
+          "net_amount": -2000.0,
+          "txn_id": "acct_002_000103"
+        },
+        {
+          "balance": 12555.18,
+          "date": "2025-04-30",
+          "net_amount": -1200.0,
+          "txn_id": "acct_002_000104"
+        },
+        {
+          "balance": 4555.18,
+          "date": "2025-04-30",
+          "net_amount": -8000.0,
+          "txn_id": "acct_002_000105"
+        },
+        {
+          "balance": 4055.18,
+          "date": "2025-04-30",
+          "net_amount": -500.0,
+          "txn_id": "acct_002_000106"
+        },
+        {
+          "balance": 3055.18,
+          "date": "2025-05-01",
+          "net_amount": -1000.0,
+          "txn_id": "acct_002_000107"
+        },
+        {
+          "balance": 3045.18,
+          "date": "2025-05-01",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000108"
+        },
+        {
+          "balance": 3035.18,
+          "date": "2025-05-01",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000109"
+        },
+        {
+          "balance": 3025.18,
+          "date": "2025-05-01",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000110"
+        },
+        {
+          "balance": 3015.18,
+          "date": "2025-05-02",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000111"
+        },
+        {
+          "balance": 3005.18,
+          "date": "2025-05-02",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000112"
+        },
+        {
+          "balance": 2995.18,
+          "date": "2025-05-02",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000113"
+        },
+        {
+          "balance": 2985.18,
+          "date": "2025-05-02",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000114"
+        },
+        {
+          "balance": 2975.18,
+          "date": "2025-05-02",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000115"
+        },
+        {
+          "balance": 302975.18,
+          "date": "2025-05-02",
+          "net_amount": 300000.0,
+          "txn_id": "acct_002_000116"
+        },
+        {
+          "balance": 302927.97,
+          "date": "2025-05-02",
+          "net_amount": -47.21,
+          "txn_id": "acct_002_000117"
+        },
+        {
+          "balance": 302403.45,
+          "date": "2025-05-02",
+          "net_amount": -524.52,
+          "txn_id": "acct_002_000118"
+        },
+        {
+          "balance": 302356.24,
+          "date": "2025-05-02",
+          "net_amount": -47.21,
+          "txn_id": "acct_002_000119"
+        },
+        {
+          "balance": 2356.24,
+          "date": "2025-05-02",
+          "net_amount": -300000.0,
+          "txn_id": "acct_002_000120"
+        },
+        {
+          "balance": 2055.34,
+          "date": "2025-05-03",
+          "net_amount": -300.9,
+          "txn_id": "acct_002_000121"
+        },
+        {
+          "balance": 1945.34,
+          "date": "2025-05-03",
+          "net_amount": -110.0,
+          "txn_id": "acct_002_000122"
+        },
+        {
+          "balance": 1345.34,
+          "date": "2025-05-08",
+          "net_amount": -600.0,
+          "txn_id": "acct_002_000123"
+        },
+        {
+          "balance": 345.34,
+          "date": "2025-05-09",
+          "net_amount": -1000.0,
+          "txn_id": "acct_002_000124"
+        },
+        {
+          "balance": 355.34,
+          "date": "2025-05-12",
+          "net_amount": 10.0,
+          "txn_id": "acct_002_000125"
+        },
+        {
+          "balance": 2355.34,
+          "date": "2025-05-13",
+          "net_amount": 2000.0,
+          "txn_id": "acct_002_000126"
+        },
+        {
+          "balance": 2235.34,
+          "date": "2025-05-13",
+          "net_amount": -120.0,
+          "txn_id": "acct_002_000127"
+        },
+        {
+          "balance": 235.34,
+          "date": "2025-05-13",
+          "net_amount": -2000.0,
+          "txn_id": "acct_002_000128"
+        },
+        {
+          "balance": 25.34,
+          "date": "2025-05-14",
+          "net_amount": -210.0,
+          "txn_id": "acct_002_000129"
+        },
+        {
+          "balance": 8.34,
+          "date": "2025-05-14",
+          "net_amount": -17.0,
+          "txn_id": "acct_002_000130"
+        },
+        {
+          "balance": 3.34,
+          "date": "2025-05-21",
+          "net_amount": -5.0,
+          "txn_id": "acct_002_000131"
+        },
+        {
+          "balance": 13.34,
+          "date": "2025-05-25",
+          "net_amount": 10.0,
+          "txn_id": "acct_002_000132"
+        },
+        {
+          "balance": 3.34,
+          "date": "2025-05-25",
+          "net_amount": -10.0,
+          "txn_id": "acct_002_000133"
+        },
+        {
+          "balance": 12.34,
+          "date": "2025-06-30",
+          "net_amount": 9.0,
+          "txn_id": "acct_002_000134"
+        },
+        {
+          "balance": 2.73,
+          "date": "2025-07-01",
+          "net_amount": -9.61,
+          "txn_id": "acct_002_000135"
+        },
+        {
+          "balance": 1.87,
+          "date": "2025-07-01",
+          "net_amount": -0.86,
+          "txn_id": "acct_002_000136"
+        },
+        {
+          "balance": 1.01,
+          "date": "2025-07-01",
+          "net_amount": -0.86,
+          "txn_id": "acct_002_000137"
+        }
+      ]
+    }
+  ],
+  "type": "balance_graph_all_accounts"
+}

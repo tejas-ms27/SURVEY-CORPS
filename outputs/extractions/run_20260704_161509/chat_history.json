@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-07-04 16:38:31",
+    "question": "list all the account holders name and number",
+    "answer": "There are 5 accounts in this case:\n  - SONIA RAO — account 85173206686139 at HDFC BANK LTD\n  - SUSHMA DUBEY — account 8008270503 at KOTAK MAHINDRA BANK LTD\n  - ARCHANA SEN — account 08959469915 at Unknown Bank\n  - MUKESH NAIK — account 3851062425 at KOTAK MAHINDRA BANK LTD\n  - AKASH GHOSH — account 97556000042808 at THE FEDERAL BANK LIMITED",
+    "language": "en",
+    "matched_pattern": "list_account_holders"
+  },
+  {
+    "timestamp": "2026-07-04 16:38:55",
+    "question": "Perform a complete investigation of account 85173206686139 by providing its full profile, account holder details, bank information, account type, opening and current balance, total credits, total debits, total transactions, first and latest transaction, complete transaction history, chronological timeline of all activities, monthly and yearly summaries, highest and lowest debit and credit transactions, top incoming and outgoing transactions, all counterparties involved, top senders and receivers, complete money inflow and outflow analysis, balance trend, transaction frequency, suspicious or flagged transactions, duplicate transactions, structuring or smurfing patterns if present, cash deposit and withdrawal analysis, relationship with other accounts, complete money flow graph, connected entities, behavioural analysis, risk indicators, important financial events, and finally generate a detailed investigator summary explaining the complete lifecycle of this account from the first recorded transaction to the latest transaction.",
+    "answer": "No account in this case received money from 'the first recorded transaction to the latest transaction.' and later transferred to 'the latest transaction' (based on counterparties inferred from narration).\n\n———\nAnalysis Type: Multi-Hop / Chain-of-Evidence Reasoning\nHandler: reasoning_multi_hop_empty()\nEvidence: clean_transactions.csv\nConfidence: 100% (deterministic)",
+    "language": "en",
+    "matched_pattern": "reasoning_multi_hop_empty"
+  },
+  {
+    "timestamp": "2026-07-04 16:39:55",
+    "question": "85173206686139 give me the account full details",
+    "answer": "Full details for account 85173206686139:\nAccount number: 85173206686139\nAccount holder: SONIA RAO\nBank: HDFC BANK LTD  |  Branch: NEHRU PLACE\nIFSC: HDFC0874946  |  MICR: not extracted\nAccount type: not extracted\nStatement period: 01-12-2024 To 09-05-2026\nOpening balance: not extracted\nClosing balance: ₹207,374.21\nNominee: not extracted\nCustomer ID: not extracted\nGSTIN: not extracted  |  CKYC: not extracted\nCurrency: not extracted\nAddress: not extracted\nTotal transactions: 1069 clean, 0 flagged",
+    "language": "en",
+    "matched_pattern": "account_details"
+  }
+]

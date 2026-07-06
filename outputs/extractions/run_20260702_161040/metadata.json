@@ -1,0 +1,148 @@
+{
+  "session_id": "run_20260702_161040",
+  "created_at": "2026-07-02T16:10:49",
+  "summary": {
+    "total_rows": 4827,
+    "clean_rows": 4821,
+    "flagged_rows": 6,
+    "files_processed": 2,
+    "files_failed": [],
+    "total_llm_calls": 0,
+    "key_rotations": 0,
+    "reconciliation_by_file": {
+      "ACC001_SBI_Statement.pdf": 0.999,
+      "ACC002_HDFC_Statement.pdf": 0.999
+    },
+    "tier_by_file": {
+      "ACC001_SBI_Statement.pdf": "cheap_parse",
+      "ACC002_HDFC_Statement.pdf": "cheap_parse"
+    }
+  },
+  "files": [
+    {
+      "file": "ACC001_SBI_Statement.pdf",
+      "account_ref": "ACC001_SBI_Statement",
+      "source_account_id": "acct_001",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "llm_calls": 0,
+      "raw_text_chars": 308383,
+      "metadata_source": "regex",
+      "expected_txn_lines": 2816,
+      "tier": "cheap_parse",
+      "column_map": {
+        "engine": "deterministic_default"
+      },
+      "column_map_source": "deterministic",
+      "reconciliation_rate": 0.999,
+      "ordering": "oldest_first",
+      "has_balance_column": true,
+      "account_details": {
+        "account_holder": "Ravi Kumar Sharma",
+        "account_number": "00000051399615291",
+        "ifsc_code": "SBIN0393634",
+        "bank_name": "State Bank of India",
+        "branch": "Pune Camp",
+        "branch_address": "",
+        "account_type": "",
+        "statement_period": "01/08/2022 to 30/06/2024",
+        "opening_balance": "",
+        "closing_balance": "7963413.98",
+        "customer_id": "",
+        "currency": "",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "",
+        "micr_code": "",
+        "branch_code": "",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "ACC001_SBI_Statement"
+      },
+      "rows_standardised": 2816,
+      "rows_clean": 2813,
+      "rows_flagged": 3,
+      "validation": {
+        "llm_transactions": 2816,
+        "rows_in_output": 2816,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": true
+      }
+    },
+    {
+      "file": "ACC002_HDFC_Statement.pdf",
+      "account_ref": "ACC002_HDFC_Statement",
+      "source_account_id": "acct_002",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "llm_calls": 0,
+      "raw_text_chars": 151563,
+      "metadata_source": "regex",
+      "expected_txn_lines": 2011,
+      "tier": "cheap_parse",
+      "column_map": {
+        "engine": "deterministic_default"
+      },
+      "column_map_source": "deterministic",
+      "reconciliation_rate": 0.999,
+      "ordering": "oldest_first",
+      "has_balance_column": true,
+      "account_details": {
+        "account_holder": "Meena Iyer",
+        "account_number": "50105414883065",
+        "ifsc_code": "HDFC0212257",
+        "bank_name": "HDFC Bank",
+        "branch": "Indiranagar Bengaluru",
+        "branch_address": "",
+        "account_type": "",
+        "statement_period": "01/08/2022 to 30/06/2024",
+        "opening_balance": "",
+        "closing_balance": "5820220.45",
+        "customer_id": "",
+        "currency": "",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "",
+        "micr_code": "",
+        "branch_code": "",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "ACC002_HDFC_Statement"
+      },
+      "rows_standardised": 2011,
+      "rows_clean": 2008,
+      "rows_flagged": 3,
+      "validation": {
+        "llm_transactions": 2011,
+        "rows_in_output": 2011,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": true
+      }
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "duplicates": "duplicates.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "Ravi_Kumar_Sharma_00000051399615291.json",
+      "Meena_Iyer_50105414883065.json"
+    ]
+  },
+  "duplicate_count": 3
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "folder": "clean_control",
+  "description": "Negative control with normal banking friction and weak-tier noise.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0001",
+      "role": "clean_control",
+      "file": "statements/3012346509702773-02-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/3012346509702773-02-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "3012346509702773",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0002",
+      "role": "clean_control",
+      "file": "statements/statement-36071249552.txt",
+      "files": [
+        "statements/statement-36071249552.txt"
+      ],
+      "fabricated_account_number": "36071249552",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0003",
+      "role": "clean_control",
+      "file": "statements/9905651287101229_statement.pdf",
+      "files": [
+        "statements/9905651287101229_statement.pdf"
+      ],
+      "fabricated_account_number": "9905651287101229",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0004",
+      "role": "clean_control",
+      "file": "statements/statement-26619050843.txt",
+      "files": [
+        "statements/statement-26619050843.txt"
+      ],
+      "fabricated_account_number": "26619050843",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0005",
+      "role": "clean_control",
+      "file": "statements/0421212803246387_statement.txt",
+      "files": [
+        "statements/0421212803246387_statement.txt"
+      ],
+      "fabricated_account_number": "0421212803246387",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0006",
+      "role": "clean_control",
+      "file": "statements/97948931224243-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/97948931224243-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "97948931224243",
+      "bank": "THE FEDERAL BANK LIMITED"
+    }
+  ],
+  "expected_findings": [],
+  "expected_non_findings": [
+    {
+      "pattern_id": 1,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 2,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 3,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 4,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 5,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 7,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 8,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 9,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 10,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 11,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 12,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 13,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 14,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 15,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 16,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 17,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 18,
+      "reason": "No deliberately planted strong-tier behaviour."
+    },
+    {
+      "pattern_id": 19,
+      "reason": "No deliberately planted strong-tier behaviour."
+    }
+  ],
+  "tier_expectations": {
+    "strong_findings": 0,
+    "weak_findings_allowed": true,
+    "ranking_expectation": "clean accounts must remain outside the suspicious top ranks"
+  }
+}

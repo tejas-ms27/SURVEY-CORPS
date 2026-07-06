@@ -1,0 +1,37 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+216,204,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/OnscreenPayment/dasdsa,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+236,235,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+249,240,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+250,243,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+251,239,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+252,235,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+291,290,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdasd,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+314,283,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+340,295,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+342,295,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+519,518,2653101012274,14/07/2020,24.0,24.0,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+521,520,2653101012274,18/07/2020,24.0,24.0,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+650,649,2653101012274,05/02/2023,3.0,0.0,3.0,REV:ATM INSUFFICIENT FUND CHARGES: 18-JUL-20,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+651,648,2653101012274,05/02/2023,3.0,0.0,3.0,REV:ATM INSUFFICIENT FUND CHARGES: 14-JUL-20,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+700,699,2653101012274,30/12/2023,0.54,0.0,0.54,REV:ATM INSUFFICIENT FUND CHARGES: 14-JUL-20 GST_PORTION,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+703,701,2653101012274,30/12/2023,0.54,0.0,0.54,REV:ATM INSUFFICIENT FUND CHARGES: 18-JUL-20 GST_PORTION,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1120,1118,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1122,1118,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1125,1118,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1126,1118,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1134,1132,2653101012274,23/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1159,1157,2653101012274,30/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1160,1157,2653101012274,30/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1162,1157,2653101012274,30/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1179,1175,2653101012274,31/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1239,1233,2653101012274,21/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1471,1470,2653101012274,11/09/2025,20.06,20.06,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1472,1470,2653101012274,11/09/2025,20.06,20.06,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1488,1487,2653101012274,17/09/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1528,1527,2653101012274,30/09/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1597,1596,2653101012274,28/10/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1649,1646,2653101012274,18/11/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1670,1669,2653101012274,26/11/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1850,1849,913628731289,13/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/CHALALA ATM CHALALA,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1956,1955,913628731289,04/08/2025,20000.0,20000.0,0.0,ATM CASH TXN/INDUSIND BANK LIMITED JUNAGADH GJ,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1968,1967,913628731289,04/09/2025,20000.0,20000.0,0.0,ATM CASH TXN/INDUSIND BANK LIMITED JUNAGADH GJ,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005

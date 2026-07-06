@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "folder": "pattern_12_hub_ranking",
+  "description": "Hub receives from 6-8 spoke accounts with corroborating statements.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0057",
+      "role": "hub",
+      "file": "statements/94079742466285_SOA.pdf",
+      "files": [
+        "statements/94079742466285_SOA.pdf"
+      ],
+      "fabricated_account_number": "94079742466285",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0058",
+      "role": "spoke",
+      "file": "statements/5112945020_statement.xlsx",
+      "files": [
+        "statements/5112945020_statement.xlsx"
+      ],
+      "fabricated_account_number": "5112945020",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0059",
+      "role": "spoke",
+      "file": "statements/3982799780574773-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/3982799780574773-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "3982799780574773",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0060",
+      "role": "spoke",
+      "file": "statements/5007288473965366-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/5007288473965366-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "5007288473965366",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0061",
+      "role": "spoke",
+      "file": "statements/9233632350372247-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/9233632350372247-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "9233632350372247",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0062",
+      "role": "spoke",
+      "file": "statements/35986543405557-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/35986543405557-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "35986543405557",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0063",
+      "role": "spoke",
+      "file": "statements/8687279450866072_statement.pdf",
+      "files": [
+        "statements/8687279450866072_statement.pdf"
+      ],
+      "fabricated_account_number": "8687279450866072",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0064",
+      "role": "spoke",
+      "file": "statements/9517122164_statement.pdf",
+      "files": [
+        "statements/9517122164_statement.pdf"
+      ],
+      "fabricated_account_number": "9517122164",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0065",
+      "role": "clean_control",
+      "file": "statements/6325120086_statement.xlsx",
+      "files": [
+        "statements/6325120086_statement.xlsx"
+      ],
+      "fabricated_account_number": "6325120086",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0066",
+      "role": "clean_control",
+      "file": "statements/6263452588_statement.csv",
+      "files": [
+        "statements/6263452588_statement.csv"
+      ],
+      "fabricated_account_number": "6263452588",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0067",
+      "role": "clean_control",
+      "file": "statements/3656963468_statement.pdf",
+      "files": [
+        "statements/3656963468_statement.pdf"
+      ],
+      "fabricated_account_number": "3656963468",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 12,
+      "pattern_name": "hub_ranking",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0057",
+        "SYN0058",
+        "SYN0059",
+        "SYN0060",
+        "SYN0061",
+        "SYN0062",
+        "SYN0063",
+        "SYN0064"
+      ],
+      "expected_amount_range": [
+        15900.07,
+        67600.57
+      ],
+      "notes": "Hub receives from 6-8 spoke accounts with corroborating statements.",
+      "expected_txn_refs": [
+        "U20407131625",
+        "U20407131625",
+        "I54731840427",
+        "I54731840427",
+        "N82261038226",
+        "N82261038226",
+        "N60819842972",
+        "N60819842972",
+        "N46803727233",
+        "N46803727233",
+        "I82173013339",
+        "I82173013339",
+        "I22511245968",
+        "I22511245968"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0058_000561",
+        "SYN0057_000535",
+        "SYN0059_000501",
+        "SYN0057_000540",
+        "SYN0060_000549",
+        "SYN0057_000542",
+        "SYN0061_000566",
+        "SYN0057_000544",
+        "SYN0062_000539",
+        "SYN0057_000533",
+        "SYN0063_000523",
+        "SYN0057_000538",
+        "SYN0064_000531",
+        "SYN0057_000541"
+      ]
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "pattern_id": 7,
+      "reason": "No unrelated fixture planted for this pattern."
+    }
+  ]
+}

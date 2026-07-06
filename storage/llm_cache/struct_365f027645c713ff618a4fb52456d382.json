@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "Mr. Anjali Bose",
+    "account_number": "ACCT_1",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "MORENA",
+    "branch_address": "Bhavan No 163/1,Ward No 34, M S Road, Morena, null, null, 476001",
+    "bank_name": "Bank of Maharashtra",
+    "statement_period": "12/08/2025 to 11/08/2025",
+    "currency": "INR",
+    "opening_balance": "0.00",
+    "closing_balance": "0.00"
+  },
+  "transactions": [],
+  "source": "groq"
+}

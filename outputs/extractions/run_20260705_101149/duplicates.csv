@@ -1,0 +1,14 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+38,26,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/OnscreenPayment/dasdsa,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+58,57,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+71,62,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+72,65,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+73,61,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+74,57,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+113,112,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdasd,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+136,105,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+162,117,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+164,117,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+226,224,92883409730,26/05/2025,300000.0,300000.0,0.0,BLKIFT/OnscreenPayment/50105202521,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+228,224,92883409730,26/05/2025,300000.0,300000.0,0.0,BLKIFT/OnscreenPayment/50105202521,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+229,224,92883409730,26/05/2025,300000.0,300000.0,0.0,BLKIFT/OnscreenPayment/50105202521,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002

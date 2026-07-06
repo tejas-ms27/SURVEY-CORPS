@@ -1,0 +1,1713 @@
+{
+  "schema_version": 1,
+  "folder": "combined_all_patterns",
+  "description": "All rule fixtures and both unknown-shape safety nets woven through 96 accounts including clean controls.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0107",
+      "role": "mixed_subject",
+      "file": "statements/0642911656685344-01-12-2024to08-05-2026.csv",
+      "files": [
+        "statements/0642911656685344-01-12-2024to08-05-2026.csv"
+      ],
+      "fabricated_account_number": "0642911656685344",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0108",
+      "role": "mixed_subject",
+      "file": "statements/9592043503463703-02-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/9592043503463703-02-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "9592043503463703",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0109",
+      "role": "mixed_subject",
+      "file": "statements/92626656155172 statement.csv",
+      "files": [
+        "statements/92626656155172 statement.csv"
+      ],
+      "fabricated_account_number": "92626656155172",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0110",
+      "role": "mixed_subject",
+      "file": "statements/06555427844681-01-12-2024to08-05-2026.csv",
+      "files": [
+        "statements/06555427844681-01-12-2024to08-05-2026.csv"
+      ],
+      "fabricated_account_number": "06555427844681",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0111",
+      "role": "mixed_subject",
+      "file": "statements/6369331266799686-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/6369331266799686-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "6369331266799686",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0112",
+      "role": "mixed_subject",
+      "file": "statements/55794792847269-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/55794792847269-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "55794792847269",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0113",
+      "role": "mixed_subject",
+      "file": "statements/9454583674913372-02-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/9454583674913372-02-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "9454583674913372",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0114",
+      "role": "mixed_subject",
+      "file": "statements/3185728472711726-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/3185728472711726-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "3185728472711726",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0115",
+      "role": "mixed_subject",
+      "file": "statements/00837844971737-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/00837844971737-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "00837844971737",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0116",
+      "role": "mixed_subject",
+      "file": "statements/3922181054742642-01-12-2024to08-05-2026.xlsx",
+      "files": [
+        "statements/3922181054742642-01-12-2024to08-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "3922181054742642",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0117",
+      "role": "mixed_subject",
+      "file": "statements/9791722953307803-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/9791722953307803-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "9791722953307803",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0118",
+      "role": "mixed_subject",
+      "file": "statements/1157402870460715_statement.pdf",
+      "files": [
+        "statements/1157402870460715_statement.pdf"
+      ],
+      "fabricated_account_number": "1157402870460715",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0119",
+      "role": "mixed_subject",
+      "file": "statements/2074341316704650-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/2074341316704650-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "2074341316704650",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0120",
+      "role": "mixed_subject",
+      "file": "statements/statement-64831176837.csv",
+      "files": [
+        "statements/statement-64831176837.csv"
+      ],
+      "fabricated_account_number": "64831176837",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0121",
+      "role": "mixed_subject",
+      "file": "statements/49914742547252_SOA.pdf",
+      "files": [
+        "statements/49914742547252_SOA.pdf"
+      ],
+      "fabricated_account_number": "49914742547252",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0122",
+      "role": "mixed_subject",
+      "file": "statements/26278416411428_SOA.pdf",
+      "files": [
+        "statements/26278416411428_SOA.pdf"
+      ],
+      "fabricated_account_number": "26278416411428",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0123",
+      "role": "mixed_subject",
+      "file": "statements/6912827621_statement.pdf",
+      "files": [
+        "statements/6912827621_statement.pdf"
+      ],
+      "fabricated_account_number": "6912827621",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0124",
+      "role": "mixed_subject",
+      "file": "statements/99132894316457 statement.csv",
+      "files": [
+        "statements/99132894316457 statement.csv"
+      ],
+      "fabricated_account_number": "99132894316457",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0125",
+      "role": "mixed_subject",
+      "file": "statements/6082267802022370-01-12-2024to08-05-2026.csv",
+      "files": [
+        "statements/6082267802022370-01-12-2024to08-05-2026.csv"
+      ],
+      "fabricated_account_number": "6082267802022370",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0126",
+      "role": "mixed_subject",
+      "file": "statements/93649988897865-25-12-2024to04-11-2025.pdf",
+      "files": [
+        "statements/93649988897865-25-12-2024to04-11-2025.pdf"
+      ],
+      "fabricated_account_number": "93649988897865",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0127",
+      "role": "mixed_subject",
+      "file": "statements/940797593562472_statement.csv",
+      "files": [
+        "statements/940797593562472_statement.csv"
+      ],
+      "fabricated_account_number": "940797593562472",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0128",
+      "role": "mixed_subject",
+      "file": "statements/9824732161017095_statement.txt",
+      "files": [
+        "statements/9824732161017095_statement.txt"
+      ],
+      "fabricated_account_number": "9824732161017095",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0129",
+      "role": "clean_control",
+      "file": "statements/63265662163410 statement.pdf",
+      "files": [
+        "statements/63265662163410 statement.pdf"
+      ],
+      "fabricated_account_number": "63265662163410",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0130",
+      "role": "clean_control",
+      "file": "statements/5790161720_statement.csv",
+      "files": [
+        "statements/5790161720_statement.csv"
+      ],
+      "fabricated_account_number": "5790161720",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0131",
+      "role": "clean_control",
+      "file": "statements/statement-45621471291.txt",
+      "files": [
+        "statements/statement-45621471291.txt"
+      ],
+      "fabricated_account_number": "45621471291",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0132",
+      "role": "clean_control",
+      "file": "statements/823769802355587_statement.csv",
+      "files": [
+        "statements/823769802355587_statement.csv"
+      ],
+      "fabricated_account_number": "823769802355587",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0133",
+      "role": "clean_control",
+      "file": "statements/3557968594061190-01-12-2024to08-05-2026.pdf",
+      "files": [
+        "statements/3557968594061190-01-12-2024to08-05-2026.pdf"
+      ],
+      "fabricated_account_number": "3557968594061190",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0134",
+      "role": "clean_control",
+      "file": "statements/33565604015218 statement.csv",
+      "files": [
+        "statements/33565604015218 statement.csv"
+      ],
+      "fabricated_account_number": "33565604015218",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0135",
+      "role": "clean_control",
+      "file": "statements/76525930328394-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/76525930328394-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "76525930328394",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0136",
+      "role": "clean_control",
+      "file": "statements/46222788658678-02-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/46222788658678-02-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "46222788658678",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0137",
+      "role": "clean_control",
+      "file": "statements/648876988058022_statement.csv",
+      "files": [
+        "statements/648876988058022_statement.csv"
+      ],
+      "fabricated_account_number": "648876988058022",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0138",
+      "role": "clean_control",
+      "file": "statements/5110050321418371-02-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/5110050321418371-02-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "5110050321418371",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0139",
+      "role": "clean_control",
+      "file": "statements/6590397142208598-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/6590397142208598-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "6590397142208598",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0140",
+      "role": "clean_control",
+      "file": "statements/22200566550577 statement.pdf",
+      "files": [
+        "statements/22200566550577 statement.pdf"
+      ],
+      "fabricated_account_number": "22200566550577",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0141",
+      "role": "clean_control",
+      "file": "statements/25504642312445 statement.csv",
+      "files": [
+        "statements/25504642312445 statement.csv"
+      ],
+      "fabricated_account_number": "25504642312445",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0142",
+      "role": "clean_control",
+      "file": "statements/66018180252877-02-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/66018180252877-02-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "66018180252877",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0143",
+      "role": "clean_control",
+      "file": "statements/17827883120358 statement.csv",
+      "files": [
+        "statements/17827883120358 statement.csv"
+      ],
+      "fabricated_account_number": "17827883120358",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0144",
+      "role": "clean_control",
+      "file": "statements/6647179986284826-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/6647179986284826-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "6647179986284826",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0145",
+      "role": "clean_control",
+      "file": "statements/3805938186_statement.pdf",
+      "files": [
+        "statements/3805938186_statement.pdf"
+      ],
+      "fabricated_account_number": "3805938186",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0146",
+      "role": "clean_control",
+      "file": "statements/7914559016093548-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/7914559016093548-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "7914559016093548",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0147",
+      "role": "clean_control",
+      "file": "statements/6141243112779930-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/6141243112779930-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "6141243112779930",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0148",
+      "role": "clean_control",
+      "file": "statements/95486075400783_SOA.pdf",
+      "files": [
+        "statements/95486075400783_SOA.pdf"
+      ],
+      "fabricated_account_number": "95486075400783",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0149",
+      "role": "clean_control",
+      "file": "statements/6773870626175302-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/6773870626175302-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "6773870626175302",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0150",
+      "role": "clean_control",
+      "file": "statements/8424611488710543-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/8424611488710543-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "8424611488710543",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0151",
+      "role": "clean_control",
+      "file": "statements/12244398223872_SOA.xlsx",
+      "files": [
+        "statements/12244398223872_SOA.xlsx"
+      ],
+      "fabricated_account_number": "12244398223872",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0152",
+      "role": "clean_control",
+      "file": "statements/06413212528833-01-12-2024to08-05-2026.pdf",
+      "files": [
+        "statements/06413212528833-01-12-2024to08-05-2026.pdf"
+      ],
+      "fabricated_account_number": "06413212528833",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0153",
+      "role": "clean_control",
+      "file": "statements/statement-50632066232.csv",
+      "files": [
+        "statements/statement-50632066232.csv"
+      ],
+      "fabricated_account_number": "50632066232",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0154",
+      "role": "clean_control",
+      "file": "statements/0829992362_statement.pdf",
+      "files": [
+        "statements/0829992362_statement.pdf"
+      ],
+      "fabricated_account_number": "0829992362",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0155",
+      "role": "clean_control",
+      "file": "statements/21733893993601-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/21733893993601-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "21733893993601",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0156",
+      "role": "clean_control",
+      "file": "statements/980588499302989_statement.csv",
+      "files": [
+        "statements/980588499302989_statement.csv"
+      ],
+      "fabricated_account_number": "980588499302989",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0157",
+      "role": "clean_control",
+      "file": "statements/58685988238063 statement.csv",
+      "files": [
+        "statements/58685988238063 statement.csv"
+      ],
+      "fabricated_account_number": "58685988238063",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0158",
+      "role": "clean_control",
+      "file": "statements/0000523958365677-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/0000523958365677-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "0000523958365677",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0159",
+      "role": "clean_control",
+      "file": "statements/20277882554687 statement.xlsx",
+      "files": [
+        "statements/20277882554687 statement.xlsx"
+      ],
+      "fabricated_account_number": "20277882554687",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0160",
+      "role": "clean_control",
+      "file": "statements/2574702189_statement.pdf",
+      "files": [
+        "statements/2574702189_statement.pdf"
+      ],
+      "fabricated_account_number": "2574702189",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0161",
+      "role": "clean_control",
+      "file": "statements/statement-99257469544.xlsx",
+      "files": [
+        "statements/statement-99257469544.xlsx"
+      ],
+      "fabricated_account_number": "99257469544",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0162",
+      "role": "clean_control",
+      "file": "statements/4170120848414864_statement.xlsx",
+      "files": [
+        "statements/4170120848414864_statement.xlsx"
+      ],
+      "fabricated_account_number": "4170120848414864",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0163",
+      "role": "clean_control",
+      "file": "statements/19721381060384-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/19721381060384-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "19721381060384",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0164",
+      "role": "clean_control",
+      "file": "statements/83253542733693 statement.csv",
+      "files": [
+        "statements/83253542733693 statement.csv"
+      ],
+      "fabricated_account_number": "83253542733693",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0165",
+      "role": "clean_control",
+      "file": "statements/1141802045660774_statement.txt",
+      "files": [
+        "statements/1141802045660774_statement.txt"
+      ],
+      "fabricated_account_number": "1141802045660774",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0166",
+      "role": "clean_control",
+      "file": "statements/1953122382303283_statement.txt",
+      "files": [
+        "statements/1953122382303283_statement.txt"
+      ],
+      "fabricated_account_number": "1953122382303283",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0167",
+      "role": "clean_control",
+      "file": "statements/3002489826_statement.csv",
+      "files": [
+        "statements/3002489826_statement.csv"
+      ],
+      "fabricated_account_number": "3002489826",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0168",
+      "role": "clean_control",
+      "file": "statements/84709757456713-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/84709757456713-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "84709757456713",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0169",
+      "role": "clean_control",
+      "file": "statements/0215264398_statement.pdf",
+      "files": [
+        "statements/0215264398_statement.pdf"
+      ],
+      "fabricated_account_number": "0215264398",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0170",
+      "role": "clean_control",
+      "file": "statements/9892156611_statement.csv",
+      "files": [
+        "statements/9892156611_statement.csv"
+      ],
+      "fabricated_account_number": "9892156611",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0171",
+      "role": "clean_control",
+      "file": "statements/13795462330102_SOA.xlsx",
+      "files": [
+        "statements/13795462330102_SOA.xlsx"
+      ],
+      "fabricated_account_number": "13795462330102",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0172",
+      "role": "clean_control",
+      "file": "statements/39093477733984_SOA.pdf",
+      "files": [
+        "statements/39093477733984_SOA.pdf"
+      ],
+      "fabricated_account_number": "39093477733984",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0173",
+      "role": "clean_control",
+      "file": "statements/statement-16014463919.csv",
+      "files": [
+        "statements/statement-16014463919.csv"
+      ],
+      "fabricated_account_number": "16014463919",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0174",
+      "role": "clean_control",
+      "file": "statements/7128594441726646-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/7128594441726646-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "7128594441726646",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0175",
+      "role": "clean_control",
+      "file": "statements/49987608838385_SOA.csv",
+      "files": [
+        "statements/49987608838385_SOA.csv"
+      ],
+      "fabricated_account_number": "49987608838385",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0176",
+      "role": "clean_control",
+      "file": "statements/6763736309111698-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/6763736309111698-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "6763736309111698",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0177",
+      "role": "clean_control",
+      "file": "statements/4462814073923973-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/4462814073923973-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "4462814073923973",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0178",
+      "role": "clean_control",
+      "file": "statements/7210891757897345-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/7210891757897345-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "7210891757897345",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0179",
+      "role": "clean_control",
+      "file": "statements/statement-91533868610.csv",
+      "files": [
+        "statements/statement-91533868610.csv"
+      ],
+      "fabricated_account_number": "91533868610",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0180",
+      "role": "clean_control",
+      "file": "statements/307456363299274_statement.csv",
+      "files": [
+        "statements/307456363299274_statement.csv"
+      ],
+      "fabricated_account_number": "307456363299274",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0181",
+      "role": "clean_control",
+      "file": "statements/6096313711_statement.pdf",
+      "files": [
+        "statements/6096313711_statement.pdf"
+      ],
+      "fabricated_account_number": "6096313711",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0182",
+      "role": "clean_control",
+      "file": "statements/08962225500023 statement.pdf",
+      "files": [
+        "statements/08962225500023 statement.pdf"
+      ],
+      "fabricated_account_number": "08962225500023",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0183",
+      "role": "clean_control",
+      "file": "statements/32456679929231-02-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/32456679929231-02-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "32456679929231",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0184",
+      "role": "clean_control",
+      "file": "statements/47455115930805 statement.pdf",
+      "files": [
+        "statements/47455115930805 statement.pdf"
+      ],
+      "fabricated_account_number": "47455115930805",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0185",
+      "role": "clean_control",
+      "file": "statements/94460602942528_SOA.csv",
+      "files": [
+        "statements/94460602942528_SOA.csv"
+      ],
+      "fabricated_account_number": "94460602942528",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0186",
+      "role": "clean_control",
+      "file": "statements/8046594937484611-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/8046594937484611-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "8046594937484611",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0187",
+      "role": "clean_control",
+      "file": "statements/1758205321341929_statement.pdf",
+      "files": [
+        "statements/1758205321341929_statement.pdf"
+      ],
+      "fabricated_account_number": "1758205321341929",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0188",
+      "role": "clean_control",
+      "file": "statements/statement-23372099801.txt",
+      "files": [
+        "statements/statement-23372099801.txt"
+      ],
+      "fabricated_account_number": "23372099801",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0189",
+      "role": "clean_control",
+      "file": "statements/statement-25429361452.xlsx",
+      "files": [
+        "statements/statement-25429361452.xlsx"
+      ],
+      "fabricated_account_number": "25429361452",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0190",
+      "role": "clean_control",
+      "file": "statements/351544452945333_statement.csv",
+      "files": [
+        "statements/351544452945333_statement.csv"
+      ],
+      "fabricated_account_number": "351544452945333",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0191",
+      "role": "clean_control",
+      "file": "statements/1064048852061172-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/1064048852061172-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "1064048852061172",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0192",
+      "role": "clean_control",
+      "file": "statements/statement-71297095228.txt",
+      "files": [
+        "statements/statement-71297095228.txt"
+      ],
+      "fabricated_account_number": "71297095228",
+      "bank": "STATE BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0193",
+      "role": "clean_control",
+      "file": "statements/67031820584641_SOA.xlsx",
+      "files": [
+        "statements/67031820584641_SOA.xlsx"
+      ],
+      "fabricated_account_number": "67031820584641",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0194",
+      "role": "clean_control",
+      "file": "statements/7523479214_statement.pdf",
+      "files": [
+        "statements/7523479214_statement.pdf"
+      ],
+      "fabricated_account_number": "7523479214",
+      "bank": "KOTAK MAHINDRA BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0195",
+      "role": "clean_control",
+      "file": "statements/68327262930584_SOA.pdf",
+      "files": [
+        "statements/68327262930584_SOA.pdf"
+      ],
+      "fabricated_account_number": "68327262930584",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0196",
+      "role": "clean_control",
+      "file": "statements/01541244528922_SOA.csv",
+      "files": [
+        "statements/01541244528922_SOA.csv"
+      ],
+      "fabricated_account_number": "01541244528922",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0197",
+      "role": "clean_control",
+      "file": "statements/19767703151236_SOA.csv",
+      "files": [
+        "statements/19767703151236_SOA.csv"
+      ],
+      "fabricated_account_number": "19767703151236",
+      "bank": "BANDHAN BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0198",
+      "role": "clean_control",
+      "file": "statements/280740546792734_statement.csv",
+      "files": [
+        "statements/280740546792734_statement.csv"
+      ],
+      "fabricated_account_number": "280740546792734",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0199",
+      "role": "clean_control",
+      "file": "statements/42224070805318 statement.pdf",
+      "files": [
+        "statements/42224070805318 statement.pdf"
+      ],
+      "fabricated_account_number": "42224070805318",
+      "bank": "HDFC BANK LTD"
+    },
+    {
+      "synthetic_account_id": "SYN0200",
+      "role": "clean_control",
+      "file": "statements/6716734979076008_statement.pdf",
+      "files": [
+        "statements/6716734979076008_statement.pdf"
+      ],
+      "fabricated_account_number": "6716734979076008",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0201",
+      "role": "clean_control",
+      "file": "statements/063451453499090_statement.pdf",
+      "files": [
+        "statements/063451453499090_statement.pdf"
+      ],
+      "fabricated_account_number": "063451453499090",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0202",
+      "role": "clean_control",
+      "file": "statements/9812985728772256-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/9812985728772256-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "9812985728772256",
+      "bank": "BANK OF BARODA"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 1,
+      "pattern_name": "duplicate_verification",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0107"
+      ],
+      "expected_amount_range": [
+        11100.53,
+        11100.53
+      ],
+      "notes": "Exact duplicate row embedded in realistic surrounding activity.",
+      "expected_txn_refs": [
+        "I42508797913",
+        "I42508797913"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0107_000560",
+        "SYN0107_000561"
+      ]
+    },
+    {
+      "pattern_id": 2,
+      "pattern_name": "failed_reversed_transaction",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0108"
+      ],
+      "expected_amount_range": [
+        32400.86,
+        32400.86
+      ],
+      "notes": "Debit followed by credit reversal for the exact same amount.",
+      "expected_txn_refs": [
+        "I11019007095",
+        "077067624553"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0108_000616",
+        "SYN0108_000620"
+      ]
+    },
+    {
+      "pattern_id": 3,
+      "pattern_name": "pass_through_routing",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0109"
+      ],
+      "expected_amount_range": [
+        51500.29,
+        255452.76
+      ],
+      "notes": "Multiple unrelated inbound credits followed by rapid onward routing.",
+      "expected_txn_refs": [
+        "108083991909",
+        "573264582918",
+        "833738278606",
+        "890636500388",
+        "728297967785"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0109_000468",
+        "SYN0109_000474",
+        "SYN0109_000469",
+        "SYN0109_000470",
+        "SYN0109_000476"
+      ]
+    },
+    {
+      "pattern_id": 4,
+      "pattern_name": "fund_pooling",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0110"
+      ],
+      "expected_amount_range": [
+        29400.01,
+        70900.79
+      ],
+      "notes": "Fund pooling from multiple unrelated senders within a short window.",
+      "expected_txn_refs": [
+        "339965259099",
+        "459953850768",
+        "263317444575",
+        "611519359760",
+        "237695993693"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0110_000448",
+        "SYN0110_000442",
+        "SYN0110_000447",
+        "SYN0110_000444",
+        "SYN0110_000446"
+      ]
+    },
+    {
+      "pattern_id": 5,
+      "pattern_name": "structuring_smurfing",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0111"
+      ],
+      "expected_amount_range": [
+        42900.0,
+        49400.0
+      ],
+      "notes": "Repeated cash deposits just below a common reporting threshold.",
+      "expected_txn_refs": [
+        "366373562330",
+        "214460637165",
+        "921958613104",
+        "529630811842",
+        "980049282762",
+        "941251783724"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0111_000450",
+        "SYN0111_000453",
+        "SYN0111_000455",
+        "SYN0111_000456",
+        "SYN0111_000461",
+        "SYN0111_000465"
+      ]
+    },
+    {
+      "pattern_id": 7,
+      "pattern_name": "circular_flow",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0112",
+        "SYN0113",
+        "SYN0114"
+      ],
+      "expected_amount_range": [
+        350207.88,
+        360000.0
+      ],
+      "notes": "Closed-loop circular flow; every hop corroborated by both statements.",
+      "expected_txn_refs": [
+        "R91028908588",
+        "R91028908588",
+        "N13895095304",
+        "N13895095304",
+        "I35266963746",
+        "I35266963746"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0112_000467",
+        "SYN0113_000474",
+        "SYN0113_000476",
+        "SYN0114_000493",
+        "SYN0114_000497",
+        "SYN0112_000470"
+      ]
+    },
+    {
+      "pattern_id": 8,
+      "pattern_name": "money_trail",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0115",
+        "SYN0116",
+        "SYN0117"
+      ],
+      "expected_amount_range": [
+        267978.56,
+        304759.12
+      ],
+      "notes": "Multi-hop trail; real entries on both sides of every transfer.",
+      "expected_txn_refs": [
+        "N27110756706",
+        "N27110756706",
+        "I82873386062",
+        "I82873386062"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0115_000391",
+        "SYN0116_000365",
+        "SYN0116_000367",
+        "SYN0117_000363"
+      ]
+    },
+    {
+      "pattern_id": 9,
+      "pattern_name": "credit_to_cash_out",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0118"
+      ],
+      "expected_amount_range": [
+        136868.86,
+        147000.06
+      ],
+      "notes": "Large inward credit followed promptly by near-equivalent ATM withdrawal.",
+      "expected_txn_refs": [
+        "400603066066",
+        "769049702334"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0118_000250",
+        "SYN0118_000254"
+      ]
+    },
+    {
+      "pattern_id": 10,
+      "pattern_name": "cross_statement_links",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0119",
+        "SYN0120"
+      ],
+      "expected_amount_range": [
+        88000.93,
+        88000.93
+      ],
+      "notes": "Same bank reference appears on two independent account statements.",
+      "expected_txn_refs": [
+        "I61606559645",
+        "I61606559645"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0119_000538",
+        "SYN0120_000540"
+      ]
+    },
+    {
+      "pattern_id": 11,
+      "pattern_name": "balance_parking",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0121"
+      ],
+      "expected_amount_range": [
+        361000.17,
+        361000.17
+      ],
+      "notes": "Large credit remains parked; subsequent activity is minor.",
+      "expected_txn_refs": [
+        "938904808455"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0121_000224"
+      ]
+    },
+    {
+      "pattern_id": 12,
+      "pattern_name": "hub_ranking",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0112",
+        "SYN0113",
+        "SYN0114",
+        "SYN0115",
+        "SYN0116",
+        "SYN0117",
+        "SYN0118"
+      ],
+      "expected_amount_range": [
+        19100.61,
+        63200.0
+      ],
+      "notes": "Hub receives from 6-8 spoke accounts with corroborating statements.",
+      "expected_txn_refs": [
+        "U81240405564",
+        "U81240405564",
+        "I73434873986",
+        "I73434873986",
+        "N32270877907",
+        "N32270877907",
+        "I18014212366",
+        "I18014212366",
+        "I38784067999",
+        "I38784067999",
+        "I20081967062",
+        "I20081967062"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0113_000572",
+        "SYN0112_000564",
+        "SYN0114_000587",
+        "SYN0112_000568",
+        "SYN0115_000567",
+        "SYN0112_000572",
+        "SYN0116_000571",
+        "SYN0112_000574",
+        "SYN0117_000533",
+        "SYN0112_000566",
+        "SYN0118_000624",
+        "SYN0112_000569"
+      ]
+    },
+    {
+      "pattern_id": 13,
+      "pattern_name": "low_value_testing",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0122",
+        "SYN0123"
+      ],
+      "expected_amount_range": [
+        8.21,
+        31.09
+      ],
+      "notes": "Reciprocal low-value probes on both real account sides.",
+      "expected_txn_refs": [
+        "U54388548058",
+        "U54388548058",
+        "U04332109674",
+        "U04332109674",
+        "U61346868591",
+        "U61346868591",
+        "U49172343877",
+        "U49172343877",
+        "U19618075118",
+        "U19618075118"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0122_000271",
+        "SYN0123_000267",
+        "SYN0123_000270",
+        "SYN0122_000273",
+        "SYN0122_000275",
+        "SYN0123_000274",
+        "SYN0123_000277",
+        "SYN0122_000277",
+        "SYN0122_000282",
+        "SYN0123_000280"
+      ]
+    },
+    {
+      "pattern_id": 14,
+      "pattern_name": "reversal_clusters",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0124"
+      ],
+      "expected_amount_range": [
+        6200.06,
+        35700.24
+      ],
+      "notes": "Repeated debit-reversal pattern across multiple cycles.",
+      "expected_txn_refs": [
+        "U76420001320",
+        "960886991339",
+        "U89027366023",
+        "532495746758",
+        "U34603953253",
+        "404328588115",
+        "U66218436408",
+        "611151012081",
+        "U79258957612",
+        "449540790370"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0124_000471",
+        "SYN0124_000475",
+        "SYN0124_000479",
+        "SYN0124_000481",
+        "SYN0124_000486",
+        "SYN0124_000489",
+        "SYN0124_000494",
+        "SYN0124_000501",
+        "SYN0124_000505",
+        "SYN0124_000508"
+      ]
+    },
+    {
+      "pattern_id": 15,
+      "pattern_name": "round_value_debit",
+      "expected_tier": "weak",
+      "accounts_involved": [
+        "SYN0125"
+      ],
+      "expected_amount_range": [
+        10000.0,
+        80000.0
+      ],
+      "notes": "Cluster of round-value outward transfers amid non-round routine spending.",
+      "expected_txn_refs": [
+        "367404071386",
+        "021061609074",
+        "034073908374",
+        "141682412773",
+        "024146173538",
+        "081258815661",
+        "008017784954"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0125_000351",
+        "SYN0125_000355",
+        "SYN0125_000361",
+        "SYN0125_000365",
+        "SYN0125_000367",
+        "SYN0125_000373",
+        "SYN0125_000379"
+      ]
+    },
+    {
+      "pattern_id": 16,
+      "pattern_name": "shared_upi",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0119",
+        "SYN0120",
+        "SYN0121"
+      ],
+      "expected_amount_range": [
+        1430.49,
+        7750.45
+      ],
+      "notes": "Handle naveen40@apl appears across separate account statements.",
+      "expected_txn_refs": [
+        "578977542504",
+        "287964137374",
+        "079206095451"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0119_000221",
+        "SYN0120_000229",
+        "SYN0121_000223"
+      ]
+    },
+    {
+      "pattern_id": 17,
+      "pattern_name": "round_trip",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0107",
+        "SYN0108",
+        "SYN0109"
+      ],
+      "expected_amount_range": [
+        252156.19,
+        286000.89
+      ],
+      "notes": "Out-and-back round-trip via different channels; all sides have statements.",
+      "expected_txn_refs": [
+        "N34420581585",
+        "N34420581585",
+        "I02224230004",
+        "I02224230004",
+        "R48694250121",
+        "R48694250121"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0107_000503",
+        "SYN0108_000529",
+        "SYN0108_000532",
+        "SYN0109_000509",
+        "SYN0109_000521",
+        "SYN0107_000512"
+      ]
+    },
+    {
+      "pattern_id": 18,
+      "pattern_name": "dormant_reactivation",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0126"
+      ],
+      "expected_amount_range": [
+        3640.7,
+        288000.26
+      ],
+      "notes": "Long dormancy followed by a material reactivation burst.",
+      "expected_txn_refs": [
+        "856434181988",
+        "186580291181",
+        "410317508133"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0126_000001",
+        "SYN0126_000002",
+        "SYN0126_000003"
+      ]
+    },
+    {
+      "pattern_id": 19,
+      "pattern_name": "first_contact_large_transfer",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0110",
+        "SYN0111"
+      ],
+      "expected_amount_range": [
+        266000.2,
+        266000.2
+      ],
+      "notes": "No prior relationship; first-ever contact is a large RTGS transfer.",
+      "expected_txn_refs": [
+        "R42930926366",
+        "R42930926366"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0110_000183",
+        "SYN0111_000174"
+      ]
+    },
+    {
+      "pattern_id": 22,
+      "pattern_name": "llm_lead_unknown_shape",
+      "expected_tier": "safety_net",
+      "accounts_involved": [
+        "SYN0127"
+      ],
+      "expected_amount_range": [
+        1901.27,
+        9174.06
+      ],
+      "notes": "Expected zero strong/weak findings from Patterns 1-19; surface only via Pattern 22/23 safety-net trigger.",
+      "expected_txn_refs": [
+        "882421277021",
+        "790095633011",
+        "338000686081",
+        "666397895254",
+        "293292066059",
+        "638214467228",
+        "338278647271"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0127_000382",
+        "SYN0127_000391",
+        "SYN0127_000392",
+        "SYN0127_000421",
+        "SYN0127_000422",
+        "SYN0127_000437",
+        "SYN0127_000503"
+      ]
+    },
+    {
+      "pattern_id": 23,
+      "pattern_name": "ml_ensemble_unknown_shape",
+      "expected_tier": "safety_net",
+      "accounts_involved": [
+        "SYN0128"
+      ],
+      "expected_amount_range": [
+        697.73,
+        9692.76
+      ],
+      "notes": "Expected zero strong/weak findings from Patterns 1-19; surface only via Pattern 22/23 safety-net trigger.",
+      "expected_txn_refs": [
+        "161022627830",
+        "866384252195",
+        "316022545800",
+        "402434421353",
+        "940015372862",
+        "842605296236",
+        "111343714506",
+        "418451656961",
+        "771851106316",
+        "041333853405"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0128_000410",
+        "SYN0128_000414",
+        "SYN0128_000453",
+        "SYN0128_000454",
+        "SYN0128_000475",
+        "SYN0128_000542",
+        "SYN0128_000628",
+        "SYN0128_000663",
+        "SYN0128_000675",
+        "SYN0128_000731"
+      ]
+    }
+  ],
+  "expected_non_findings": [],
+  "expected_account_ranking": [
+    "SYN0107",
+    "SYN0108",
+    "SYN0109",
+    "SYN0110",
+    "SYN0111",
+    "SYN0112",
+    "SYN0113",
+    "SYN0114",
+    "SYN0115",
+    "SYN0116",
+    "SYN0117",
+    "SYN0118",
+    "SYN0119",
+    "SYN0120",
+    "SYN0121",
+    "SYN0122",
+    "SYN0123",
+    "SYN0124",
+    "SYN0126",
+    "SYN0125",
+    "SYN0127",
+    "SYN0128",
+    "SYN0129",
+    "SYN0130",
+    "SYN0131",
+    "SYN0132",
+    "SYN0133",
+    "SYN0134",
+    "SYN0135",
+    "SYN0136",
+    "SYN0137",
+    "SYN0138",
+    "SYN0139",
+    "SYN0140",
+    "SYN0141",
+    "SYN0142",
+    "SYN0143",
+    "SYN0144",
+    "SYN0145",
+    "SYN0146",
+    "SYN0147",
+    "SYN0148",
+    "SYN0149",
+    "SYN0150",
+    "SYN0151",
+    "SYN0152",
+    "SYN0153",
+    "SYN0154",
+    "SYN0155",
+    "SYN0156",
+    "SYN0157",
+    "SYN0158",
+    "SYN0159",
+    "SYN0160",
+    "SYN0161",
+    "SYN0162",
+    "SYN0163",
+    "SYN0164",
+    "SYN0165",
+    "SYN0166",
+    "SYN0167",
+    "SYN0168",
+    "SYN0169",
+    "SYN0170",
+    "SYN0171",
+    "SYN0172",
+    "SYN0173",
+    "SYN0174",
+    "SYN0175",
+    "SYN0176",
+    "SYN0177",
+    "SYN0178",
+    "SYN0179",
+    "SYN0180",
+    "SYN0181",
+    "SYN0182",
+    "SYN0183",
+    "SYN0184",
+    "SYN0185",
+    "SYN0186",
+    "SYN0187",
+    "SYN0188",
+    "SYN0189",
+    "SYN0190",
+    "SYN0191",
+    "SYN0192",
+    "SYN0193",
+    "SYN0194",
+    "SYN0195",
+    "SYN0196",
+    "SYN0197",
+    "SYN0198",
+    "SYN0199",
+    "SYN0200",
+    "SYN0201",
+    "SYN0202"
+  ],
+  "ranking_basis": "Descending planted-evidence weight; strong=3, weak/safety-net=1.",
+  "pure_clean_control_accounts": [
+    "SYN0131",
+    "SYN0132",
+    "SYN0133",
+    "SYN0134",
+    "SYN0135",
+    "SYN0136",
+    "SYN0137",
+    "SYN0138",
+    "SYN0139",
+    "SYN0140",
+    "SYN0141",
+    "SYN0142",
+    "SYN0143",
+    "SYN0144",
+    "SYN0145",
+    "SYN0146",
+    "SYN0147",
+    "SYN0148",
+    "SYN0149",
+    "SYN0150",
+    "SYN0151",
+    "SYN0152",
+    "SYN0153",
+    "SYN0154",
+    "SYN0155",
+    "SYN0156",
+    "SYN0157",
+    "SYN0158",
+    "SYN0159",
+    "SYN0160",
+    "SYN0161",
+    "SYN0162",
+    "SYN0163",
+    "SYN0164",
+    "SYN0165",
+    "SYN0166",
+    "SYN0167",
+    "SYN0168",
+    "SYN0169",
+    "SYN0170",
+    "SYN0171",
+    "SYN0172",
+    "SYN0173",
+    "SYN0174",
+    "SYN0175",
+    "SYN0176",
+    "SYN0177",
+    "SYN0178",
+    "SYN0179",
+    "SYN0180",
+    "SYN0181",
+    "SYN0182",
+    "SYN0183",
+    "SYN0184",
+    "SYN0185",
+    "SYN0186",
+    "SYN0187",
+    "SYN0188",
+    "SYN0189",
+    "SYN0190",
+    "SYN0191",
+    "SYN0192",
+    "SYN0193",
+    "SYN0194",
+    "SYN0195",
+    "SYN0196",
+    "SYN0197",
+    "SYN0198",
+    "SYN0199",
+    "SYN0200",
+    "SYN0201",
+    "SYN0202"
+  ],
+  "noise_population_count": 72,
+  "pattern_21_validation": "Compare pipeline suspicious-account ranking with expected_account_ranking; Pattern 21 is composite and not planted."
+}

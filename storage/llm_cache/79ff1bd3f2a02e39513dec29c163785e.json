@@ -1,0 +1,7 @@
+{
+  "date": "Value date",
+  "narration": "Description",
+  "debit": "Withdrawal Amt (IN\u20b9)",
+  "credit": "Deposit Amt (IN\u20b9)",
+  "balance": "Closing Balance"
+}

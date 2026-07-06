@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "seed": 2025,
+  "generated_on": "2026-07-03",
+  "folders": [
+    "clean_control",
+    "pattern_01_duplicate_verification",
+    "pattern_02_failed_reversed_transaction",
+    "pattern_03_pass_through_routing",
+    "pattern_04_fund_pooling",
+    "pattern_05_structuring_smurfing",
+    "pattern_07_circular_flow",
+    "pattern_08_money_trail",
+    "pattern_09_credit_to_cash_out",
+    "pattern_10_cross_statement_links",
+    "pattern_11_balance_parking",
+    "pattern_12_hub_ranking",
+    "pattern_13_low_value_testing",
+    "pattern_14_reversal_clusters",
+    "pattern_15_round_value_debit",
+    "pattern_16_shared_upi",
+    "pattern_17_round_trip",
+    "pattern_18_dormant_reactivation",
+    "pattern_19_first_contact_large_transfer",
+    "pattern_22_llm_lead_unknown_shape",
+    "pattern_23_ml_ensemble_unknown_shape",
+    "combined_all_patterns"
+  ]
+}

@@ -1,0 +1,2339 @@
+{
+  "data": {
+    "clusters": [
+      {
+        "cluster_id": "cluster_001",
+        "omitted_node_count": 0,
+        "risk_label": "High risk",
+        "visible_edge_count": 145,
+        "visible_node_count": 14
+      }
+    ],
+    "edges": [
+      {
+        "amount": 927.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-17",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->bescom.bill@upi::24281907163731_000003",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "24281907163731_000003"
+        ]
+      },
+      {
+        "amount": 724.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-10",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->bescom.bill@upi::24281907163731_000016",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "24281907163731_000016"
+        ]
+      },
+      {
+        "amount": 713.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-13",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->bescom.bill@upi::24281907163731_000019",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "24281907163731_000019"
+        ]
+      },
+      {
+        "amount": 1279.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-15",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->medplus@ybl::50603887137_000000",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "50603887137_000000"
+        ]
+      },
+      {
+        "amount": 2993.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-27",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->medplus@ybl::50603887137_000008",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "50603887137_000008"
+        ]
+      },
+      {
+        "amount": 3912.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-01",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->medplus@ybl::50603887137_000011",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "50603887137_000011"
+        ]
+      },
+      {
+        "amount": 1964.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-19",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->medplus@ybl::89477031740948_000002",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "89477031740948_000002"
+        ]
+      },
+      {
+        "amount": 3893.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-26",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->medplus@ybl::89477031740948_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "89477031740948_000007"
+        ]
+      },
+      {
+        "amount": 1888.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-10",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->medplus@ybl::89477031740948_000028",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "89477031740948_000028"
+        ]
+      },
+      {
+        "amount": 1719.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-19",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->jio.mobile@ibl::6564227161247_000003",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "6564227161247_000003"
+        ]
+      },
+      {
+        "amount": 312.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-06",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->jio.mobile@ibl::6564227161247_000014",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "6564227161247_000014"
+        ]
+      },
+      {
+        "amount": 3591.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-07",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->jio.mobile@ibl::6564227161247_000015",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "6564227161247_000015"
+        ]
+      },
+      {
+        "amount": 2795.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-31",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->bbdaily@okhdfcbank::959195047945_000010",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "959195047945_000010"
+        ]
+      },
+      {
+        "amount": 1255.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-10",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->bbdaily@okhdfcbank::959195047945_000015",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "959195047945_000015"
+        ]
+      },
+      {
+        "amount": 2545.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-10",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->bbdaily@okhdfcbank::959195047945_000029",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "959195047945_000029"
+        ]
+      },
+      {
+        "amount": 1525.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-16",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->bbdaily@okhdfcbank::3545244589369467_000001",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "3545244589369467_000001"
+        ]
+      },
+      {
+        "amount": 1086.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-15",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->bbdaily@okhdfcbank::3545244589369467_000066",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "3545244589369467_000066"
+        ]
+      },
+      {
+        "amount": 3670.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-23",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->bbdaily@okhdfcbank::3545244589369467_000071",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "3545244589369467_000071"
+        ]
+      },
+      {
+        "amount": 1628.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-24",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->airtel.recharge@airtel::24281907163731_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "24281907163731_000007"
+        ]
+      },
+      {
+        "amount": 2485.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-03",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->airtel.recharge@airtel::24281907163731_000027",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "24281907163731_000027"
+        ]
+      },
+      {
+        "amount": 2988.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-05",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->airtel.recharge@airtel::24281907163731_000028",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "24281907163731_000028"
+        ]
+      },
+      {
+        "amount": 3976.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-23",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->jio.mobile@ibl::3545244589369467_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "3545244589369467_000005"
+        ]
+      },
+      {
+        "amount": 4198.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-13",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->jio.mobile@ibl::3545244589369467_000014",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "3545244589369467_000014"
+        ]
+      },
+      {
+        "amount": 3627.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-16",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->jio.mobile@ibl::3545244589369467_000016",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "3545244589369467_000016"
+        ]
+      },
+      {
+        "amount": 2143.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-02",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->bescom.bill@upi::50603887137_000012",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "50603887137_000012"
+        ]
+      },
+      {
+        "amount": 2823.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-21",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->bescom.bill@upi::50603887137_000021",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "50603887137_000021"
+        ]
+      },
+      {
+        "amount": 1959.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-18",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->bescom.bill@upi::50603887137_000036",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "50603887137_000036"
+        ]
+      },
+      {
+        "amount": 3743.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-29",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->bescom.bill@upi::89477031740948_000009",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "89477031740948_000009"
+        ]
+      },
+      {
+        "amount": 823.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-03",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->bescom.bill@upi::89477031740948_000025",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "89477031740948_000025"
+        ]
+      },
+      {
+        "amount": 480.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-14",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->bescom.bill@upi::89477031740948_000049",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "89477031740948",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "89477031740948_000049"
+        ]
+      },
+      {
+        "amount": 4205.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-27",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->jio.mobile@ibl::959195047945_000008",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "959195047945_000008"
+        ]
+      },
+      {
+        "amount": 178.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-14",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->jio.mobile@ibl::959195047945_000031",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "959195047945_000031"
+        ]
+      },
+      {
+        "amount": 3577.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-27",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->jio.mobile@ibl::959195047945_000039",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "959195047945_000039"
+        ]
+      },
+      {
+        "amount": 685.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-23",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->airtel.recharge@airtel::89477031740948_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "89477031740948_000005"
+        ]
+      },
+      {
+        "amount": 4000.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-03",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->airtel.recharge@airtel::89477031740948_000011",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "89477031740948_000011"
+        ]
+      },
+      {
+        "amount": 3659.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-10",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->airtel.recharge@airtel::89477031740948_000015",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "89477031740948_000015"
+        ]
+      },
+      {
+        "amount": 568.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-29",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->airtel.recharge@airtel::50603887137_000041",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "50603887137_000041"
+        ]
+      },
+      {
+        "amount": 760.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-09",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->airtel.recharge@airtel::50603887137_000059",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "50603887137_000059"
+        ]
+      },
+      {
+        "amount": 2911.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-21",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->airtel.recharge@airtel::50603887137_000065",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "50603887137_000065"
+        ]
+      },
+      {
+        "amount": 4128.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-14",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->bbdaily@okhdfcbank::24281907163731_000000",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "24281907163731_000000"
+        ]
+      },
+      {
+        "amount": 2997.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-21",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->bbdaily@okhdfcbank::24281907163731_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "24281907163731_000005"
+        ]
+      },
+      {
+        "amount": 1727.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->bbdaily@okhdfcbank::24281907163731_000006",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "24281907163731_000006"
+        ]
+      },
+      {
+        "amount": 3348.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-20",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->bbdaily@okhdfcbank::89477031740948_000003",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "89477031740948_000003"
+        ]
+      },
+      {
+        "amount": 3844.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-05",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->bbdaily@okhdfcbank::89477031740948_000026",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "89477031740948_000026"
+        ]
+      },
+      {
+        "amount": 1135.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-07",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->bbdaily@okhdfcbank::89477031740948_000027",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "89477031740948_000027"
+        ]
+      },
+      {
+        "amount": 1947.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-23",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->bbdaily@okhdfcbank::50603887137_000006",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "50603887137_000006"
+        ]
+      },
+      {
+        "amount": 3160.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-07",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->bbdaily@okhdfcbank::50603887137_000045",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "50603887137_000045"
+        ]
+      },
+      {
+        "amount": 3639.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-27",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->bbdaily@okhdfcbank::50603887137_000054",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "50603887137_000054"
+        ]
+      },
+      {
+        "amount": 200000.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-13",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->6564227161247::3545244589369467_000029",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "6564227161247",
+        "txn_ids": [
+          "3545244589369467_000029",
+          "6564227161247_000034"
+        ]
+      },
+      {
+        "amount": 2723.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-24",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->jio.mobile@ibl::24281907163731_000024",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "24281907163731_000024"
+        ]
+      },
+      {
+        "amount": 2080.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-18",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->jio.mobile@ibl::24281907163731_000038",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "24281907163731_000038"
+        ]
+      },
+      {
+        "amount": 150000.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-11",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->89477031740948::3545244589369467_000027",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "89477031740948",
+        "txn_ids": [
+          "3545244589369467_000027",
+          "89477031740948_000030"
+        ]
+      },
+      {
+        "amount": 80000.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-16",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->50603887137::3545244589369467_000032",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "50603887137",
+        "txn_ids": [
+          "3545244589369467_000032",
+          "50603887137_000034"
+        ]
+      },
+      {
+        "amount": 2661.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-24",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->jio.mobile@ibl::89477031740948_000006",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "89477031740948_000006"
+        ]
+      },
+      {
+        "amount": 2691.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-23",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->jio.mobile@ibl::89477031740948_000022",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "89477031740948_000022"
+        ]
+      },
+      {
+        "amount": 797.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-11",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->jio.mobile@ibl::89477031740948_000029",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "89477031740948_000029"
+        ]
+      },
+      {
+        "amount": 2086.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->jio.mobile@ibl::50603887137_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "50603887137_000005"
+        ]
+      },
+      {
+        "amount": 1170.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-06",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->jio.mobile@ibl::50603887137_000014",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "50603887137_000014"
+        ]
+      },
+      {
+        "amount": 629.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-14",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->jio.mobile@ibl::50603887137_000018",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "jio.mobile@ibl",
+        "txn_ids": [
+          "50603887137_000018"
+        ]
+      },
+      {
+        "amount": 3299.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-15",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->dmart.pay@okaxis::6564227161247_000000",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "6564227161247_000000"
+        ]
+      },
+      {
+        "amount": 2959.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-02",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->dmart.pay@okaxis::6564227161247_000011",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "6564227161247_000011"
+        ]
+      },
+      {
+        "amount": 246.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-16",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->dmart.pay@okaxis::6564227161247_000040",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "6564227161247",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "6564227161247_000040"
+        ]
+      },
+      {
+        "amount": 413.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-05",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->bescom.bill@upi::959195047945_000012",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "959195047945_000012"
+        ]
+      },
+      {
+        "amount": 284.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-12",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->bescom.bill@upi::959195047945_000017",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "959195047945_000017"
+        ]
+      },
+      {
+        "amount": 2212.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-08",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->bescom.bill@upi::959195047945_000046",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "959195047945_000046"
+        ]
+      },
+      {
+        "amount": 2429.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-18",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->irctc.pay@axisbank::6564227161247_000002",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "6564227161247_000002"
+        ]
+      },
+      {
+        "amount": 3299.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-11",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->irctc.pay@axisbank::6564227161247_000017",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "6564227161247_000017"
+        ]
+      },
+      {
+        "amount": 2156.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-12",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->irctc.pay@axisbank::6564227161247_000018",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "6564227161247_000018"
+        ]
+      },
+      {
+        "amount": 1187.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-25",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->fuelpay@ybl::6564227161247_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "6564227161247_000007"
+        ]
+      },
+      {
+        "amount": 327.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-08",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->fuelpay@ybl::6564227161247_000032",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "6564227161247_000032"
+        ]
+      },
+      {
+        "amount": 3349.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-10",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->fuelpay@ybl::6564227161247_000033",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "6564227161247_000033"
+        ]
+      },
+      {
+        "amount": 1395.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-26",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->fuelpay@ybl::3545244589369467_000006",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "3545244589369467_000006"
+        ]
+      },
+      {
+        "amount": 4198.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-29",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->fuelpay@ybl::3545244589369467_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "3545244589369467_000007"
+        ]
+      },
+      {
+        "amount": 132.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-19",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->fuelpay@ybl::3545244589369467_000017",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "3545244589369467_000017"
+        ]
+      },
+      {
+        "amount": 1271.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-04",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->irctc.pay@axisbank::3545244589369467_000009",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "3545244589369467_000009"
+        ]
+      },
+      {
+        "amount": 2050.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-09",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->irctc.pay@axisbank::3545244589369467_000011",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "3545244589369467_000011"
+        ]
+      },
+      {
+        "amount": 3931.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-26",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->irctc.pay@axisbank::3545244589369467_000020",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "3545244589369467_000020"
+        ]
+      },
+      {
+        "amount": 2859.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-08",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->dmart.pay@okaxis::3545244589369467_000024",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "3545244589369467_000024"
+        ]
+      },
+      {
+        "amount": 4437.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-19",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->dmart.pay@okaxis::3545244589369467_000069",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "3545244589369467_000069"
+        ]
+      },
+      {
+        "amount": 830.0,
+        "confidence_score": 1.0,
+        "date": "2025-06-04",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->dmart.pay@okaxis::3545244589369467_000078",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "3545244589369467_000078"
+        ]
+      },
+      {
+        "amount": 3104.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-14",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->fuelpay@ybl::959195047945_000001",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "959195047945_000001"
+        ]
+      },
+      {
+        "amount": 2377.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-18",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->fuelpay@ybl::959195047945_000004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "959195047945_000004"
+        ]
+      },
+      {
+        "amount": 971.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-06",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->fuelpay@ybl::959195047945_000013",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "959195047945_000013"
+        ]
+      },
+      {
+        "amount": 2713.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-21",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->irctc.pay@axisbank::959195047945_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "959195047945_000005"
+        ]
+      },
+      {
+        "amount": 433.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->irctc.pay@axisbank::959195047945_000006",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "959195047945_000006"
+        ]
+      },
+      {
+        "amount": 4183.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-25",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->irctc.pay@axisbank::959195047945_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "959195047945_000007"
+        ]
+      },
+      {
+        "amount": 504.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-16",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->dmart.pay@okaxis::959195047945_000003",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "959195047945_000003"
+        ]
+      },
+      {
+        "amount": 582.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-29",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->dmart.pay@okaxis::959195047945_000040",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "959195047945_000040"
+        ]
+      },
+      {
+        "amount": 2581.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-31",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->dmart.pay@okaxis::959195047945_000042",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "959195047945_000042"
+        ]
+      },
+      {
+        "amount": 1640.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-20",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->medplus@ybl::6564227161247_000004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "6564227161247_000004"
+        ]
+      },
+      {
+        "amount": 4403.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-23",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->medplus@ybl::6564227161247_000005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "6564227161247_000005"
+        ]
+      },
+      {
+        "amount": 567.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-10",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->medplus@ybl::6564227161247_000016",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "6564227161247_000016"
+        ]
+      },
+      {
+        "amount": 314.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-21",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->irctc.pay@axisbank::24281907163731_000023",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "24281907163731_000023"
+        ]
+      },
+      {
+        "amount": 4095.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-02",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->irctc.pay@axisbank::24281907163731_000026",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "24281907163731_000026"
+        ]
+      },
+      {
+        "amount": 2090.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-07",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->irctc.pay@axisbank::24281907163731_000029",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "24281907163731_000029"
+        ]
+      },
+      {
+        "amount": 3038.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-25",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->dmart.pay@okaxis::24281907163731_000008",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "24281907163731_000008"
+        ]
+      },
+      {
+        "amount": 1695.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-16",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->dmart.pay@okaxis::24281907163731_000021",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "24281907163731_000021"
+        ]
+      },
+      {
+        "amount": 2783.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-17",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->dmart.pay@okaxis::24281907163731_000037",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "24281907163731_000037"
+        ]
+      },
+      {
+        "amount": 2805.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-19",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->fuelpay@ybl::24281907163731_000004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "24281907163731_000004"
+        ]
+      },
+      {
+        "amount": 3275.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-07",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->fuelpay@ybl::24281907163731_000046",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "24281907163731_000046"
+        ]
+      },
+      {
+        "amount": 2189.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-11",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->fuelpay@ybl::24281907163731_000048",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "24281907163731_000048"
+        ]
+      },
+      {
+        "amount": 3063.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-21",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->dmart.pay@okaxis::89477031740948_000004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "89477031740948_000004"
+        ]
+      },
+      {
+        "amount": 3037.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-08",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->dmart.pay@okaxis::89477031740948_000014",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "89477031740948_000014"
+        ]
+      },
+      {
+        "amount": 4172.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-21",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->dmart.pay@okaxis::89477031740948_000021",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "89477031740948_000021"
+        ]
+      },
+      {
+        "amount": 4067.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-18",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->fuelpay@ybl::50603887137_000002",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "50603887137_000002"
+        ]
+      },
+      {
+        "amount": 771.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-24",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->fuelpay@ybl::50603887137_000007",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "50603887137_000007"
+        ]
+      },
+      {
+        "amount": 3604.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-29",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->fuelpay@ybl::50603887137_000009",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "50603887137_000009"
+        ]
+      },
+      {
+        "amount": 2105.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-12",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->dmart.pay@okaxis::50603887137_000016",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "50603887137_000016"
+        ]
+      },
+      {
+        "amount": 3816.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-18",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->dmart.pay@okaxis::50603887137_000020",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "50603887137_000020"
+        ]
+      },
+      {
+        "amount": 2741.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-24",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->dmart.pay@okaxis::50603887137_000022",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "dmart.pay@okaxis",
+        "txn_ids": [
+          "50603887137_000022"
+        ]
+      },
+      {
+        "amount": 3998.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-24",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->bescom.bill@upi::6564227161247_000006",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "6564227161247_000006"
+        ]
+      },
+      {
+        "amount": 3897.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-15",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->bescom.bill@upi::6564227161247_000021",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "6564227161247_000021"
+        ]
+      },
+      {
+        "amount": 530.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-26",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->bescom.bill@upi::6564227161247_000027",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "6564227161247_000027"
+        ]
+      },
+      {
+        "amount": 2556.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-16",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->fuelpay@ybl::89477031740948_000001",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "89477031740948_000001"
+        ]
+      },
+      {
+        "amount": 2423.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-27",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->fuelpay@ybl::89477031740948_000008",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "89477031740948_000008"
+        ]
+      },
+      {
+        "amount": 3432.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-31",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->fuelpay@ybl::89477031740948_000010",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "fuelpay@ybl",
+        "txn_ids": [
+          "89477031740948_000010"
+        ]
+      },
+      {
+        "amount": 2500.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-28",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->airtel.recharge@airtel::6564227161247_000008",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "6564227161247_000008"
+        ]
+      },
+      {
+        "amount": 1258.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-29",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->airtel.recharge@airtel::6564227161247_000009",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "6564227161247_000009"
+        ]
+      },
+      {
+        "amount": 4055.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-21",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->airtel.recharge@airtel::6564227161247_000023",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "6564227161247_000023"
+        ]
+      },
+      {
+        "amount": 1535.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-06",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->irctc.pay@axisbank::89477031740948_000012",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "89477031740948_000012"
+        ]
+      },
+      {
+        "amount": 4244.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-25",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->irctc.pay@axisbank::89477031740948_000023",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "89477031740948",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "89477031740948_000023"
+        ]
+      },
+      {
+        "amount": 394.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-30",
+        "high_degree_public_endpoint": false,
+        "id": "89477031740948->irctc.pay@axisbank::89477031740948_000058",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "89477031740948",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "89477031740948_000058"
+        ]
+      },
+      {
+        "amount": 3994.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-19",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->medplus@ybl::3545244589369467_000003",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "3545244589369467_000003"
+        ]
+      },
+      {
+        "amount": 213.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-07",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->medplus@ybl::3545244589369467_000010",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "3545244589369467_000010"
+        ]
+      },
+      {
+        "amount": 2371.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-01",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->medplus@ybl::3545244589369467_000021",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "3545244589369467_000021"
+        ]
+      },
+      {
+        "amount": 803.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-21",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->irctc.pay@axisbank::50603887137_000004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "50603887137_000004"
+        ]
+      },
+      {
+        "amount": 1975.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-09",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->irctc.pay@axisbank::50603887137_000028",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "50603887137_000028"
+        ]
+      },
+      {
+        "amount": 2120.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-13",
+        "high_degree_public_endpoint": false,
+        "id": "50603887137->irctc.pay@axisbank::50603887137_000047",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "50603887137",
+        "target": "irctc.pay@axisbank",
+        "txn_ids": [
+          "50603887137_000047"
+        ]
+      },
+      {
+        "amount": 2844.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-04",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->medplus@ybl::959195047945_000026",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "959195047945_000026"
+        ]
+      },
+      {
+        "amount": 1260.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-25",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->medplus@ybl::959195047945_000070",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "959195047945_000070"
+        ]
+      },
+      {
+        "amount": 2390.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-17",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->bescom.bill@upi::3545244589369467_000002",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "3545244589369467_000002"
+        ]
+      },
+      {
+        "amount": 607.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->bescom.bill@upi::3545244589369467_000004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "3545244589369467_000004"
+        ]
+      },
+      {
+        "amount": 415.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-11",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->bescom.bill@upi::3545244589369467_000012",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "bescom.bill@upi",
+        "txn_ids": [
+          "3545244589369467_000012"
+        ]
+      },
+      {
+        "amount": 2206.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-13",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->medplus@ybl::24281907163731_000033",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "24281907163731_000033"
+        ]
+      },
+      {
+        "amount": 254.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-25",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->medplus@ybl::24281907163731_000058",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "24281907163731_000058"
+        ]
+      },
+      {
+        "amount": 1309.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-28",
+        "high_degree_public_endpoint": false,
+        "id": "24281907163731->medplus@ybl::24281907163731_000060",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "24281907163731",
+        "target": "medplus@ybl",
+        "txn_ids": [
+          "24281907163731_000060"
+        ]
+      },
+      {
+        "amount": 3743.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-14",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->airtel.recharge@airtel::3545244589369467_000015",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "3545244589369467_000015"
+        ]
+      },
+      {
+        "amount": 4442.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-22",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->airtel.recharge@airtel::3545244589369467_000018",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "3545244589369467_000018"
+        ]
+      },
+      {
+        "amount": 1787.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-09",
+        "high_degree_public_endpoint": false,
+        "id": "3545244589369467->airtel.recharge@airtel::3545244589369467_000025",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "3545244589369467",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "3545244589369467_000025"
+        ]
+      },
+      {
+        "amount": 989.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-06",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->bbdaily@okhdfcbank::6564227161247_000031",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "6564227161247_000031"
+        ]
+      },
+      {
+        "amount": 3699.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-14",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->bbdaily@okhdfcbank::6564227161247_000037",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "6564227161247",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "6564227161247_000037"
+        ]
+      },
+      {
+        "amount": 149.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-18",
+        "high_degree_public_endpoint": false,
+        "id": "6564227161247->bbdaily@okhdfcbank::6564227161247_000073",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "6564227161247",
+        "target": "bbdaily@okhdfcbank",
+        "txn_ids": [
+          "6564227161247_000073"
+        ]
+      },
+      {
+        "amount": 3538.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-24",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->airtel.recharge@airtel::959195047945_000022",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "959195047945_000022"
+        ]
+      },
+      {
+        "amount": 840.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-02",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->airtel.recharge@airtel::959195047945_000024",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "959195047945_000024"
+        ]
+      },
+      {
+        "amount": 1340.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-23",
+        "high_degree_public_endpoint": false,
+        "id": "959195047945->airtel.recharge@airtel::959195047945_000037",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "959195047945",
+        "target": "airtel.recharge@airtel",
+        "txn_ids": [
+          "959195047945_000037"
+        ]
+      }
+    ],
+    "max_visible_nodes_per_cluster": 20,
+    "nodes": [
+      {
+        "cluster_id": "cluster_001",
+        "id": "24281907163731",
+        "observed_account": true,
+        "pattern_count": 1,
+        "reconstruction_degree": 8,
+        "suspicion_tiers": [
+          3
+        ],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "3545244589369467",
+        "observed_account": true,
+        "pattern_count": 8,
+        "reconstruction_degree": 3,
+        "suspicion_tiers": [
+          1,
+          3
+        ],
+        "total_score": 164.1941
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "50603887137",
+        "observed_account": true,
+        "pattern_count": 2,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          3
+        ],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "6564227161247",
+        "observed_account": true,
+        "pattern_count": 4,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          2,
+          3
+        ],
+        "total_score": 51.7845
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "89477031740948",
+        "observed_account": true,
+        "pattern_count": 3,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          2,
+          3
+        ],
+        "total_score": 40.8273
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "959195047945",
+        "observed_account": true,
+        "pattern_count": 0,
+        "reconstruction_degree": 8,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "airtel.recharge@airtel",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "bbdaily@okhdfcbank",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "bescom.bill@upi",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "dmart.pay@okaxis",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "fuelpay@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "irctc.pay@axisbank",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "jio.mobile@ibl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "medplus@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 6,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      }
+    ],
+    "raw_filtered_edge_count": 348,
+    "raw_filtered_node_count": 14,
+    "scope": "top_reconstruction_clusters_capped"
+  },
+  "type": "money_flow_network_3d"
+}

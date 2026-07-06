@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "S/O NAME_2 DAS",
+    "account_number": "ACCT_2",
+    "ifsc_code": "",
+    "branch_name": "",
+    "branch_address": "SHARDA NAGAR,NEEL MATHA NILAMATHA,LUCKNOW",
+    "bank_name": "",
+    "statement_period": "18-03-2025 To : 26-11-2025",
+    "currency": "INR",
+    "opening_balance": "0.00",
+    "closing_balance": "107.00"
+  },
+  "transactions": [],
+  "source": "groq"
+}

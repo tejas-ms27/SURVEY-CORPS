@@ -1,0 +1,9 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged
+504,502,14228787196,28/04/2025,10000.0,0.0,10000.0,COR CSH WDL,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+506,502,14228787196,28/04/2025,10000.0,0.0,10000.0,COR CSH WDL,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+2602,2601,0167042251865512,23/05/2025,5.9,5.9,0.0,IMPS OUTWARD CHARGE FOR REF NO :25141151,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+2604,2603,0167042251865512,23/05/2025,5.9,5.9,0.0,IMPS OUTWARD CHARGE FOR REF NO :25141041,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+2605,2603,0167042251865512,23/05/2025,5.9,5.9,0.0,IMPS OUTWARD CHARGE FOR REF NO :25141041,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+2606,2603,0167042251865512,23/05/2025,5.9,5.9,0.0,IMPS OUTWARD CHARGE FOR REF NO :25141041,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+2607,2603,0167042251865512,23/05/2025,5.9,5.9,0.0,IMPS OUTWARD CHARGE FOR REF NO :25141041,exact_duplicate (same Date + Narration + Debit + Credit + Account)
+2618,2616,0167042251865512,25/05/2025,5.9,5.9,0.0,IMPS OUTWARD CHARGE FOR REF NO :25142041,exact_duplicate (same Date + Narration + Debit + Credit + Account)

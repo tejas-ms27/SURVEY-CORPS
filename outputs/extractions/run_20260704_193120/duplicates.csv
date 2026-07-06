@@ -1,0 +1,5 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+1850,1849,520698390475976,14/07/2023,10000.0,10000.0,0.0,ATM-CASH/N. R MOHALLA/MYSORE/140723,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+2240,2238,520698390475976,19/10/2023,1500.0,1500.0,0.0,ATM-CASH/KBL ASHOKA ROAD MY/MYSORE/191023,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+2321,2320,520698390475976,06/11/2023,10000.0,10000.0,0.0,ATM-CASH/E LOUNGE N R MOHAL/MYSORE/061123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+3333,3332,520698390475976,26/05/2024,10000.0,10000.0,0.0,ATM-CASH/ASHOKA ROAD/MYSORE/260524,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004

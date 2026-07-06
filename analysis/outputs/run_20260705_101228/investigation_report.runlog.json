@@ -1,0 +1,53 @@
+{
+  "mode": "ai",
+  "language": "en",
+  "accounts": [
+    {
+      "acct_001": "groq:overview=ai,bullets=7/7"
+    },
+    {
+      "acct_002": "groq:overview=ai,bullets=5/5"
+    },
+    {
+      "acct_005": "groq:overview=ai,bullets=3/3"
+    },
+    {
+      "acct_004": "groq:overview=ai,bullets=3/3"
+    },
+    {
+      "acct_003": "groq:overview=ai,bullets=4/4"
+    }
+  ],
+  "graphs": [
+    {
+      "Case Overview Graph": "groq"
+    },
+    {
+      "Account Interconnection Graph": "template:filtered_static_exhibit"
+    },
+    {
+      "Suspicious Activity Timeline": "groq"
+    },
+    {
+      "Fraud-Pattern Summary": "groq"
+    }
+  ],
+  "case_narrative": "groq:6/6",
+  "pool": {
+    "pool": "report_GROQ6-9",
+    "loaded_keys": [
+      "GROQ6",
+      "GROQ7",
+      "GROQ8",
+      "GROQ9"
+    ],
+    "status_label": "active",
+    "per_key_status": {
+      "GROQ6": "active",
+      "GROQ7": "active",
+      "GROQ8": "active",
+      "GROQ9": "active"
+    },
+    "calls_made": 9
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 2.24,
+          "balance_after_debit": 999997.76,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 2.24,
+          "debit_txn_id": "acct_002_000745",
+          "narration": "SMS CHARGES ON ACTUAL BASISDue Dt:26-MAR-23 5120",
+          "remaining_after_allocation": 999997.76
+        },
+        {
+          "allocated_from_credit": 23.6,
+          "balance_after_debit": 999974.16,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 23.6,
+          "debit_txn_id": "acct_002_000746",
+          "narration": "308708048881 28 Mar 2023 308708048881 IB-IMPS-DR//UTIB/**2888//28/03/2023 ATM Txn done in other bank ATM / IMPS Charges 33",
+          "remaining_after_allocation": 999974.16
+        },
+        {
+          "allocated_from_credit": 400000.0,
+          "balance_after_debit": 599974.16,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 400000.0,
+          "debit_txn_id": "acct_002_000747",
+          "narration": "308708048881 28 Mar 2023 308708048881 IB-IMPS-DR//UTIB/**2888//28/03/2023 IB-IMPS-DR//UTIB/**2888//28/03/2023 08:12:54 33",
+          "remaining_after_allocation": 599974.16
+        },
+        {
+          "allocated_from_credit": 100000.0,
+          "balance_after_debit": 499974.16,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 100000.0,
+          "debit_txn_id": "acct_002_000748",
+          "narration": "IB ITG 63330700 5120101005955 Online Transaction OTH-siteeee 5120",
+          "remaining_after_allocation": 499974.16000000003
+        },
+        {
+          "allocated_from_credit": 400000.0,
+          "balance_after_debit": 99974.16,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 400000.0,
+          "debit_txn_id": "acct_002_000749",
+          "narration": "RTGS Dr-CNRBR52023032852259813-HDFC0004171-Poonam Sharma-/NONE 5120",
+          "remaining_after_allocation": 99974.16000000003
+        },
+        {
+          "allocated_from_credit": 29.0,
+          "balance_after_debit": 99945.16,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 29.0,
+          "debit_txn_id": "acct_002_000750",
+          "narration": "RTGS 00.00 TO 11.00 UPTO 5L SC 5120",
+          "remaining_after_allocation": 99945.16000000003
+        },
+        {
+          "allocated_from_credit": 90000.0,
+          "balance_after_debit": 9945.16,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-28",
+          "debit_amount": 90000.0,
+          "debit_txn_id": "acct_002_000751",
+          "narration": "000000945771 28 Mar 2023 000000945771 Funds Transfer Debit - BHUPENDRA 5120 Funds Transfer Debit - BHUPENDRA 5120",
+          "remaining_after_allocation": 9945.160000000033
+        },
+        {
+          "allocated_from_credit": 9945.160000000033,
+          "balance_after_debit": -27054.84,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-30",
+          "debit_amount": 37000.0,
+          "debit_txn_id": "acct_002_000752",
+          "narration": "000000945752 30 Mar 2023 000000945752 I/W Chq return- Funds Insufficient- 1745 I/W Chq return- Funds Insufficient-for payee -AONN ENERGY AND CONTROLS-- 1745",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 1000000.0,
+      "finding_id": "2c09c6436326b8169546",
+      "source_credit_txn_id": "acct_002_000744",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 284115.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-02-18",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_002_000709",
+          "narration": "000000945755 18 Feb 2023 000000945755 Funds Transfer Debit - BHUPENDRA 5120 Funds Transfer Debit - BHUPENDRA 5120",
+          "remaining_after_allocation": 280000.0
+        },
+        {
+          "allocated_from_credit": 100000.0,
+          "balance_after_debit": 184115.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-02-18",
+          "debit_amount": 100000.0,
+          "debit_txn_id": "acct_002_000710",
+          "narration": "000000945751 18 Feb 2023 000000945751 self - DELHI KHANPU 5120 self - DELHI KHANPU 5120",
+          "remaining_after_allocation": 180000.0
+        },
+        {
+          "allocated_from_credit": 180000.0,
+          "balance_after_debit": 4115.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-02-20",
+          "debit_amount": 180000.0,
+          "debit_txn_id": "acct_002_000711",
+          "narration": "000000945754 20 Feb 2023 000000945754 self-poonam sharma - DELHI KHANPU 5120 self-poonam sharma - DELHI KHANPU 5120",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 580000.0,
+      "finding_id": "b97f2a46a8d31bb38146",
+      "source_credit_txn_id": "acct_002_000708",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 78789.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-14",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_002_000724",
+          "narration": "000000945764 14 Mar 2023 000000945764 Funds Transfer Debit - BHUPENDRA 5120 Funds Transfer Debit - BHUPENDRA 5120",
+          "remaining_after_allocation": 75000.0
+        },
+        {
+          "allocated_from_credit": 59.0,
+          "balance_after_debit": 296027.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-15",
+          "debit_amount": 59.0,
+          "debit_txn_id": "acct_002_000726",
+          "narration": "Service Charges for mobile no./email id/address updation dt 15-MAR-23 5120",
+          "remaining_after_allocation": 74941.0
+        },
+        {
+          "allocated_from_credit": 45000.0,
+          "balance_after_debit": 251027.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-15",
+          "debit_amount": 45000.0,
+          "debit_txn_id": "acct_002_000727",
+          "narration": "000000945769 15 Mar 2023 000000945769 self - DELHI KHANPU 5120 self - DELHI KHANPU 5120",
+          "remaining_after_allocation": 29941.0
+        },
+        {
+          "allocated_from_credit": 29941.0,
+          "balance_after_debit": 221027.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2023-03-15",
+          "debit_amount": 30000.0,
+          "debit_txn_id": "acct_002_000728",
+          "narration": "000000945768 15 Mar 2023 000000945768 Funds Transfer Debit - BHUPENDRA 5120 Funds Transfer Debit - BHUPENDRA 5120",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 275000.0,
+      "finding_id": "ed2a62d0f85d50c096d7",
+      "source_credit_txn_id": "acct_002_000723",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [],
+      "credited_amount": 274724.85,
+      "finding_id": "8d364c817d1de304eca5",
+      "source_credit_txn_id": "generated::acct_001::000001::630f5c4c24fdf793",
+      "trace_status": "partially_traced"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

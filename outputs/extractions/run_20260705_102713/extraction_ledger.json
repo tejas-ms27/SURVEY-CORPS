@@ -1,0 +1,27 @@
+[
+  {
+    "file_name": "image_group_1 (Screenshot 2026-07-05 at 10.26.58\u202fAM.png)",
+    "source_account_id": "acct_001",
+    "route": "image",
+    "parser_tier": "cheap_parse",
+    "fallback_method_used": "",
+    "raw_text_char_count": null,
+    "transaction_like_lines": 15,
+    "rows_extracted": 15,
+    "rows_clean": 15,
+    "rows_flagged": 0,
+    "reconciliation_rate": 1.0,
+    "zero_row_status": "ok",
+    "zero_row_reason": "",
+    "account_number_found": true,
+    "account_number": "92883409730",
+    "holder_found": true,
+    "holder": "VAISHALI TIWARI",
+    "ifsc_found": true,
+    "ifsc": "IDFB0020258",
+    "bank_name": "IDFC First Bank",
+    "metadata_source": "regex",
+    "column_map_source": "deterministic",
+    "llm_calls": 1
+  }
+]

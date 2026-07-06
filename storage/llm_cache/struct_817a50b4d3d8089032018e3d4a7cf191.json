@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "SHREYA MISHRA",
+    "account_number": "ACCT_2",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "JAIPUR-GAUTAM MARG SITAPURA INDUSTRIAL AREA",
+    "branch_address": "B-53/54,HANUMAN NAGAR, RAJASTHAN,INDIA GAUTAM MARG,VAISHALI,JAIPUR JAIPUR-302021 RAJASTHAN,INDIA",
+    "bank_name": "",
+    "statement_period": "25-10-2025 To 27-11-2025",
+    "currency": "INR",
+    "opening_balance": "26.24",
+    "closing_balance": "26.24"
+  },
+  "transactions": [],
+  "source": "groq"
+}

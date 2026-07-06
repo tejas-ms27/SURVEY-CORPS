@@ -1,0 +1,87 @@
+{
+  "session_id": "run_20260630_235646",
+  "created_at": "2026-06-30T23:56:47",
+  "summary": {
+    "total_rows": 382,
+    "clean_rows": 381,
+    "flagged_rows": 1,
+    "files_processed": 1,
+    "files_failed": [],
+    "total_llm_calls": 0,
+    "key_rotations": 0,
+    "reconciliation_by_file": {
+      "396985646-April-2017-to-March-2018-Kotak-Bank-Statement.pdf": 0.997
+    },
+    "tier_by_file": {
+      "396985646-April-2017-to-March-2018-Kotak-Bank-Statement.pdf": "cheap_parse"
+    }
+  },
+  "files": [
+    {
+      "file": "396985646-April-2017-to-March-2018-Kotak-Bank-Statement.pdf",
+      "account_ref": "396985646-April-2017-to-March-2018-Kotak-Bank-Statement",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "llm_calls": 0,
+      "raw_text_chars": 39974,
+      "metadata_source": "regex",
+      "expected_txn_lines": 382,
+      "tier": "cheap_parse",
+      "column_map": {
+        "engine": "deterministic_default"
+      },
+      "column_map_source": "deterministic",
+      "reconciliation_rate": 0.997,
+      "ordering": "oldest_first",
+      "has_balance_column": true,
+      "account_details": {
+        "account_holder": "",
+        "account_number": "763010062770",
+        "ifsc_code": "",
+        "bank_name": "Unknown Bank",
+        "branch": "SEETHAMMADHARA,",
+        "branch_address": "",
+        "account_type": "",
+        "statement_period": "01-04-2017 to 31-03-2018",
+        "opening_balance": "0.00",
+        "closing_balance": "8643.11",
+        "customer_id": "",
+        "currency": "INR",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "G GOVINDARAO",
+        "micr_code": "",
+        "branch_code": "",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "396985646-April-2017-to-March-2018-Kotak-Bank-Statement"
+      },
+      "rows_standardised": 382,
+      "rows_clean": 381,
+      "rows_flagged": 1,
+      "validation": {
+        "llm_transactions": 382,
+        "rows_in_output": 382,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": false
+      }
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "duplicates": "duplicates.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "unknown_763010062770.json"
+    ]
+  },
+  "duplicate_count": 0
+}

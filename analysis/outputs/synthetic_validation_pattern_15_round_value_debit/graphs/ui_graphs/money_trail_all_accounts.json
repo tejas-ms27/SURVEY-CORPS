@@ -1,0 +1,13 @@
+{
+  "trails": [
+    {
+      "accounts": [],
+      "allocations": [],
+      "credited_amount": null,
+      "finding_id": "819b364cc380ec59bb63",
+      "source_credit_txn_id": null,
+      "trace_status": null
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

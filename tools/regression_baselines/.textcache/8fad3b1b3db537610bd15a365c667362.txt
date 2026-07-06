@@ -1,0 +1,109 @@
+Transaction Details Page 1 of 2
+BANK OF BARODA Date: 20-12-2025
+PERINTHALMANNA, KERALA Time: 11:10:34
+ADDRESS: GROUND FLOOR AND FIRST FLR, MARHABA TRADE CNT,PERIN,KE,679322
+HELPLINE NO. : 18005700/18005000 CYBER CRIME HELPLINE : 1930
+BRANCH PHONE NO. :04933-226225
+MICR CODE: 679012152 IFSC CODE: BARB0PERINT Page No: 1
+--------------------------------------------------------------------------------------------------------------------------------
+A/C Name : MR. SUNITA GHOSH
+Address : C/O KUNHIMOHAMMED PUTHAN PEEDIKA HOUSE
+PATHIRIKKODE POST PADIRIKODE EDAPPATTA
+City : MALAPURAM Pin Code : 679326
+Tel No. :
+Nomination Flag :Y Nominee Name : KIRAN
+Joint Holders:
+--------------------------------------------------------------------------------------------------------------------------------
+A/C Number : 21558442690581 Account Open Date :10-04-2025
+Statement of account for the period of 10-04-2025 to 19-12-2025
+--------------------------------------------------------------------------------------------------------------------------------
+DATE PARTICULARS CHQ.NO. WITHDRAWALS DEPOSITS BALANCE ENTRY TIME
+--------------------------------------------------------------------------------------------------------------------------------
+10-04-25 0
+08-05-25 UPI/512888700830/09:14:53/UPI/am 1.00 1.00Cr
+08-05-25 UPI/630615008373/09:17:11/UPI/79 1.00 0.00
+08-05-25 UPI/630615008373/09:17:11/REVERS 1.00 1.00Cr
+08-05-25 UPI/016241463011/09:17:28/REVERS 1.00 2.00Cr
+08-05-25 UPI/016241463011/09:17:28/UPI/79 1.00 1.00Cr
+08-05-25 UPI/292181540719/09:17:51/UPI/79 1.00 0.00
+08-05-25 UPI/292181540719/09:17:51/REVERS 1.00 1.00Cr
+08-05-25 UPI/592353069127/09:18:28/UPI/79 1.00 0.00
+08-05-25 UPI/592353069127/09:18:28/REVERS 1.00 1.00Cr
+08-05-25 UPI/942853135818/09:19:53/UPI/79 1.00 0.00
+08-05-25 DIGITA-MUMBAI/NEFT-N128250348911 50,000.00 50,000.00Cr
+08-05-25 ATM/2815001950/X 10,000.00 40,000.00Cr
+08-05-25 ATM/2815017024/X 10,000.00 30,000.00Cr
+08-05-25 ATM/2815005110/X 10,000.00 20,000.00Cr
+08-05-25 ATM/2815001994/X 10,000.00 10,000.00Cr
+08-05-25 ATM/2815017084/X 9,500.00 500.00Cr
+08-05-25 CHARGES FOR :ATM/CASH/5128150170 27.14 472.86Cr
+08-05-25 ATM/FUND/512815026193/XXXXXXXXXX 23.60 449.26Cr
+08-05-25 ATM/FUND/512815027051/XXXXXXXXXX 23.60 425.66Cr
+08-05-25 UPI/512800839734/15:17:21/UPI/fa 180.00 605.66Cr
+08-05-25 ATM/FUND/512815021590/XXXXXXXXXX 12.98 592.68Cr
+08-05-25 UPI/104475017174/15:18:19/UPI/fa 50.00 642.68Cr
+08-05-25 ATM/FUND/512815023254/XXXXXXXXXX 23.60 619.08Cr
+08-05-25 UPI/104475058476/15:18:58/UPI/fa 50.00 669.08Cr
+08-05-25 ATM/2815010897/X 500.00 169.08Cr
+08-05-25 CHARGES FOR :ATM/CASH/5128150108 27.14 141.94Cr
+09-05-25 UPI/403676055082/08:31:29/UPI/79 1.00 140.94Cr
+09-05-25 DIGITA-MUMBAI/NEFT-N129250438061 50,000.00 50,140.94Cr
+09-05-25 ATM/2911003595/X 10,000.00 40,140.94Cr
+09-05-25 CHARGES FOR :ATM/CASH/5129110035 27.14 40,113.80Cr
+09-05-25 ATM/2911024029/X 10,000.00 30,113.80Cr
+09-05-25 CHARGES FOR :ATM/CASH/5129110240 27.14 30,086.66Cr
+09-05-25 ATM/2911007731/X 10,000.00 20,086.66Cr
+--------------------------------------------------------------------------------------------------------------------------------
+Page Total: 80,198.34 1,00,285.00 20,086.66Cr
+--------------------------------------------------------------------------------------------------------------------------------
+Note: Cheques received in inward clearing will be considered for debiting/
+returning on the basis opening balance in account
+Unless the constituent notifies the bank of any discrepancy in this statement
+BANK OF BARODA Date: 20-12-2025
+PERINTHALMANNA, KERALA Time: 11:10:34
+ADDRESS: GROUND FLOOR AND FIRST FLR, MARHABA TRADE CNT,PERIN,KE,679322
+https://cbdrpt101.bankofbaroda.co.in:22000/finbranch/arjspmorph/INFENG/tran_rpt.jsp?rtId=s1yje54kgre0&isPrntReqd=N 12/20/2025
+Transaction Details Page 2 of 2
+HELPLINE NO. : 18005700/18005000 CYBER CRIME HELPLINE : 1930
+BRANCH PHONE NO. :04933-226225
+MICR CODE: 679012152 IFSC CODE: BARB0PERINT Page No: 2
+--------------------------------------------------------------------------------------------------------------------------------
+A/C Number : 21558442690581 Account Open Date :10-04-2025
+Statement of account for the period of 10-04-2025 to 19-12-2025
+--------------------------------------------------------------------------------------------------------------------------------
+DATE PARTICULARS CHQ.NO. WITHDRAWALS DEPOSITS BALANCE ENTRY TIME
+--------------------------------------------------------------------------------------------------------------------------------
+09-05-25 CHARGES FOR :ATM/CASH/5129110077 27.14 20,059.52Cr
+09-05-25 ATM/2911011828/X 10,000.00 10,059.52Cr
+09-05-25 CHARGES FOR :ATM/CASH/5129110118 27.14 10,032.38Cr
+09-05-25 UPI/512938888380/11:56:07/UPI/fa 115.00 10,147.38Cr
+09-05-25 ATM/2911027373/X 10,000.00 147.38Cr
+09-05-25 CHARGES FOR :ATM/CASH/5129110273 27.14 120.24Cr
+09-05-25 UPI/521759682540/16:59:59/UPI/79 1.00 119.24Cr
+10-05-25 UPI/989555335505/08:01:18/UPI/79 1.00 118.24Cr
+11-05-25 UPI/104628975100/10:57:39/UPI/ri 1.00 119.24Cr
+11-05-25 UPI/192556089901/10:58:25/UPI/79 1.00 118.24Cr
+12-05-25 UPI/104672043590/02:39:38/UPI/ri 2.00 120.24Cr
+12-05-25 UPI/104672056612/02:42:45/UPI/ri 1.00 121.24Cr
+12-05-25 ATM_CHRGS_08052025_021156_LIEN_R 23.60 97.64Cr
+12-05-25 ATM_CHRGS_08052025_022314_LIEN_R 23.60 74.04Cr
+12-05-25 ATM_CHRGS_08052025_022514_LIEN_R 23.60 50.44Cr
+12-05-25 ATM_CHRGS_08052025_023403_LIEN_R 23.60 26.84Cr
+12-05-25 ATM_CHRGS_08052025_023948_LIEN_R 23.60 3.24Cr
+12-05-25 UPI/455659957449/10:06:38/UPI/ri 3.00 0.24Cr
+12-05-25 UPI/104680456523/10:27:34/UPI/ri 1.00 1.24Cr
+12-05-25 UPI/967351352390/10:36:13/UPI/79 1.00 0.24Cr
+21-05-25 UPI/105196925225/23:31:25/UPI/ri 1.00 1.24Cr
+30-05-25 UPI/593267623341/02:17:16/UPI/ri 1.00 0.24Cr
+--------------------------------------------------------------------------------------------------------------------------------
+Page Total: 20,207.42 121.00 0.24Cr
+--------------------------------------------------------------------------------------------------------------------------------
+Grand Total: 1,00,405.76 1,00,406.00 0.24Cr
+--------------------------------------------------------------------------------------------------------------------------------
+Note: Cheques received in inward clearing will be considered for debiting/
+returning on the basis opening balance in account
+Unless the constituent notifies the bank of any discrepancy in this statement
+within 15 days from the date of statement, it will be construed that the
+transaction(s) in the statement are correct.
+****END OF STATEMENT****
+https://cbdrpt101.bankofbaroda.co.in:22000/finbranch/arjspmorph/INFENG/tran_rpt.jsp?rtId=s1yje54kgre0&isPrntReqd=N 12/20/2025

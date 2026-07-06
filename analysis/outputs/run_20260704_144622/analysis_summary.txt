@@ -1,0 +1,85 @@
+Analysis Summary
+================
+
+Input path: /Users/tejas.m.s/Automated-Financial-Data-Analysis-System-Survey-Corps-/outputs/extractions/run_20260704_144622
+Output directory: /Users/tejas.m.s/Automated-Financial-Data-Analysis-System-Survey-Corps-/analysis/outputs/run_20260704_144622
+Run timestamp: 2026-07-04T09:16:43.184693+00:00
+Elapsed seconds: 17.71
+
+Input Contract
+--------------
+Clean rows: 946
+Flagged rows: 0
+Duplicate rows: 40
+Metadata clean rows: 986
+Summary-report clean rows: 986
+Count reconciliation: ok_reconciled_by_duplicates
+Reconciliation detail: Metadata clean_rows includes duplicate rows; final clean CSV excludes duplicates stored separately.
+
+Analysis Scope
+--------------
+Total stored rows: 986
+Eligible detection rows: 946
+Excluded rows: 40
+Accounts: 6
+Graph nodes: 24
+Graph edges: 60
+
+Counterparty Resolution
+-----------------------
+Eligible rows: 946
+Resolved counterparty rows: 60
+Resolution rate percent: 6.342494714587738
+Counterparty LLM calls made: 0
+Total LLM calls made: 17
+LLM status: active
+
+Case Reconstruction
+-------------------
+The case contains 4 account cluster(s), with 5 account(s) ranked for suspicious activity. The highest-priority cluster is cluster_002 with total score 1583.57.
+Clusters: 4
+Connected clusters: 2
+Isolated account clusters: 2
+
+Balance Data Quality
+--------------------
+No balance inconsistencies detected in this dataset.
+
+Finding Counts
+--------------
+1_duplicate_verification: 51
+2_failed_reversed_transaction_detection: 1
+3_pass_through_routing_account: 0
+4_fund_pooling_account: 0
+5_structuring_smurfing_detection: 5
+6_money_flow_graph_construction: 1
+7_circular_flow_multi_hop_cycle_detection: 0
+8_money_trail_tracing: 12
+9_credit_to_cash_out_chains: 0
+10_cross_statement_links: 0
+11_balance_parking_account: 0
+12_hub_ranking: 0
+13_low_value_account_testing: 1
+14_reversal_clusters: 2
+15_round_value_debit_patterns: 3
+16_shared_upi_identifiers: 1
+17_round_trip_detection: 0
+18_dormant_reactivation: 0
+19_first_contact_large_transfer: 0
+21_suspicious_account_ranking: 4
+22_llm_investigated_anomalies: 1
+23_ml_ensemble_anomaly_lead: 0
+
+Excluded Row Counts
+-------------------
+balance_mismatch: 0
+duplicate: 40
+other: 0
+
+Top Suspicious Accounts
+-----------------------
+acct_003: total_score=847.3408, distinct_patterns=7, total_findings=23
+acct_001: total_score=433.7054, distinct_patterns=6, total_findings=19
+acct_002: total_score=302.5234, distinct_patterns=5, total_findings=10
+acct_005: total_score=86.0195, distinct_patterns=2, total_findings=7
+nikhil@oksb: total_score=38.0, distinct_patterns=1, total_findings=1

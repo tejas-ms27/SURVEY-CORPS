@@ -1,0 +1,149 @@
+{
+  "session_id": "run_20260704_171142",
+  "created_at": "2026-07-04T17:11:44",
+  "summary": {
+    "total_rows": 757,
+    "clean_rows": 756,
+    "flagged_rows": 1,
+    "files_processed": 2,
+    "files_failed": [],
+    "missing_key_warnings": [],
+    "total_llm_calls": 0,
+    "key_rotations": 1,
+    "reconciliation_by_file": {
+      "544516929-ICICI-BANK-STATEMENT.pdf": 0.999,
+      "652591331-Canara-Bank-Statement.pdf": 1.0
+    },
+    "tier_by_file": {
+      "544516929-ICICI-BANK-STATEMENT.pdf": "cheap_parse",
+      "652591331-Canara-Bank-Statement.pdf": "cheap_parse"
+    }
+  },
+  "files": [
+    {
+      "file": "544516929-ICICI-BANK-STATEMENT.pdf",
+      "account_ref": "544516929-ICICI-BANK-STATEMENT",
+      "source_account_id": "acct_001",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "llm_calls": 0,
+      "raw_text_chars": 65316,
+      "metadata_source": "regex",
+      "expected_txn_lines": 706,
+      "tier": "cheap_parse",
+      "column_map": {
+        "engine": "deterministic_default"
+      },
+      "column_map_source": "deterministic",
+      "reconciliation_rate": 0.999,
+      "ordering": "oldest_first",
+      "has_balance_column": true,
+      "account_details": {
+        "account_holder": "MR.KASULABADA PRASHANTH Your Base",
+        "account_number": "020201563824",
+        "ifsc_code": "",
+        "bank_name": "Unknown Bank",
+        "branch": "4TH NERELLA HOUSE,",
+        "branch_address": "",
+        "account_type": "Savings",
+        "statement_period": "April 01, 2019 to March 31, 2020",
+        "opening_balance": "65731.31",
+        "closing_balance": "274724.85",
+        "customer_id": "536619964 as on March 31, 2020",
+        "currency": "INR",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "",
+        "micr_code": "",
+        "branch_code": "",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "544516929-ICICI-BANK-STATEMENT"
+      },
+      "rows_standardised": 706,
+      "rows_clean": 705,
+      "rows_flagged": 1,
+      "validation": {
+        "llm_transactions": 706,
+        "rows_in_output": 706,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": false
+      }
+    },
+    {
+      "file": "652591331-Canara-Bank-Statement.pdf",
+      "account_ref": "652591331-Canara-Bank-Statement",
+      "source_account_id": "acct_002",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "llm_calls": 0,
+      "raw_text_chars": 9328,
+      "metadata_source": "regex",
+      "expected_txn_lines": 51,
+      "tier": "cheap_parse",
+      "column_map": {
+        "engine": "deterministic_default"
+      },
+      "column_map_source": "deterministic",
+      "reconciliation_rate": 1.0,
+      "ordering": "oldest_first",
+      "has_balance_column": true,
+      "account_details": {
+        "account_holder": "TOLLWAYS INFRA PROJECTS PRIVATE LIMITED",
+        "account_number": "120002879229",
+        "ifsc_code": "CNRB0005120",
+        "bank_name": "Canara Bank",
+        "branch": "",
+        "branch_address": "",
+        "account_type": "Current",
+        "statement_period": "01 Dec 2022 to 31 Mar 2023",
+        "opening_balance": "0.00",
+        "closing_balance": "22562.16",
+        "customer_id": "",
+        "currency": "INR",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "",
+        "micr_code": "110015229",
+        "branch_code": "Debit",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "652591331-Canara-Bank-Statement"
+      },
+      "rows_standardised": 51,
+      "rows_clean": 51,
+      "rows_flagged": 0,
+      "validation": {
+        "llm_transactions": 51,
+        "rows_in_output": 51,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": true
+      }
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "duplicates": "duplicates.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "MRKASULABADA_PRASHANTH_Your_Base_020201563824.json",
+      "TOLLWAYS_INFRA_PROJECTS_PRIVATE_LIMITED_120002879229.json"
+    ]
+  },
+  "duplicate_count": 0
+}

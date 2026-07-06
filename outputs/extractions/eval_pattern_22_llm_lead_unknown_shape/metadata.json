@@ -1,0 +1,152 @@
+{
+  "session_id": "eval_pattern_22_llm_lead_unknown_shape",
+  "created_at": "2026-07-03T20:51:20",
+  "summary": {
+    "total_rows": 2134,
+    "clean_rows": 2134,
+    "flagged_rows": 0,
+    "files_processed": 2,
+    "files_failed": [],
+    "missing_key_warnings": [],
+    "total_llm_calls": 0,
+    "key_rotations": 2,
+    "reconciliation_by_file": {
+      "38299997813349_SOA.pdf": 1.0,
+      "9194437102_statement.xlsx": 1.0
+    },
+    "tier_by_file": {
+      "38299997813349_SOA.pdf": "cheap_parse",
+      "9194437102_statement.xlsx": "excel_deterministic"
+    }
+  },
+  "files": [
+    {
+      "file": "38299997813349_SOA.pdf",
+      "account_ref": "38299997813349_SOA",
+      "source_account_id": "acct_001",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "llm_calls": 0,
+      "raw_text_chars": 107184,
+      "metadata_source": "regex",
+      "expected_txn_lines": 1097,
+      "tier": "cheap_parse",
+      "column_map": {
+        "engine": "deterministic_default"
+      },
+      "column_map_source": "deterministic",
+      "reconciliation_rate": 1.0,
+      "ordering": "oldest_first",
+      "has_balance_column": true,
+      "account_details": {
+        "account_holder": "ASHISH JOSHI",
+        "account_number": "38299997813349",
+        "ifsc_code": "BDBL0298167",
+        "bank_name": "Bandhan Bank",
+        "branch": "",
+        "branch_address": "",
+        "account_type": "",
+        "statement_period": "02-Dec-2024 to 08-May-2026",
+        "opening_balance": "",
+        "closing_balance": "232778.27",
+        "customer_id": "906099319",
+        "currency": "INR",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "",
+        "micr_code": "171855016",
+        "branch_code": "4172",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "38299997813349_SOA"
+      },
+      "rows_standardised": 1097,
+      "rows_clean": 1097,
+      "rows_flagged": 0,
+      "validation": {
+        "llm_transactions": 1097,
+        "rows_in_output": 1097,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": true,
+        "ifsc_in_text": true
+      }
+    },
+    {
+      "file": "9194437102_statement.xlsx",
+      "account_ref": "9194437102_statement",
+      "source_account_id": "acct_002",
+      "bank_name": "Unknown Bank",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "excel_csv",
+      "llm_calls": 0,
+      "raw_text_chars": 0,
+      "metadata_source": "excel_metadata_block",
+      "column_map_source": "deterministic_headers",
+      "tier": "excel_deterministic",
+      "column_map": {
+        "date": "POST DATE",
+        "narration": "NARRATION",
+        "balance": "BALANCE",
+        "debit": "DEBIT",
+        "credit": "CREDIT"
+      },
+      "reconciliation_rate": 1.0,
+      "has_balance_column": true,
+      "ordering": "oldest_first",
+      "account_details": {
+        "account_holder": "RAJAN PILLAI",
+        "account_number": "9194437102",
+        "ifsc_code": "KKBK0552336",
+        "bank_name": "KOTAK MAHINDRA BANK LTD",
+        "branch": "MALAD WEST",
+        "branch_address": "",
+        "account_type": "",
+        "statement_period": "02-12-2024 To 09-05-2026",
+        "opening_balance": "",
+        "closing_balance": "101117.43",
+        "customer_id": "",
+        "currency": "",
+        "customer_address": "",
+        "joint_holder": "",
+        "nominee_name": "",
+        "micr_code": "",
+        "branch_code": "",
+        "branch_phone": "",
+        "branch_email": "",
+        "branch_gstin": "",
+        "product_type": "",
+        "ckyc_number": "",
+        "account_ref": "9194437102_statement"
+      },
+      "rows_standardised": 1037,
+      "rows_clean": 1037,
+      "rows_flagged": 0,
+      "validation": {
+        "llm_transactions": 1037,
+        "rows_in_output": 1037,
+        "all_rows_accounted_for": true,
+        "rows_dropped_unparseable_date": 0,
+        "account_number_in_text": false,
+        "ifsc_in_text": false
+      }
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "duplicates": "duplicates.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "ASHISH_JOSHI_38299997813349.json",
+      "RAJAN_PILLAI_9194437102.json"
+    ]
+  },
+  "duplicate_count": 0
+}

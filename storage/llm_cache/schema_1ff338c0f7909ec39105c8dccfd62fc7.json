@@ -1,0 +1,18 @@
+{
+  "date_format": "DD-MM-YYYY",
+  "has_time": true,
+  "time_format": "HH:MM:SS",
+  "debit_credit_method": "drcr_marker",
+  "has_reference_number": true,
+  "has_cheque_number": true,
+  "column_order": [
+    "date",
+    "time",
+    "date",
+    "narration",
+    "reference",
+    "debit/credit",
+    "balance"
+  ],
+  "source": "groq"
+}

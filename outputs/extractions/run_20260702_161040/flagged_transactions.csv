@@ -1,0 +1,7 @@
+Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
+04/09/2022,,UPI/DR/361018706622/FAILED/TimeOut/Tara Singh TXN0000120,,,361018706622,,9500.0,0.0,390500.65,debit,00000051399615291,State Bank of India,SBIN0393634,balance_mismatch,missing_transaction,acct_001
+25/01/2023,,UPI/DR/668864013315/FAILED/TimeOut/Vikram Nair TXN0000646 Account Statement State Bank of India Account Number : 00000051399615291 Period: 01/08/2022 to 30/06/2024 Branch : Pune Camp,,,00000051399615291,,9500.0,0.0,1674421.65,debit,00000051399615291,State Bank of India,SBIN0393634,balance_mismatch,missing_transaction,acct_001
+22/08/2023,,UPI/DR/563878115525/FAILED/TimeOut/Bindhu Nair TXN0001473,,,563878115525,,9500.0,0.0,4447298.98,debit,00000051399615291,State Bank of India,SBIN0393634,balance_mismatch,missing_transaction,acct_001
+18/05/2023,,UPI/DR/076544864030/FAILE,,,076544864030,,5000.0,0.0,2385742.45,debit,50105414883065,HDFC Bank,HDFC0212257,balance_mismatch,missing_transaction,acct_002
+04/05/2024,,UPI/DR/583374813832/FAILE,,,583374813832,,1200.0,0.0,5465329.45,debit,50105414883065,HDFC Bank,HDFC0212257,balance_mismatch,missing_transaction,acct_002
+16/05/2024,,UPI/DR/777735256143/FAILE,,,777735256143,,9500.0,0.0,5502350.45,debit,50105414883065,HDFC Bank,HDFC0212257,balance_mismatch,missing_transaction,acct_002

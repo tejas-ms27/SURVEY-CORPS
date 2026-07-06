@@ -1,0 +1,61 @@
+{
+  "account_details": {
+    "account_holder_name": "MR ISHA TIWARI",
+    "account_number": "ACCT_2",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "SAMPLA",
+    "branch_address": "HDFCBANKLTD KHARKHODAROAD, OPPGOVTSCHOOL, SAMPLA124501 HARYANA",
+    "bank_name": "HDFC BANK LTD",
+    "statement_period": "12/09/2025 To : 12/11/2025",
+    "currency": "INR",
+    "opening_balance": "10,616.26",
+    "closing_balance": "24,616.26"
+  },
+  "transactions": [
+    {
+      "date": "01/10/25",
+      "time": "",
+      "description": "UPI-SAMUNDER-PHONE_1@ YBL-IFSC_2-ACCT_4-PAYMENT FROMPHONE",
+      "reference_number": "EMI149045792CHQS149045792120",
+      "cheque_number": "",
+      "debit": "0.00",
+      "credit": "16,935.00",
+      "balance": "15,616.26",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "05/10/25",
+      "time": "",
+      "description": "ACHD-PLA10902886101-592BH4OWLOKYX6",
+      "reference_number": "ACHD-PLA10902886101-592BH4OWLOKYX6",
+      "cheque_number": "",
+      "debit": "0.00",
+      "credit": "18,439.00",
+      "balance": "15,616.26",
+      "transaction_type": "credit"
+    },
+    {
+      "date": "05/10/25",
+      "time": "",
+      "description": "UPI-SUNIL TIWARI-PHONE_2@ AXL-IFSC_1-ACCT_6-PAYMENT FROMPHONE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "5,000.00",
+      "credit": "0.00",
+      "balance": "15,616.26",
+      "transaction_type": "debit"
+    },
+    {
+      "date": "11/11/25",
+      "time": "",
+      "description": "",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "9,000.00",
+      "credit": "0.00",
+      "balance": "24,616.26",
+      "transaction_type": "debit"
+    }
+  ],
+  "source": "groq"
+}

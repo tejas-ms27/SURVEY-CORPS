@@ -1,0 +1,1338 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 103000.0,
+          "balance_after_debit": 2678671.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 103000.0,
+          "debit_txn_id": "acct_002_000246",
+          "narration": "BLKNEFT/OnscreenPayment/2020009589 9592",
+          "remaining_after_allocation": 2657000.0
+        },
+        {
+          "allocated_from_credit": 240734.0,
+          "balance_after_debit": 2437937.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 240734.0,
+          "debit_txn_id": "acct_002_000247",
+          "narration": "BLKRTGS/OnscreenPayment/2020009255 5570",
+          "remaining_after_allocation": 2416266.0
+        },
+        {
+          "allocated_from_credit": 250470.0,
+          "balance_after_debit": 2187467.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 250470.0,
+          "debit_txn_id": "acct_002_000248",
+          "narration": "BLKRTGS/OnscreenPayment/2020009260 3478",
+          "remaining_after_allocation": 2165796.0
+        },
+        {
+          "allocated_from_credit": 100188.0,
+          "balance_after_debit": 2087279.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 100188.0,
+          "debit_txn_id": "acct_002_000249",
+          "narration": "BLKNEFT/OnscreenPayment/8015778588",
+          "remaining_after_allocation": 2065608.0
+        },
+        {
+          "allocated_from_credit": 100188.0,
+          "balance_after_debit": 1987091.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 100188.0,
+          "debit_txn_id": "acct_002_000250",
+          "narration": "BLKNEFT/OnscreenPayment/7994168213",
+          "remaining_after_allocation": 1965420.0
+        },
+        {
+          "allocated_from_credit": 70191.0,
+          "balance_after_debit": 1916900.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 70191.0,
+          "debit_txn_id": "acct_002_000251",
+          "narration": "BLKNEFT/OnscreenPayment/4285406733 6",
+          "remaining_after_allocation": 1895229.0
+        },
+        {
+          "allocated_from_credit": 100188.0,
+          "balance_after_debit": 1816712.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 100188.0,
+          "debit_txn_id": "acct_002_000252",
+          "narration": "BLKNEFT/OnscreenPayment/5741050984",
+          "remaining_after_allocation": 1795041.0
+        },
+        {
+          "allocated_from_credit": 100188.0,
+          "balance_after_debit": 1716524.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 100188.0,
+          "debit_txn_id": "acct_002_000253",
+          "narration": "BLKNEFT/OnscreenPayment/5741050441",
+          "remaining_after_allocation": 1694853.0
+        },
+        {
+          "allocated_from_credit": 490000.0,
+          "balance_after_debit": 1226524.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 490000.0,
+          "debit_txn_id": "acct_002_000254",
+          "narration": "BLKRTGS/OnscreenPayment/8019782681",
+          "remaining_after_allocation": 1204853.0
+        },
+        {
+          "allocated_from_credit": 1000090.0,
+          "balance_after_debit": 226434.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 1000090.0,
+          "debit_txn_id": "acct_002_000255",
+          "narration": "BLKRTGS/OnscreenPayment/3863720276",
+          "remaining_after_allocation": 204763.0
+        },
+        {
+          "allocated_from_credit": 204763.0,
+          "balance_after_debit": 21284.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 205150.0,
+          "debit_txn_id": "acct_002_000256",
+          "narration": "BLKRTGS/OnscreenPayment/88941821002 8403",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 2760000.0,
+      "finding_id": "daddb5f661ba0f435d3c",
+      "source_credit_txn_id": "acct_002_000245",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 32000.0,
+          "balance_after_debit": 2601774.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 32000.0,
+          "debit_txn_id": "acct_001_000119",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 2568000.0
+        },
+        {
+          "allocated_from_credit": 1940008.0,
+          "balance_after_debit": 661766.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 1940008.0,
+          "debit_txn_id": "acct_001_000120",
+          "narration": "BLKRTGS/OnscreenPayment/92501001533 6353",
+          "remaining_after_allocation": 627992.0
+        },
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 461766.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_001_000121",
+          "narration": "BLKRTGS/OnscreenPayment/2020008394 2630",
+          "remaining_after_allocation": 427992.0
+        },
+        {
+          "allocated_from_credit": 80190.0,
+          "balance_after_debit": 381576.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 80190.0,
+          "debit_txn_id": "acct_001_000122",
+          "narration": "BLKNEFT/OnscreenPayment/8015778588",
+          "remaining_after_allocation": 347802.0
+        },
+        {
+          "allocated_from_credit": 200208.0,
+          "balance_after_debit": 181368.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 200208.0,
+          "debit_txn_id": "acct_001_000123",
+          "narration": "BLKIFT/OnscreenPayment/10227143709",
+          "remaining_after_allocation": 147594.0
+        },
+        {
+          "allocated_from_credit": 102465.0,
+          "balance_after_debit": 78903.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 102465.0,
+          "debit_txn_id": "acct_001_000124",
+          "narration": "BLKNEFT/OnscreenPayment/93110100599 160",
+          "remaining_after_allocation": 45129.0
+        },
+        {
+          "allocated_from_credit": 38400.0,
+          "balance_after_debit": 40503.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 38400.0,
+          "debit_txn_id": "acct_001_000125",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 6729.0
+        },
+        {
+          "allocated_from_credit": 6729.0,
+          "balance_after_debit": 2503.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 38000.0,
+          "debit_txn_id": "acct_001_000126",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 2600000.0,
+      "finding_id": "519a7453ce9f805ce17a",
+      "source_credit_txn_id": "acct_001_000118",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 1000000.0,
+          "balance_after_debit": 1060649.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 1000000.0,
+          "debit_txn_id": "acct_002_000283",
+          "narration": "BLKRTGS/OnscreenPayment/9240200372 47952",
+          "remaining_after_allocation": 1000000.0
+        },
+        {
+          "allocated_from_credit": 130000.0,
+          "balance_after_debit": 930649.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 130000.0,
+          "debit_txn_id": "acct_002_000284",
+          "narration": "IMPS-OPW/513612803077/Sajan Yadav/BDBL0001293/9780/",
+          "remaining_after_allocation": 870000.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 630649.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_002_000285",
+          "narration": "BLKRTGS/OnscreenPayment/2020009260 8201",
+          "remaining_after_allocation": 570000.0
+        },
+        {
+          "allocated_from_credit": 110525.0,
+          "balance_after_debit": 520124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 110525.0,
+          "debit_txn_id": "acct_002_000286",
+          "narration": "BLKNEFT/OnscreenPayment/2020009169 2682",
+          "remaining_after_allocation": 459475.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 220124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_002_000287",
+          "narration": "BLKRTGS/OnscreenPayment/2020009178 0397",
+          "remaining_after_allocation": 159475.0
+        },
+        {
+          "allocated_from_credit": 159475.0,
+          "balance_after_debit": 124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 220000.0,
+          "debit_txn_id": "acct_002_000288",
+          "narration": "BLKRTGS/OnscreenPayment/2020009589 9592",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 2000000.0,
+      "finding_id": "95aebd322ca2a381b43a",
+      "source_credit_txn_id": "acct_002_000282",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_003"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 1800150.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_003_000429",
+          "narration": "BLKRTGS/OnscreenPayment/dsadsa",
+          "remaining_after_allocation": 1800000.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 1500150.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_003_000430",
+          "narration": "RTGS/IDFBR52025040300372155/Suyash/UTIB0005371/1734932452279",
+          "remaining_after_allocation": 1500000.0
+        },
+        {
+          "allocated_from_credit": 389000.0,
+          "balance_after_debit": 1111150.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 389000.0,
+          "debit_txn_id": "acct_003_000431",
+          "narration": "RTGS/IDFBR52025040300372156/Suyash /YESB0001049/1734932452279",
+          "remaining_after_allocation": 1111000.0
+        },
+        {
+          "allocated_from_credit": 550000.0,
+          "balance_after_debit": 561150.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 550000.0,
+          "debit_txn_id": "acct_003_000432",
+          "narration": "BLKRTGS/idfc00/dsada",
+          "remaining_after_allocation": 561000.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 261150.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_003_000433",
+          "narration": "BLKRTGS/OnscreenPayment/dasda",
+          "remaining_after_allocation": 261000.0
+        },
+        {
+          "allocated_from_credit": 261000.0,
+          "balance_after_debit": 261150.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_003_000435",
+          "narration": "BLKRTGS/idfc00/dsadas",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 2000000.0,
+      "finding_id": "0ca3f50868d0b730837d",
+      "source_credit_txn_id": "acct_003_000428",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 250000.0,
+          "balance_after_debit": 1681433.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 250000.0,
+          "debit_txn_id": "acct_001_000063",
+          "narration": "BLKRTGS/OnscreenPayment/2020009261 5282",
+          "remaining_after_allocation": 1671000.0
+        },
+        {
+          "allocated_from_credit": 200053.0,
+          "balance_after_debit": 1481380.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 200053.0,
+          "debit_txn_id": "acct_001_000064",
+          "narration": "BLKIFT/OnscreenPayment/10226745874",
+          "remaining_after_allocation": 1470947.0
+        },
+        {
+          "allocated_from_credit": 100076.0,
+          "balance_after_debit": 1581357.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 100076.0,
+          "debit_txn_id": "acct_001_000066",
+          "narration": "BLKNEFT/OnscreenPayment/0018619000 07933",
+          "remaining_after_allocation": 1370871.0
+        },
+        {
+          "allocated_from_credit": 97909.0,
+          "balance_after_debit": 1483448.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 97909.0,
+          "debit_txn_id": "acct_001_000067",
+          "narration": "BLKIFT/OnscreenPayment/4013472317992 897",
+          "remaining_after_allocation": 1272962.0
+        },
+        {
+          "allocated_from_credit": 250074.0,
+          "balance_after_debit": 1331283.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 250074.0,
+          "debit_txn_id": "acct_001_000069",
+          "narration": "BLKRTGS/OnscreenPayment/8020004978",
+          "remaining_after_allocation": 1022888.0
+        },
+        {
+          "allocated_from_credit": 191000.0,
+          "balance_after_debit": 1140283.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 191000.0,
+          "debit_txn_id": "acct_001_000070",
+          "narration": "BLKNEFT/OnscreenPayment/2020009125 8081",
+          "remaining_after_allocation": 831888.0
+        },
+        {
+          "allocated_from_credit": 150212.0,
+          "balance_after_debit": 990071.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 150212.0,
+          "debit_txn_id": "acct_001_000071",
+          "narration": "BLKNEFT/OnscreenPayment/6053084803 0",
+          "remaining_after_allocation": 681676.0
+        },
+        {
+          "allocated_from_credit": 129631.0,
+          "balance_after_debit": 860440.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 129631.0,
+          "debit_txn_id": "acct_001_000072",
+          "narration": "BLKNEFT/OnscreenPayment/2150010002 4755",
+          "remaining_after_allocation": 552045.0
+        },
+        {
+          "allocated_from_credit": 30070.0,
+          "balance_after_debit": 830370.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 30070.0,
+          "debit_txn_id": "acct_001_000073",
+          "narration": "BLKNEFT/OnscreenPayment/31778100046 146",
+          "remaining_after_allocation": 521975.0
+        },
+        {
+          "allocated_from_credit": 200004.0,
+          "balance_after_debit": 630366.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 200004.0,
+          "debit_txn_id": "acct_001_000074",
+          "narration": "BLKIFT/OnscreenPayment/10227045702",
+          "remaining_after_allocation": 321971.0
+        },
+        {
+          "allocated_from_credit": 200500.0,
+          "balance_after_debit": 429866.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 200500.0,
+          "debit_txn_id": "acct_001_000075",
+          "narration": "BLKRTGS/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 121471.0
+        },
+        {
+          "allocated_from_credit": 25700.0,
+          "balance_after_debit": 404166.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 25700.0,
+          "debit_txn_id": "acct_001_000076",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 95771.0
+        },
+        {
+          "allocated_from_credit": 21411.0,
+          "balance_after_debit": 382755.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 21411.0,
+          "debit_txn_id": "acct_001_000077",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 74360.0
+        },
+        {
+          "allocated_from_credit": 40050.0,
+          "balance_after_debit": 342705.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 40050.0,
+          "debit_txn_id": "acct_001_000078",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 34310.0
+        },
+        {
+          "allocated_from_credit": 34310.0,
+          "balance_after_debit": 302705.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 40000.0,
+          "debit_txn_id": "acct_001_000079",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 1921000.0,
+      "finding_id": "aa8617a3edcb25baffe2",
+      "source_credit_txn_id": "acct_001_000062",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_003"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 510000.0,
+          "balance_after_debit": 1519116.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 510000.0,
+          "debit_txn_id": "acct_003_000439",
+          "narration": "BLKRTGS/idfc00/1212",
+          "remaining_after_allocation": 1090000.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 1219116.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_003_000440",
+          "narration": "BLKRTGS/idfc00/dasda",
+          "remaining_after_allocation": 790000.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 1619116.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_003_000443",
+          "narration": "BLKRTGS/idfc00/dsada",
+          "remaining_after_allocation": 490000.0
+        },
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 1419116.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_003_000444",
+          "narration": "BLKRTGS/idfc00/dasda",
+          "remaining_after_allocation": 290000.0
+        },
+        {
+          "allocated_from_credit": 290000.0,
+          "balance_after_debit": 1119116.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_003_000445",
+          "narration": "BLKRTGS/idfc00/dasdas",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 1600000.0,
+      "finding_id": "a4aefd742548c7e299b8",
+      "source_credit_txn_id": "acct_003_000438",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 494962.0,
+          "balance_after_debit": 924335.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 494962.0,
+          "debit_txn_id": "acct_001_000050",
+          "narration": "BLKRTGS/OnscreenPayment/1002582032 43",
+          "remaining_after_allocation": 905038.0
+        },
+        {
+          "allocated_from_credit": 205149.0,
+          "balance_after_debit": 719186.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 205149.0,
+          "debit_txn_id": "acct_001_000051",
+          "narration": "BLKRTGS/OnscreenPayment/88941821002 8498",
+          "remaining_after_allocation": 699889.0
+        },
+        {
+          "allocated_from_credit": 200349.0,
+          "balance_after_debit": 518837.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 200349.0,
+          "debit_txn_id": "acct_001_000052",
+          "narration": "BLKIFT/OnscreenPayment/10227143709",
+          "remaining_after_allocation": 499540.0
+        },
+        {
+          "allocated_from_credit": 200053.0,
+          "balance_after_debit": 318784.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 200053.0,
+          "debit_txn_id": "acct_001_000053",
+          "narration": "BLKIFT/OnscreenPayment/10226860115",
+          "remaining_after_allocation": 299487.0
+        },
+        {
+          "allocated_from_credit": 124000.0,
+          "balance_after_debit": 4632.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 124000.0,
+          "debit_txn_id": "acct_001_000056",
+          "narration": "BLKNEFT/OnscreenPayment/5020010495 8678",
+          "remaining_after_allocation": 175487.0
+        }
+      ],
+      "credited_amount": 1400000.0,
+      "finding_id": "4e1ff9970ae1345c6b2c",
+      "source_credit_txn_id": "acct_001_000049",
+      "trace_status": "partially_traced"
+    },
+    {
+      "accounts": [
+        "acct_003"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 1200558.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_003_000409",
+          "narration": "BLKRTGS/OnscreenPayment/dasdsa",
+          "remaining_after_allocation": 1200000.0
+        },
+        {
+          "allocated_from_credit": 250000.0,
+          "balance_after_debit": 950558.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 250000.0,
+          "debit_txn_id": "acct_003_000410",
+          "narration": "RTGS/IDFBR52025040300367767/Suyash /NMCB0000029/1734932452279",
+          "remaining_after_allocation": 950000.0
+        },
+        {
+          "allocated_from_credit": 500000.0,
+          "balance_after_debit": 450558.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 500000.0,
+          "debit_txn_id": "acct_003_000411",
+          "narration": "RTGS/IDFBR52025040300367768/Suyash /PUNB0158110/1734932452279",
+          "remaining_after_allocation": 450000.0
+        },
+        {
+          "allocated_from_credit": 242200.0,
+          "balance_after_debit": 208358.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 242200.0,
+          "debit_txn_id": "acct_003_000412",
+          "narration": "BLKRTGS/idfc00/dsada",
+          "remaining_after_allocation": 207800.0
+        },
+        {
+          "allocated_from_credit": 109501.0,
+          "balance_after_debit": 98857.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 109501.0,
+          "debit_txn_id": "acct_003_000413",
+          "narration": "BLKNEFT/idfc00/YASH",
+          "remaining_after_allocation": 98299.0
+        },
+        {
+          "allocated_from_credit": 98299.0,
+          "balance_after_debit": 198857.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-03",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_003_000415",
+          "narration": "BLKRTGS/idfc00/DASDAS",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 1400000.0,
+      "finding_id": "9c3582f9d0666a414932",
+      "source_credit_txn_id": "acct_003_000408",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 480000.0,
+          "balance_after_debit": 823049.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-07",
+          "debit_amount": 480000.0,
+          "debit_txn_id": "acct_001_000173",
+          "narration": "BLKRTGS/OnscreenPayment/4386010000 8501",
+          "remaining_after_allocation": 816580.0
+        },
+        {
+          "allocated_from_credit": 457677.0,
+          "balance_after_debit": 365372.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-07",
+          "debit_amount": 457677.0,
+          "debit_txn_id": "acct_001_000174",
+          "narration": "BLKRTGS/OnscreenPayment/5010078738 7831",
+          "remaining_after_allocation": 358903.0
+        },
+        {
+          "allocated_from_credit": 150282.0,
+          "balance_after_debit": 215090.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-07",
+          "debit_amount": 150282.0,
+          "debit_txn_id": "acct_001_000175",
+          "narration": "BLKNEFT/OnscreenPayment/2020009260 3478",
+          "remaining_after_allocation": 208621.0
+        },
+        {
+          "allocated_from_credit": 100000.0,
+          "balance_after_debit": 115090.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-07",
+          "debit_amount": 100000.0,
+          "debit_txn_id": "acct_001_000176",
+          "narration": "BLKNEFT/OnscreenPayment/5608575305",
+          "remaining_after_allocation": 108621.0
+        },
+        {
+          "allocated_from_credit": 60268.0,
+          "balance_after_debit": 54822.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-07",
+          "debit_amount": 60268.0,
+          "debit_txn_id": "acct_001_000177",
+          "narration": "BLKNEFT/OnscreenPayment/43771061976",
+          "remaining_after_allocation": 48353.0
+        },
+        {
+          "allocated_from_credit": 18741.0,
+          "balance_after_debit": 1081.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-07",
+          "debit_amount": 18741.0,
+          "debit_txn_id": "acct_001_000179",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 29612.0
+        }
+      ],
+      "credited_amount": 1296580.0,
+      "finding_id": "be55f48c6e3b132a2c88",
+      "source_credit_txn_id": "acct_001_000172",
+      "trace_status": "partially_traced"
+    },
+    {
+      "accounts": [
+        "acct_003"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 292500.0,
+          "balance_after_debit": 953070.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-04",
+          "debit_amount": 292500.0,
+          "debit_txn_id": "acct_003_000512",
+          "narration": "BLKRTGS/idfc00/dasdasd",
+          "remaining_after_allocation": 807500.0
+        },
+        {
+          "allocated_from_credit": 500000.0,
+          "balance_after_debit": 453070.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-04",
+          "debit_amount": 500000.0,
+          "debit_txn_id": "acct_003_000513",
+          "narration": "BLKRTGS/idfc00/dasdas",
+          "remaining_after_allocation": 307500.0
+        },
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 253070.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-04",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_003_000514",
+          "narration": "BLKRTGS/OnscreenPayment/dasdas",
+          "remaining_after_allocation": 107500.0
+        },
+        {
+          "allocated_from_credit": 107500.0,
+          "balance_after_debit": 3070.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-04",
+          "debit_amount": 250000.0,
+          "debit_txn_id": "acct_003_000515",
+          "narration": "BLKRTGS/idfc00/dsad",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 1100000.0,
+      "finding_id": "f69f88665eac951be3c3",
+      "source_credit_txn_id": "acct_003_000511",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_003"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 580000.0,
+          "balance_after_debit": 483016.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-04",
+          "debit_amount": 580000.0,
+          "debit_txn_id": "acct_003_000539",
+          "narration": "BLKRTGS/idfc00/DSADASD",
+          "remaining_after_allocation": 465000.0
+        },
+        {
+          "allocated_from_credit": 465000.0,
+          "balance_after_debit": 3016.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-04",
+          "debit_amount": 480000.0,
+          "debit_txn_id": "acct_003_000540",
+          "narration": "BLKRTGS/idfc00/dasdsa",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 1045000.0,
+      "finding_id": "8366e8c4c63264b5f556",
+      "source_credit_txn_id": "acct_003_000538",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 500080.0,
+          "balance_after_debit": 472322.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 500080.0,
+          "debit_txn_id": "acct_001_000034",
+          "narration": "BLKRTGS/OnscreenPayment/0634264000 00037",
+          "remaining_after_allocation": 467100.0
+        },
+        {
+          "allocated_from_credit": 467100.0,
+          "balance_after_debit": 322.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-05",
+          "debit_amount": 472000.0,
+          "debit_txn_id": "acct_001_000035",
+          "narration": "BLKRTGS/OnscreenPayment/5020004084 0829",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 967180.0,
+      "finding_id": "42fddd2a0e564211c8bb",
+      "source_credit_txn_id": "acct_001_000033",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 57000.0,
+          "balance_after_debit": 897270.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 57000.0,
+          "debit_txn_id": "acct_002_000236",
+          "narration": "BLKNEFT/OnscreenPayment/0323044440 000482",
+          "remaining_after_allocation": 896436.0
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 597270.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_002_000237",
+          "narration": "BLKRTGS/OnscreenPayment/2020009178 0397",
+          "remaining_after_allocation": 596436.0
+        },
+        {
+          "allocated_from_credit": 596436.0,
+          "balance_after_debit": 270.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 597000.0,
+          "debit_txn_id": "acct_002_000238",
+          "narration": "BLKRTGS/OnscreenPayment/2020009589 9592",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 953436.0,
+      "finding_id": "288f50e6a8cf379b68d8",
+      "source_credit_txn_id": "acct_002_000235",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 609067.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_002_000227",
+          "narration": "BLKRTGS/OnscreenPayment/2020009267 9780",
+          "remaining_after_allocation": 606872.0
+        },
+        {
+          "allocated_from_credit": 200447.0,
+          "balance_after_debit": 408620.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 200447.0,
+          "debit_txn_id": "acct_002_000228",
+          "narration": "BLKRTGS/OnscreenPayment/0323044440 000482",
+          "remaining_after_allocation": 406425.0
+        },
+        {
+          "allocated_from_credit": 200349.0,
+          "balance_after_debit": 208271.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 200349.0,
+          "debit_txn_id": "acct_002_000229",
+          "narration": "BLKRTGS/OnscreenPayment/0323044440 000482",
+          "remaining_after_allocation": 206076.0
+        },
+        {
+          "allocated_from_credit": 200546.0,
+          "balance_after_debit": 7725.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 200546.0,
+          "debit_txn_id": "acct_002_000230",
+          "narration": "BLKRTGS/OnscreenPayment/0323044440 000482",
+          "remaining_after_allocation": 5530.0
+        },
+        {
+          "allocated_from_credit": 5530.0,
+          "balance_after_debit": 3873.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 40003.0,
+          "debit_txn_id": "acct_002_000232",
+          "narration": "BLKNEFT/OnscreenPayment/44010519164",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 906872.0,
+      "finding_id": "797abc9ce8f4e91a99d2",
+      "source_credit_txn_id": "acct_002_000226",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 120000.0,
+          "balance_after_debit": 390124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 120000.0,
+          "debit_txn_id": "acct_002_000291",
+          "narration": "BLKNEFT/OnscreenPayment/2020009589 9592",
+          "remaining_after_allocation": 380000.0
+        },
+        {
+          "allocated_from_credit": 339000.0,
+          "balance_after_debit": 51124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 339000.0,
+          "debit_txn_id": "acct_002_000292",
+          "narration": "BLKRTGS/OnscreenPayment/50100798911 068",
+          "remaining_after_allocation": 41000.0
+        },
+        {
+          "allocated_from_credit": 40000.0,
+          "balance_after_debit": 11124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 40000.0,
+          "debit_txn_id": "acct_002_000293",
+          "narration": "BLKNEFT/OnscreenPayment/10715852531",
+          "remaining_after_allocation": 1000.0
+        },
+        {
+          "allocated_from_credit": 1000.0,
+          "balance_after_debit": 114124.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-16",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_002_000295",
+          "narration": "BLKRTGS/OnscreenPayment/50100798911 068",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "7583dce20ec0cd5dfb61",
+      "source_credit_txn_id": "acct_002_000290",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 495000.0,
+          "balance_after_debit": 8.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-15",
+          "debit_amount": 495000.0,
+          "debit_txn_id": "acct_002_000262",
+          "narration": "BLKRTGS/OnscreenPayment/50100798911 068",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 495000.0,
+      "finding_id": "1d1e35491a01fe93e6de",
+      "source_credit_txn_id": "acct_002_000261",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

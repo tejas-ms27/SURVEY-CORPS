@@ -1,0 +1,27 @@
+[
+  {
+    "file_name": "CASA_STATEMENT_8442098066767557_10-JUL-2023_27-Nov-2025_.xlsx",
+    "source_account_id": "acct_001",
+    "route": "excel_csv",
+    "parser_tier": "excel_deterministic",
+    "fallback_method_used": "",
+    "raw_text_char_count": 0,
+    "transaction_like_lines": null,
+    "rows_extracted": 1284,
+    "rows_clean": 1284,
+    "rows_flagged": 0,
+    "reconciliation_rate": 1.0,
+    "zero_row_status": "ok",
+    "zero_row_reason": "",
+    "account_number_found": true,
+    "account_number": "8442098066767557",
+    "holder_found": true,
+    "holder": "Mr Rajesh Aditya Kapoor",
+    "ifsc_found": false,
+    "ifsc": "",
+    "bank_name": "Karur Vysya Bank",
+    "metadata_source": "excel_metadata_block",
+    "column_map_source": "deterministic_headers",
+    "llm_calls": 0
+  }
+]

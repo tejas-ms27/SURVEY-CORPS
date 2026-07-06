@@ -1,0 +1,324 @@
+{
+  "account_details": {
+    "account_holder": "Sheela Devi",
+    "account_number": "5010004890728",
+    "ifsc_code": "HDFC0690404",
+    "bank_name": "HDFC Bank",
+    "branch": "Pune Camp",
+    "account_type": "",
+    "statement_period": "01/06/2022 to 30/06/2024",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "12/06/2022",
+      "narration": "NEFT/498111169/RESHMA KHAN",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "850.00",
+      "credit": "",
+      "balance": "201752.27"
+    },
+    {
+      "date": "13/06/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "202252.27"
+    },
+    {
+      "date": "13/06/2022",
+      "narration": "UPI/ID:581700823812/HARIS",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "2360.00",
+      "credit": "",
+      "balance": "199872.27"
+    },
+    {
+      "date": "14/06/2022",
+      "narration": "ATM/WDL/5693252610/SBI AT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "5200.00",
+      "credit": "",
+      "balance": "194672.27"
+    },
+    {
+      "date": "14/06/2022",
+      "narration": "UPI/ID:581168198820/GOPAL",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "192992.27"
+    },
+    {
+      "date": "15/06/2022",
+      "narration": "NEFT/738731290002/RAJESH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "11200.00",
+      "balance": "204192.27"
+    },
+    {
+      "date": "15/06/2022",
+      "narration": "NEFT/87301856/LATHA MURTH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "120.00",
+      "credit": "",
+      "balance": "204072.27"
+    },
+    {
+      "date": "15/06/2022",
+      "narration": "CHQ NO 83150 CLEARING",
+      "reference_number": "",
+      "cheque_number": "83150",
+      "debit": "5200.00",
+      "credit": "",
+      "balance": "198872.27"
+    },
+    {
+      "date": "16/06/2022",
+      "narration": "UPI/ID:004792993514/BABU",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "79.00",
+      "credit": "",
+      "balance": "198793.27"
+    },
+    {
+      "date": "16/06/2022",
+      "narration": "UPI/ID:846828637/BINDU NA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1250.00",
+      "credit": "",
+      "balance": "197543.27"
+    },
+    {
+      "date": "16/06/2022",
+      "narration": "UPI/ID:9440453246/NADIA H",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "3469.00",
+      "credit": "",
+      "balance": "194074.27"
+    },
+    {
+      "date": "16/06/2022",
+      "narration": "UPI/ID:21103093/NAVEEN KU",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "310.00",
+      "credit": "",
+      "balance": "193734.27"
+    },
+    {
+      "date": "16/06/2022",
+      "narration": "CHQ NO 958639 CLEARING",
+      "reference_number": "",
+      "cheque_number": "958639",
+      "debit": "79.00",
+      "credit": "",
+      "balance": "193655.27"
+    },
+    {
+      "date": "17/06/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "11200.00",
+      "balance": "204855.27"
+    },
+    {
+      "date": "17/06/2022",
+      "narration": "NEFT/4815101094/HARISH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1250.00",
+      "balance": "203605.27"
+    },
+    {
+      "date": "17/06/2022",
+      "narration": "UPI/ID:72326475/SUSHA RA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "999.00",
+      "credit": "",
+      "balance": "202606.27"
+    },
+    {
+      "date": "17/06/2022",
+      "narration": "UPI/ID:24917654/BINDU NA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "249.00",
+      "credit": "",
+      "balance": "202357.27"
+    },
+    {
+      "date": "17/06/2022",
+      "narration": "UPI/ID:37169663/MEERA PIL",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "249.00",
+      "credit": "",
+      "balance": "202108.27"
+    },
+    {
+      "date": "18/06/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "18500.00",
+      "balance": "220608.27"
+    },
+    {
+      "date": "18/06/2022",
+      "narration": "UPI/ID:721888746303/ARCHA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "850.90",
+      "credit": "",
+      "balance": "219757.27"
+    },
+    {
+      "date": "18/06/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "222257.27"
+    },
+    {
+      "date": "18/06/2022",
+      "narration": "UPI/ID:04856864/MEENA IYE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "699.00",
+      "credit": "",
+      "balance": "221559.27"
+    },
+    {
+      "date": "19/06/2022",
+      "narration": "UPI/ID:96226127/CHANDA S",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "7860.00",
+      "credit": "",
+      "balance": "213699.27"
+    },
+    {
+      "date": "19/06/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "7600.00",
+      "balance": "221359.27"
+    },
+    {
+      "date": "19/06/2022",
+      "narration": "NEFT/47949152931/SHAHID",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "349.00",
+      "credit": "",
+      "balance": "217010.27"
+    },
+    {
+      "date": "19/06/2022",
+      "narration": "UPI/ID:284867444045/NILES",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "49.00",
+      "credit": "",
+      "balance": "217011.27"
+    },
+    {
+      "date": "19/06/2022",
+      "narration": "NEFT/7519762954/RAVINA K",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1980.00",
+      "credit": "",
+      "balance": "215031.27"
+    },
+    {
+      "date": "20/06/2022",
+      "narration": "NEFT/82252751431/PADMA R",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "5200.00",
+      "credit": "",
+      "balance": "210831.27"
+    },
+    {
+      "date": "20/06/2022",
+      "narration": "IMPS/P2P/848610104/SHEELA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "850.00",
+      "credit": "",
+      "balance": "211781.27"
+    },
+    {
+      "date": "21/06/2022",
+      "narration": "UPI/ID:48853054/ROHIT BHA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "4800.00",
+      "balance": "216681.27"
+    },
+    {
+      "date": "21/06/2022",
+      "narration": "CASH DEPOSIT/BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1200.00",
+      "balance": "217781.27"
+    },
+    {
+      "date": "22/06/2022",
+      "narration": "ATM/WDL/37830662/SBI ATM",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "999.00",
+      "credit": "",
+      "balance": "216782.27"
+    },
+    {
+      "date": "22/06/2022",
+      "narration": "UPI/ID:894194329/DIVYA M",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "79.00",
+      "credit": "",
+      "balance": "216703.27"
+    },
+    {
+      "date": "22/06/2022",
+      "narration": "UPI/ID:1452556845223/KIRAN",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "850.00",
+      "credit": "",
+      "balance": "215853.27"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 6202,
+  "source": "groq"
+}

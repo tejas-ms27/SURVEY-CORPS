@@ -1,0 +1,2 @@
+Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
+11/03/2026,,ECS-NACH-RNT1527086-RENT MANDATE 739844080647 NEFT*N0805609062710/Maruti Suzuki India/CR 425006518327 11/03/26 11/03/26,,,0805609062710,,0.0,14000.0,283164.59,credit,50637967294429,HDFC Bank,HDFC0060901,balance_mismatch,direction_inverted,acct_004

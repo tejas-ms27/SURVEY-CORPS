@@ -1,0 +1,61 @@
+{
+  "account_details": {
+    "account_holder_name": "NAME_1 Maya",
+    "account_number": "ACCT_1",
+    "ifsc_code": "IFSC_1",
+    "branch_name": "HINJEWADI",
+    "branch_address": "DELHI",
+    "bank_name": "THE FEDERAL BANK LIMITED",
+    "statement_period": "25-12-2024 To 04-11-2025",
+    "currency": "INR",
+    "opening_balance": "141,500.05",
+    "closing_balance": "369,130.08"
+  },
+  "transactions": [
+    {
+      "date": "25-12-2024",
+      "time": "",
+      "description": "INTEREST CREDIT",
+      "reference_number": "ACCT_4",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "3,640.70",
+      "balance": "145,140.75",
+      "transaction_type": ""
+    },
+    {
+      "date": "08-10-2025",
+      "time": "",
+      "description": "NEFT/N28540216549/Maya NAME_1",
+      "reference_number": "NEFT/N28540216549",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "288,000.26",
+      "balance": "433,141.01",
+      "transaction_type": ""
+    },
+    {
+      "date": "09-10-2025",
+      "time": "",
+      "description": "IMPS/P2M/Varsha Shah/SBI",
+      "reference_number": "IMPS/P2M/ACCT_6",
+      "cheque_number": "",
+      "debit": "63,000.30",
+      "credit": "",
+      "balance": "370,140.71",
+      "transaction_type": ""
+    },
+    {
+      "date": "04-11-2025",
+      "time": "",
+      "description": "UPI/DR/Blinkit/ICICI/UPI_1",
+      "reference_number": "UPI/DR/ACCT_8",
+      "cheque_number": "",
+      "debit": "1,010.63",
+      "credit": "",
+      "balance": "369,130.08",
+      "transaction_type": ""
+    }
+  ],
+  "source": "groq"
+}

@@ -1,0 +1,33 @@
+RUN SUMMARY — Extraction Phase Report
+Generated: 2026-07-01T12:27:52
+---------------------------------------------------------
+TOTALS
+  Files processed : 3   (failed: 0)
+  Clean txns      : 10,886
+  Flagged txns    : 6
+  Duplicates      : 31
+
+FLAG BREAKDOWN
+  balance_mismatch                                6
+  balance_mismatch diagnosis:
+    missing_transaction                           6
+
+RECONCILIATION
+  Average rate          : 0.999
+  Files below 0.90      : 0
+  Zero-row files        : 0
+
+METADATA QUALITY
+  Graded files          : 3
+  With holder name      : 0
+  With account number   : 0
+  With IFSC             : 0
+  Source breakdown      : {'none': 3}
+  Files still missing holder (verify against source):
+    ACC063_Kotak_Statement.csv
+    ACC064_SBI_Statement.csv
+    ACC065_HDFC_Statement.csv
+
+LLM USAGE
+  Total LLM calls       : 0
+  Key rotations         : 0

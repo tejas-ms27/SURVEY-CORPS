@@ -1,0 +1,18 @@
+{
+  "account_details": {
+    "account_holder": "",
+    "account_number": "UNKNOWN-356927262-Bank-Statement",
+    "ifsc_code": "",
+    "bank_name": "",
+    "branch": "",
+    "account_type": "",
+    "statement_period": "",
+    "opening_balance": "",
+    "closing_balance": "",
+    "account_ref": "356927262-Bank-Statement",
+    "branch_address": "",
+    "currency": ""
+  },
+  "transaction_count": 0,
+  "transactions": []
+}

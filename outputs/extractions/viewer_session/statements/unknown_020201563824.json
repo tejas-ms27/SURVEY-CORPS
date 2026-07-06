@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder": "",
+    "account_number": "020201563824",
+    "ifsc_code": "",
+    "bank_name": "",
+    "branch": "",
+    "account_type": "",
+    "statement_period": "",
+    "opening_balance": "",
+    "closing_balance": "",
+    "account_ref": "544516929-ICICI-BANK-STATEMENT"
+  },
+  "transaction_count": 0,
+  "transactions": []
+}

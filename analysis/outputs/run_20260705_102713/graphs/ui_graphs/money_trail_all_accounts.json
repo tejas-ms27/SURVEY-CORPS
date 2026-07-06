@@ -1,0 +1,42 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 50000.0,
+          "balance_after_debit": 150000.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-24",
+          "debit_amount": 50000.0,
+          "debit_txn_id": "acct_001_000001",
+          "narration": "NEFT/ADFBH25144163562/VIKRA/INDB00",
+          "remaining_after_allocation": 150000.0
+        },
+        {
+          "allocated_from_credit": 150000.0,
+          "balance_after_debit": 0.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-24",
+          "debit_amount": 150000.0,
+          "debit_txn_id": "acct_001_000002",
+          "narration": "NEFT/ADFBH25144163885/VIKRA/INDB00",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 200000.0,
+      "finding_id": "61d8e4c587859ee25b31",
+      "source_credit_txn_id": "acct_001_000000",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

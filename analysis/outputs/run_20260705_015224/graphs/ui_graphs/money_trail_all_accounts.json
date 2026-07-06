@@ -1,0 +1,120 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 32000.0,
+          "balance_after_debit": 2601774.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 32000.0,
+          "debit_txn_id": "acct_001_000119",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 2568000.0
+        },
+        {
+          "allocated_from_credit": 1940008.0,
+          "balance_after_debit": 661766.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 1940008.0,
+          "debit_txn_id": "acct_001_000120",
+          "narration": "BLKRTGS/OnscreenPayment/92501001533 6353",
+          "remaining_after_allocation": 627992.0
+        },
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 461766.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_001_000121",
+          "narration": "BLKRTGS/OnscreenPayment/2020008394 2630",
+          "remaining_after_allocation": 427992.0
+        },
+        {
+          "allocated_from_credit": 80190.0,
+          "balance_after_debit": 381576.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 80190.0,
+          "debit_txn_id": "acct_001_000122",
+          "narration": "BLKNEFT/OnscreenPayment/8015778588",
+          "remaining_after_allocation": 347802.0
+        },
+        {
+          "allocated_from_credit": 200208.0,
+          "balance_after_debit": 181368.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 200208.0,
+          "debit_txn_id": "acct_001_000123",
+          "narration": "BLKIFT/OnscreenPayment/10227143709",
+          "remaining_after_allocation": 147594.0
+        },
+        {
+          "allocated_from_credit": 102465.0,
+          "balance_after_debit": 78903.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 102465.0,
+          "debit_txn_id": "acct_001_000124",
+          "narration": "BLKNEFT/OnscreenPayment/93110100599 160",
+          "remaining_after_allocation": 45129.0
+        },
+        {
+          "allocated_from_credit": 38400.0,
+          "balance_after_debit": 40503.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 38400.0,
+          "debit_txn_id": "acct_001_000125",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 6729.0
+        },
+        {
+          "allocated_from_credit": 6729.0,
+          "balance_after_debit": 2503.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-06",
+          "debit_amount": 38000.0,
+          "debit_txn_id": "acct_001_000126",
+          "narration": "BLKNEFT/BLKPAY_YYYYMMDD/123",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 2600000.0,
+      "finding_id": "519a7453ce9f805ce17a",
+      "source_credit_txn_id": "acct_001_000118",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

@@ -1,0 +1,81 @@
+{
+  "account_details": {
+    "account_holder": "MR. VINATAK G K",
+    "account_number": "910100819136525",
+    "ifsc_code": "HDFC00001040",
+    "bank_name": "HDFC BANK",
+    "branch": "KANAKAPURA",
+    "account_type": "SALARY - FAMILY SAVINGS ACCOUNT(127)",
+    "statement_period": "01/03/2026  To  31/05/2026",
+    "opening_balance": "1.00",
+    "closing_balance": "3.00"
+  },
+  "transactions": [
+    {
+      "date": "02/03/26",
+      "narration": "UPI-VINAYAK G.K. 92-5044358373858-PAYMENT FROM PHONE",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "1.00"
+    },
+    {
+      "date": "06/03/26",
+      "narration": "UPI-VINAYAK G 0000785132145727-PAYMENT FROM PHONE",
+      "debit": "",
+      "credit": "5,000.00",
+      "balance": "5,001.00"
+    },
+    {
+      "date": "06/03/26",
+      "narration": "UPI-VINAYAK G 00009808033668296",
+      "debit": "1,000.00",
+      "credit": "",
+      "balance": "4,001.00"
+    },
+    {
+      "date": "08/03/26",
+      "narration": "UPI-VINAYAK G K-VINAYAKSHUB6@AXL-CNRB000 0033-642052439536-PAYMENT FROM PHONE",
+      "debit": "",
+      "credit": "74,503.00",
+      "balance": "78,504.00"
+    },
+    {
+      "date": "08/03/26",
+      "narration": "UPI-BHARATI S DEVAMANE-9611077152@AXL-CN RB00000033-313879057294-PAYMENT FROM PHONE",
+      "debit": "396.00",
+      "credit": "",
+      "balance": "79,000.00"
+    },
+    {
+      "date": "08/03/26",
+      "narration": "UPI-VINAYAK G 0000841869813691-PAYMENT FROM PHONE",
+      "debit": "",
+      "credit": "79,000.00",
+      "balance": "0.00"
+    },
+    {
+      "date": "08/03/26",
+      "narration": "UPI-BHARATI S DEVAMANE-BHARATHI@ORAKX-CNB0000006-667475590092-UPIPAYMENT FROM PHONE",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "1.00"
+    },
+    {
+      "date": "08/03/26",
+      "narration": "UPI-BHARATI S DEVAMANE-BHARATHI@YBL-BARBVOPVIDPU-399914945454-PAYMENT FROM PHONE",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "2.00"
+    },
+    {
+      "date": "08/03/26",
+      "narration": "",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "3.00"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 1779,
+  "source": "groq"
+}

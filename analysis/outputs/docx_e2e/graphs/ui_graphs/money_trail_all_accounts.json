@@ -1,0 +1,68 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 47.21,
+          "balance_after_debit": 302927.97,
+          "counterparty_account": "",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-02",
+          "debit_amount": 47.21,
+          "debit_txn_id": "acct_002_000117",
+          "narration": "CGST For Excess Cash Withdrawal",
+          "remaining_after_allocation": 299952.79
+        },
+        {
+          "allocated_from_credit": 524.52,
+          "balance_after_debit": 302403.45,
+          "counterparty_account": "",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-02",
+          "debit_amount": 524.52,
+          "debit_txn_id": "acct_002_000118",
+          "narration": "Excess Cash Withdrawal Chg",
+          "remaining_after_allocation": 299428.26999999996
+        },
+        {
+          "allocated_from_credit": 47.21,
+          "balance_after_debit": 302356.24,
+          "counterparty_account": "",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-02",
+          "debit_amount": 47.21,
+          "debit_txn_id": "acct_002_000119",
+          "narration": "SGST For Excess Cash Withdrawal",
+          "remaining_after_allocation": 299381.05999999994
+        },
+        {
+          "allocated_from_credit": 299381.05999999994,
+          "balance_after_debit": 2356.24,
+          "counterparty_account": "",
+          "counterparty_name_raw": "CASH",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-02",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_002_000120",
+          "narration": "TO CASH/ SELF 1 TO CASH/ SELF",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 300000.0,
+      "finding_id": "0ceced89db8912f1bd38",
+      "source_credit_txn_id": "acct_002_000116",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

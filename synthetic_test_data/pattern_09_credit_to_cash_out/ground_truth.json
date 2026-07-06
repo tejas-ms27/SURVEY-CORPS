@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "folder": "pattern_09_credit_to_cash_out",
+  "description": "Large inward credit followed promptly by near-equivalent ATM withdrawal.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0041",
+      "role": "subject",
+      "file": "statements/97094247189329-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/97094247189329-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "97094247189329",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0042",
+      "role": "clean_control",
+      "file": "statements/6563986075289003-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/6563986075289003-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "6563986075289003",
+      "bank": "BANK OF INDIA"
+    },
+    {
+      "synthetic_account_id": "SYN0043",
+      "role": "clean_control",
+      "file": "statements/2930199412632830_statement.pdf",
+      "files": [
+        "statements/2930199412632830_statement.pdf"
+      ],
+      "fabricated_account_number": "2930199412632830",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0044",
+      "role": "clean_control",
+      "file": "statements/81505882184559-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/81505882184559-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "81505882184559",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0045",
+      "role": "clean_control",
+      "file": "statements/9174418126063678_statement.txt",
+      "files": [
+        "statements/9174418126063678_statement.txt"
+      ],
+      "fabricated_account_number": "9174418126063678",
+      "bank": "PUNJAB NATIONAL BANK"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 9,
+      "pattern_name": "credit_to_cash_out",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0041"
+      ],
+      "expected_amount_range": [
+        116766.09,
+        152000.7
+      ],
+      "notes": "Large inward credit followed promptly by near-equivalent ATM withdrawal.",
+      "expected_txn_refs": [
+        "583185988545",
+        "405664219433"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0041_000345",
+        "SYN0041_000354"
+      ]
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "pattern_id": 7,
+      "reason": "No unrelated fixture planted for this pattern."
+    }
+  ]
+}

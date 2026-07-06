@@ -1,0 +1,44 @@
+DCB BANK
+STATEMENT OF ACCOUNT
+Branch : NAWADIH Customer ID : 108266574
+IFSC : DCBL0000457 Customer Name : YASH DUBEY
+MICR : 828072002 Statement Period : 10-09-2025 To 04-01-2026
+Branch Address : TRIMURTI COMPLEX,NEAR ASARFI Generation Date : 05-01-2026
+HOSPITAL,BISHUNPUR
+POLYTECHNIC,NAWADIH, DHANBAD
+,828130 ,JHARKHAND
+Branch Phone Number :
+YASH DUBEY
+PUNJABI DHOUDA NO-7 JAMADOBA JAMADOBA
+.
+DHANBAD 828301
+JHARKHAND INDIA
+DETAILS OF AUTHORISED SIGNATORY/ IES
+Customer ID Customer Name PAN/Form 60 Aadhaar Number FATCA* CKYC** CKYC Number**
+108266574 YASH DUBEY (PRIMARY) KEXXXXXX7H AVAILABLE YES YES 40044200185105
+* Confirmation for Foreign Accounts Tax Compliance Act(FATCA) / Common Reporting Standards(CRS).
+** Centralized KYC.
+PORTFOLIO SUMMARY
+Operative Accounts Account Number Nominee Lien Lien Amount Opening Balance Closing Balance
+SNEHA REDDY - INR 457XXXXXX2165 YES YES 292,662.37 10,929.48 11,038.48
+Total 2,92,662.37 2,92,662.37 2,92,662.37
+All Amounts are in INR
+ACCOUNT DETAILS
+Account Number 25078124219247 - SNEHA REDDY (INR) - YASH DUBEY
+Date* Transaction Details Cheque Withdrawals Deposits Balance
+Number
+Opening Balance 10,929.48
+Account Number 25078124219247 - SNEHA REDDY (INR) - YASH DUBEY
+Account Number 25078124219247 - SNEHA REDDY (INR) - YASH DUBEY
+Date*  Transaction Details  Cheque Number  Withdrawals  Deposits  Balance
+Opening Balance        10,929.48
+18-09-2025  UPI:REC:389485788193/RADH /Union Bank      5.00  10,934.48
+UPI:REC:389485788193/RADH /Union Ban
+30-09-2025  SB Int.****02165:Pd:01-07-2025 to 30-09-2025      62.00  10,996.48
+31-12-2025  SB Int.****02165:Pd:01-10-2025 to 31-12-2025      42.00  11,038.48
+Closing Balance        11,038.48
+Total Number of Transactions    0  3
+Turnover    0  109.00
+Accounts  Customer Name  Account Number  Nominee Name
+SNEHA REDDY  YASH DUBEY  457XXXXXX2165  NOMINEE NOT REGISTERED FOR PRINTING
+SNEHA RED  YASH DUBEY

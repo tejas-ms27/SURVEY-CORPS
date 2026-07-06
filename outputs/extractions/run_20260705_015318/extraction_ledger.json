@@ -1,0 +1,27 @@
+[
+  {
+    "file_name": "50192424882238.pdf",
+    "source_account_id": "acct_001",
+    "route": "pdf_digital",
+    "parser_tier": "cheap_parse",
+    "fallback_method_used": "",
+    "raw_text_char_count": 21873,
+    "transaction_like_lines": 199,
+    "rows_extracted": 199,
+    "rows_clean": 199,
+    "rows_flagged": 0,
+    "reconciliation_rate": 1.0,
+    "zero_row_status": "ok",
+    "zero_row_reason": "",
+    "account_number_found": true,
+    "account_number": "50192424882238",
+    "holder_found": true,
+    "holder": "M/S UNITED SUPPLY LLP",
+    "ifsc_found": true,
+    "ifsc": "BDBL0002079",
+    "bank_name": "Bandhan Bank",
+    "metadata_source": "regex",
+    "column_map_source": "deterministic",
+    "llm_calls": 0
+  }
+]

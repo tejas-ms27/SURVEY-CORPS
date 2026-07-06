@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder": "",
+    "account_number": "",
+    "ifsc_code": "",
+    "bank_name": "UNKNOWN",
+    "branch": "",
+    "account_type": "",
+    "statement_period": "",
+    "opening_balance": "",
+    "closing_balance": "",
+    "account_ref": "BAD_ACC"
+  },
+  "transaction_count": 0,
+  "transactions": []
+}

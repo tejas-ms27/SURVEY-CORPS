@@ -1,0 +1,4 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+3178,3176,50105414883065,16/12/2022,850.0,0.0,850.0,CASH DEPOSIT/BRANCH COUNT,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+3188,3185,50105414883065,19/12/2022,7600.0,0.0,7600.0,CASH DEPOSIT/BRANCH COUNT,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+4272,4271,50105414883065,29/12/2023,2500.0,0.0,2500.0,CASH DEPOSIT/BRANCH COUNT,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002

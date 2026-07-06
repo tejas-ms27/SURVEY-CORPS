@@ -1,0 +1,185 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_005"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 18000.0,
+          "balance_after_debit": 1003203.48,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-08",
+          "debit_amount": 18000.0,
+          "debit_txn_id": "acct_005_003526",
+          "narration": "NACH/MANDATE/RNT9494948/RENT MANDATE",
+          "remaining_after_allocation": 134000.7
+        },
+        {
+          "allocated_from_credit": 599.0,
+          "balance_after_debit": 1002604.48,
+          "counterparty_account": "myntra@ybl",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-08",
+          "debit_amount": 599.0,
+          "debit_txn_id": "acct_005_003527",
+          "narration": "UPI/DR/738140683503/Myntra/ICICI/myntra@ybl/UPI",
+          "remaining_after_allocation": 133401.7
+        },
+        {
+          "allocated_from_credit": 4000.0,
+          "balance_after_debit": 998604.48,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-08",
+          "debit_amount": 4000.0,
+          "debit_txn_id": "acct_005_003528",
+          "narration": "ATM CASH WITHDRAWAL/48329/DELHI",
+          "remaining_after_allocation": 129401.70000000001
+        },
+        {
+          "allocated_from_credit": 379.0,
+          "balance_after_debit": 998225.48,
+          "counterparty_account": "airtel@axis",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-08",
+          "debit_amount": 379.0,
+          "debit_txn_id": "acct_005_003529",
+          "narration": "UPI/DR/934715352615/Airtel/PAYTM/airtel@axis/UPI",
+          "remaining_after_allocation": 129022.70000000001
+        },
+        {
+          "allocated_from_credit": 2800.65,
+          "balance_after_debit": 995424.83,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-09",
+          "debit_amount": 2800.65,
+          "debit_txn_id": "acct_005_003530",
+          "narration": "POS VISHAL MEGA MART DELHI",
+          "remaining_after_allocation": 126222.05000000002
+        },
+        {
+          "allocated_from_credit": 350.83,
+          "balance_after_debit": 995074.0,
+          "counterparty_account": "uber@paytm",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-09",
+          "debit_amount": 350.83,
+          "debit_txn_id": "acct_005_003531",
+          "narration": "UPI/DR/531868277455/Uber/PAYTM/uber@paytm/UPI",
+          "remaining_after_allocation": 125871.22000000002
+        },
+        {
+          "allocated_from_credit": 750.94,
+          "balance_after_debit": 994323.06,
+          "counterparty_account": "saritadutt87@okaxis",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-10",
+          "debit_amount": 750.94,
+          "debit_txn_id": "acct_005_003532",
+          "narration": "UPI/DR/034199734663/Sarita/BKID/saritadutt87@okaxis/UPI",
+          "remaining_after_allocation": 125120.28000000001
+        },
+        {
+          "allocated_from_credit": 116766.09,
+          "balance_after_debit": 894707.07,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-10",
+          "debit_amount": 116766.09,
+          "debit_txn_id": "acct_005_003534",
+          "narration": "ATM CASH WITHDRAWAL/63038/DELHI",
+          "remaining_after_allocation": 8354.190000000017
+        },
+        {
+          "allocated_from_credit": 870.22,
+          "balance_after_debit": 904537.26,
+          "counterparty_account": "phonepe@ybl",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-11",
+          "debit_amount": 870.22,
+          "debit_txn_id": "acct_005_003536",
+          "narration": "UPI/DR/575552249006/PhonePe/ICICI/phonepe@ybl/UPI",
+          "remaining_after_allocation": 7483.970000000017
+        },
+        {
+          "allocated_from_credit": 140.0,
+          "balance_after_debit": 904397.26,
+          "counterparty_account": "rapido@icici",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-11",
+          "debit_amount": 140.0,
+          "debit_txn_id": "acct_005_003537",
+          "narration": "UPI/DR/201144884290/Rapido/PAYTM/rapido@icici/UPI",
+          "remaining_after_allocation": 7343.970000000017
+        },
+        {
+          "allocated_from_credit": 1320.34,
+          "balance_after_debit": 903076.92,
+          "counterparty_account": "tatahealth@icici",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-12",
+          "debit_amount": 1320.34,
+          "debit_txn_id": "acct_005_003538",
+          "narration": "UPI/DR/154068254867/1mg/ICICI/tatahealth@icici/UPI",
+          "remaining_after_allocation": 6023.6300000000165
+        },
+        {
+          "allocated_from_credit": 2600.05,
+          "balance_after_debit": 900476.87,
+          "counterparty_account": "mamta.reddy@aubank",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-05-12",
+          "debit_amount": 2600.05,
+          "debit_txn_id": "acct_005_003539",
+          "narration": "UPI/DR/429600541974/Mamta/PUNB/mamta.reddy@aubank/UPI",
+          "remaining_after_allocation": 3423.5800000000163
+        },
+        {
+          "allocated_from_credit": 3423.5800000000163,
+          "balance_after_debit": 880476.87,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-12",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_005_003540",
+          "narration": "NACH/MANDATE/LN016121842883/ICICI Bank Home Loan",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 152000.7,
+      "finding_id": "b658cb3bab02bb42a099",
+      "source_credit_txn_id": "acct_005_003525",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

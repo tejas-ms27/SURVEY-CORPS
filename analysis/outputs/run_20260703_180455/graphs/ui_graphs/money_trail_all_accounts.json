@@ -1,0 +1,166 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_001"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 283360.15,
+          "balance_after_debit": 454151.81,
+          "counterparty_account": "acct_007",
+          "counterparty_name_raw": "CIF No",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-08-08",
+          "debit_amount": 283360.15,
+          "debit_txn_id": "acct_001_000543",
+          "narration": "NEFT/N49652837781/GOPAL SRIVASTAVA N49652837781",
+          "remaining_after_allocation": 10640.089999999967
+        },
+        {
+          "allocated_from_credit": 959.0,
+          "balance_after_debit": 453192.81,
+          "counterparty_account": "jio@paytm",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-08-08",
+          "debit_amount": 959.0,
+          "debit_txn_id": "acct_001_000544",
+          "narration": "UPI/DR/357590186722/Airtel/PAYTM/jio@paytm/UPI 403541886478",
+          "remaining_after_allocation": 9681.089999999967
+        },
+        {
+          "allocated_from_credit": 760.71,
+          "balance_after_debit": 452432.1,
+          "counterparty_account": "uber@paytm",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-08-09",
+          "debit_amount": 760.71,
+          "debit_txn_id": "acct_001_000545",
+          "narration": "UPI/DR/011686428931/Uber/PAYTM/uber@paytm/UPI 215193050017",
+          "remaining_after_allocation": 8920.379999999968
+        },
+        {
+          "allocated_from_credit": 5450.7,
+          "balance_after_debit": 446981.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-09",
+          "debit_amount": 5450.7,
+          "debit_txn_id": "acct_001_000546",
+          "narration": "POS STAR BAZAAR PATNA 789635964933",
+          "remaining_after_allocation": 3469.6799999999685
+        },
+        {
+          "allocated_from_credit": 3469.6799999999685,
+          "balance_after_debit": 433230.47,
+          "counterparty_account": "kiransing24@upi",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 1.0,
+          "counterparty_resolution_method": "exact_reference_or_upi_match",
+          "date": "2025-08-09",
+          "debit_amount": 13750.93,
+          "debit_txn_id": "acct_001_000547",
+          "narration": "UPI/DR/136906382442/Kiran/UTIB/kiransing24@upi/UPI 159409076689",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 294000.24,
+      "finding_id": "0a8fd2d63bcf4eaeb629",
+      "source_credit_txn_id": "acct_001_000542",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_002"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 18500.0,
+          "balance_after_debit": 615206.29,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-10",
+          "debit_amount": 18500.0,
+          "debit_txn_id": "acct_002_001635",
+          "narration": "ECS-NACH-LN742807355061-Muthoot Finance",
+          "remaining_after_allocation": 265858.16
+        },
+        {
+          "allocated_from_credit": 265858.16,
+          "balance_after_debit": 338627.62,
+          "counterparty_account": "acct_004",
+          "counterparty_name_raw": "CIF No",
+          "counterparty_resolution_confidence": 0.85,
+          "counterparty_resolution_method": "amount_date_mirror_match",
+          "date": "2025-08-10",
+          "debit_amount": 276578.67,
+          "debit_txn_id": "acct_002_001636",
+          "narration": "RTGS-R76603974582-MANOJ JOSHI/UCBA0230918",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 284358.16,
+      "finding_id": "135ab75854f97a1fc730",
+      "source_credit_txn_id": "acct_002_001634",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_007"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 283360.15,
+          "balance_after_debit": 142869.42,
+          "counterparty_account": "acct_002",
+          "counterparty_name_raw": "GAURAV KHANNA",
+          "counterparty_resolution_confidence": 0.65,
+          "counterparty_resolution_method": "narration_similarity_match",
+          "date": "2025-08-09",
+          "debit_amount": 284358.16,
+          "debit_txn_id": "acct_007_004949",
+          "narration": "INB IMPS/I82260658072/GAURAV KHANNA/HDFC I82260658072",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 283360.15,
+      "finding_id": "bdc7b59bc41c458823bd",
+      "source_credit_txn_id": "acct_007_004948",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_004"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 276578.67,
+          "balance_after_debit": 924441.63,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-11",
+          "debit_amount": 289258.71,
+          "debit_txn_id": "acct_004_003856",
+          "narration": "IMPS-I07572363242-AKASH KAPOOR I07572363242",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 276578.67,
+      "finding_id": "6938c0f0dd1eab63f903",
+      "source_credit_txn_id": "acct_004_003854",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

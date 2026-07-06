@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(pip show *)",
+      "Bash(pip3 list *)",
+      "Bash(pip list *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(conda info *)",
+      "Read(//Users/tejas.m.s/**)",
+      "Bash(pip3 install *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(pip3 show *)",
+      "Bash(pip install *)",
+      "Bash(kill 20380 16640 19075 19387 18581 18711 15940)",
+      "Bash(shuf)",
+      "Bash(python3 evaluate.py --session-prefix eval)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(pkill -f \"evaluate.py --session-prefix eval\")",
+      "Bash(pkill -9 -f \"evaluate.py\")",
+      "Bash(awk '{print $2, $8, $11, $12, $13}')",
+      "Bash(grep -oE \"<li>\\(A total of|The account to investigate first|Money was routed|Funds finally\\)[^<]{0,90}\" tmp/reporttest_en.html)",
+      "Bash(.report_venv/bin/python reporting/build_report.py --run-id evalsmoke_pattern_17_round_trip --language kn --save-html --out tmp/reporttest_kn.pdf)",
+      "Bash(grep -E \"tp=|ERROR\" outputs/evaluation/full_run.log)",
+      "Bash(tail -1 outputs/evaluation/full_run.log)",
+      "Bash(grep -vE \"^$\")",
+      "Bash(awk '{print $2, $10, $11, $12}')",
+      "Bash(rm -rf analysis/outputs/eval_combined_all_patterns)",
+      "Bash(python3 evaluate.py --folders combined_all_patterns pattern_16_shared_upi pattern_07_circular_flow clean_control --session-prefix eval)"
+    ]
+  }
+}

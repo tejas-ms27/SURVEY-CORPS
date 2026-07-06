@@ -1,0 +1,53 @@
+{
+  "session_id": "hdfc_time_check",
+  "created_at": "2026-06-21T21:56:48",
+  "summary": {
+    "total_rows": 85,
+    "clean_rows": 84,
+    "flagged_rows": 1,
+    "files_processed": 1,
+    "files_failed": []
+  },
+  "files": [
+    {
+      "file": "451843314-HDFC-BANK-STATEMENT-pdf.pdf",
+      "account_ref": "t",
+      "bank_name": "",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "raw_text_chars": 14079,
+      "column_map": {
+        "date": "Date",
+        "narration": "Narration",
+        "debit": "WithdrawalAmt.",
+        "credit": "DepositAmt.",
+        "balance": "ClosingBalance"
+      },
+      "column_map_source": "cache",
+      "account_details": {
+        "account_holder": "MR. ANUPDUBEY",
+        "account_number": "50100158077633",
+        "ifsc_code": "HDFC0001116",
+        "bank_name": "HDFC Bank",
+        "branch": "BHAYENDEREAST-KASTURIUDYOG",
+        "account_type": "",
+        "statement_period": "",
+        "opening_balance": "",
+        "closing_balance": "",
+        "account_ref": "t"
+      },
+      "rows_standardised": 85,
+      "rows_clean": 84,
+      "rows_flagged": 1
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "MR_ANUPDUBEY_50100158077633.json"
+    ]
+  }
+}

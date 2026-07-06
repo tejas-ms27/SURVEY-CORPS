@@ -1,0 +1,324 @@
+{
+  "account_details": {
+    "account_holder": "Sheela Devi",
+    "account_number": "501000486907228",
+    "ifsc_code": "HDFC0690404",
+    "bank_name": "HDFC Bank",
+    "branch": "Pune Camp",
+    "account_type": "",
+    "statement_period": "01/06/2022 to 30/06/2024",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "01/06/2022",
+      "narration": "NEFT:9880882773:KAVYA RED",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "18000.00",
+      "credit": "",
+      "balance": "80666.27"
+    },
+    {
+      "date": "01/06/2022",
+      "narration": "NEFT:5868065816:SANJOSH K",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "32000.00",
+      "balance": "112666.27"
+    },
+    {
+      "date": "03/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "115186.27"
+    },
+    {
+      "date": "03/06/2022",
+      "narration": "NEFT:63453951469:USHA RAM",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "49.00",
+      "credit": "",
+      "balance": "115137.27"
+    },
+    {
+      "date": "03/06/2022",
+      "narration": "UPI:ID:44RE650075:ARJUN MEH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "115637.27"
+    },
+    {
+      "date": "03/06/2022",
+      "narration": "UPI:ID:0950156760594:RANJI",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "113957.27"
+    },
+    {
+      "date": "04/06/2022",
+      "narration": "IMPS:P2P:732699935968:NJK",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1200.00",
+      "balance": "115157.27"
+    },
+    {
+      "date": "04/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "32000.00",
+      "balance": "147157.27"
+    },
+    {
+      "date": "04/06/2022",
+      "narration": "CHO NO 25866 CLEARING",
+      "reference_number": "",
+      "cheque_number": "25866",
+      "debit": "79.00",
+      "credit": "",
+      "balance": "147078.27"
+    },
+    {
+      "date": "05/06/2022",
+      "narration": "UPI:ID:R234553396:ARCHANA P",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "144698.27"
+    },
+    {
+      "date": "05/06/2022",
+      "narration": "CHO NO 249542 CLEARING",
+      "reference_number": "",
+      "cheque_number": "249542",
+      "debit": "120.00",
+      "credit": "",
+      "balance": "144578.27"
+    },
+    {
+      "date": "10/06/2022",
+      "narration": "UPI:ID:91188335406:RANJI",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "249.00",
+      "credit": "",
+      "balance": "144329.27"
+    },
+    {
+      "date": "10/06/2022",
+      "narration": "UPI:ID:92532953:SUNIL YAD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "141949.27"
+    },
+    {
+      "date": "06/06/2022",
+      "narration": "ATM:WDL:237962961: HDFC A",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "7500.00",
+      "credit": "",
+      "balance": "134449.27"
+    },
+    {
+      "date": "06/06/2022",
+      "narration": "IMPS:P2P:8182211559:PADMA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "134949.27"
+    },
+    {
+      "date": "06/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "18500.00",
+      "balance": "153449.27"
+    },
+    {
+      "date": "06/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "24000.00",
+      "balance": "177449.27"
+    },
+    {
+      "date": "07/06/2022",
+      "narration": "NEFT:966901275:TANVI RAO",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "500.00",
+      "balance": "177949.27"
+    },
+    {
+      "date": "07/06/2022",
+      "narration": "NEFT:0670100805:LATHA MUR",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "7800.00",
+      "credit": "",
+      "balance": "169849.27"
+    },
+    {
+      "date": "07/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "172349.27"
+    },
+    {
+      "date": "08/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "24000.00",
+      "balance": "196349.27"
+    },
+    {
+      "date": "08/06/2022",
+      "narration": "UPI:ID:4951399216:101:LALIT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "79.00",
+      "balance": "196427.27"
+    },
+    {
+      "date": "09/06/2022",
+      "narration": "UPI:ID:311136284:CHAUHAN KH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "193870.27"
+    },
+    {
+      "date": "09/06/2022",
+      "narration": "CASH DEPOSIT:BRANCH COUNT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "4800.00",
+      "balance": "198690.27"
+    },
+    {
+      "date": "09/06/2022",
+      "narration": "IMPS:P2P:15323255:VIVEK S",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "7500.00",
+      "balance": "205690.27"
+    },
+    {
+      "date": "11/06/2022",
+      "narration": "CHO NO 086525 CLEARING",
+      "reference_number": "",
+      "cheque_number": "086525",
+      "debit": "",
+      "credit": "850.00",
+      "balance": "2055440.27"
+    },
+    {
+      "date": "11/06/2022",
+      "narration": "UPI:ID:244423131:RAVI KU",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "203760.27"
+    },
+    {
+      "date": "11/06/2022",
+      "narration": "UPI:ID:8235527831: RAMESH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "310.00",
+      "credit": "",
+      "balance": "203450.27"
+    },
+    {
+      "date": "11/06/2022",
+      "narration": "UPI:ID:341363765:FATIMA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "5200.00",
+      "balance": "198250.27"
+    },
+    {
+      "date": "12/06/2022",
+      "narration": "UPI:ID:819700991:POOJA SHA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "999.00",
+      "balance": "197251.27"
+    },
+    {
+      "date": "12/06/2022",
+      "narration": "UPI:ID:740643401:MEENA KH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "4800.00",
+      "balance": "202051.27"
+    },
+    {
+      "date": "12/06/2022",
+      "narration": "IMPS:P2P:172325348:ARJUN",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "204551.27"
+    },
+    {
+      "date": "13/06/2022",
+      "narration": "UPI:ID:063424499450:NAVEE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1250.00",
+      "balance": "203801.27"
+    },
+    {
+      "date": "12/06/2022",
+      "narration": "UPI:ID:75249142:ARJUN MEH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "699.00",
+      "balance": "203802.27"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 6232,
+  "source": "groq"
+}

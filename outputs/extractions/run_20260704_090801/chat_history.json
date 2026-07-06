@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-07-04 09:17:03",
+    "question": "how many accounts are there",
+    "answer": "All the listed transactions involve the same account number (00000040552115380), so there is only one account represented in the provided data.",
+    "language": "en",
+    "matched_pattern": "semantic_search"
+  },
+  {
+    "timestamp": "2026-07-04 09:21:57",
+    "question": "visulize the graph network",
+    "answer": "Money-flow Sankey across 1 account(s) and 1214 transaction(s) totalling ₹6,187,453.58. Top categories by amount: Other: ₹4,258,241.13, NEFT: ₹1,224,496.45, Cash: ₹402,676.00.",
+    "language": "en",
+    "matched_pattern": "graph_request_sankey"
+  },
+  {
+    "timestamp": "2026-07-04 09:23:01",
+    "question": "show me all the account holders name and number",
+    "answer": "There are 1 accounts in this case:\n  - RAVI KUMAR — account 00000040552115380 at State Bank of India",
+    "language": "en",
+    "matched_pattern": "list_account_holders"
+  },
+  {
+    "timestamp": "2026-07-04 09:23:56",
+    "question": "show me the money flow graph 00000040552115380",
+    "answer": "Money-flow graph: 1 account node(s) and 352 heuristic counterparty node(s) across 352 transaction edge(s).",
+    "language": "en",
+    "matched_pattern": "graph_request"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "file_name": "652591331-Canara-Bank-Statement.pdf",
+    "route": "pdf_digital",
+    "parser_tier": "cheap_parse",
+    "fallback_method_used": "",
+    "raw_text_char_count": 9328,
+    "transaction_like_lines": 51,
+    "rows_extracted": 51,
+    "rows_clean": 51,
+    "rows_flagged": 0,
+    "reconciliation_rate": 1.0,
+    "zero_row_status": "ok",
+    "zero_row_reason": "",
+    "account_number_found": true,
+    "account_number": "120002879229",
+    "holder_found": true,
+    "holder": "TOLLWAYS INFRA PROJECTS PRIVATE LIMITED",
+    "ifsc_found": true,
+    "ifsc": "CNRB0005120",
+    "bank_name": "Canara Bank",
+    "metadata_source": "regex",
+    "column_map_source": "deterministic",
+    "llm_calls": 0
+  }
+]

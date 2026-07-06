@@ -1,0 +1,324 @@
+{
+  "account_details": {
+    "account_holder": "Sheela Devi",
+    "account_number": "501000485690728",
+    "ifsc_code": "HDFC06900404",
+    "bank_name": "HDFC Bank",
+    "branch": "Pune Camp",
+    "account_type": "",
+    "statement_period": "01/08/2022 to 30/06/2024",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "24/08/2022",
+      "narration": "NEFT:5719461471:HARISH ME",
+      "reference_number": "5719461471",
+      "cheque_number": "",
+      "debit": "850.00",
+      "credit": "",
+      "balance": "216703.27"
+    },
+    {
+      "date": "24/08/2022",
+      "narration": "CHQ NO 987165 CLEARING",
+      "reference_number": "",
+      "cheque_number": "987165",
+      "debit": "7800.00",
+      "credit": "",
+      "balance": "208903.27"
+    },
+    {
+      "date": "24/08/2022",
+      "narration": "UPI:ID:139502038:VINAY PAT",
+      "reference_number": "139502038",
+      "cheque_number": "",
+      "debit": "120.00",
+      "credit": "",
+      "balance": "207783.27"
+    },
+    {
+      "date": "24/08/2022",
+      "narration": "ATM/WDL:409434036436:HDFC",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "79.00",
+      "credit": "",
+      "balance": "207704.27"
+    },
+    {
+      "date": "23/08/2022",
+      "narration": "UPI:ID:994270021:KAVERI",
+      "reference_number": "994270021",
+      "cheque_number": "",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "207024.27"
+    },
+    {
+      "date": "24/08/2022",
+      "narration": "UPI:GR:311578630:SUNIL YAD",
+      "reference_number": "311578630",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "24000.00",
+      "balance": "231024.27"
+    },
+    {
+      "date": "26/08/2022",
+      "narration": "UPI:ID:906928263:SUSHMA RA",
+      "reference_number": "906928263",
+      "cheque_number": "",
+      "debit": "249.00",
+      "credit": "",
+      "balance": "230775.27"
+    },
+    {
+      "date": "25/08/2022",
+      "narration": "NEFT:967678804:NADIA HUS",
+      "reference_number": "967678804",
+      "cheque_number": "",
+      "debit": "3499.00",
+      "credit": "",
+      "balance": "227276.27"
+    },
+    {
+      "date": "25/08/2022",
+      "narration": "IMPS:P2P:26872576:PADMA R",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "4800.00",
+      "credit": "",
+      "balance": "222476.27"
+    },
+    {
+      "date": "25/08/2022",
+      "narration": "ATM/WDL:816874758:HDFC ATM",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "449.00",
+      "credit": "",
+      "balance": "222027.27"
+    },
+    {
+      "date": "25/08/2022",
+      "narration": "NEFT:282168690:RAJENDRA PR",
+      "reference_number": "282168690",
+      "cheque_number": "",
+      "debit": "2380.00",
+      "credit": "",
+      "balance": "219647.27"
+    },
+    {
+      "date": "26/08/2022",
+      "narration": "CHQ NO 567565 CLEARING",
+      "reference_number": "",
+      "cheque_number": "567565",
+      "debit": "850.00",
+      "credit": "",
+      "balance": "218397.27"
+    },
+    {
+      "date": "26/08/2022",
+      "narration": "CHQ NO 935847 CLEARING",
+      "reference_number": "",
+      "cheque_number": "935847",
+      "debit": "120.00",
+      "credit": "",
+      "balance": "228277.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "UPI:ID:747676265:ARJUN MEH",
+      "reference_number": "747676265",
+      "cheque_number": "",
+      "debit": "5200.00",
+      "credit": "",
+      "balance": "223077.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "IMPS:P2P:455820452:AJAY NAD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "32000.00",
+      "balance": "255077.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "CHQ NO 837897 CLEARING",
+      "reference_number": "",
+      "cheque_number": "837897",
+      "debit": "699.00",
+      "credit": "",
+      "balance": "248378.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "ATM/WDL:544657411:HDFC A",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "7800.00",
+      "credit": "",
+      "balance": "244678.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "IMPS:P2P:52231356:TARA SI",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "2500.00",
+      "balance": "249078.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "NEFT:528149705:RESHMA KH",
+      "reference_number": "528149705",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "32000.00",
+      "balance": "281078.27"
+    },
+    {
+      "date": "27/08/2022",
+      "narration": "IMPS:P2P:178570203:DIVYA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "7600.00",
+      "credit": "",
+      "balance": "268878.27"
+    },
+    {
+      "date": "29/08/2022",
+      "narration": "ATM/WDL:632870788:ICANARA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "310.00",
+      "credit": "",
+      "balance": "268556.27"
+    },
+    {
+      "date": "31/08/2022",
+      "narration": "CHQ NO 697119 CLEARING",
+      "reference_number": "",
+      "cheque_number": "697119",
+      "debit": "249.00",
+      "credit": "",
+      "balance": "288911.27"
+    },
+    {
+      "date": "30/08/2022",
+      "narration": "ATM/WDL:503736789:ICANARA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "449.00",
+      "credit": "",
+      "balance": "288670.27"
+    },
+    {
+      "date": "31/08/2022",
+      "narration": "UPI:ID:442815337:ADITYA",
+      "reference_number": "442815337",
+      "cheque_number": "",
+      "debit": "5200.00",
+      "credit": "",
+      "balance": "284470.27"
+    },
+    {
+      "date": "31/08/2022",
+      "narration": "NEFT:1066719045:LAKSHMI V",
+      "reference_number": "1066719045",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "18500.00",
+      "balance": "289970.27"
+    },
+    {
+      "date": "01/09/2022",
+      "narration": "NEFT:3031240456:KIYAN R",
+      "reference_number": "3031240456",
+      "cheque_number": "",
+      "debit": "1200.00",
+      "credit": "",
+      "balance": "302170.27"
+    },
+    {
+      "date": "31/08/2022",
+      "narration": "IMPS:P2P:83711824863:USHA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "18500.00",
+      "balance": "320670.27"
+    },
+    {
+      "date": "31/08/2022",
+      "narration": "UPI:ID:704209695:SUNITA DE",
+      "reference_number": "704209695",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "32000.00",
+      "balance": "353470.27"
+    },
+    {
+      "date": "31/08/2022",
+      "narration": "UPI:ID:3350481671:RANJIT",
+      "reference_number": "3350481671",
+      "cheque_number": "",
+      "debit": "850.00",
+      "credit": "",
+      "balance": "351820.27"
+    },
+    {
+      "date": "01/09/2022",
+      "narration": "NEFT:936778913:ANAND KUMAR",
+      "reference_number": "936778913",
+      "cheque_number": "",
+      "debit": "49.00",
+      "credit": "",
+      "balance": "351771.27"
+    },
+    {
+      "date": "01/09/2022",
+      "narration": "NEFT:597258442:HAARISH MENO",
+      "reference_number": "597258442",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "850.00",
+      "balance": "352621.27"
+    },
+    {
+      "date": "01/09/2022",
+      "narration": "UPI:ID:377226043:ANAND KUM",
+      "reference_number": "377226043",
+      "cheque_number": "",
+      "debit": "1680.00",
+      "credit": "",
+      "balance": "350941.27"
+    },
+    {
+      "date": "02/09/2022",
+      "narration": "NEFT:053840433:LALITHA DEV",
+      "reference_number": "053840433",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "32000.00",
+      "balance": "382941.27"
+    },
+    {
+      "date": "01/09/2022",
+      "narration": "IMPS:P2P:16357528:SHAHRD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1200.00",
+      "credit": "",
+      "balance": "364141.27"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 6405,
+  "source": "groq"
+}

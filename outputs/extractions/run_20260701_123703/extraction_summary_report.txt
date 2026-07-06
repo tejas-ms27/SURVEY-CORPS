@@ -1,0 +1,34 @@
+RUN SUMMARY — Extraction Phase Report
+Generated: 2026-07-01T12:37:09
+---------------------------------------------------------
+TOTALS
+  Files processed : 3   (failed: 0)
+  Clean txns      : 1,335
+  Flagged txns    : 22
+  Duplicates      : 29
+
+FLAG BREAKDOWN
+  balance_mismatch                               21
+  narration_contains_multiple_transactions        1
+  balance_mismatch diagnosis:
+    missing_transaction                          19
+    direction_inverted                            1
+    missing_amount                                1
+
+RECONCILIATION
+  Average rate          : 0.987
+  Files below 0.90      : 0
+  Zero-row files        : 0
+
+METADATA QUALITY
+  Graded files          : 3
+  With holder name      : 2
+  With account number   : 3
+  With IFSC             : 1
+  Source breakdown      : {'regex': 3}
+  Files still missing holder (verify against source):
+    396985646-April-2017-to-March-2018-Kotak-Bank-Statement.pdf
+
+LLM USAGE
+  Total LLM calls       : 2
+  Key rotations         : 0

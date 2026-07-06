@@ -1,0 +1,29 @@
+{
+  "account_details": {
+    "account_holder": "NARESH MUKHERJEE",
+    "account_number": "1953122382303283",
+    "ifsc_code": "PUNB0705637",
+    "bank_name": "Punjab National Bank",
+    "branch": "BANJARA HILLS",
+    "branch_address": "",
+    "account_type": "",
+    "statement_period": "01-12-2024 To 09-05-2026",
+    "opening_balance": "",
+    "closing_balance": "",
+    "customer_id": "",
+    "currency": "",
+    "customer_address": "",
+    "joint_holder": "",
+    "nominee_name": "",
+    "micr_code": "",
+    "branch_code": "",
+    "branch_phone": "",
+    "branch_email": "",
+    "branch_gstin": "",
+    "product_type": "",
+    "ckyc_number": "",
+    "account_ref": "1953122382303283_statement"
+  },
+  "transaction_count": 0,
+  "transactions": []
+}

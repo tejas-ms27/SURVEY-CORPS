@@ -1,0 +1,60 @@
+{
+  "data": {
+    "clusters": [
+      {
+        "cluster_id": "cluster_001",
+        "omitted_node_count": 0,
+        "risk_label": "High risk",
+        "visible_edge_count": 1,
+        "visible_node_count": 2
+      }
+    ],
+    "edges": [
+      {
+        "amount": 2607950.0,
+        "confidence_score": 1.0,
+        "date": "2025-07-09",
+        "high_degree_public_endpoint": true,
+        "id": "acct_004->banker@idfcfirstbank.com::acct_004_000695",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "banker@idfcfirstbank.com",
+        "txn_ids": [
+          "acct_004_000695"
+        ]
+      }
+    ],
+    "max_visible_nodes_per_cluster": 20,
+    "nodes": [
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_004",
+        "observed_account": true,
+        "pattern_count": 8,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          1,
+          3
+        ],
+        "total_score": 354.5115
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "banker@idfcfirstbank.com",
+        "observed_account": false,
+        "pattern_count": 1,
+        "reconstruction_degree": 4,
+        "suspicion_tiers": [
+          3
+        ],
+        "total_score": 0.0
+      }
+    ],
+    "raw_filtered_edge_count": 1,
+    "raw_filtered_node_count": 2,
+    "scope": "top_reconstruction_clusters_capped"
+  },
+  "type": "money_flow_network_3d"
+}

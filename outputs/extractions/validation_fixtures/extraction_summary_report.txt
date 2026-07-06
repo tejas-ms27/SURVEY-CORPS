@@ -1,0 +1,39 @@
+RUN SUMMARY — Extraction Phase Report
+Generated: 2026-06-29T12:30:47
+---------------------------------------------------------
+TOTALS
+  Files processed : 6   (failed: 0)
+  Clean txns      : 3,074
+  Flagged txns    : 289
+  Duplicates      : 10
+
+FLAG BREAKDOWN
+  both_debit_credit_filled                      199
+  balance_mismatch                               90
+  balance_mismatch diagnosis:
+    direction_inverted                           57
+    missing_transaction                          33
+
+RECONCILIATION
+  Average rate          : 0.193
+  Files below 0.90      : 5
+    0.000  BOM_Statement_FTP_02107_xxxxxxxx7596_20240812_20250801_20250801012337.pdf
+    0.000  shivlal statement.txt
+    0.000  stm REKHA.pdf
+    0.156  soa_0167042251865512.pdf
+    0.000  4513362998.pdf
+  Zero-row files        : 1
+    4513362998.pdf
+
+METADATA QUALITY
+  Graded files          : 6
+  With holder name      : 5
+  With account number   : 6
+  With IFSC             : 4
+  Source breakdown      : {'regex': 6}
+  Files still missing holder (verify against source):
+    shivlal statement.txt
+
+LLM USAGE
+  Total LLM calls       : 10
+  Key rotations         : 0

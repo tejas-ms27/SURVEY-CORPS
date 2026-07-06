@@ -1,0 +1,45 @@
+RUN SUMMARY — Extraction Phase Report
+Generated: 2026-06-29T15:42:44
+---------------------------------------------------------
+TOTALS
+  Files processed : 162   (failed: 0)
+  Clean txns      : 205,761
+  Flagged txns    : 697
+  Duplicates      : 42,880
+
+FLAG BREAKDOWN
+  balance_mismatch                              490
+  both_debit_credit_filled                      199
+  narration_contains_multiple_transactions        8
+  balance_mismatch diagnosis:
+    missing_transaction                         277
+    missing_amount                              140
+    direction_inverted                           73
+
+RECONCILIATION
+  Average rate          : 0.984
+  Files below 0.90      : 3
+    0.000  4513362998.pdf
+    0.820  520698390475976-21-12-2020to26-11-2025.pdf
+    0.000  BOM_Statement_FTP_02107_xxxxxxxx7596_20250812_20250811_20251112013551.pdf
+  Zero-row files        : 2
+    4513362998.pdf
+    BOM_Statement_FTP_02107_xxxxxxxx7596_20250812_20250811_20251112013551.pdf
+
+METADATA QUALITY
+  Graded files          : 162
+  With holder name      : 156
+  With account number   : 159
+  With IFSC             : 104
+  Source breakdown      : {'regex': 102, 'excel_metadata_block': 56, 'llm_fallback': 4}
+  Files still missing holder (verify against source):
+    AccountStmt_0882XXXXXX5304 (1).pdf
+    AccountStmt_1228XXXXXX3352.pdf
+    shivlal statement.txt
+    statement-92460899397.pdf
+    258082779154.pdf
+    280442153117.pdf
+
+LLM USAGE
+  Total LLM calls       : 54
+  Key rotations         : 0

@@ -1,0 +1,1249 @@
+{
+  "data": {
+    "clusters": [
+      {
+        "cluster_id": "cluster_002",
+        "omitted_node_count": 0,
+        "risk_label": "High risk",
+        "visible_edge_count": 2,
+        "visible_node_count": 3
+      },
+      {
+        "cluster_id": "cluster_001",
+        "omitted_node_count": 612,
+        "risk_label": "High risk",
+        "visible_edge_count": 64,
+        "visible_node_count": 20
+      }
+    ],
+    "edges": [
+      {
+        "amount": 282382.0,
+        "confidence_score": 1.0,
+        "date": "2025-07-18",
+        "high_degree_public_endpoint": true,
+        "id": "acct_002->banker@idfcfirstbank.com::acct_002_000358",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_002",
+        "target": "banker@idfcfirstbank.com",
+        "txn_ids": [
+          "acct_002_000358"
+        ]
+      },
+      {
+        "amount": 70811.13,
+        "confidence_score": 1.0,
+        "date": "2025-06-13",
+        "high_degree_public_endpoint": true,
+        "id": "acct_001->banker@idfcfirstbank.com::acct_001_000177",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_001",
+        "target": "banker@idfcfirstbank.com",
+        "txn_ids": [
+          "acct_001_000177"
+        ]
+      },
+      {
+        "amount": 2000.0,
+        "confidence_score": 1.0,
+        "date": "2025-08-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->neha@ybl::acct_004_001444",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_004",
+        "target": "neha@ybl",
+        "txn_ids": [
+          "acct_004_001444"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-10-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->neha@ybl::acct_004_001534",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_004",
+        "target": "neha@ybl",
+        "txn_ids": [
+          "acct_004_001534"
+        ]
+      },
+      {
+        "amount": 700.0,
+        "confidence_score": 1.0,
+        "date": "2025-10-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->neha@ybl::acct_004_001580",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_004",
+        "target": "neha@ybl",
+        "txn_ids": [
+          "acct_004_001580"
+        ]
+      },
+      {
+        "amount": 250.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-02",
+        "high_degree_public_endpoint": false,
+        "id": "varun@okaxis->acct_005::acct_005_001711",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "varun@okaxis",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001711"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-19",
+        "high_degree_public_endpoint": false,
+        "id": "varun@okaxis->acct_005::acct_005_001876",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "varun@okaxis",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001876"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-22",
+        "high_degree_public_endpoint": false,
+        "id": "varun@okaxis->acct_005::acct_005_001882",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "varun@okaxis",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001882"
+        ]
+      },
+      {
+        "amount": 5000.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-02",
+        "high_degree_public_endpoint": false,
+        "id": "ravi@oksbi->acct_005::acct_005_001713",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "ravi@oksbi",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001713"
+        ]
+      },
+      {
+        "amount": 600.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-03",
+        "high_degree_public_endpoint": false,
+        "id": "sumit@okicici->acct_005::acct_005_001804",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sumit@okicici",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001804"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->83177@ptaxis::acct_004_001244",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "83177@ptaxis",
+        "txn_ids": [
+          "acct_004_001244"
+        ]
+      },
+      {
+        "amount": 20000.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->83177@ptaxis::acct_004_001254",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_004",
+        "target": "83177@ptaxis",
+        "txn_ids": [
+          "acct_004_001254"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-14",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->83177@ptaxis::acct_004_001302",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "83177@ptaxis",
+        "txn_ids": [
+          "acct_004_001302"
+        ]
+      },
+      {
+        "amount": 20000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-29",
+        "high_degree_public_endpoint": false,
+        "id": "sarita@ybl->acct_006::acct_006_002101",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sarita@ybl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002101"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2024-05-17",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->11228@okhdfcbank::acct_004_000784",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "11228@okhdfcbank",
+        "txn_ids": [
+          "acct_004_000784"
+        ]
+      },
+      {
+        "amount": 1250.0,
+        "confidence_score": 1.0,
+        "date": "2024-05-17",
+        "high_degree_public_endpoint": false,
+        "id": "acct_004->11228@okhdfcbank::acct_004_000785",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_004",
+        "target": "11228@okhdfcbank",
+        "txn_ids": [
+          "acct_004_000785"
+        ]
+      },
+      {
+        "amount": 2000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-04",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@axl::acct_006_002005",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@axl",
+        "txn_ids": [
+          "acct_006_002005"
+        ]
+      },
+      {
+        "amount": 5000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@axl::acct_006_002010",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@axl",
+        "txn_ids": [
+          "acct_006_002010"
+        ]
+      },
+      {
+        "amount": 500.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-30",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@axl::acct_006_002104",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@axl",
+        "txn_ids": [
+          "acct_006_002104"
+        ]
+      },
+      {
+        "amount": 5400.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-17",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->8208473841@axl::acct_006_002264",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "8208473841@axl",
+        "txn_ids": [
+          "acct_006_002264"
+        ]
+      },
+      {
+        "amount": 40.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-19",
+        "high_degree_public_endpoint": false,
+        "id": "aditya@okaxis->acct_005::acct_005_001875",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "aditya@okaxis",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001875"
+        ]
+      },
+      {
+        "amount": 30000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-06",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->8080364034@ybl::acct_006_002016",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "8080364034@ybl",
+        "txn_ids": [
+          "acct_006_002016"
+        ]
+      },
+      {
+        "amount": 15000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-11",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->8080364034@ybl::acct_006_002037",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "8080364034@ybl",
+        "txn_ids": [
+          "acct_006_002037"
+        ]
+      },
+      {
+        "amount": 3000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-20",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->8080364034@ybl::acct_006_002066",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "8080364034@ybl",
+        "txn_ids": [
+          "acct_006_002066"
+        ]
+      },
+      {
+        "amount": 15000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-03",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->ravi@oksbi::acct_005_001799",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "ravi@oksbi",
+        "txn_ids": [
+          "acct_005_001799"
+        ]
+      },
+      {
+        "amount": 19000.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-27",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->ravi@oksbi::acct_005_001792",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "ravi@oksbi",
+        "txn_ids": [
+          "acct_005_001792"
+        ]
+      },
+      {
+        "amount": 10000.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-03",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->ravi@oksbi::acct_005_001821",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "ravi@oksbi",
+        "txn_ids": [
+          "acct_005_001821"
+        ]
+      },
+      {
+        "amount": 13500.0,
+        "confidence_score": 1.0,
+        "date": "2025-10-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->nikhil@okaxis::acct_005_001732",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "nikhil@okaxis",
+        "txn_ids": [
+          "acct_005_001732"
+        ]
+      },
+      {
+        "amount": 12000.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-04",
+        "high_degree_public_endpoint": false,
+        "id": "8208473841@axl->acct_006::acct_006_002190",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "8208473841@axl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002190"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2025-08-04",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->aditya@okaxis::acct_005_001952",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_005",
+        "target": "aditya@okaxis",
+        "txn_ids": [
+          "acct_005_001952"
+        ]
+      },
+      {
+        "amount": 3000.0,
+        "confidence_score": 1.0,
+        "date": "2025-10-02",
+        "high_degree_public_endpoint": false,
+        "id": "nikhil@okaxis->acct_005::acct_005_001733",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "nikhil@okaxis",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001733"
+        ]
+      },
+      {
+        "amount": 2000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-04",
+        "high_degree_public_endpoint": false,
+        "id": "sarita@axl->acct_006::acct_006_002004",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sarita@axl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002004"
+        ]
+      },
+      {
+        "amount": 2000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-06",
+        "high_degree_public_endpoint": false,
+        "id": "sarita@axl->acct_006::acct_006_002012",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sarita@axl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002012"
+        ]
+      },
+      {
+        "amount": 50000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-06",
+        "high_degree_public_endpoint": false,
+        "id": "sarita@axl->acct_006::acct_006_002013",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sarita@axl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002013"
+        ]
+      },
+      {
+        "amount": 629.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-04",
+        "high_degree_public_endpoint": true,
+        "id": "acct_005->kavya@ybl::acct_005_001937",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_005",
+        "target": "kavya@ybl",
+        "txn_ids": [
+          "acct_005_001937"
+        ]
+      },
+      {
+        "amount": 1400.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-27",
+        "high_degree_public_endpoint": false,
+        "id": "rajesh@okaxis->acct_005::acct_005_001896",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "rajesh@okaxis",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001896"
+        ]
+      },
+      {
+        "amount": 6500.0,
+        "confidence_score": 1.0,
+        "date": "2025-10-28",
+        "high_degree_public_endpoint": false,
+        "id": "neha@ybl->acct_004::acct_004_001600",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "neha@ybl",
+        "target": "acct_004",
+        "txn_ids": [
+          "acct_004_001600"
+        ]
+      },
+      {
+        "amount": 850.0,
+        "confidence_score": 1.0,
+        "date": "2025-11-08",
+        "high_degree_public_endpoint": false,
+        "id": "neha@ybl->acct_004::acct_004_001621",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "neha@ybl",
+        "target": "acct_004",
+        "txn_ids": [
+          "acct_004_001621"
+        ]
+      },
+      {
+        "amount": 7200.0,
+        "confidence_score": 1.0,
+        "date": "2025-11-24",
+        "high_degree_public_endpoint": false,
+        "id": "neha@ybl->acct_004::acct_004_001665",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "neha@ybl",
+        "target": "acct_004",
+        "txn_ids": [
+          "acct_004_001665"
+        ]
+      },
+      {
+        "amount": 25000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-04",
+        "high_degree_public_endpoint": false,
+        "id": "8080364034@ybl->acct_006::acct_006_002008",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "8080364034@ybl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002008"
+        ]
+      },
+      {
+        "amount": 32075.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-08",
+        "high_degree_public_endpoint": false,
+        "id": "8080364034@ybl->acct_006::acct_006_002025",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "8080364034@ybl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002025"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-12",
+        "high_degree_public_endpoint": false,
+        "id": "8080364034@ybl->acct_006::acct_006_002042",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "8080364034@ybl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002042"
+        ]
+      },
+      {
+        "amount": 83.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-20",
+        "high_degree_public_endpoint": true,
+        "id": "acct_004->kavya@ybl::acct_004_001054",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "kavya@ybl",
+        "txn_ids": [
+          "acct_004_001054"
+        ]
+      },
+      {
+        "amount": 82.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-18",
+        "high_degree_public_endpoint": true,
+        "id": "acct_004->kavya@ybl::acct_004_001078",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "kavya@ybl",
+        "txn_ids": [
+          "acct_004_001078"
+        ]
+      },
+      {
+        "amount": 1755.0,
+        "confidence_score": 1.0,
+        "date": "2025-06-25",
+        "high_degree_public_endpoint": true,
+        "id": "acct_004->kavya@ybl::acct_004_001370",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "acct_004",
+        "target": "kavya@ybl",
+        "txn_ids": [
+          "acct_004_001370"
+        ]
+      },
+      {
+        "amount": 20000.0,
+        "confidence_score": 1.0,
+        "date": "2025-11-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->sumit@okicici::acct_005_001739",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "sumit@okicici",
+        "txn_ids": [
+          "acct_005_001739"
+        ]
+      },
+      {
+        "amount": 2300.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-23",
+        "high_degree_public_endpoint": false,
+        "id": "pooja@oksbi->acct_005::acct_005_001771",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "pooja@oksbi",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001771"
+        ]
+      },
+      {
+        "amount": 990.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-26",
+        "high_degree_public_endpoint": false,
+        "id": "pooja@oksbi->acct_005::acct_005_001893",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "pooja@oksbi",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001893"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2024-03-01",
+        "high_degree_public_endpoint": false,
+        "id": "11228@okhdfcbank->acct_004::acct_004_000721",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "11228@okhdfcbank",
+        "target": "acct_004",
+        "txn_ids": [
+          "acct_004_000721"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2024-03-01",
+        "high_degree_public_endpoint": false,
+        "id": "11228@okhdfcbank->acct_004::acct_004_000722",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "11228@okhdfcbank",
+        "target": "acct_004",
+        "txn_ids": [
+          "acct_004_000722"
+        ]
+      },
+      {
+        "amount": 19000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-05",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@ybl::acct_006_002011",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@ybl",
+        "txn_ids": [
+          "acct_006_002011"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-07",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@ybl::acct_006_002018",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@ybl",
+        "txn_ids": [
+          "acct_006_002018"
+        ]
+      },
+      {
+        "amount": 11880.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@ybl::acct_006_002100",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@ybl",
+        "txn_ids": [
+          "acct_006_002100"
+        ]
+      },
+      {
+        "amount": 5000.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-24",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->pooja@oksbi::acct_005_001779",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "pooja@oksbi",
+        "txn_ids": [
+          "acct_005_001779"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-28",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->pooja@oksbi::acct_005_001898",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "pooja@oksbi",
+        "txn_ids": [
+          "acct_005_001898"
+        ]
+      },
+      {
+        "amount": 8403.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-22",
+        "high_degree_public_endpoint": false,
+        "id": "acct_006->sarita@ibl::acct_006_002082",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_006",
+        "target": "sarita@ibl",
+        "txn_ids": [
+          "acct_006_002082"
+        ]
+      },
+      {
+        "amount": 5000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->varun@okaxis::acct_005_001710",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "varun@okaxis",
+        "txn_ids": [
+          "acct_005_001710"
+        ]
+      },
+      {
+        "amount": 600.0,
+        "confidence_score": 1.0,
+        "date": "2025-11-02",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->varun@okaxis::acct_005_001741",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "varun@okaxis",
+        "txn_ids": [
+          "acct_005_001741"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-31",
+        "high_degree_public_endpoint": false,
+        "id": "sunita@oksbi->acct_005::acct_005_001707",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sunita@oksbi",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001707"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-15",
+        "high_degree_public_endpoint": false,
+        "id": "sunita@oksbi->acct_005::acct_005_001751",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sunita@oksbi",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001751"
+        ]
+      },
+      {
+        "amount": 1000.0,
+        "confidence_score": 1.0,
+        "date": "2025-04-02",
+        "high_degree_public_endpoint": false,
+        "id": "sunita@oksbi->acct_005::acct_005_001715",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sunita@oksbi",
+        "target": "acct_005",
+        "txn_ids": [
+          "acct_005_001715"
+        ]
+      },
+      {
+        "amount": 55.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-14",
+        "high_degree_public_endpoint": false,
+        "id": "sarita@ibl->acct_006::acct_006_002050",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "sarita@ibl",
+        "target": "acct_006",
+        "txn_ids": [
+          "acct_006_002050"
+        ]
+      },
+      {
+        "amount": 50000.0,
+        "confidence_score": 1.0,
+        "date": "2025-02-25",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->rajesh@okaxis::acct_005_001781",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "rajesh@okaxis",
+        "txn_ids": [
+          "acct_005_001781"
+        ]
+      },
+      {
+        "amount": 500.0,
+        "confidence_score": 1.0,
+        "date": "2025-03-04",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->rajesh@okaxis::acct_005_001936",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "rajesh@okaxis",
+        "txn_ids": [
+          "acct_005_001936"
+        ]
+      },
+      {
+        "amount": 3000.0,
+        "confidence_score": 1.0,
+        "date": "2025-01-30",
+        "high_degree_public_endpoint": false,
+        "id": "acct_005->sunita@oksbi::acct_005_001704",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": false,
+        "reconstruction_reason": "reference_or_ledger_corroborated",
+        "source": "acct_005",
+        "target": "sunita@oksbi",
+        "txn_ids": [
+          "acct_005_001704"
+        ]
+      },
+      {
+        "amount": 1.0,
+        "confidence_score": 1.0,
+        "date": "2025-05-05",
+        "high_degree_public_endpoint": false,
+        "id": "83177@ptaxis->acct_004::acct_004_001264",
+        "included_in_case_reconstruction": true,
+        "pattern_supported": true,
+        "reconstruction_reason": "pattern_supported",
+        "source": "83177@ptaxis",
+        "target": "acct_004",
+        "txn_ids": [
+          "acct_004_001264"
+        ]
+      }
+    ],
+    "max_visible_nodes_per_cluster": 20,
+    "nodes": [
+      {
+        "cluster_id": "cluster_001",
+        "id": "11228@okhdfcbank",
+        "observed_account": false,
+        "pattern_count": 1,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          2
+        ],
+        "total_score": 38.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "8080364034@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "8208473841@axl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "83177@ptaxis",
+        "observed_account": false,
+        "pattern_count": 1,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          2
+        ],
+        "total_score": 38.0
+      },
+      {
+        "cluster_id": "cluster_002",
+        "id": "acct_001",
+        "observed_account": true,
+        "pattern_count": 23,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          1,
+          2,
+          3
+        ],
+        "total_score": 1181.6919
+      },
+      {
+        "cluster_id": "cluster_002",
+        "id": "acct_002",
+        "observed_account": true,
+        "pattern_count": 28,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          1,
+          2,
+          3
+        ],
+        "total_score": 1229.1098
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_004",
+        "observed_account": true,
+        "pattern_count": 36,
+        "reconstruction_degree": 391,
+        "suspicion_tiers": [
+          2,
+          3
+        ],
+        "total_score": 348.0162
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_005",
+        "observed_account": true,
+        "pattern_count": 14,
+        "reconstruction_degree": 135,
+        "suspicion_tiers": [
+          2,
+          3
+        ],
+        "total_score": 142.0195
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "acct_006",
+        "observed_account": true,
+        "pattern_count": 8,
+        "reconstruction_degree": 113,
+        "suspicion_tiers": [
+          2,
+          3
+        ],
+        "total_score": 96.94
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "aditya@okaxis",
+        "observed_account": false,
+        "pattern_count": 1,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [
+          2
+        ],
+        "total_score": 38.0
+      },
+      {
+        "cluster_id": "cluster_002",
+        "id": "banker@idfcfirstbank.com",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "kavya@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 2,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "neha@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "nikhil@okaxis",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "pooja@oksbi",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "rajesh@okaxis",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "ravi@oksbi",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "sarita@axl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "sarita@ibl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "sarita@ybl",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "sumit@okicici",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "sunita@oksbi",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      },
+      {
+        "cluster_id": "cluster_001",
+        "id": "varun@okaxis",
+        "observed_account": false,
+        "pattern_count": 0,
+        "reconstruction_degree": 1,
+        "suspicion_tiers": [],
+        "total_score": 0.0
+      }
+    ],
+    "raw_filtered_edge_count": 1119,
+    "raw_filtered_node_count": 635,
+    "scope": "top_reconstruction_clusters_capped"
+  },
+  "type": "money_flow_network_3d"
+}

@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder": "",
+    "account_number": "00000040552115380",
+    "ifsc_code": "SBIN0965900",
+    "bank_name": "",
+    "branch": "",
+    "account_type": "",
+    "statement_period": "",
+    "opening_balance": "",
+    "closing_balance": "",
+    "account_ref": "A001_RAVI_KUMAR_SBI"
+  },
+  "transaction_count": 0,
+  "transactions": []
+}

@@ -1,0 +1,135 @@
+{
+  "account_details": {
+    "account_holder": "TRADE LINKS INDIA",
+    "account_number": "78439336112",
+    "ifsc_code": "PROG0920445",
+    "bank_name": "Progressive National Bank",
+    "branch": "KOLKATA HOWRAH",
+    "account_type": "CURRENT ACCOUNT- GENERAL",
+    "statement_period": "From 01 Jan 2024 To 31 Mar 2024",
+    "opening_balance": "Rs. 59,131.72",
+    "closing_balance": "Rs. 21,661.82"
+  },
+  "transactions": [
+    {
+      "date": "01/01/2024",
+      "narration": "NEFT Cr-210968206613-ICICISF0002-CLOTHING INDUSTRIES LTD-",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "Rs. 6,086.63",
+      "balance": "Rs. 65,218.35"
+    },
+    {
+      "date": "02/01/2024",
+      "narration": "Chq Paid-MICR Inward Clearing-KAUSHIK SAHA-HDFC BANK LTD",
+      "reference_number": "",
+      "cheque_number": "567302",
+      "debit": "Rs. 23,702.04",
+      "credit": "",
+      "balance": "Rs. 41,516.31"
+    },
+    {
+      "date": "03/01/2024",
+      "narration": "RTGS D-CNBRBR929510940342-HDFC0004171-BIPLAB",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 9,055.89",
+      "credit": "",
+      "balance": "Rs. 32,460.42"
+    },
+    {
+      "date": "04/01/2024",
+      "narration": "IMPS Dr-6700498159700-SHREYA SENGUPTA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 2,177.93",
+      "credit": "",
+      "balance": "Rs. 30,282.49"
+    },
+    {
+      "date": "04/01/2024",
+      "narration": "CASH-BNA-SELF-PAYEL SAHA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 661.06",
+      "credit": "",
+      "balance": "Rs. 30,943.55"
+    },
+    {
+      "date": "04/01/2024",
+      "narration": "CASH-BNA-SELF-ANANYA CHAKRABORTY",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 1,789.08",
+      "credit": "",
+      "balance": "Rs. 32,732.63"
+    },
+    {
+      "date": "05/01/2024",
+      "narration": "IMPS BRN SALARY TRF BY-VITALITY MEDICINES LTD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 4,795.06",
+      "credit": "",
+      "balance": "Rs. 37,527.69"
+    },
+    {
+      "date": "05/01/2024",
+      "narration": "UPI/DR/0956616604066/PRIYANKA SENGUPTA/UPI-TRANSFER TO 9097052564",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 652.28",
+      "credit": "",
+      "balance": "Rs. 36,875.41"
+    },
+    {
+      "date": "05/01/2024",
+      "narration": "IMPS BRN SALARY TRF BY-FOUNDATION PROJECTS LTD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 1,212.22",
+      "credit": "",
+      "balance": "Rs. 38,087.63"
+    },
+    {
+      "date": "05/01/2024",
+      "narration": "IMPS Dr-446289664268-SONALI BOSE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 407.72",
+      "credit": "",
+      "balance": "Rs. 37,679.91"
+    },
+    {
+      "date": "06/01/2024",
+      "narration": "RTGS D-CNBRBR3687424409288-HDFC0004171-ABHUJI",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 20,253.80",
+      "credit": "",
+      "balance": "Rs. 17,426.11"
+    },
+    {
+      "date": "06/01/2024",
+      "narration": "IMPS BRN SALARY TRF BY-CREDIT SERVICES LTD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 2,574.63",
+      "credit": "",
+      "balance": "Rs. 20,000.74"
+    },
+    {
+      "date": "06/01/2024",
+      "narration": "UPI/DR/4479516020541/DEBASHIS CHAKRABORTY/UPI-TRANSFER TO 7333183915",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "Rs. 571.24",
+      "credit": "",
+      "balance": "Rs. 19,429.50"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 3062,
+  "source": "groq"
+}

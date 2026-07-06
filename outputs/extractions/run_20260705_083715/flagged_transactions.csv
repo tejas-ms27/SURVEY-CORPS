@@ -1,0 +1,3 @@
+Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
+22/01/2025,,- PAY_PM9OQCXVXBYBWK,,,,,0.0,500.0,500.0,credit,216655101347,RBL Bank,RATN0000176,balance_mismatch,missing_transaction,acct_007
+26/11/2019,12:47:35,Cash Deposit Cash Deposit 3431,,,,,200.0,0.0,200.0,debit,6147181405386,Unknown Bank,UNKNOWN,balance_mismatch,missing_transaction,acct_009

@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "Santosh Kumar",
+    "account_number": "92007888823037",
+    "ifsc_code": "UTIB0913112",
+    "branch_name": "Kukatpally",
+    "branch_address": "Hyderabad",
+    "bank_name": "Axis Bank",
+    "statement_period": "01/08/2022 to 30/06/2024",
+    "currency": "",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [],
+  "source": "groq"
+}

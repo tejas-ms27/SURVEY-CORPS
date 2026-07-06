@@ -1,0 +1,82 @@
+{
+  "session_id": "rework_demo",
+  "created_at": "2026-06-20T18:02:40",
+  "summary": {
+    "total_rows": 2851,
+    "clean_rows": 2842,
+    "flagged_rows": 9,
+    "files_processed": 2,
+    "files_failed": []
+  },
+  "files": [
+    {
+      "file": "WhatsApp Image 2026-06-20 at 17.20.01.jpeg",
+      "account_ref": "ACC002",
+      "bank_name": "HDFC Bank",
+      "status": "ok",
+      "ocr": {
+        "engine": "groq_vision",
+        "raw_chars": 4700
+      },
+      "route": "image",
+      "column_map_source": "vision",
+      "raw_text_chars": 4700,
+      "account_details": {
+        "account_holder": "Meena Iyer",
+        "account_number": "50105414883065",
+        "ifsc_code": "HDFC0212257",
+        "bank_name": "HDFC Bank",
+        "branch": "Indiranagar Bengaluru",
+        "account_type": "Savings",
+        "statement_period": "01/08/2022 to 30/06/2024",
+        "opening_balance": "253279.45",
+        "closing_balance": "",
+        "account_ref": "ACC002"
+      },
+      "rows_standardised": 35,
+      "rows_clean": 29,
+      "rows_flagged": 6
+    },
+    {
+      "file": "ACC001_SBI_Statement.pdf",
+      "account_ref": "ACC001",
+      "bank_name": "SBI",
+      "status": "ok",
+      "ocr": "n/a",
+      "route": "pdf_digital",
+      "raw_text_chars": 308383,
+      "column_map": {
+        "date": "Txn Date",
+        "narration": "Description",
+        "debit": "Debit",
+        "credit": "Credit",
+        "balance": "Balance"
+      },
+      "column_map_source": "groq",
+      "account_details": {
+        "account_holder": "Ravi Kumar Sharma",
+        "account_number": "00000051399615291",
+        "ifsc_code": "SBIN0393634",
+        "bank_name": "State Bank of India",
+        "branch": "Pune Camp",
+        "account_type": "Current",
+        "statement_period": "01/08/2022 to 30/06/2024",
+        "opening_balance": "115262.65",
+        "closing_balance": "",
+        "account_ref": "ACC001"
+      },
+      "rows_standardised": 2816,
+      "rows_clean": 2813,
+      "rows_flagged": 3
+    }
+  ],
+  "output_files": {
+    "clean_transactions": "clean_transactions.csv",
+    "flagged_transactions": "flagged_transactions.csv",
+    "statements_dir": "statements/",
+    "statement_files": [
+      "Meena_Iyer_50105414883065.json",
+      "Ravi_Kumar_Sharma_00000051399615291.json"
+    ]
+  }
+}

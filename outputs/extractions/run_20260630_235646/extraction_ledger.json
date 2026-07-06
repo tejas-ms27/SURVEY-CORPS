@@ -1,0 +1,26 @@
+[
+  {
+    "file_name": "396985646-April-2017-to-March-2018-Kotak-Bank-Statement.pdf",
+    "route": "pdf_digital",
+    "parser_tier": "cheap_parse",
+    "fallback_method_used": "",
+    "raw_text_char_count": 39974,
+    "transaction_like_lines": 382,
+    "rows_extracted": 382,
+    "rows_clean": 381,
+    "rows_flagged": 1,
+    "reconciliation_rate": 0.997,
+    "zero_row_status": "ok",
+    "zero_row_reason": "",
+    "account_number_found": true,
+    "account_number": "763010062770",
+    "holder_found": false,
+    "holder": "",
+    "ifsc_found": false,
+    "ifsc": "",
+    "bank_name": "Unknown Bank",
+    "metadata_source": "regex",
+    "column_map_source": "deterministic",
+    "llm_calls": 0
+  }
+]

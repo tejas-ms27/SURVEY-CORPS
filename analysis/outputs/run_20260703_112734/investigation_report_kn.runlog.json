@@ -1,0 +1,43 @@
+{
+  "mode": "ai",
+  "language": "kn",
+  "accounts": [
+    {
+      "82389122072698": "groq:overview=ai,bullets=4/7"
+    },
+    {
+      "67947948262536": "groq:overview=ai,bullets=6/7"
+    },
+    {
+      "16400202955": "groq:overview=ai,bullets=8/9"
+    }
+  ],
+  "graphs": [
+    {
+      "\u0c96\u0cbe\u0ca4\u0cc6\u0c97\u0cb3 \u0caa\u0cb0\u0cb8\u0ccd\u0caa\u0cb0 \u0cb8\u0c82\u0caa\u0cb0\u0ccd\u0c95 \u0c97\u0ccd\u0cb0\u0cbe\u0cab\u0ccd": "template_fallback:Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwgvnqszfv9az2s92hyszh01` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11978, Requested 4684. Please try again in 23.31s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "\u0cb8\u0c82\u0ca6\u0cc7\u0cb9\u0cbe\u0cb8\u0ccd\u0caa\u0ca6 \u0c9a\u0c9f\u0cc1\u0cb5\u0c9f\u0cbf\u0c95\u0cc6 \u0cb8\u0cae\u0caf\u0cb0\u0cc7\u0c96\u0cc6": "template_fallback:all_keys_inactive"
+    },
+    {
+      "\u0cb5\u0c82\u0c9a\u0ca8\u0cc6 \u0cae\u0cbe\u0ca6\u0cb0\u0cbf \u0cb8\u0cbe\u0cb0\u0cbe\u0c82\u0cb6": "template_fallback:all_keys_inactive"
+    }
+  ],
+  "pool": {
+    "pool": "report_GROQ6-9",
+    "loaded_keys": [
+      "GROQ6",
+      "GROQ7",
+      "GROQ8",
+      "GROQ9"
+    ],
+    "status_label": "all_keys_rate_limited",
+    "per_key_status": {
+      "GROQ6": "rate_limited",
+      "GROQ7": "rate_limited",
+      "GROQ8": "rate_limited",
+      "GROQ9": "rate_limited"
+    },
+    "calls_made": 3
+  }
+}

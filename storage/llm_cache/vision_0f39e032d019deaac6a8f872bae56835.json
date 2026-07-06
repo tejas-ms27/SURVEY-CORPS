@@ -1,0 +1,319 @@
+{
+  "account_details": {
+    "account_holder": "",
+    "account_number": "",
+    "ifsc_code": "",
+    "bank_name": "",
+    "branch": "",
+    "account_type": "",
+    "statement_period": "",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "11/10/13",
+      "narration": "CONNECTION DATE",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "CONNECTED LOAD  1 8",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "LOAD  2.00",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "OLD AC NO",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "REFERENCE NO.",
+      "debit": "",
+      "credit": "",
+      "balance": "63006"
+    },
+    {
+      "date": "",
+      "narration": "NAME & ADDRESS",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "APR 17",
+      "narration": "READING DATE",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "06/04/17",
+      "narration": "BILL MONTH",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "DIVISION",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "SUB DIVISION",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "FEEDER",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "MONTH",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "Apr-17",
+      "narration": "",
+      "debit": "",
+      "credit": "194",
+      "balance": ""
+    },
+    {
+      "date": "May-16",
+      "narration": "",
+      "debit": "",
+      "credit": "96",
+      "balance": ""
+    },
+    {
+      "date": "Jun-16",
+      "narration": "",
+      "debit": "",
+      "credit": "226",
+      "balance": ""
+    },
+    {
+      "date": "Jul-16",
+      "narration": "",
+      "debit": "",
+      "credit": "342",
+      "balance": ""
+    },
+    {
+      "date": "Aug-16",
+      "narration": "",
+      "debit": "",
+      "credit": "374",
+      "balance": ""
+    },
+    {
+      "date": "Sep-16",
+      "narration": "",
+      "debit": "",
+      "credit": "206",
+      "balance": ""
+    },
+    {
+      "date": "Oct-16",
+      "narration": "",
+      "debit": "",
+      "credit": "100",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "METER NO.  426985",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "METER RENT",
+      "debit": "17",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "SERVICE RENT",
+      "debit": "100",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "Gepco Charges  165",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "Govt. Charges  53.50",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "Units Consumed  207",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "GEPCO CHARGES",
+      "debit": "100.00",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "COST OF ELECTRICITY",
+      "debit": "100.00",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "METER RENT",
+      "debit": "17",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "SERVICE RENT",
+      "debit": "17",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "FREE PRICE ADJUSTMENT",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "GOVT. CHARGES",
+      "debit": "1.50",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "ELECTRICITY DUTY",
+      "debit": "35",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "PTV FEE",
+      "debit": "0",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "INCOME TAX",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "SURCHARGES",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "RETA TAX",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "FURTHER TAX",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "ADV. SURCHARGES",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "SALES TAX",
+      "debit": "7.50",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "LP SURCHARGE",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "TOTAL",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "PAYABLE WITHIN DUE DATE",
+      "debit": "297CR",
+      "credit": "",
+      "balance": ""
+    },
+    {
+      "date": "",
+      "narration": "PAYABLE AFTER DUE DATE",
+      "debit": "297CR",
+      "credit": "",
+      "balance": ""
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 5724,
+  "source": "groq"
+}

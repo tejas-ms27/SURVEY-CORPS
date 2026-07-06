@@ -1,0 +1,30 @@
+RUN SUMMARY — Extraction Phase Report
+Generated: 2026-07-03T20:46:19
+---------------------------------------------------------
+TOTALS
+  Files processed : 5   (failed: 0)
+  Clean txns      : 4,305
+  Flagged txns    : 0
+  Duplicates      : 0
+
+FLAG BREAKDOWN
+
+RECONCILIATION
+  Average rate          : 0.8
+  Files below 0.90      : 1
+    0.000  9174418126063678_statement.txt
+  Zero-row files        : 1
+    9174418126063678_statement.txt
+
+METADATA QUALITY
+  Graded files          : 5
+  With holder name      : 4
+  With account number   : 5
+  With IFSC             : 4
+  Source breakdown      : {'regex': 3, 'excel_metadata_block': 2}
+  Files still missing holder (verify against source):
+    81505882184559-01-12-2024to09-05-2026.pdf
+
+LLM USAGE
+  Total LLM calls       : 2
+  Key rotations         : 2

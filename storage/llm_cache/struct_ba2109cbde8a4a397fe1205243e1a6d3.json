@@ -1,0 +1,226 @@
+{
+  "account_details": {
+    "account_holder_name": "GAEKWAD DEVANSHU JITENDRABHAI",
+    "account_number": "ACCT_1",
+    "ifsc_code": "",
+    "branch_name": "VADODARA, RAOPURA",
+    "branch_address": "",
+    "bank_name": "PUNJAB NATIONAL BANK",
+    "statement_period": "01-01-2024 to 04-12-2025",
+    "currency": "INR",
+    "opening_balance": "0",
+    "closing_balance": "79.00"
+  },
+  "transactions": [
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "MsS MAA ENTERPRISE",
+      "reference_number": "NRTGS/BDBLR62025032017559739",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "7,50,000.00",
+      "balance": "7,50,000.00",
+      "transaction_type": "Cr"
+    },
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "SHORTFAL REC- MAB CHRG ACCOUNT-7190 2025-01-01 TO",
+      "reference_number": "2025-01-01 TO",
+      "cheque_number": "",
+      "debit": "118.00",
+      "credit": "",
+      "balance": "7,49,882.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "SIKLIGAR AYUSHIB",
+      "reference_number": "UPI/ACCT_2/P2A/ACCT_3",
+      "cheque_number": "",
+      "debit": "200.00",
+      "credit": "",
+      "balance": "7,50,082.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "SABIB EN",
+      "reference_number": "IMPS-IN/ACCT_4/PHONE_1",
+      "cheque_number": "",
+      "debit": "60,000.00",
+      "credit": "",
+      "balance": "8,10,082.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "JAHAR EN",
+      "reference_number": "IMPS-IN/ACCT_5/PHONE_2",
+      "cheque_number": "",
+      "debit": "14,000.00",
+      "credit": "",
+      "balance": "8,24,082.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "TO SELF",
+      "reference_number": "309825",
+      "cheque_number": "",
+      "debit": "7,50,000.00",
+      "credit": "",
+      "balance": "74,082.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "20-03-2025",
+      "time": "",
+      "description": "TO SELF",
+      "reference_number": "309826",
+      "cheque_number": "",
+      "debit": "74,000.00",
+      "credit": "",
+      "balance": "82.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "21-03-2025",
+      "time": "",
+      "description": "Apex Commerce Enterpri",
+      "reference_number": "NEFT/BDBLN52025032121350105",
+      "cheque_number": "",
+      "debit": "25.00",
+      "credit": "",
+      "balance": "107.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "27-03-2025",
+      "time": "",
+      "description": "MsS OLYMPIA GYM",
+      "reference_number": "NRTGS/BDBLR62025032717702598",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "5,00,000.00",
+      "balance": "5,00,107.00",
+      "transaction_type": "Cr"
+    },
+    {
+      "date": "27-03-2025",
+      "time": "",
+      "description": "MsS OLYMPIA GYM",
+      "reference_number": "NRTGS/BDBLR62025032717702660",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "5,30,000.00",
+      "balance": "10,30,107.00",
+      "transaction_type": "Cr"
+    },
+    {
+      "date": "27-03-2025",
+      "time": "",
+      "description": "TO SELF",
+      "reference_number": "309829",
+      "cheque_number": "",
+      "debit": "1,30,000.00",
+      "credit": "",
+      "balance": "9,00,107.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "27-03-2025",
+      "time": "",
+      "description": "TO SELF",
+      "reference_number": "309828",
+      "cheque_number": "",
+      "debit": "9,00,000.00",
+      "credit": "",
+      "balance": "107.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "03-04-2025",
+      "time": "",
+      "description": "PRINCE ENTERPRISES",
+      "reference_number": "NRTGS/IDFBR52025040300370175",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "10,30,000.00",
+      "balance": "10,30,107.00",
+      "transaction_type": "Cr"
+    },
+    {
+      "date": "04-04-2025",
+      "time": "",
+      "description": "TO SELF",
+      "reference_number": "309830",
+      "cheque_number": "",
+      "debit": "10,30,000.00",
+      "credit": "",
+      "balance": "107.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "04-04-2025",
+      "time": "",
+      "description": "NAITIKIRAN SAMRIDDHI",
+      "reference_number": "NRTGS/DBSSR52025040406217939",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "8,30,000.00",
+      "balance": "8,30,107.00",
+      "transaction_type": "Cr"
+    },
+    {
+      "date": "04-04-2025",
+      "time": "",
+      "description": "TO SELF",
+      "reference_number": "309831",
+      "cheque_number": "",
+      "debit": "8,30,000.00",
+      "credit": "",
+      "balance": "107.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "07-04-2025",
+      "time": "",
+      "description": "MAB CHRG ACCOUNT-7190 2025-02-01 TO 2025-02-28",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "107.00",
+      "credit": "",
+      "balance": "0.00",
+      "transaction_type": "Dr"
+    },
+    {
+      "date": "05-06-2025",
+      "time": "",
+      "description": "Int.Pd:01-03-2025 to 31-05-2025",
+      "reference_number": "ACCT_1:Int.Pd:01-03-2025 to 31-05-2025",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "78.00",
+      "balance": "78.00",
+      "transaction_type": "Cr"
+    },
+    {
+      "date": "05-09-2025",
+      "time": "",
+      "description": "Int.Pd:01-06-2025 to 31-08-2025",
+      "reference_number": "ACCT_1:Int.Pd:01-06-2025 to 31-08-2025",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1.00",
+      "balance": "79.00",
+      "transaction_type": "Cr"
+    }
+  ],
+  "source": "groq"
+}

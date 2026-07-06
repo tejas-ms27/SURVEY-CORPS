@@ -1,0 +1,2486 @@
+{
+  "trails": [
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 880000.0,
+          "balance_after_debit": 20058.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 880000.0,
+          "debit_txn_id": "acct_009_003713",
+          "narration": "CASH WITHDRAWAL BY 33 SELF@5196",
+          "remaining_after_allocation": 19059.0
+        },
+        {
+          "allocated_from_credit": 4012.0,
+          "balance_after_debit": 16046.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 4012.0,
+          "debit_txn_id": "acct_009_003714",
+          "narration": "Chrg - Cash Withdrawal On 13-06- 2025",
+          "remaining_after_allocation": 15047.0
+        },
+        {
+          "allocated_from_credit": 2000.0,
+          "balance_after_debit": 504046.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 2000.0,
+          "debit_txn_id": "acct_009_003716",
+          "narration": "UPI/Adhoc KISHORE UPI-516479518729 F/516413610145/NA",
+          "remaining_after_allocation": 13047.0
+        },
+        {
+          "allocated_from_credit": 1200.0,
+          "balance_after_debit": 1143496.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 1200.0,
+          "debit_txn_id": "acct_009_003719",
+          "narration": "UPI/PRADEEP Mohammad UPI-516480733838 A/187255244498/Payment from Ph",
+          "remaining_after_allocation": 11847.0
+        },
+        {
+          "allocated_from_credit": 23.6,
+          "balance_after_debit": 1976472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 23.6,
+          "debit_txn_id": "acct_009_003722",
+          "narration": "Chrg - RTGS On 13-06-2025 000467862507",
+          "remaining_after_allocation": 11823.4
+        },
+        {
+          "allocated_from_credit": 11823.4,
+          "balance_after_debit": 1626472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 350000.0,
+          "debit_txn_id": "acct_009_003723",
+          "narration": "BRB:Sent RTGS 35/000467862507 KKBKR52025061300797800/YASH TALIB/C",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 899059.0,
+      "finding_id": "4bcc96a5678342fec5c7",
+      "source_credit_txn_id": "acct_009_003712",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 1200.0,
+          "balance_after_debit": 1143496.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 1200.0,
+          "debit_txn_id": "acct_009_003719",
+          "narration": "UPI/PRADEEP Mohammad UPI-516480733838 A/187255244498/Payment from Ph",
+          "remaining_after_allocation": 638250.0
+        },
+        {
+          "allocated_from_credit": 23.6,
+          "balance_after_debit": 1976472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 23.6,
+          "debit_txn_id": "acct_009_003722",
+          "narration": "Chrg - RTGS On 13-06-2025 000467862507",
+          "remaining_after_allocation": 638226.4
+        },
+        {
+          "allocated_from_credit": 350000.0,
+          "balance_after_debit": 1626472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 350000.0,
+          "debit_txn_id": "acct_009_003723",
+          "narration": "BRB:Sent RTGS 35/000467862507 KKBKR52025061300797800/YASH TALIB/C",
+          "remaining_after_allocation": 288226.4
+        },
+        {
+          "allocated_from_credit": 288226.4,
+          "balance_after_debit": 826472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 800000.0,
+          "debit_txn_id": "acct_009_003724",
+          "narration": "CASH WITHDRAWAL BY SELF 37 @5200",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 639450.0,
+      "finding_id": "d6a3e5905f72ed4c6b8f",
+      "source_credit_txn_id": "acct_009_003717",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 23.6,
+          "balance_after_debit": 1976472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 23.6,
+          "debit_txn_id": "acct_009_003722",
+          "narration": "Chrg - RTGS On 13-06-2025 000467862507",
+          "remaining_after_allocation": 587976.4
+        },
+        {
+          "allocated_from_credit": 350000.0,
+          "balance_after_debit": 1626472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 350000.0,
+          "debit_txn_id": "acct_009_003723",
+          "narration": "BRB:Sent RTGS 35/000467862507 KKBKR52025061300797800/YASH TALIB/C",
+          "remaining_after_allocation": 237976.40000000002
+        },
+        {
+          "allocated_from_credit": 237976.40000000002,
+          "balance_after_debit": 826472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 800000.0,
+          "debit_txn_id": "acct_009_003724",
+          "narration": "CASH WITHDRAWAL BY SELF 37 @5200",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 588000.0,
+      "finding_id": "635b57b489612e8eb912",
+      "source_credit_txn_id": "acct_009_003721",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 539681.0,
+          "balance_after_debit": -539681.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-01-10",
+          "debit_amount": 539681.0,
+          "debit_txn_id": "acct_009_003605",
+          "narration": "1:TRANSFER INWARD 2",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 539681.0,
+      "finding_id": "0b2ceac1701268eed7c1",
+      "source_credit_txn_id": "acct_009_003604",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 539681.0,
+          "balance_after_debit": -539681.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-01",
+          "debit_amount": 539681.0,
+          "debit_txn_id": "acct_009_003607",
+          "narration": "1:TRANSFER INWARD 2",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 539681.0,
+      "finding_id": "90341ff6e0e4ceb0dd68",
+      "source_credit_txn_id": "acct_009_003606",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 500000.0,
+          "balance_after_debit": -500000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-12",
+          "debit_amount": 500000.0,
+          "debit_txn_id": "acct_009_003609",
+          "narration": "26:MICR INWARD 1:CLG TO H DFHGDFHGGH INDUS IND BA",
+          "remaining_after_allocation": 39681.0
+        },
+        {
+          "allocated_from_credit": 39681.0,
+          "balance_after_debit": -500000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-29",
+          "debit_amount": 500000.0,
+          "debit_txn_id": "acct_009_003611",
+          "narration": "26:MICR INWARD 1:CLG TO AURA AGENCY INDUS IND BAN:",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 539681.0,
+      "finding_id": "8341e7d62d838e5d65ad",
+      "source_credit_txn_id": "acct_009_003608",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_005"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 202155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_005_002076",
+          "narration": "CASH WITHDRAWAL BY SELF AT 1 5292",
+          "remaining_after_allocation": 200000.0
+        },
+        {
+          "allocated_from_credit": 150000.0,
+          "balance_after_debit": 52155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 150000.0,
+          "debit_txn_id": "acct_005_002077",
+          "narration": "CASH WITHDRAWAL BY SELF AT 2 PV 0183",
+          "remaining_after_allocation": 50000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 42155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002078",
+          "narration": "ATL/2998/800031/+NIRMAN VIHAR 514710024120 NEW DEL270525/10:43",
+          "remaining_after_allocation": 40000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 32155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002079",
+          "narration": "ATL/2998/800031/+NIRMAN VIHAR 514710024121 NEW DEL270525/10:44",
+          "remaining_after_allocation": 30000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 22155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002080",
+          "narration": "ATL/2998/800031/+NIRMAN VIHAR 514710024122 NEW DEL270525/10:45",
+          "remaining_after_allocation": 20000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 12155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002081",
+          "narration": "ATL/2998/800031/+NIRMAN VIHAR 514710024123 NEW DEL270525/10:46",
+          "remaining_after_allocation": 10000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 2155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-27",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002082",
+          "narration": "ATL/2998/800031/+NIRMAN VIHAR 514710024124 NEW DEL270525/10:47",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "620d209591211480d71e",
+      "source_credit_txn_id": "acct_005_002075",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_005"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 400000.0,
+          "balance_after_debit": 101655.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 400000.0,
+          "debit_txn_id": "acct_005_002085",
+          "narration": "CASH WITHDRAWAL BY SELF AT 3 ANAND VIHAR",
+          "remaining_after_allocation": 100000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 91655.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002086",
+          "narration": "ATL/2998/800011/+LAXMI NAGAR 514812805919 IINEW DEL280525/12:23",
+          "remaining_after_allocation": 90000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 81655.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002087",
+          "narration": "ATL/2998/800011/+LAXMI NAGAR 514812807176 IINEW DEL280525/12:24",
+          "remaining_after_allocation": 80000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 71655.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002088",
+          "narration": "ATL/2998/800011/+LAXMI NAGAR 514812808054 IINEW DEL280525/12:26",
+          "remaining_after_allocation": 70000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 61655.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_005_002089",
+          "narration": "ATL/2998/800011/+LAXMI NAGAR 514812808875 IINEW DEL280525/12:27",
+          "remaining_after_allocation": 60000.0
+        },
+        {
+          "allocated_from_credit": 5000.0,
+          "balance_after_debit": 56655.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 5000.0,
+          "debit_txn_id": "acct_005_002090",
+          "narration": "ATL/2998/800011/+LAXMI NAGAR 514812810341 IINEW DEL280525/12:29",
+          "remaining_after_allocation": 55000.0
+        },
+        {
+          "allocated_from_credit": 4500.0,
+          "balance_after_debit": 52155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 4500.0,
+          "debit_txn_id": "acct_005_002091",
+          "narration": "ATL/2998/800011/+LAXMI NAGAR 514812811146 IINEW DEL280525/12:30",
+          "remaining_after_allocation": 50500.0
+        },
+        {
+          "allocated_from_credit": 50000.0,
+          "balance_after_debit": 2155.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 50000.0,
+          "debit_txn_id": "acct_005_002092",
+          "narration": "CASH WITHDRAWAL BY 5 PARASBHAI MANJIRAM RABARI",
+          "remaining_after_allocation": 500.0
+        },
+        {
+          "allocated_from_credit": 27.14,
+          "balance_after_debit": 2127.86,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 27.14,
+          "debit_txn_id": "acct_005_002093",
+          "narration": "CHRG-ATM CASHWDRL/N- KOTAK/x2998/270525",
+          "remaining_after_allocation": 472.86
+        },
+        {
+          "allocated_from_credit": 27.14,
+          "balance_after_debit": 2073.58,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-28",
+          "debit_amount": 27.14,
+          "debit_txn_id": "acct_005_002095",
+          "narration": "CHRG-ATM CASHWDRL/N-",
+          "remaining_after_allocation": 445.72
+        },
+        {
+          "allocated_from_credit": 445.72,
+          "balance_after_debit": 1573.58,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-05-29",
+          "debit_amount": 500.0,
+          "debit_txn_id": "acct_005_002096",
+          "narration": "ATL/2998/504594/INDUSIND BANK 514910011288 LIMITEDD290525/10:52",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "c9027233726dcdd353af",
+      "source_credit_txn_id": "acct_005_002084",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 500000.0,
+          "balance_after_debit": -500000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-29",
+          "debit_amount": 500000.0,
+          "debit_txn_id": "acct_009_003611",
+          "narration": "26:MICR INWARD 1:CLG TO AURA AGENCY INDUS IND BAN:",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "a4da5de238fed2e89677",
+      "source_credit_txn_id": "acct_009_003610",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 240.0,
+          "balance_after_debit": 238760.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 240.0,
+          "debit_txn_id": "acct_009_003618",
+          "narration": "Chg: Charge for Deposit on 09-04- 509911734517 2025",
+          "remaining_after_allocation": 499760.0
+        },
+        {
+          "allocated_from_credit": 43.2,
+          "balance_after_debit": 238716.8,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 43.2,
+          "debit_txn_id": "acct_009_003619",
+          "narration": "Chg: GST Charge for Deposit on 09- 509911734517 04-2025",
+          "remaining_after_allocation": 499716.8
+        },
+        {
+          "allocated_from_credit": 227.5,
+          "balance_after_debit": 283989.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 227.5,
+          "debit_txn_id": "acct_009_003621",
+          "narration": "Chg: Charge for Deposit on 09-04- 509912734519 2025",
+          "remaining_after_allocation": 499489.3
+        },
+        {
+          "allocated_from_credit": 40.95,
+          "balance_after_debit": 283948.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 40.95,
+          "debit_txn_id": "acct_009_003622",
+          "narration": "Chg: GST Charge for Deposit on 09- 509912734519 04-2025",
+          "remaining_after_allocation": 499448.35
+        },
+        {
+          "allocated_from_credit": 150.0,
+          "balance_after_debit": 283798.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 150.0,
+          "debit_txn_id": "acct_009_003623",
+          "narration": "Chg: Charge for Deposit on 09-04- 509912734521 2025",
+          "remaining_after_allocation": 499298.35
+        },
+        {
+          "allocated_from_credit": 27.0,
+          "balance_after_debit": 283771.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 27.0,
+          "debit_txn_id": "acct_009_003624",
+          "narration": "Chg: GST Charge for Deposit on 09- 509912734521 04-2025",
+          "remaining_after_allocation": 499271.35
+        },
+        {
+          "allocated_from_credit": 150.0,
+          "balance_after_debit": 302621.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 150.0,
+          "debit_txn_id": "acct_009_003627",
+          "narration": "Chg: Charge for Deposit on 09-04- 509912734525 2025",
+          "remaining_after_allocation": 499121.35
+        },
+        {
+          "allocated_from_credit": 27.0,
+          "balance_after_debit": 302594.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 27.0,
+          "debit_txn_id": "acct_009_003628",
+          "narration": "Chg: GST Charge for Deposit on 09- 509912734525 04-2025",
+          "remaining_after_allocation": 499094.35
+        },
+        {
+          "allocated_from_credit": 150.0,
+          "balance_after_debit": 303444.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 150.0,
+          "debit_txn_id": "acct_009_003630",
+          "narration": "Chg: Charge for Deposit on 09-04- 509912734527 2025",
+          "remaining_after_allocation": 498944.35
+        },
+        {
+          "allocated_from_credit": 27.0,
+          "balance_after_debit": 303417.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-09",
+          "debit_amount": 27.0,
+          "debit_txn_id": "acct_009_003631",
+          "narration": "Chg: GST Charge for Deposit on 09- 509912734527 04-2025",
+          "remaining_after_allocation": 498917.35
+        },
+        {
+          "allocated_from_credit": 300000.0,
+          "balance_after_debit": 3537.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-10",
+          "debit_amount": 300000.0,
+          "debit_txn_id": "acct_009_003633",
+          "narration": "CLG TO AURA AGENCY INDUS 28/NCRCTS_10042 IND BANK LTD. 02551284",
+          "remaining_after_allocation": 198917.34999999998
+        },
+        {
+          "allocated_from_credit": 50.0,
+          "balance_after_debit": 3487.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-11",
+          "debit_amount": 50.0,
+          "debit_txn_id": "acct_009_003634",
+          "narration": "UPI/PANKAJ SERVICE UPI-510134218269 /510157648457/NA",
+          "remaining_after_allocation": 198867.34999999998
+        },
+        {
+          "allocated_from_credit": 55.0,
+          "balance_after_debit": 3432.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-12",
+          "debit_amount": 55.0,
+          "debit_txn_id": "acct_009_003635",
+          "narration": "UPI/HUSN BANO/510217943706/NAUPI-510232926939",
+          "remaining_after_allocation": 198812.34999999998
+        },
+        {
+          "allocated_from_credit": 3000.0,
+          "balance_after_debit": 432.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-12",
+          "debit_amount": 3000.0,
+          "debit_txn_id": "acct_009_003636",
+          "narration": "UPI/Mr Jitendra UPI-510234880724 Jan/510237093888/NA",
+          "remaining_after_allocation": 195812.34999999998
+        },
+        {
+          "allocated_from_credit": 400.0,
+          "balance_after_debit": 32.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-12",
+          "debit_amount": 400.0,
+          "debit_txn_id": "acct_009_003637",
+          "narration": "UPI/Mr Jitendra UPI-510246790927 Jan/510248945522/NA",
+          "remaining_after_allocation": 195412.34999999998
+        },
+        {
+          "allocated_from_credit": 32.0,
+          "balance_after_debit": 0.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-12",
+          "debit_amount": 32.0,
+          "debit_txn_id": "acct_009_003638",
+          "narration": "UPI/KAMIL UPI-510258165538 ABBAS/546849469377/Sent from Paytm",
+          "remaining_after_allocation": 195380.34999999998
+        },
+        {
+          "allocated_from_credit": 600.0,
+          "balance_after_debit": 14500.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-23",
+          "debit_amount": 600.0,
+          "debit_txn_id": "acct_009_003640",
+          "narration": "UPI/MODEL UPI-511328359690 SHOP/511321797040/NA",
+          "remaining_after_allocation": 194780.34999999998
+        },
+        {
+          "allocated_from_credit": 500.0,
+          "balance_after_debit": 14000.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-23",
+          "debit_amount": 500.0,
+          "debit_txn_id": "acct_009_003641",
+          "narration": "UPI/YASH AZAM/511321837415/NA UPI-511329465502",
+          "remaining_after_allocation": 194280.34999999998
+        },
+        {
+          "allocated_from_credit": 15000.0,
+          "balance_after_debit": 3000.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-24",
+          "debit_amount": 15000.0,
+          "debit_txn_id": "acct_009_003643",
+          "narration": "CLG TO PRADEEP YASH GHOSH 29/NCRCTS_24042 AU SMALL FINANCE BAN 02552205",
+          "remaining_after_allocation": 179280.34999999998
+        },
+        {
+          "allocated_from_credit": 179280.34999999998,
+          "balance_after_debit": 103000.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-24",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_009_003645",
+          "narration": "BRB:Sent RTGS 30/000458945478 KKBKR52025042400957950/AURA AGENCY/",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "1b5b8266d40e2cbddb26",
+      "source_credit_txn_id": "acct_009_003612",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 400000.0,
+          "balance_after_debit": 110000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-30",
+          "debit_amount": 400000.0,
+          "debit_txn_id": "acct_010_004938",
+          "narration": "SentIMPS530312691141HUM TUM IMPS- TR/ICICX4033/KKBKTrans 530312291321",
+          "remaining_after_allocation": 100000.0
+        },
+        {
+          "allocated_from_credit": 100000.0,
+          "balance_after_debit": 100000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-30",
+          "debit_amount": 100000.0,
+          "debit_txn_id": "acct_010_004940",
+          "narration": "SentIMPS530314782437HUM TUM IMPS- TR/ICICX4033/KKBKTrans 530314423888",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "8ff2f32cdc688144bed1",
+      "source_credit_txn_id": "acct_010_004937",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 400000.0,
+          "balance_after_debit": 335000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-31",
+          "debit_amount": 400000.0,
+          "debit_txn_id": "acct_010_004943",
+          "narration": "SentIMPS530404096225HUM TUM IMPS- TR/ICICX4033/KKBKTrans 530404982095",
+          "remaining_after_allocation": 100000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 325000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-31",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_010_004944",
+          "narration": "UPI/VIJAYKUMAR UPI-530403683346 LAKS/783881106236/Payment from Ph",
+          "remaining_after_allocation": 90000.0
+        },
+        {
+          "allocated_from_credit": 7200.0,
+          "balance_after_debit": 317800.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-31",
+          "debit_amount": 7200.0,
+          "debit_txn_id": "acct_010_004945",
+          "narration": "UPI/HARISH UPI-530443762424 M/271488964148/Payment from Ph",
+          "remaining_after_allocation": 82800.0
+        },
+        {
+          "allocated_from_credit": 326.0,
+          "balance_after_debit": 317474.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-31",
+          "debit_amount": 326.0,
+          "debit_txn_id": "acct_010_004946",
+          "narration": "UPI/KARNATAKA UPI-530444657385 STATE/425305577721/Payment from Ph",
+          "remaining_after_allocation": 82474.0
+        },
+        {
+          "allocated_from_credit": 8500.0,
+          "balance_after_debit": 308974.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-31",
+          "debit_amount": 8500.0,
+          "debit_txn_id": "acct_010_004947",
+          "narration": "UPI/POORNESH GOWDA UPI-530446994755 /629221567682/Payment from Ph",
+          "remaining_after_allocation": 73974.0
+        },
+        {
+          "allocated_from_credit": 73974.0,
+          "balance_after_debit": 167074.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-11-01",
+          "debit_amount": 141900.0,
+          "debit_txn_id": "acct_010_004948",
+          "narration": "SentIMPS530513914239HUM TUM IMPS- TR/ICICX4033/KKBKTrans 530513405503",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 500000.0,
+      "finding_id": "79b54ac085b7eb10a5fb",
+      "source_credit_txn_id": "acct_010_004941",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 2000.0,
+          "balance_after_debit": 504046.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 2000.0,
+          "debit_txn_id": "acct_009_003716",
+          "narration": "UPI/Adhoc KISHORE UPI-516479518729 F/516413610145/NA",
+          "remaining_after_allocation": 488000.0
+        },
+        {
+          "allocated_from_credit": 1200.0,
+          "balance_after_debit": 1143496.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 1200.0,
+          "debit_txn_id": "acct_009_003719",
+          "narration": "UPI/PRADEEP Mohammad UPI-516480733838 A/187255244498/Payment from Ph",
+          "remaining_after_allocation": 486800.0
+        },
+        {
+          "allocated_from_credit": 23.6,
+          "balance_after_debit": 1976472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 23.6,
+          "debit_txn_id": "acct_009_003722",
+          "narration": "Chrg - RTGS On 13-06-2025 000467862507",
+          "remaining_after_allocation": 486776.4
+        },
+        {
+          "allocated_from_credit": 350000.0,
+          "balance_after_debit": 1626472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 350000.0,
+          "debit_txn_id": "acct_009_003723",
+          "narration": "BRB:Sent RTGS 35/000467862507 KKBKR52025061300797800/YASH TALIB/C",
+          "remaining_after_allocation": 136776.40000000002
+        },
+        {
+          "allocated_from_credit": 136776.40000000002,
+          "balance_after_debit": 826472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 800000.0,
+          "debit_txn_id": "acct_009_003724",
+          "narration": "CASH WITHDRAWAL BY SELF 37 @5200",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 490000.0,
+      "finding_id": "c3f8538f90142f633c5f",
+      "source_credit_txn_id": "acct_009_003715",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_007"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 390000.0,
+          "balance_after_debit": 10830.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 390000.0,
+          "debit_txn_id": "acct_007_002150",
+          "narration": "CASH WITHDRAWAL BY SELF AT 1 BORING ROAD PATNA",
+          "remaining_after_allocation": 10000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 830.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_007_002151",
+          "narration": "ATL/8259/622018/SBI ATM 508614029084 BORING RDPAT270325/14:28",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 400000.0,
+      "finding_id": "a34b16be3cfb6e4b6484",
+      "source_credit_txn_id": "acct_007_002148",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_007"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 298000.0,
+          "balance_after_debit": 2329.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 298000.0,
+          "debit_txn_id": "acct_007_002155",
+          "narration": "CASH WITHDRAWAL BY SELF AT 3 PATLIPUTRA 5659",
+          "remaining_after_allocation": 2000.0
+        },
+        {
+          "allocated_from_credit": 1109.2,
+          "balance_after_debit": 1219.8,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 1109.2,
+          "debit_txn_id": "acct_007_002156",
+          "narration": "Chrg - Cash Withdrawal On 27-03- 2025",
+          "remaining_after_allocation": 890.8
+        },
+        {
+          "allocated_from_credit": 890.8,
+          "balance_after_debit": 30.8,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 1189.0,
+          "debit_txn_id": "acct_007_002157",
+          "narration": "UPI/Myntra Designs UPI-508699161355 /707364465469/Payment for 922",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 300000.0,
+      "finding_id": "71c03f50e63a592d73f7",
+      "source_credit_txn_id": "acct_007_002154",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 103000.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-24",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_009_003645",
+          "narration": "BRB:Sent RTGS 30/000458945478 KKBKR52025042400957950/AURA AGENCY/",
+          "remaining_after_allocation": 100000.0
+        },
+        {
+          "allocated_from_credit": 85000.0,
+          "balance_after_debit": 18000.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-24",
+          "debit_amount": 85000.0,
+          "debit_txn_id": "acct_009_003646",
+          "narration": "SentIMPS511416860787SUMEET IMPS- RAJ/HDFCX5392/KKBKTrans 511416391919",
+          "remaining_after_allocation": 15000.0
+        },
+        {
+          "allocated_from_credit": 15000.0,
+          "balance_after_debit": 3000.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-24",
+          "debit_amount": 15000.0,
+          "debit_txn_id": "acct_009_003647",
+          "narration": "SentIMPS511418963726shabnam IMPS- ba/HDFCX1315/KKBKTrans 511418554224",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 300000.0,
+      "finding_id": "7da25072b5f021435b09",
+      "source_credit_txn_id": "acct_009_003644",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 281159.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_010_004321",
+          "narration": "UPI/VEENA UPI-515513853289 GIREESH/341616617130/Payment from Ph",
+          "remaining_after_allocation": 280000.0
+        },
+        {
+          "allocated_from_credit": 200000.0,
+          "balance_after_debit": 81159.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 200000.0,
+          "debit_txn_id": "acct_010_004322",
+          "narration": "SentIMPS515515281749HUM TUM IMPS- TR/ICICX4033/KKBKTrans 515515784475",
+          "remaining_after_allocation": 80000.0
+        },
+        {
+          "allocated_from_credit": 39.0,
+          "balance_after_debit": 81120.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 39.0,
+          "debit_txn_id": "acct_010_004323",
+          "narration": "UPI/SATHISH REDDY UPI-515515719161 C/452249079257/Payment from Ph",
+          "remaining_after_allocation": 79961.0
+        },
+        {
+          "allocated_from_credit": 20.0,
+          "balance_after_debit": 81100.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 20.0,
+          "debit_txn_id": "acct_010_004324",
+          "narration": "UPI/SATHISH REDDY UPI-515526596060 C/823458652999/Payment from Ph",
+          "remaining_after_allocation": 79941.0
+        },
+        {
+          "allocated_from_credit": 30.0,
+          "balance_after_debit": 81070.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 30.0,
+          "debit_txn_id": "acct_010_004325",
+          "narration": "UPI/DINESH/752456843990/PaymentUPI-515526972975 from Ph",
+          "remaining_after_allocation": 79911.0
+        },
+        {
+          "allocated_from_credit": 849.0,
+          "balance_after_debit": 80221.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 849.0,
+          "debit_txn_id": "acct_010_004326",
+          "narration": "UPI/FEET UPI-515535155501 SHOP/797649861941/Payment from Ph",
+          "remaining_after_allocation": 79062.0
+        },
+        {
+          "allocated_from_credit": 576.0,
+          "balance_after_debit": 79645.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-04",
+          "debit_amount": 576.0,
+          "debit_txn_id": "acct_010_004327",
+          "narration": "UPI/INDIA GATE UPI-515539134922 FAMI/646483629193/Payment from Ph",
+          "remaining_after_allocation": 78486.0
+        },
+        {
+          "allocated_from_credit": 78486.0,
+          "balance_after_debit": 114195.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 260000.0,
+          "debit_txn_id": "acct_010_004329",
+          "narration": "SentIMPS515608818344HUM TUM IMPS- TR/ICICX4033/KKBKTrans 515608690567",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 300000.0,
+      "finding_id": "14b53a1dec97f2f9f169",
+      "source_credit_txn_id": "acct_010_004320",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 245000.0,
+          "balance_after_debit": 55314.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 245000.0,
+          "debit_txn_id": "acct_010_004868",
+          "narration": "SentIMPS523114314011HUM TUM IMPS- TR/ICICX4033/KKBKTrans 523114630906",
+          "remaining_after_allocation": 55000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 45314.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_010_004869",
+          "narration": "UPI/MALLIKARJUNA K UPI-523129120057 /524636528238/Payment from Ph",
+          "remaining_after_allocation": 45000.0
+        },
+        {
+          "allocated_from_credit": 100.0,
+          "balance_after_debit": 45214.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 100.0,
+          "debit_txn_id": "acct_010_004870",
+          "narration": "UPI/S J R GOWDRU UPI-523130440012 HO/257444341351/Payment from Ph",
+          "remaining_after_allocation": 44900.0
+        },
+        {
+          "allocated_from_credit": 3000.0,
+          "balance_after_debit": 42214.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 3000.0,
+          "debit_txn_id": "acct_010_004871",
+          "narration": "UPI/REKHA UPI-523132022071 R/452874344739/Payment from Ph",
+          "remaining_after_allocation": 41900.0
+        },
+        {
+          "allocated_from_credit": 5000.0,
+          "balance_after_debit": 37214.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 5000.0,
+          "debit_txn_id": "acct_010_004872",
+          "narration": "UPI/EDOPT UPI-523149671429 ECOM/523113856102/2555037847",
+          "remaining_after_allocation": 36900.0
+        },
+        {
+          "allocated_from_credit": 54.0,
+          "balance_after_debit": 37160.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 54.0,
+          "debit_txn_id": "acct_010_004873",
+          "narration": "UPI/SHIVAKUMAR P UPI-523152693299 D/407736970973/Pay to BharatPe",
+          "remaining_after_allocation": 36846.0
+        },
+        {
+          "allocated_from_credit": 11300.0,
+          "balance_after_debit": 25860.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 11300.0,
+          "debit_txn_id": "acct_010_004874",
+          "narration": "UPI/SHASHI UPI-523153616333 BHUSHANA/559782982917/UPI",
+          "remaining_after_allocation": 25546.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 15860.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_010_004875",
+          "narration": "UPI/Bank Account UPI-523162631903 XX/457417049674/Payment from Ph",
+          "remaining_after_allocation": 15546.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 15860.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-19",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_010_004877",
+          "narration": "UPI/Bank Account UPI-523162737370 XX/144872128112/Payment from Ph",
+          "remaining_after_allocation": 5546.0
+        },
+        {
+          "allocated_from_credit": 5546.0,
+          "balance_after_debit": 5860.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-20",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_010_004878",
+          "narration": "UPI/CHITTARAGI B UPI-523272434709 M/115271531698/Payment from Ph",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 300000.0,
+      "finding_id": "43f28391517fe9344804",
+      "source_credit_txn_id": "acct_010_004867",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 260000.0,
+          "balance_after_debit": 114195.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 260000.0,
+          "debit_txn_id": "acct_010_004329",
+          "narration": "SentIMPS515608818344HUM TUM IMPS- TR/ICICX4033/KKBKTrans 515608690567",
+          "remaining_after_allocation": 34550.0
+        },
+        {
+          "allocated_from_credit": 105.0,
+          "balance_after_debit": 114090.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 105.0,
+          "debit_txn_id": "acct_010_004330",
+          "narration": "UPI/D UPI-515655891874 LAKSHMI/848300643647/Payment from Ph",
+          "remaining_after_allocation": 34445.0
+        },
+        {
+          "allocated_from_credit": 65.0,
+          "balance_after_debit": 114025.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 65.0,
+          "debit_txn_id": "acct_010_004331",
+          "narration": "UPI/SRI UPI-515671229778 MUDVERESHWA/455048203197/Pa yment from Ph",
+          "remaining_after_allocation": 34380.0
+        },
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 94025.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_010_004332",
+          "narration": "UPI/GEONA SEA FOOD UPI-515686952314 /646342291728/Payment from Ph",
+          "remaining_after_allocation": 14380.0
+        },
+        {
+          "allocated_from_credit": 50.0,
+          "balance_after_debit": 93975.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 50.0,
+          "debit_txn_id": "acct_010_004333",
+          "narration": "UPI/DINESH/114411396086/PaymentUPI-515693314918 from Ph",
+          "remaining_after_allocation": 14330.0
+        },
+        {
+          "allocated_from_credit": 2500.0,
+          "balance_after_debit": 91475.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 2500.0,
+          "debit_txn_id": "acct_010_004334",
+          "narration": "UPI/RAJESH UPI-515605836952 R/471605757364/Payment from Ph",
+          "remaining_after_allocation": 11830.0
+        },
+        {
+          "allocated_from_credit": 11830.0,
+          "balance_after_debit": 70475.44,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-05",
+          "debit_amount": 21000.0,
+          "debit_txn_id": "acct_010_004335",
+          "narration": "UPI/VIRTUCORE TECH UPI-515610025484 /515672761917/Sent using Payt",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 294550.0,
+      "finding_id": "ec33280ed4cd004c9090",
+      "source_credit_txn_id": "acct_010_004328",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 23.6,
+          "balance_after_debit": 1976472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 23.6,
+          "debit_txn_id": "acct_009_003722",
+          "narration": "Chrg - RTGS On 13-06-2025 000467862507",
+          "remaining_after_allocation": 244976.4
+        },
+        {
+          "allocated_from_credit": 244976.4,
+          "balance_after_debit": 1626472.4,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-06-13",
+          "debit_amount": 350000.0,
+          "debit_txn_id": "acct_009_003723",
+          "narration": "BRB:Sent RTGS 35/000467862507 KKBKR52025061300797800/YASH TALIB/C",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 245000.0,
+      "finding_id": "b837bc9589656ffa4eb0",
+      "source_credit_txn_id": "acct_009_003720",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 48.0,
+          "balance_after_debit": 189954.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 48.0,
+          "debit_txn_id": "acct_009_003069",
+          "narration": "UPI/Shivam UPI-414726455722 Mishra/414715943947/UPI",
+          "remaining_after_allocation": 189952.0
+        },
+        {
+          "allocated_from_credit": 500.0,
+          "balance_after_debit": 189454.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 500.0,
+          "debit_txn_id": "acct_009_003070",
+          "narration": "UPI/MOHAMMAD UPI-414726948135 GHOSH/451367575586/UPI",
+          "remaining_after_allocation": 189452.0
+        },
+        {
+          "allocated_from_credit": 1.0,
+          "balance_after_debit": 199453.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 1.0,
+          "debit_txn_id": "acct_009_003072",
+          "narration": "SentIMPS414715498747PRADEEP IMPS- Ghaza/IDIBX8812/KKBKTrans 414715407178",
+          "remaining_after_allocation": 189451.0
+        },
+        {
+          "allocated_from_credit": 24999.0,
+          "balance_after_debit": 174454.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 24999.0,
+          "debit_txn_id": "acct_009_003073",
+          "narration": "SentIMPS414716499656PRADEEP IMPS- Ghaza/IDIBX8812/KKBKTrans 414716409604",
+          "remaining_after_allocation": 164452.0
+        },
+        {
+          "allocated_from_credit": 9454.0,
+          "balance_after_debit": 165000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 9454.0,
+          "debit_txn_id": "acct_009_003074",
+          "narration": "UPI/PRADEEP Mohammad UPI-414727181490 A/451329280482/NA",
+          "remaining_after_allocation": 154998.0
+        },
+        {
+          "allocated_from_credit": 1.0,
+          "balance_after_debit": 164999.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 1.0,
+          "debit_txn_id": "acct_009_003075",
+          "narration": "UPI/XXXXXXXXXXXXXXX/41471706UPI-414727437903 3447/UPI",
+          "remaining_after_allocation": 154997.0
+        },
+        {
+          "allocated_from_credit": 50000.0,
+          "balance_after_debit": 114999.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 50000.0,
+          "debit_txn_id": "acct_009_003076",
+          "narration": "UPI/XXXXXXXXXXXXXXX/41471709UPI-414727474644 3665/UPI",
+          "remaining_after_allocation": 104997.0
+        },
+        {
+          "allocated_from_credit": 30000.0,
+          "balance_after_debit": 84999.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 30000.0,
+          "debit_txn_id": "acct_009_003077",
+          "narration": "UPI/XXXXXXXXXXXXXXX/41471710UPI-414727497997 8090/UPI",
+          "remaining_after_allocation": 74997.0
+        },
+        {
+          "allocated_from_credit": 25000.0,
+          "balance_after_debit": 59999.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 25000.0,
+          "debit_txn_id": "acct_009_003078",
+          "narration": "MB:SENT TO S. SULEMAN MB-998681749550 GHOSH/PRADEEP",
+          "remaining_after_allocation": 49997.0
+        },
+        {
+          "allocated_from_credit": 25000.0,
+          "balance_after_debit": 34999.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 25000.0,
+          "debit_txn_id": "acct_009_003079",
+          "narration": "MB:SENT TO S. SULEMAN MB-998681749495 GHOSH/PRADEEP",
+          "remaining_after_allocation": 24997.0
+        },
+        {
+          "allocated_from_credit": 24997.0,
+          "balance_after_debit": 9999.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2024-05-26",
+          "debit_amount": 25000.0,
+          "debit_txn_id": "acct_009_003080",
+          "narration": "MB:SENT TO S. SULEMAN MB-998681749120 GHOSH/PRADEEP",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 190000.0,
+      "finding_id": "31e9c09c2019d09773fb",
+      "source_credit_txn_id": "acct_009_003068",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 150000.0,
+          "balance_after_debit": 40427.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 150000.0,
+          "debit_txn_id": "acct_010_004838",
+          "narration": "SentIMPS522511130515HUM TUM IMPS- TR/ICICX4033/KKBKTrans 522511382264",
+          "remaining_after_allocation": 40000.0
+        },
+        {
+          "allocated_from_credit": 80.0,
+          "balance_after_debit": 40347.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 80.0,
+          "debit_txn_id": "acct_010_004839",
+          "narration": "UPI/RAGHAVENDRA UPI-522544724666 VAI/270483546195/Payment from Ph",
+          "remaining_after_allocation": 39920.0
+        },
+        {
+          "allocated_from_credit": 267.0,
+          "balance_after_debit": 40080.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 267.0,
+          "debit_txn_id": "acct_010_004840",
+          "narration": "UPI/SEA FISH UPI-522545190997 WORLD/855162682778/Payment from Ph",
+          "remaining_after_allocation": 39653.0
+        },
+        {
+          "allocated_from_credit": 10.0,
+          "balance_after_debit": 40070.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 10.0,
+          "debit_txn_id": "acct_010_004841",
+          "narration": "UPI/Shankara UPI-522546382195 Shetty/361291012356/Payment from Ph",
+          "remaining_after_allocation": 39643.0
+        },
+        {
+          "allocated_from_credit": 165.0,
+          "balance_after_debit": 39905.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 165.0,
+          "debit_txn_id": "acct_010_004842",
+          "narration": "UPI/Sri UPI-522547931239 Siddeshwara/798386136456/Paymen t from Ph",
+          "remaining_after_allocation": 39478.0
+        },
+        {
+          "allocated_from_credit": 7000.0,
+          "balance_after_debit": 32905.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 7000.0,
+          "debit_txn_id": "acct_010_004843",
+          "narration": "UPI/EDOPT UPI-522549912141 ECOM/522513685316/2554756641",
+          "remaining_after_allocation": 32478.0
+        },
+        {
+          "allocated_from_credit": 5000.0,
+          "balance_after_debit": 27905.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 5000.0,
+          "debit_txn_id": "acct_010_004844",
+          "narration": "UPI/DAVID T P/522584214892/UPI UPI-522550852823",
+          "remaining_after_allocation": 27478.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 17905.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_010_004845",
+          "narration": "UPI/Bank Account UPI-522551724967 XX/241402859753/Payment from Ph",
+          "remaining_after_allocation": 17478.0
+        },
+        {
+          "allocated_from_credit": 203.0,
+          "balance_after_debit": 17702.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 203.0,
+          "debit_txn_id": "acct_010_004846",
+          "narration": "UPI/PhonePe/965308449410/Payme UPI-522552678662 nt from Ph",
+          "remaining_after_allocation": 17275.0
+        },
+        {
+          "allocated_from_credit": 5000.0,
+          "balance_after_debit": 12702.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 5000.0,
+          "debit_txn_id": "acct_010_004847",
+          "narration": "UPI/REKHA UPI-522554006921 R/398693288928/Payment from Ph",
+          "remaining_after_allocation": 12275.0
+        },
+        {
+          "allocated_from_credit": 8000.0,
+          "balance_after_debit": 4702.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 8000.0,
+          "debit_txn_id": "acct_010_004848",
+          "narration": "UPI/EDOPT UPI-522557400660 ECOM/522533828360/2557545810",
+          "remaining_after_allocation": 4275.0
+        },
+        {
+          "allocated_from_credit": 3000.0,
+          "balance_after_debit": 1702.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 3000.0,
+          "debit_txn_id": "acct_010_004849",
+          "narration": "UPI/EDOPT UPI-522574421037 ECOM/522534222571/2558719719",
+          "remaining_after_allocation": 1275.0
+        },
+        {
+          "allocated_from_credit": 500.0,
+          "balance_after_debit": 1202.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-13",
+          "debit_amount": 500.0,
+          "debit_txn_id": "acct_010_004850",
+          "narration": "UPI/VIGNESHWAR UPI-522575857171 FILL/702811966514/Payment from Ph",
+          "remaining_after_allocation": 775.0
+        },
+        {
+          "allocated_from_credit": 10.0,
+          "balance_after_debit": 1192.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-14",
+          "debit_amount": 10.0,
+          "debit_txn_id": "acct_010_004851",
+          "narration": "UPI/SATHISH REDDY UPI-522699394651 C/540529726294/Payment from Ph",
+          "remaining_after_allocation": 765.0
+        },
+        {
+          "allocated_from_credit": 140.0,
+          "balance_after_debit": 1052.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-14",
+          "debit_amount": 140.0,
+          "debit_txn_id": "acct_010_004852",
+          "narration": "UPI/MAMTA UPI-522619530283 YANDE/744704065472/Payment from Ph",
+          "remaining_after_allocation": 625.0
+        },
+        {
+          "allocated_from_credit": 135.0,
+          "balance_after_debit": 917.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-14",
+          "debit_amount": 135.0,
+          "debit_txn_id": "acct_010_004853",
+          "narration": "UPI/NAVEEN M UPI-522635895003 B/747141195448/Payment from Ph",
+          "remaining_after_allocation": 490.0
+        },
+        {
+          "allocated_from_credit": 48.0,
+          "balance_after_debit": 869.3,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-14",
+          "debit_amount": 48.0,
+          "debit_txn_id": "acct_010_004854",
+          "narration": "UPI/Sri UPI-522641579684 Siddeshwara/472246801210/Paymen t from Ph",
+          "remaining_after_allocation": 442.0
+        },
+        {
+          "allocated_from_credit": 84.8,
+          "balance_after_debit": 784.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-15",
+          "debit_amount": 84.8,
+          "debit_txn_id": "acct_010_004855",
+          "narration": "UPI/APOLLO UPI-522767656601 PHARMACY/888492657858/Payment",
+          "remaining_after_allocation": 357.2
+        },
+        {
+          "allocated_from_credit": 52.0,
+          "balance_after_debit": 732.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-15",
+          "debit_amount": 52.0,
+          "debit_txn_id": "acct_010_004856",
+          "narration": "UPI/D UPI-522797287131 LAKSHMI/234263393023/Payment from Ph",
+          "remaining_after_allocation": 305.2
+        },
+        {
+          "allocated_from_credit": 20.0,
+          "balance_after_debit": 712.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-15",
+          "debit_amount": 20.0,
+          "debit_txn_id": "acct_010_004857",
+          "narration": "UPI/SATHISH REDDY UPI-522797999308 C/537004244706/Payment from Ph",
+          "remaining_after_allocation": 285.2
+        },
+        {
+          "allocated_from_credit": 10.0,
+          "balance_after_debit": 702.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-16",
+          "debit_amount": 10.0,
+          "debit_txn_id": "acct_010_004858",
+          "narration": "UPI/Shankara UPI-522828774515 Shetty/920298189895/Payment from Ph",
+          "remaining_after_allocation": 275.2
+        },
+        {
+          "allocated_from_credit": 150.0,
+          "balance_after_debit": 552.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-16",
+          "debit_amount": 150.0,
+          "debit_txn_id": "acct_010_004859",
+          "narration": "UPI/Sri UPI-522829052604 Siddeshwara/772823812441/Paymen t from Ph",
+          "remaining_after_allocation": 125.19999999999999
+        },
+        {
+          "allocated_from_credit": 110.0,
+          "balance_after_debit": 442.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-17",
+          "debit_amount": 110.0,
+          "debit_txn_id": "acct_010_004860",
+          "narration": "UPI/H G UPI-522987618636 PARAMESH/281824159438/Payment from Ph",
+          "remaining_after_allocation": 15.199999999999989
+        },
+        {
+          "allocated_from_credit": 15.199999999999989,
+          "balance_after_debit": 388.5,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-08-17",
+          "debit_amount": 54.0,
+          "debit_txn_id": "acct_010_004861",
+          "narration": "UPI/SHIVAKUMAR P UPI-522987648157 D/046891705372/Pay to BharatPe",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 190000.0,
+      "finding_id": "3a3d3be688e438ec139b",
+      "source_credit_txn_id": "acct_010_004837",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_007"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 140120.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_007_002129",
+          "narration": "ATL/8259/800002/GAIGHA OPP SC 508520017144 COLLAGEP260325/20:26",
+          "remaining_after_allocation": 140000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 130120.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_007_002130",
+          "narration": "ATL/8259/800002/GAIGHA OPP SC 508520017516 COLLAGEP260325/20:28",
+          "remaining_after_allocation": 130000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 120120.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_007_002131",
+          "narration": "ATL/8259/800002/GAIGHA OPP SC 508520017872 COLLAGEP260325/20:29",
+          "remaining_after_allocation": 120000.0
+        },
+        {
+          "allocated_from_credit": 10000.0,
+          "balance_after_debit": 110120.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 10000.0,
+          "debit_txn_id": "acct_007_002132",
+          "narration": "ATL/8259/800002/GAIGHA OPP SC 508520018245 COLLAGEP260325/20:30",
+          "remaining_after_allocation": 110000.0
+        },
+        {
+          "allocated_from_credit": 22.0,
+          "balance_after_debit": 110098.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 22.0,
+          "debit_txn_id": "acct_007_002133",
+          "narration": "UPI/Airtel UPI-508557630889 Recharge/532819255681/Payment from Ph",
+          "remaining_after_allocation": 109978.0
+        },
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 92998.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_007_002135",
+          "narration": "ATW/8259/Umang 508515931514 PalcePatnaBRIN260325/21:18",
+          "remaining_after_allocation": 89978.0
+        },
+        {
+          "allocated_from_credit": 2500.0,
+          "balance_after_debit": 90498.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 2500.0,
+          "debit_txn_id": "acct_007_002136",
+          "narration": "UPI/AMRITA UPI-508561365416 DESAII/335741652300/Payment from Ph",
+          "remaining_after_allocation": 87478.0
+        },
+        {
+          "allocated_from_credit": 100.0,
+          "balance_after_debit": 90398.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 100.0,
+          "debit_txn_id": "acct_007_002137",
+          "narration": "UPI/GASOLENE UPI-508561715858 SERVIC/668422137893/Payment from Ph",
+          "remaining_after_allocation": 87378.0
+        },
+        {
+          "allocated_from_credit": 60.0,
+          "balance_after_debit": 90338.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 60.0,
+          "debit_txn_id": "acct_007_002138",
+          "narration": "UPI/Gautam UPI-508562594627 DESAI/650806912026/Payment from Ph",
+          "remaining_after_allocation": 87318.0
+        },
+        {
+          "allocated_from_credit": 500.0,
+          "balance_after_debit": 89838.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-26",
+          "debit_amount": 500.0,
+          "debit_txn_id": "acct_007_002139",
+          "narration": "UPI/MALA UPI-508563594239 DEVI/629655788952/Payment from Ph",
+          "remaining_after_allocation": 86818.0
+        },
+        {
+          "allocated_from_credit": 32.0,
+          "balance_after_debit": 89806.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 32.0,
+          "debit_txn_id": "acct_007_002140",
+          "narration": "UPI/Mr Bhart DESAI UPI-508670481743 /798381528579/Payment from Ph",
+          "remaining_after_allocation": 86786.0
+        },
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 69806.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_007_002141",
+          "narration": "ATW/8259/Patliputra, 508620594119 PatnaPatliputraBR270325/02:22",
+          "remaining_after_allocation": 66786.0
+        },
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 49806.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_007_002142",
+          "narration": "ATW/8259/Patliputra, 508620594121 PatnaPatliputraBR270325/02:23",
+          "remaining_after_allocation": 46786.0
+        },
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 29806.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_007_002143",
+          "narration": "ATW/8259/Patliputra, 508620594123 PatnaPatliputraBR270325/02:23",
+          "remaining_after_allocation": 26786.0
+        },
+        {
+          "allocated_from_credit": 20000.0,
+          "balance_after_debit": 9806.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 20000.0,
+          "debit_txn_id": "acct_007_002144",
+          "narration": "ATW/8259/Patliputra, 508620594125 PatnaPatliputraBR270325/02:25",
+          "remaining_after_allocation": 6786.0
+        },
+        {
+          "allocated_from_credit": 6786.0,
+          "balance_after_debit": 806.0,
+          "counterparty_account": "",
+          "counterparty_name_raw": "",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-27",
+          "debit_amount": 9000.0,
+          "debit_txn_id": "acct_007_002145",
+          "narration": "ATW/8259/Patliputra, 508620594128 PatnaPatliputraBR270325/02:26",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 150000.0,
+      "finding_id": "3f181eb23638ca8a4e1f",
+      "source_credit_txn_id": "acct_007_002128",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 135000.0,
+          "balance_after_debit": 335000.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-10-31",
+          "debit_amount": 400000.0,
+          "debit_txn_id": "acct_010_004943",
+          "narration": "SentIMPS530404096225HUM TUM IMPS- TR/ICICX4033/KKBKTrans 530404982095",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 135000.0,
+      "finding_id": "c8000bb364faf7930384",
+      "source_credit_txn_id": "acct_010_004942",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_010"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 11000.0,
+          "balance_after_debit": 230369.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-10",
+          "debit_amount": 11000.0,
+          "debit_txn_id": "acct_010_003794",
+          "narration": "UPI/RAMAKRISHANA/548798738236UPI-506960375675 /Payment from Ph",
+          "remaining_after_allocation": 113000.0
+        },
+        {
+          "allocated_from_credit": 7000.0,
+          "balance_after_debit": 223369.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-11",
+          "debit_amount": 7000.0,
+          "debit_txn_id": "acct_010_003795",
+          "narration": "UPI/MAHADEV UPI-507036543745 ENTERPR/867099264370/Paymen t from Ph",
+          "remaining_after_allocation": 106000.0
+        },
+        {
+          "allocated_from_credit": 40000.0,
+          "balance_after_debit": 183369.0,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-11",
+          "debit_amount": 40000.0,
+          "debit_txn_id": "acct_010_003796",
+          "narration": "UPI/JITHIN RAJ UPI-507041345522 KASA/709772807728/Payment from Ph",
+          "remaining_after_allocation": 66000.0
+        },
+        {
+          "allocated_from_credit": 660.79,
+          "balance_after_debit": 182708.21,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-11",
+          "debit_amount": 660.79,
+          "debit_txn_id": "acct_010_003797",
+          "narration": "UPI/ZOMATO/595635097518/Payme UPI-507045788327 nt from Ph",
+          "remaining_after_allocation": 65339.21
+        },
+        {
+          "allocated_from_credit": 50.0,
+          "balance_after_debit": 182658.21,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-12",
+          "debit_amount": 50.0,
+          "debit_txn_id": "acct_010_003798",
+          "narration": "UPI/Manjula/340622259877/PaymentUPI-507165566171 from Ph",
+          "remaining_after_allocation": 65289.21
+        },
+        {
+          "allocated_from_credit": 25000.0,
+          "balance_after_debit": 157658.21,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-12",
+          "debit_amount": 25000.0,
+          "debit_txn_id": "acct_010_003799",
+          "narration": "UPI/OM UPI-507184358503 TRAVELS/507179502349/UPI",
+          "remaining_after_allocation": 40289.21
+        },
+        {
+          "allocated_from_credit": 25000.0,
+          "balance_after_debit": 132658.21,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-12",
+          "debit_amount": 25000.0,
+          "debit_txn_id": "acct_010_003800",
+          "narration": "UPI/HOLIYE UPI-507116513049 VIJAYSIN/580878722758/Payment from Ph",
+          "remaining_after_allocation": 15289.21
+        },
+        {
+          "allocated_from_credit": 2100.0,
+          "balance_after_debit": 130558.21,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-13",
+          "debit_amount": 2100.0,
+          "debit_txn_id": "acct_010_003801",
+          "narration": "UPI/VIJAY DHONDIBA UPI-507228448923 /716748692446/Payment from Ph",
+          "remaining_after_allocation": 13189.21
+        },
+        {
+          "allocated_from_credit": 13189.21,
+          "balance_after_debit": 115558.21,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-03-13",
+          "debit_amount": 15000.0,
+          "debit_txn_id": "acct_010_003802",
+          "narration": "UPI/Girish S/507262887116/UPI UPI-507247010989",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 124000.0,
+      "finding_id": "d56bd8023fe88bf967aa",
+      "source_credit_txn_id": "acct_010_003793",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 100.0,
+          "balance_after_debit": 50111.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-28",
+          "debit_amount": 100.0,
+          "debit_txn_id": "acct_009_003678",
+          "narration": "PCD/1315/SWIGGY/BENGALURU28511809570263 0425/15:08",
+          "remaining_after_allocation": 45900.0
+        },
+        {
+          "allocated_from_credit": 45900.0,
+          "balance_after_debit": 411.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-28",
+          "debit_amount": 50000.0,
+          "debit_txn_id": "acct_009_003680",
+          "narration": "CASH WITHDRAWAL BY 31 SELF@5196",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 46000.0,
+      "finding_id": "75397ee9ae26e1967c90",
+      "source_credit_txn_id": "acct_009_003676",
+      "trace_status": "exhausted"
+    },
+    {
+      "accounts": [
+        "acct_009"
+      ],
+      "allocations": [
+        {
+          "allocated_from_credit": 32000.0,
+          "balance_after_debit": 211.35,
+          "counterparty_account": "nan",
+          "counterparty_name_raw": "nan",
+          "counterparty_resolution_confidence": 0.0,
+          "counterparty_resolution_method": "unresolved",
+          "date": "2025-04-28",
+          "debit_amount": 46000.0,
+          "debit_txn_id": "acct_009_003675",
+          "narration": "UPI/YASH Azeem/511874921455/UPI UPI-511803352193",
+          "remaining_after_allocation": 0.0
+        }
+      ],
+      "credited_amount": 32000.0,
+      "finding_id": "ba13ec23315bef9777f4",
+      "source_credit_txn_id": "acct_009_003672",
+      "trace_status": "exhausted"
+    }
+  ],
+  "type": "money_trail_all_accounts"
+}

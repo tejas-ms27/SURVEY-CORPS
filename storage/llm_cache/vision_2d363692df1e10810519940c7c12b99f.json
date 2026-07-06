@@ -1,0 +1,256 @@
+{
+  "account_details": {
+    "account_holder": "PRASHANT NAVNATH AGLAWE",
+    "account_number": "071410110028194",
+    "ifsc_code": "BKID0000714",
+    "bank_name": "",
+    "branch": "",
+    "account_type": "Savings Account",
+    "statement_period": "For the period June 01, 2017 to October 26, 2017",
+    "opening_balance": "16,621.83",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "01/06/2017",
+      "narration": "CWDR//342599/MSO9047",
+      "debit": "2,500.00",
+      "credit": "",
+      "balance": "14,021.83"
+    },
+    {
+      "date": "02/06/2017",
+      "narration": "MEDR/CC Avenue_dr/491068/",
+      "debit": "100.00",
+      "credit": "",
+      "balance": "13,921.83"
+    },
+    {
+      "date": "04/06/2017",
+      "narration": "MEDR/R T KADAM /843855/",
+      "debit": "300.00",
+      "credit": "",
+      "balance": "13,621.83"
+    },
+    {
+      "date": "05/06/2017",
+      "narration": "MEDR/RPSL /652674/",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "13,571.83"
+    },
+    {
+      "date": "06/06/2017",
+      "narration": "NACH/ HDFC BANK LIMITED",
+      "debit": "11,955.00",
+      "credit": "",
+      "balance": "1,616.83"
+    },
+    {
+      "date": "08/06/2017",
+      "narration": "CWDR//342222/MSO9047",
+      "debit": "1,000.00",
+      "credit": "",
+      "balance": "616.83"
+    },
+    {
+      "date": "10/06/2017",
+      "narration": "MEDR/RPSL /422206/",
+      "debit": "100.00",
+      "credit": "",
+      "balance": "516.83"
+    },
+    {
+      "date": "12/06/2017",
+      "narration": "REV MERV//843855/R01/REFUND",
+      "debit": "",
+      "credit": "2.25",
+      "balance": "519.08"
+    },
+    {
+      "date": "16/06/2017",
+      "narration": "MEDR/RPSL /435610/",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "469.08"
+    },
+    {
+      "date": "16/06/2017",
+      "narration": "CWDR//330720/TPCN1257",
+      "debit": "400.00",
+      "credit": "",
+      "balance": "69.08"
+    },
+    {
+      "date": "19/06/2017",
+      "narration": "MEDR/RPSL /697204/",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "19.08"
+    },
+    {
+      "date": "27/06/2017",
+      "narration": "MEDR/RPSL /642542/",
+      "debit": "10.00",
+      "credit": "",
+      "balance": "9.08"
+    },
+    {
+      "date": "04/07/2017",
+      "narration": "bit salary",
+      "debit": "",
+      "credit": "43,002.00",
+      "balance": "43,011.08"
+    },
+    {
+      "date": "04/07/2017",
+      "narration": "loan rec",
+      "debit": "",
+      "credit": "10,624.00",
+      "balance": "32,387.08"
+    },
+    {
+      "date": "04/07/2017",
+      "narration": "MEDR/RPSL /780235/",
+      "debit": "322.00",
+      "credit": "",
+      "balance": "32,065.08"
+    },
+    {
+      "date": "04/07/2017",
+      "narration": "CWDR//342509/MSO9047",
+      "debit": "5,000.00",
+      "credit": "",
+      "balance": "27,065.08"
+    },
+    {
+      "date": "05/07/2017",
+      "narration": "NACH/ HDFC BANK LIMITED",
+      "debit": "11,955.00",
+      "credit": "",
+      "balance": "15,110.08"
+    },
+    {
+      "date": "06/07/2017",
+      "narration": "NEFT-MSBTI PUNE",
+      "debit": "",
+      "credit": "8,089.00",
+      "balance": "23,199.08"
+    },
+    {
+      "date": "06/07/2017",
+      "narration": "CWDR//315906/CSO9013",
+      "debit": "2,000.00",
+      "credit": "",
+      "balance": "21,199.08"
+    },
+    {
+      "date": "07/07/2017",
+      "narration": "MEDR/PAYTM APP /4534/",
+      "debit": "100.00",
+      "credit": "",
+      "balance": "21,099.08"
+    },
+    {
+      "date": "07/07/2017",
+      "narration": "MEDR/RPSL /402598/",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "21,049.08"
+    },
+    {
+      "date": "07/07/2017",
+      "narration": "MEDR/IRCTC /199507/",
+      "debit": "102.12",
+      "credit": "",
+      "balance": "20,946.96"
+    },
+    {
+      "date": "08/07/2017",
+      "narration": "MEDR/IRCTC /576879/",
+      "debit": "102.12",
+      "credit": "",
+      "balance": "20,844.84"
+    },
+    {
+      "date": "08/07/2017",
+      "narration": "CWDR//813813/1FDSOL02",
+      "debit": "1,000.00",
+      "credit": "",
+      "balance": "19,844.84"
+    },
+    {
+      "date": "10/07/2017",
+      "narration": "MEDR/RPSL /309584/",
+      "debit": "2,790.00",
+      "credit": "",
+      "balance": "17,054.84"
+    },
+    {
+      "date": "10/07/2017",
+      "narration": "MEDR/RPSL /245615/",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "17,004.84"
+    },
+    {
+      "date": "11/07/2017",
+      "narration": "CWDR//400298/S1ANES05",
+      "debit": "5,000.00",
+      "credit": "",
+      "balance": "12,004.84"
+    },
+    {
+      "date": "12/07/2017",
+      "narration": "CWDR//525090/CS046112",
+      "debit": "1,000.00",
+      "credit": "",
+      "balance": "11,004.84"
+    },
+    {
+      "date": "13/07/2017",
+      "narration": "MEDR/RPSL /145853/",
+      "debit": "69.00",
+      "credit": "",
+      "balance": "10,935.84"
+    },
+    {
+      "date": "13/07/2017",
+      "narration": "CWDR//342650/MSO9047",
+      "debit": "1,500.00",
+      "credit": "",
+      "balance": "9,435.84"
+    },
+    {
+      "date": "16/07/2017",
+      "narration": "MEDR/SAHYADRI FUE/829419/",
+      "debit": "5,000.00",
+      "credit": "",
+      "balance": "4,435.84"
+    },
+    {
+      "date": "16/07/2017",
+      "narration": "CWDR//192642/CS046112",
+      "debit": "1,000.00",
+      "credit": "",
+      "balance": "3,435.84"
+    },
+    {
+      "date": "17/07/2017",
+      "narration": "MEDR/RPSL /348881/",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "7,885.84"
+    },
+    {
+      "date": "",
+      "narration": "",
+      "debit": "",
+      "credit": "",
+      "balance": ""
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 4470,
+  "source": "groq"
+}

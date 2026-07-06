@@ -1,0 +1,70 @@
+Transaction Details Page 1 of 3
+04-12-2025 18:35:13 PUNJAB NATIONAL BANK, VADODARA, RAOPURA Page 1
+REP31
+Customer Account Ledger Report
+Report To : BM
+SolId :
+Set Id : 340600 VADODARA, RAOPURA
+Gl Sub Head Code :
+Acct Range : 9256443494527112 to 9256443494527112
+Currency Code :
+Account Label :
+Open/Closed A/cs (O/C) :
+Period : 01-01-2024 to 04-12-2025
+Limit Details : Y
+Order by GL. Date.
+04-12-2025 18:35:13 PUNJAB NATIONAL BANK VADODARA, RAOPURA Page 2
+https://dc-lb-cbs-fe.pnb.co.in:2222/finbranch/arjspmorph/INFENG/tran_rpt.jsp?rtId=ed9y945i6ifd&isPrntReqd=N 04/12/2025
+Transaction Details Page 2 of 3
+Customer Account Ledger Report from 01-01-2024 to 04-12-2025
+Service OutLet : 340600 VADODARA, RAOPURA
+Account No : 9256443494527112 INR GAEKWAD DEVANSHU JITENDRABHAI
+Gl Sub Head Code :
+Opening Balance : 0
+Peg Review date : 31-12-2099
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GL. Value Instrmnt Particulars Transaction Transaction Balance Entry Verified
+Date Date Number Debit Amount Credit Amount User Id User Id
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Order by GL. Date.
+20-03-2025 20-03-2025 NRTGS/BDBLR62025032017559739/MsS MAA ENTERPRISE 7,50,000.00 7,50,000.00Cr CDCI CDCI
+20-03-2025 20-03-2025 SHORTFAL REC- MAB CHRG ACCOUNT-7190 2025-01-01 TO 118.00 7,49,882.00Cr 5206470 5188484
+20-03-2025 20-03-2025 UPI/101766031680/P2A/918141852047/SIKLIGAR AYUSHIB 200.00 7,50,082.00Cr CDCI CDCI
+20-03-2025 20-03-2025 IMPS-IN/507914178099/6901873031/SABIB EN 60,000.00 8,10,082.00Cr CDCI CDCI
+20-03-2025 20-03-2025 IMPS-IN/507914178316/7099149530/JAHAR EN 14,000.00 8,24,082.00Cr CDCI CDCI
+20-03-2025 20-03-2025 309825 TO SELF 7,50,000.00 74,082.00Cr 5188319 5206470
+20-03-2025 20-03-2025 309826 TO SELF 74,000.00 82.00Cr 5188319 5206470
+21-03-2025 21-03-2025 NEFT/BDBLN52025032121350105/Apex Commerce Enterpri 25.00 107.00Cr CDCI CDCI
+27-03-2025 27-03-2025 NRTGS/BDBLR62025032717702598/MsS OLYMPIA GYM 5,00,000.00 5,00,107.00Cr CDCI CDCI
+27-03-2025 27-03-2025 NRTGS/BDBLR62025032717702660/MsS OLYMPIA GYM 5,30,000.00 10,30,107.00Cr CDCI CDCI
+27-03-2025 27-03-2025 309829 TO SELF 1,30,000.00 9,00,107.00Cr 5188319 5206470
+27-03-2025 27-03-2025 309828 TO SELF 9,00,000.00 107.00Cr 5188319 5206470
+03-04-2025 03-04-2025 NRTGS/IDFBR52025040300370175/PRINCE ENTERPRISES 10,30,000.00 10,30,107.00Cr CDCI CDCI
+04-04-2025 04-04-2025 309830 TO SELF 10,30,000.00 107.00Cr 5188484 5206470
+04-04-2025 04-04-2025 NRTGS/DBSSR52025040406217939/NAITIKIRAN SAMRIDDHI 8,30,000.00 8,30,107.00Cr CDCI CDCI
+04-04-2025 04-04-2025 309831 TO SELF 8,30,000.00 107.00Cr 5188319 5188484
+07-04-2025 07-04-2025 MAB CHRG ACCOUNT-7190 2025-02-01 TO 2025-02-28 107.00 0.00 SYSTEM 5190403D4
+05-06-2025 01-06-2025 9256443494527112:Int.Pd:01-03-2025 to 31-05-2025 78.00 78.00Cr 5190403D5 5190403D5
+05-09-2025 01-09-2025 9256443494527112:Int.Pd:01-06-2025 to 31-08-2025 1.00 79.00Cr 5195523D1 5195523D1
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Order by GL. Date.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Date Limits(S.L.+TODs) Draw Power Int Rate
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+01-07-2025 0.00 0.00 2.5000
+03-04-2025 0.00 0.00 2.7500
+04-04-2025 0.00 0.00 2.7000
+29-01-2025 0.00 0.00 2.7000
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Page Total Credit : 37,14,304.00
+Page Total Debit : 37,14,225.00
+Closing Balance : 79.00
+Total Credit : 37,14,304.00
+Total Debit : 37,14,225.00
+https://dc-lb-cbs-fe.pnb.co.in:2222/finbranch/arjspmorph/INFENG/tran_rpt.jsp?rtId=ed9y945i6ifd&isPrntReqd=N 04/12/2025
+Transaction Details Page 3 of 3
+Signature :
+Signature
+************* 3 pages printed. End of Report*************
+https://dc-lb-cbs-fe.pnb.co.in:2222/finbranch/arjspmorph/INFENG/tran_rpt.jsp?rtId=ed9y945i6ifd&isPrntReqd=N 04/12/2025

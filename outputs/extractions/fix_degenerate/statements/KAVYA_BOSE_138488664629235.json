@@ -1,0 +1,49 @@
+{
+  "account_details": {
+    "account_holder": "KAVYA BOSE",
+    "account_number": "138488664629235",
+    "ifsc_code": "",
+    "bank_name": "",
+    "branch": "",
+    "branch_address": "",
+    "account_type": "CA - BUSINESS ADVANTAGE",
+    "statement_period": "23-11-2024 to 11-12-2025",
+    "opening_balance": "",
+    "closing_balance": "488.00",
+    "customer_id": "971228349",
+    "currency": "INR",
+    "customer_address": "",
+    "joint_holder": "",
+    "nominee_name": "",
+    "micr_code": "",
+    "branch_code": "",
+    "branch_phone": "",
+    "branch_email": "",
+    "branch_gstin": "",
+    "product_type": "",
+    "ckyc_number": "",
+    "account_ref": "138488664629235-23-11-2024to11-12-2025"
+  },
+  "transaction_count": 1,
+  "transactions": [
+    {
+      "Date": "12/05/2025",
+      "Time": "",
+      "Narration": "ATMCASHAXISJECN5100019564120525LUCK NOW 20000.00 488.00 2703 TRANSACTION TOTAL CLOSING BALANCE 488.00",
+      "Transaction_ID": "",
+      "Reference_Number": "",
+      "Transaction_Reference": "5100019564120525",
+      "Cheque_Number": "",
+      "Debit": 0.0,
+      "Credit": 1447009.0,
+      "Balance": 1447497.0,
+      "Transaction_Type": "credit",
+      "Account_ID": "138488664629235",
+      "Bank_Name": "",
+      "IFSC_Code": "UNKNOWN",
+      "txn_id": "138488664629235_000000",
+      "duplicate_of": null,
+      "is_reversed": false
+    }
+  ]
+}

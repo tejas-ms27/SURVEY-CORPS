@@ -1,0 +1,7 @@
+{
+  "date": "DAT_TXN_PROCESSING",
+  "narration": "TXT_TXN_NARRATIVE_TO",
+  "debit": "AMT_TXN_LCY",
+  "credit": "AMT_TXN_LCY",
+  "balance": null
+}

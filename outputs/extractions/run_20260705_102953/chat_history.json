@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-07-05 10:35:05",
+    "question": "list all the account holders name and number",
+    "answer": "There are 6 accounts in this case:\n  - ANIL AARAV GHOSH — account 08874795659248 at Bandhan Bank\n  - VIKRAM SAXENA — account 3431120000174 at Unknown Bank\n  - Sumit Rao — account 110178980040 at Unknown Bank\n  - Ms S HANUMAN — account 188095428046 at Unknown Bank\n  - M/S CRYSTAL MARKETING — account 24704559049070 at Bandhan Bank\n  - ARJUN SUMIT PATEL — account 79895082327702 at Unknown Bank",
+    "language": "en",
+    "matched_pattern": "list_account_holders"
+  },
+  {
+    "timestamp": "2026-07-05 10:35:35",
+    "question": "08874795659248",
+    "answer": "The account 08874795659248 is a current‑account held by ANIL AARAV GHOSH at Bandhan Bank, Hasnabad branch, and its closing balance is ₹2,215.00. In the two‑day window shown, the account received several large credits – ₹200,000 on 20 Mar 2025 (RTGS from “MR. HARDIKKUMAR KANUBH”), and on 21 Mar 2025 it was credited with ₹30,000, ₹40,000, ₹45,000, ₹300,000 and even a ₹1 “IMPS” entry. The only debit recorded in that period is an ₹80,000 NEFT outflow on 21 Mar 2025. The pattern of multiple high‑value inbound transfers followed by a single sizable outbound transfer is typical of rapid fund‑movement that warrants further scrutiny.",
+    "language": "en",
+    "matched_pattern": "semantic_search"
+  },
+  {
+    "timestamp": "2026-07-05 10:35:52",
+    "question": "give me the account details of 08874795659248",
+    "answer": "Full details for account 08874795659248:\nAccount number: 08874795659248\nAccount holder: ANIL AARAV GHOSH\nBank: Bandhan Bank  |  Branch: Hasnabad\nIFSC: BDBL0002295  |  MICR: 700750196\nAccount type: CURRENT\nStatement period: not extracted\nOpening balance: not extracted\nClosing balance: ₹2,215.00\nNominee: not extracted\nCustomer ID: 410625172\nGSTIN: 19AAGCB1323G1Z0  |  CKYC: XXXXXXXXXX4643\nCurrency: not extracted\nAddress: not extracted\nTotal transactions: 77 clean, 0 flagged",
+    "language": "en",
+    "matched_pattern": "account_details"
+  },
+  {
+    "timestamp": "2026-07-05 10:36:20",
+    "question": "visulize the transaction flow network",
+    "answer": "Money-flow graph: 1 account node(s) and 51 heuristic counterparty node(s) across 51 transaction edge(s).",
+    "language": "en",
+    "matched_pattern": "graph_request"
+  }
+]

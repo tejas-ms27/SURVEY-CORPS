@@ -1,0 +1,315 @@
+{
+  "account_details": {
+    "account_holder": "",
+    "account_number": "",
+    "ifsc_code": "",
+    "bank_name": "",
+    "branch": "",
+    "account_type": "",
+    "statement_period": "",
+    "opening_balance": "",
+    "closing_balance": ""
+  },
+  "transactions": [
+    {
+      "date": "08/01/2024",
+      "narration": "UPI/DR/728341737715/PAYEL BHATTACHARYA/UPI-TRANSFER TO 8557940363",
+      "reference_number": "728341737715",
+      "cheque_number": "",
+      "debit": "513.47",
+      "credit": "",
+      "balance": "18916.03"
+    },
+    {
+      "date": "08/01/2024",
+      "narration": "IMPS Dr-336203076056-TANMAY GANGULY",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "2287.52",
+      "credit": "",
+      "balance": "16628.51"
+    },
+    {
+      "date": "08/01/2024",
+      "narration": "NEFT Cr-947749222922-ICIC0SF0002-SOFTWARE TECHNOLOGIES--",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "7675.95",
+      "balance": "24304.46"
+    },
+    {
+      "date": "08/01/2024",
+      "narration": "NEFT Cr-851018220366-ICIC0SF0002-DAILY NEEDS LIMITED--",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "3180.55",
+      "credit": "",
+      "balance": "27485.01"
+    },
+    {
+      "date": "08/01/2024",
+      "narration": "By Clg:DEL ACCTS-CITI BANK N.A.(CIT), TECHVISION SYSTEMS",
+      "reference_number": "",
+      "cheque_number": "873579",
+      "debit": "3206.08",
+      "credit": "",
+      "balance": "30691.09"
+    },
+    {
+      "date": "08/01/2024",
+      "narration": "Cash Withdrawal-BIPLAB DUTTA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "742.40",
+      "credit": "",
+      "balance": "29948.69"
+    },
+    {
+      "date": "09/01/2024",
+      "narration": "NEFT Dr-863017303564-UTILITY PAYMENT",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1347.60",
+      "credit": "",
+      "balance": "20386.59"
+    },
+    {
+      "date": "11/01/2024",
+      "narration": "NEFT Cr-623097965825-ICIC0SF0002-COMMERCIAL PROPERTIES INDIA--",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "3103.69",
+      "balance": "33052.38"
+    },
+    {
+      "date": "11/01/2024",
+      "narration": "CASH-BNA-SELF-BIPLAB BHATTACHARYA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1376.45",
+      "credit": "",
+      "balance": "34428.83"
+    },
+    {
+      "date": "11/01/2024",
+      "narration": "NEFT Dr-349487998528-HDFC0009038-SOURAV DASGUPTA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "5267.64",
+      "credit": "",
+      "balance": "29161.19"
+    },
+    {
+      "date": "12/01/2024",
+      "narration": "NEFT Dr-857408651540-HDFC0009038-ARIJIT SEN",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "6725.28",
+      "credit": "",
+      "balance": "22435.91"
+    },
+    {
+      "date": "12/01/2024",
+      "narration": "Chq Paid-MICR Inward Clearing-RAHUL CHAKRABORTY-HDFC BANK LTD.",
+      "reference_number": "",
+      "cheque_number": "957010",
+      "debit": "6233.58",
+      "credit": "",
+      "balance": "16202.33"
+    },
+    {
+      "date": "12/01/2024",
+      "narration": "Chq Paid-MICR Inward Clearing-ANANYA MAJUMDAR-HDFC BANK LTD.",
+      "reference_number": "",
+      "cheque_number": "126340",
+      "debit": "6513.72",
+      "credit": "",
+      "balance": "9688.61"
+    },
+    {
+      "date": "12/01/2024",
+      "narration": "NEFT Dr-245974395610-HDFC0009038-SUBRATA BOSE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "3329.88",
+      "credit": "",
+      "balance": "6358.73"
+    },
+    {
+      "date": "13/01/2024",
+      "narration": "IMPS Dr-550685841633-RAJIB CHAKRABORTY",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "523.74",
+      "credit": "",
+      "balance": "5834.99"
+    },
+    {
+      "date": "13/01/2024",
+      "narration": "By Clg:DEL ACCTS-CITI BANK N.A.(CIT), CREDIT SERVICES LTD",
+      "reference_number": "",
+      "cheque_number": "402358",
+      "debit": "312.87",
+      "credit": "",
+      "balance": "6147.86"
+    },
+    {
+      "date": "13/01/2024",
+      "narration": "NEFT Cr-977213384724-ICIC0SF0002-INFOCORE TECHNOLOGIES--",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "1554.17",
+      "balance": "7702.03"
+    },
+    {
+      "date": "15/01/2024",
+      "narration": "By Clg:DEL ACCTS-CITI BANK N.A.(CIT), CAPITAL VENTURES INDIA",
+      "reference_number": "",
+      "cheque_number": "715263",
+      "debit": "1828.18",
+      "credit": "",
+      "balance": "9530.21"
+    },
+    {
+      "date": "16/01/2024",
+      "narration": "NEFT Cr-532943388600-ICIC0SF0002-INDUSTRIAL WORKS INDIA--",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "4328.08",
+      "balance": "13858.29"
+    },
+    {
+      "date": "17/01/2024",
+      "narration": "CASH-BNA-SELF-RAHUL SARKAR",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1152.35",
+      "credit": "",
+      "balance": "15010.64"
+    },
+    {
+      "date": "17/01/2024",
+      "narration": "CASH-BNA-SELF-SONALI BISWAS",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1279.23",
+      "credit": "",
+      "balance": "16289.87"
+    },
+    {
+      "date": "18/01/2024",
+      "narration": "IMPS BRN SALARY TRF BY-PHARMACY PRODUCTS LTD",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "2864.65",
+      "credit": "",
+      "balance": "19154.52"
+    },
+    {
+      "date": "18/01/2024",
+      "narration": "RTGS Dr-CNRBR793975948062-HDFC0004171-PAYEL GHOSH-NONE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "8256.49",
+      "credit": "",
+      "balance": "10898.03"
+    },
+    {
+      "date": "18/01/2024",
+      "narration": "CASH-BNA-SELF-TAPAS PAUL",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "216.21",
+      "credit": "",
+      "balance": "11114.24"
+    },
+    {
+      "date": "19/01/2024",
+      "narration": "Chq Paid-MICR Inward Clearing-DEBASHIS DASGUPTA-HDFC BANK LTD.",
+      "reference_number": "",
+      "cheque_number": "840121",
+      "debit": "2677.73",
+      "credit": "",
+      "balance": "8436.51"
+    },
+    {
+      "date": "19/01/2024",
+      "narration": "NEFT Dr-590187733891-HDFC0009038-AMIT SENGUPTA",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "866.79",
+      "credit": "",
+      "balance": "7569.72"
+    },
+    {
+      "date": "20/01/2024",
+      "narration": "NEFT Dr-270635188773-HDFC0009038-RIYA GHOSH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "1087.71",
+      "credit": "",
+      "balance": "6482.01"
+    },
+    {
+      "date": "20/01/2024",
+      "narration": "RTGS Dr-CNRBR1635128280044-HDFC0004171-RITAM DAS-NONE",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "5009.85",
+      "credit": "",
+      "balance": "1472.16"
+    },
+    {
+      "date": "20/01/2024",
+      "narration": "NEFT Dr-455142811587-GST PAYMENT-GSTIN 54A8955",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "10476.71",
+      "credit": "",
+      "balance": "9909.88"
+    },
+    {
+      "date": "20/01/2024",
+      "narration": "NEFT Cr-378909553812-ICIC0SF0002-CURE PHARMACEUTICALS--",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "",
+      "credit": "979.59",
+      "balance": "2451.75"
+    },
+    {
+      "date": "22/01/2024",
+      "narration": "IMPS BRN SALARY TRF BY-ROADWAY INFRA TECH",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "785.55",
+      "credit": "",
+      "balance": "3237.30"
+    },
+    {
+      "date": "23/01/2024",
+      "narration": "By Clg:DEL ACCTS-CITI BANK N.A.(CIT), DAIRY PRODUCTS INDIA",
+      "reference_number": "",
+      "cheque_number": "955072",
+      "debit": "326.25",
+      "credit": "",
+      "balance": "3563.55"
+    },
+    {
+      "date": "24/01/2024",
+      "narration": "IMPS BRN SALARY TRF BY-CODEBASE SOLUTIONS",
+      "reference_number": "",
+      "cheque_number": "",
+      "debit": "712.07",
+      "credit": "",
+      "balance": "4275.62"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 6721,
+  "source": "groq"
+}

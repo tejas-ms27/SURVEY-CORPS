@@ -1,0 +1,7 @@
+{
+  "date": "DATE",
+  "narration": "PARTICULARS",
+  "debit": "WITHDRAWALS",
+  "credit": "DEPOSITS",
+  "balance": "BALANCE"
+}

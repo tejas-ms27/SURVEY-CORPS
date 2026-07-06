@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-06-29T12:30:47",
+  "totals": {
+    "files_processed": 6,
+    "files_failed": 0,
+    "transactions_clean": 3074,
+    "transactions_flagged": 289,
+    "duplicates_tagged": 10
+  },
+  "flag_breakdown": {
+    "balance_mismatch": 90,
+    "both_debit_credit_filled": 199
+  },
+  "mismatch_diagnosis": {
+    "missing_transaction": 33,
+    "direction_inverted": 57
+  },
+  "top_flagged_accounts": [
+    {
+      "account": "0167042251865512",
+      "flags": 288
+    },
+    {
+      "account": "3127637522775626",
+      "flags": 1
+    }
+  ],
+  "reconciliation": {
+    "average": 0.193,
+    "files_below_0.90": [
+      {
+        "file": "BOM_Statement_FTP_02107_xxxxxxxx7596_20240812_20250801_20250801012337.pdf",
+        "recon": 0.0
+      },
+      {
+        "file": "shivlal statement.txt",
+        "recon": 0.0
+      },
+      {
+        "file": "stm REKHA.pdf",
+        "recon": 0.0
+      },
+      {
+        "file": "soa_0167042251865512.pdf",
+        "recon": 0.156
+      },
+      {
+        "file": "4513362998.pdf",
+        "recon": 0.0
+      }
+    ],
+    "zero_row_files": [
+      "4513362998.pdf"
+    ]
+  },
+  "metadata_quality": {
+    "graded_files": 6,
+    "with_holder_name": 5,
+    "with_account_number": 6,
+    "with_ifsc": 4,
+    "missing_holder_files": [
+      "shivlal statement.txt"
+    ],
+    "source_breakdown": {
+      "regex": 6
+    }
+  },
+  "llm_usage": {
+    "total_calls": 10,
+    "key_rotations": 0
+  },
+  "scope_manifest": {
+    "scope": "validation_fixtures",
+    "folders": [
+      "explicit"
+    ],
+    "file_count": 6
+  }
+}

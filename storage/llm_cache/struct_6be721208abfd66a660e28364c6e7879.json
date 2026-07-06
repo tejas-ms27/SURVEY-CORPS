@@ -1,0 +1,16 @@
+{
+  "account_details": {
+    "account_holder_name": "NAME_1 BOSE Joint Holder :- - S/O: KOMAL KAPOOR",
+    "account_number": "ACCT_2",
+    "ifsc_code": "",
+    "branch_name": "",
+    "branch_address": "95,RAMPUR NAHAR KINARA,PURA NA QILA LUCKNOW",
+    "bank_name": "",
+    "statement_period": "23-11-2024 To : 11-12-2025",
+    "currency": "INR",
+    "opening_balance": "0.00",
+    "closing_balance": "488.00"
+  },
+  "transactions": [],
+  "source": "groq"
+}

@@ -1,0 +1,59 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+55,40,00869354051,05/05/2025,200152.0,200152.0,0.0,BLKRTGS/OnscreenPayment/6053084803 0,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+101,99,00869354051,06/05/2025,25000.0,25000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+137,107,00869354051,06/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+138,129,00869354051,06/05/2025,20000.0,20000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+140,129,00869354051,06/05/2025,20000.0,20000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+141,129,00869354051,06/05/2025,20000.0,20000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+158,154,00869354051,07/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+160,154,00869354051,07/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+178,161,00869354051,07/05/2025,35000.0,35000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+190,154,00869354051,07/05/2025,30000.0,30000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+199,185,00869354051,07/05/2025,40000.0,40000.0,0.0,BLKNEFT/BLKPAY_YYYYMMDD/123,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_001
+421,409,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/OnscreenPayment/dasdsa,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+441,440,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+454,445,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+455,448,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+456,444,18306700003,03/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+457,440,18306700003,03/04/2025,300000.0,300000.0,0.0,BLKRTGS/idfc00/dasda,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+496,495,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdasd,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+519,488,18306700003,04/04/2025,200000.0,200000.0,0.0,BLKRTGS/idfc00/dasdas,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+545,500,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+547,500,18306700003,04/04/2025,100000.0,100000.0,0.0,BLKNEFT/idfc00/TARUN,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+692,691,2653101012274,14/07/2020,24.0,24.0,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+694,693,2653101012274,18/07/2020,24.0,24.0,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+823,822,2653101012274,05/02/2023,3.0,0.0,3.0,REV:ATM INSUFFICIENT FUND CHARGES: 18-JUL-20,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+824,821,2653101012274,05/02/2023,3.0,0.0,3.0,REV:ATM INSUFFICIENT FUND CHARGES: 14-JUL-20,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+873,872,2653101012274,30/12/2023,0.54,0.0,0.54,REV:ATM INSUFFICIENT FUND CHARGES: 14-JUL-20 GST_PORTION,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+876,874,2653101012274,30/12/2023,0.54,0.0,0.54,REV:ATM INSUFFICIENT FUND CHARGES: 18-JUL-20 GST_PORTION,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1293,1291,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1295,1291,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1298,1291,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1299,1291,2653101012274,20/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1307,1305,2653101012274,23/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1332,1330,2653101012274,30/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1333,1330,2653101012274,30/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1335,1330,2653101012274,30/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1352,1348,2653101012274,31/03/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1412,1406,2653101012274,21/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1644,1643,2653101012274,11/09/2025,20.06,20.06,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1645,1643,2653101012274,11/09/2025,20.06,20.06,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1661,1660,2653101012274,17/09/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1701,1700,2653101012274,30/09/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1770,1769,2653101012274,28/10/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1822,1819,2653101012274,18/11/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1843,1842,2653101012274,26/11/2025,27.14,27.14,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_004
+1892,1891,145090675346,25/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1894,1891,145090675346,25/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1895,1891,145090675346,25/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1896,1891,145090675346,25/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1908,1907,145090675346,26/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1909,1907,145090675346,26/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1910,1907,145090675346,26/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1911,1907,145090675346,26/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/DD NAGAR GWALIOR GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1939,1938,145090675346,31/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/PINTO PARK GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1940,1938,145090675346,31/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/PINTO PARK GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+1941,1938,145090675346,31/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/PINTO PARK GWALIOR,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_005
+2120,2119,913628731289,13/03/2025,10000.0,10000.0,0.0,NFS CASH TXN/IN/CHALALA ATM CHALALA,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_006
+2226,2225,913628731289,04/08/2025,20000.0,20000.0,0.0,ATM CASH TXN/INDUSIND BANK LIMITED JUNAGADH GJ,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_006
+2238,2237,913628731289,04/09/2025,20000.0,20000.0,0.0,ATM CASH TXN/INDUSIND BANK LIMITED JUNAGADH GJ,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_006

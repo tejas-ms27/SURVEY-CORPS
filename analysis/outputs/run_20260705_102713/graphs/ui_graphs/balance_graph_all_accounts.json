@@ -1,0 +1,100 @@
+{
+  "accounts": [
+    {
+      "account_id": "acct_001",
+      "points": [
+        {
+          "balance": 200000.0,
+          "date": "2025-05-08",
+          "net_amount": 200000.0,
+          "txn_id": "acct_001_000000"
+        },
+        {
+          "balance": 150000.0,
+          "date": "2025-05-24",
+          "net_amount": -50000.0,
+          "txn_id": "acct_001_000001"
+        },
+        {
+          "balance": 0.0,
+          "date": "2025-05-24",
+          "net_amount": -150000.0,
+          "txn_id": "acct_001_000002"
+        },
+        {
+          "balance": 43.0,
+          "date": "2025-05-25",
+          "net_amount": -2.0,
+          "txn_id": "acct_001_000005"
+        },
+        {
+          "balance": 50.0,
+          "date": "2025-05-25",
+          "net_amount": 50.0,
+          "txn_id": "acct_001_000003"
+        },
+        {
+          "balance": 45.0,
+          "date": "2025-05-25",
+          "net_amount": -5.0,
+          "txn_id": "acct_001_000004"
+        },
+        {
+          "balance": 50043.0,
+          "date": "2025-05-26",
+          "net_amount": 50000.0,
+          "txn_id": "acct_001_000006"
+        },
+        {
+          "balance": 75043.0,
+          "date": "2025-05-26",
+          "net_amount": 25000.0,
+          "txn_id": "acct_001_000007"
+        },
+        {
+          "balance": 75044.0,
+          "date": "2025-05-26",
+          "net_amount": 1.0,
+          "txn_id": "acct_001_000008"
+        },
+        {
+          "balance": 90044.0,
+          "date": "2025-05-26",
+          "net_amount": 15000.0,
+          "txn_id": "acct_001_000009"
+        },
+        {
+          "balance": 105044.0,
+          "date": "2025-05-26",
+          "net_amount": 15000.0,
+          "txn_id": "acct_001_000010"
+        },
+        {
+          "balance": 130044.0,
+          "date": "2025-05-26",
+          "net_amount": 25000.0,
+          "txn_id": "acct_001_000011"
+        },
+        {
+          "balance": 169044.0,
+          "date": "2025-05-26",
+          "net_amount": 39000.0,
+          "txn_id": "acct_001_000012"
+        },
+        {
+          "balance": 19029.0,
+          "date": "2025-05-26",
+          "net_amount": -150015.0,
+          "txn_id": "acct_001_000013"
+        },
+        {
+          "balance": 119029.0,
+          "date": "2025-05-26",
+          "net_amount": 100000.0,
+          "txn_id": "acct_001_000014"
+        }
+      ]
+    }
+  ],
+  "type": "balance_graph_all_accounts"
+}

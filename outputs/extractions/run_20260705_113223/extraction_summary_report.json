@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-05T11:32:31",
+  "totals": {
+    "files_processed": 7,
+    "files_failed": 0,
+    "transactions_clean": 12068,
+    "transactions_flagged": 0,
+    "duplicates_tagged": 93
+  },
+  "flag_breakdown": {},
+  "mismatch_diagnosis": {},
+  "top_flagged_accounts": [],
+  "reconciliation": {
+    "average": 1.0,
+    "files_below_0.90": [],
+    "zero_row_files": []
+  },
+  "metadata_quality": {
+    "graded_files": 7,
+    "with_holder_name": 7,
+    "with_account_number": 7,
+    "with_ifsc": 4,
+    "missing_holder_files": [],
+    "source_breakdown": {
+      "regex": 4,
+      "excel_metadata_block": 3
+    }
+  },
+  "llm_usage": {
+    "total_calls": 0,
+    "key_rotations": 0
+  }
+}

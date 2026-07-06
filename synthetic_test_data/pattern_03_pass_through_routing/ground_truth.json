@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "folder": "pattern_03_pass_through_routing",
+  "description": "Multiple unrelated inbound credits followed by rapid onward routing.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0014",
+      "role": "subject",
+      "file": "statements/0144130624165626-01-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/0144130624165626-01-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "0144130624165626",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0015",
+      "role": "clean_control",
+      "file": "statements/2423783239149708_statement.txt",
+      "files": [
+        "statements/2423783239149708_statement.txt"
+      ],
+      "fabricated_account_number": "2423783239149708",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0016",
+      "role": "clean_control",
+      "file": "statements/0288854422372621-01-12-2024to09-05-2026.xlsx",
+      "files": [
+        "statements/0288854422372621-01-12-2024to09-05-2026.xlsx"
+      ],
+      "fabricated_account_number": "0288854422372621",
+      "bank": "BANK OF BARODA"
+    },
+    {
+      "synthetic_account_id": "SYN0017",
+      "role": "clean_control",
+      "file": "statements/97042978075723-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/97042978075723-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "97042978075723",
+      "bank": "THE FEDERAL BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0018",
+      "role": "clean_control",
+      "file": "statements/statement-67042020919.txt",
+      "files": [
+        "statements/statement-67042020919.txt"
+      ],
+      "fabricated_account_number": "67042020919",
+      "bank": "STATE BANK OF INDIA"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 3,
+      "pattern_name": "pass_through_routing",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0014"
+      ],
+      "expected_amount_range": [
+        59700.25,
+        352640.61
+      ],
+      "notes": "Multiple unrelated inbound credits followed by rapid onward routing.",
+      "expected_txn_refs": [
+        "992541703789",
+        "007662067498",
+        "697146058195",
+        "100535260194",
+        "886248354463",
+        "020524633375"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0014_000407",
+        "SYN0014_000406",
+        "SYN0014_000408",
+        "SYN0014_000404",
+        "SYN0014_000403",
+        "SYN0014_000413"
+      ]
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "pattern_id": 7,
+      "reason": "No unrelated fixture planted for this pattern."
+    }
+  ]
+}

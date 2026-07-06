@@ -1,0 +1,17 @@
+{
+  "date_format": "DD-MMM-YY",
+  "has_time": false,
+  "time_format": "",
+  "debit_credit_method": "two_columns",
+  "has_reference_number": true,
+  "has_cheque_number": false,
+  "column_order": [
+    "date",
+    "narration",
+    "reference",
+    "debit",
+    "credit",
+    "balance"
+  ],
+  "source": "groq"
+}

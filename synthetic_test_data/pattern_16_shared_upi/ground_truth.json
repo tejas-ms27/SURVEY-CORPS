@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "folder": "pattern_16_shared_upi",
+  "description": "Handle prashant71@kotak appears across separate account statements.",
+  "seed": 2025,
+  "accounts": [
+    {
+      "synthetic_account_id": "SYN0081",
+      "role": "subject",
+      "file": "statements/6752720432718688-03-12-2024to09-05-2026.csv",
+      "files": [
+        "statements/6752720432718688-03-12-2024to09-05-2026.csv"
+      ],
+      "fabricated_account_number": "6752720432718688",
+      "bank": "UCO BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0082",
+      "role": "subject",
+      "file": "statements/172372078937018_statement.pdf",
+      "files": [
+        "statements/172372078937018_statement.pdf"
+      ],
+      "fabricated_account_number": "172372078937018",
+      "bank": "AXIS BANK LIMITED"
+    },
+    {
+      "synthetic_account_id": "SYN0083",
+      "role": "clean_control",
+      "file": "statements/2818640871270954_statement.txt",
+      "files": [
+        "statements/2818640871270954_statement.txt"
+      ],
+      "fabricated_account_number": "2818640871270954",
+      "bank": "PUNJAB NATIONAL BANK"
+    },
+    {
+      "synthetic_account_id": "SYN0084",
+      "role": "clean_control",
+      "file": "statements/1885944132930321-01-12-2024to09-05-2026.pdf",
+      "files": [
+        "statements/1885944132930321-01-12-2024to09-05-2026.pdf"
+      ],
+      "fabricated_account_number": "1885944132930321",
+      "bank": "UCO BANK"
+    }
+  ],
+  "expected_findings": [
+    {
+      "pattern_id": 16,
+      "pattern_name": "shared_upi",
+      "expected_tier": "strong",
+      "accounts_involved": [
+        "SYN0081",
+        "SYN0082"
+      ],
+      "expected_amount_range": [
+        1840.32,
+        6240.71
+      ],
+      "notes": "Handle prashant71@kotak appears across separate account statements.",
+      "expected_txn_refs": [
+        "580122021174",
+        "369710809810"
+      ],
+      "synthetic_txn_refs": [
+        "SYN0081_000297",
+        "SYN0082_000307"
+      ]
+    }
+  ],
+  "expected_non_findings": [
+    {
+      "pattern_id": 7,
+      "reason": "No unrelated fixture planted for this pattern."
+    }
+  ]
+}

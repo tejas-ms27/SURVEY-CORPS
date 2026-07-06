@@ -1,0 +1,51 @@
+[
+  {
+    "timestamp": "2026-07-04 15:14:43",
+    "question": "visualize the transaction network",
+    "answer": "Money-flow Sankey across 6 account(s) and 2216 transaction(s) totalling ₹105,176,559.33. Top categories by amount: Other: ₹47,477,058.34, RTGS: ₹38,529,467.00, IMPS: ₹8,915,436.38.",
+    "language": "en",
+    "matched_pattern": "graph_request_sankey"
+  },
+  {
+    "timestamp": "2026-07-04 15:15:17",
+    "question": "list all the account holders name",
+    "answer": "There are 6 accounts in this case:\n  - STAR RETAIL LLP — account 00869354051 at IDFC First Bank\n  - GAURAV KUNAL GHOSH — account 913628731289 at Unknown Bank\n  - PRIME DISTRIBUTORS ASSOCIATION — account 18306700003 at IDFC First Bank\n  - DEEPA CHAUHAN — account 2653101012274 at Unknown Bank\n  - PIONEER HOLDINGS — account 17771917925 at IDFC First Bank\n  - ADITYA RAO — account 145090675346 at Unknown Bank",
+    "language": "en",
+    "matched_pattern": "list_account_holders"
+  },
+  {
+    "timestamp": "2026-07-04 15:16:35",
+    "question": "show me the money flow graph of 00869354051",
+    "answer": "Money-flow graph: 1 account node(s) and 60 heuristic counterparty node(s) across 61 transaction edge(s).",
+    "language": "en",
+    "matched_pattern": "graph_request"
+  },
+  {
+    "timestamp": "2026-07-04 15:17:11",
+    "question": "show the complete money flow graph",
+    "answer": "Money-flow Sankey across 6 account(s) and 2216 transaction(s) totalling ₹105,176,559.33. Top categories by amount: Other: ₹47,477,058.34, RTGS: ₹38,529,467.00, IMPS: ₹8,915,436.38.",
+    "language": "en",
+    "matched_pattern": "graph_request_sankey"
+  },
+  {
+    "timestamp": "2026-07-04 15:17:23",
+    "question": "money trai graph send",
+    "answer": "Money-flow Sankey across 6 account(s) and 2216 transaction(s) totalling ₹105,176,559.33. Top categories by amount: Other: ₹47,477,058.34, RTGS: ₹38,529,467.00, IMPS: ₹8,915,436.38.",
+    "language": "en",
+    "matched_pattern": "graph_request_sankey"
+  },
+  {
+    "timestamp": "2026-07-04 15:19:48",
+    "question": "give me the transactions trend overtime",
+    "answer": "Transaction volume for the whole case, bucketed by month: increasing over the observed period. Chart shown below.",
+    "language": "en",
+    "matched_pattern": "timeseries_trend"
+  },
+  {
+    "timestamp": "2026-07-04 15:20:04",
+    "question": "what and all graphs can you display",
+    "answer": "Based on the transactions listed, you could plot a **balance‑over‑time line chart** showing how the account balance changed on each recorded date (e.g., 13 Nov 2016, 15 Nov 2016, 7 Oct 2020, 16 Oct 2025). A **debit‑amount bar graph** could display each debit’s value on its transaction date, letting you see spikes such as the ₹2,841 debit in 2020 versus the ₹300 UPI debit in 2025. Finally, a **transaction‑frequency histogram** grouped by month or year would illustrate how many debits occurred in each period, highlighting the clustered activity in November 2016.",
+    "language": "en",
+    "matched_pattern": "semantic_search"
+  }
+]

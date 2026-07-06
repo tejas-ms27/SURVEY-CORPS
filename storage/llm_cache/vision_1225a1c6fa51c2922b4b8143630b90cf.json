@@ -1,0 +1,137 @@
+{
+  "account_details": {
+    "account_holder": "KAMALESH SUBHASH INAMDAR",
+    "account_number": "1357102000000198",
+    "ifsc_code": "",
+    "bank_name": "IDBI BANK",
+    "branch": "Naree-Pune (Sol-1357)",
+    "account_type": "",
+    "statement_period": "01/04/2020 to 31/03/2021",
+    "opening_balance": "",
+    "closing_balance": "27,528.83"
+  },
+  "transactions": [
+    {
+      "date": "31/03/2021",
+      "narration": "UPI/109072494235/ PRAMOD OMPRAKASH SAK",
+      "debit": "150.00",
+      "credit": "",
+      "balance": "27,528.83"
+    },
+    {
+      "date": "30/03/2021",
+      "narration": "VISA-POS/GIRIJA CATERERS PUNE  IND",
+      "debit": "2,050.00",
+      "credit": "",
+      "balance": "27,678.83"
+    },
+    {
+      "date": "30/03/2021",
+      "narration": "REF#0325#FAMOUS AUTO CENTREPUN",
+      "debit": "",
+      "credit": "2.48",
+      "balance": "29,728.83"
+    },
+    {
+      "date": "30/03/2021",
+      "narration": "BN135701/30-03-21 13:56:00 //000000471123",
+      "debit": "20,000.00",
+      "credit": "",
+      "balance": "29,726.35"
+    },
+    {
+      "date": "30/03/2021",
+      "narration": "UPI/108940112609/PhonePe",
+      "debit": "699.00",
+      "credit": "",
+      "balance": "49,726.35"
+    },
+    {
+      "date": "29/03/2021",
+      "narration": "VISA-POS/MSW(HOTEL RAJ  Pune  IND",
+      "debit": "1,180.00",
+      "credit": "",
+      "balance": "50,425.35"
+    },
+    {
+      "date": "29/03/2021",
+      "narration": "IPAY/ESHP//2671531320/MH014240710202021E/Maharash",
+      "debit": "1,200.00",
+      "credit": "",
+      "balance": "51,605.35"
+    },
+    {
+      "date": "27/03/2021",
+      "narration": "UPI/108658069427/SAI FOODS",
+      "debit": "50.00",
+      "credit": "",
+      "balance": "52,805.35"
+    },
+    {
+      "date": "27/03/2021",
+      "narration": "UPI/108636564613/gurukrupa super market",
+      "debit": "4,137.00",
+      "credit": "",
+      "balance": "52,855.35"
+    },
+    {
+      "date": "27/03/2021",
+      "narration": "UPI/108691387381/BharatpeMerchant",
+      "debit": "1,800.00",
+      "credit": "",
+      "balance": "56,992.35"
+    },
+    {
+      "date": "27/03/2021",
+      "narration": "UPI/108674458617/MAHANTESH BANGARATAL",
+      "debit": "840.00",
+      "credit": "",
+      "balance": "58,792.35"
+    },
+    {
+      "date": "26/03/2021",
+      "narration": "ATMWDl-ID064111-230321-360907",
+      "debit": "23.60",
+      "credit": "",
+      "balance": "59,632.35"
+    },
+    {
+      "date": "26/03/2021",
+      "narration": "ATMWDl-ID064111-210321-360286",
+      "debit": "23.60",
+      "credit": "",
+      "balance": "59,655.95"
+    },
+    {
+      "date": "26/03/2021",
+      "narration": "ATMWDl-ID064111-240321-361150",
+      "debit": "23.60",
+      "credit": "",
+      "balance": "59,679.55"
+    },
+    {
+      "date": "25/03/2021",
+      "narration": "IPAY/ESHP//2670840294/MH014009036202021E/Maharash",
+      "debit": "18,700.00",
+      "credit": "",
+      "balance": "59,703.15"
+    },
+    {
+      "date": "25/03/2021",
+      "narration": "IPAY/ESHP//SBIPEY//2677902086//1597440841033",
+      "debit": "591.80",
+      "credit": "",
+      "balance": "78,403.15"
+    },
+    {
+      "date": "25/03/2021",
+      "narration": "VISA-POS/FAMOUS AUTO CENTRE  PUNE  IND",
+      "debit": "330.00",
+      "credit": "",
+      "balance": "78,994.95"
+    }
+  ],
+  "engine": "groq_vision",
+  "raw_chars": 2718,
+  "source": "groq"
+}

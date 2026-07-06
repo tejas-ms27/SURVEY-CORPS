@@ -1,0 +1,228 @@
+duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged,source_account_id
+10905,10903,110178980040,19/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10906,10903,110178980040,19/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10916,10914,110178980040,20/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10917,10914,110178980040,20/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10919,10914,110178980040,20/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10927,10925,110178980040,21/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10944,10942,110178980040,24/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10946,10942,110178980040,24/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10949,10942,110178980040,24/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10955,10953,110178980040,25/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10957,10953,110178980040,25/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10958,10953,110178980040,25/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10966,10964,110178980040,26/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10969,10964,110178980040,26/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10970,10964,110178980040,26/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10977,10975,110178980040,28/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10979,10975,110178980040,28/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10982,10975,110178980040,28/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10988,10986,110178980040,29/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10989,10986,110178980040,29/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+10992,10986,110178980040,29/04/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11012,11010,110178980040,03/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11014,11010,110178980040,03/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11019,11018,110178980040,05/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11022,11018,110178980040,05/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11026,11018,110178980040,05/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11032,11029,110178980040,06/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11034,11029,110178980040,06/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11036,11029,110178980040,06/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11042,11039,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11046,11039,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11047,11039,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11049,11039,110178980040,07/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11058,11055,110178980040,09/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11060,11055,110178980040,09/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11062,11055,110178980040,09/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11072,11069,110178980040,14/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11074,11069,110178980040,14/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11076,11069,110178980040,14/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11090,11086,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11092,11088,110178980040,15/05/2025,0.0,-24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11093,11086,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11096,11086,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11098,11086,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11100,11086,110178980040,15/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11109,11107,110178980040,16/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11111,11107,110178980040,16/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11115,11114,110178980040,16/05/2025,20.06,20.06,0.0,ATM INSUFFICIENT FUND CHARGES,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11116,11107,110178980040,16/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11125,11121,110178980040,17/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11127,11121,110178980040,17/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11129,11121,110178980040,17/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11138,11135,110178980040,19/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11139,11135,110178980040,19/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11141,11135,110178980040,19/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11151,11149,110178980040,20/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11154,11149,110178980040,20/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11164,11161,110178980040,21/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11166,11161,110178980040,21/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11168,11161,110178980040,21/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11183,11180,110178980040,26/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11184,11180,110178980040,26/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11188,11180,110178980040,26/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11193,11192,110178980040,27/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11196,11192,110178980040,27/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11197,11192,110178980040,27/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11205,11204,110178980040,29/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11207,11204,110178980040,29/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11210,11204,110178980040,29/05/2025,24.78,24.78,0.0,ATM / IMPS Transaction Charges,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_002
+11228,11224,700870937566,09/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11229,11225,700870937566,09/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11230,11226,700870937566,09/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11232,11224,700870937566,09/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11233,11225,700870937566,09/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11234,11226,700870937566,09/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11235,11224,700870937566,09/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11236,11225,700870937566,09/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11237,11226,700870937566,09/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11238,11224,700870937566,09/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11239,11225,700870937566,09/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11240,11226,700870937566,09/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11247,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11248,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11249,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11252,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11253,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11254,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11255,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11257,11246,700870937566,09/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11258,11250,700870937566,09/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 09-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11266,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11267,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11268,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11269,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11271,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11272,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11275,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11279,11265,700870937566,10/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11280,11273,700870937566,10/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11284,11276,700870937566,10/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11285,11277,700870937566,10/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11286,11278,700870937566,10/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11287,11276,700870937566,10/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11288,11277,700870937566,10/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11289,11278,700870937566,10/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11293,11276,700870937566,10/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11294,11277,700870937566,10/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11295,11278,700870937566,10/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11296,11276,700870937566,10/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11297,11277,700870937566,10/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11298,11278,700870937566,10/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11299,11276,700870937566,10/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11300,11277,700870937566,10/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11301,11278,700870937566,10/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 10-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11307,11304,700870937566,11/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11308,11305,700870937566,11/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11309,11306,700870937566,11/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11310,11304,700870937566,11/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11311,11305,700870937566,11/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11312,11306,700870937566,11/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11313,11304,700870937566,11/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11314,11305,700870937566,11/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11315,11306,700870937566,11/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11316,11304,700870937566,11/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11317,11305,700870937566,11/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11318,11306,700870937566,11/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11320,11319,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/E LOBBY SUVIDHA COMPLE JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11321,11319,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/E LOBBY SUVIDHA COMPLE JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11322,11319,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/E LOBBY SUVIDHA COMPLE JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11326,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11330,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11332,11328,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPU RA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11334,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11336,11328,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPU RA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11338,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11340,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11342,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11344,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11348,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11350,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11352,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11354,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11356,11323,700870937566,11/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/SARDARPURA JODHPUR JODHPU 11-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11377,11375,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/MADHUBAN BASNI JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11379,11375,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/MADHUBAN BASNI JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11381,11375,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/MADHUBAN BASNI JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11383,11375,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/MADHUBAN BASNI JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11394,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11396,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11398,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11400,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11404,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11406,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11408,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11410,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11412,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11414,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11416,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11418,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11420,11392,700870937566,12/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/KANHIYA NAGAR SIKARGAE JODHPU 12-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11430,11427,700870937566,13/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11431,11428,700870937566,13/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11432,11429,700870937566,13/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11433,11427,700870937566,13/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11434,11428,700870937566,13/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11435,11429,700870937566,13/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11436,11427,700870937566,13/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11437,11428,700870937566,13/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11438,11429,700870937566,13/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11439,11427,700870937566,13/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11440,11428,700870937566,13/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11441,11429,700870937566,13/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11447,11427,700870937566,13/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11448,11428,700870937566,13/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11449,11429,700870937566,13/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11459,11457,700870937566,13/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/OLD LOCO RAOD NEAR JDA JODHPU 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11461,11457,700870937566,13/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/OLD LOCO RAOD NEAR JDA JODHPU 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11463,11457,700870937566,13/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/OLD LOCO RAOD NEAR JDA JODHPU 13-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11472,11468,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/JODHPUR MAIN BRANCH JODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11474,11470,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/OLD HIGH COURT CAMPUS JODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11483,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11485,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11487,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11490,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11492,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11495,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11500,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11502,11497,700870937566,14/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11503,11498,700870937566,14/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11504,11499,700870937566,14/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11505,11497,700870937566,14/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11506,11498,700870937566,14/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11507,11499,700870937566,14/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11508,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11510,11497,700870937566,14/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11511,11498,700870937566,14/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11512,11499,700870937566,14/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11516,11497,700870937566,14/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11517,11498,700870937566,14/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11518,11499,700870937566,14/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11519,11497,700870937566,14/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11520,11498,700870937566,14/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11521,11499,700870937566,14/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11522,11481,700870937566,14/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO104 PAOTA MANDORJODHPU 14-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11530,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11535,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11536,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11537,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11539,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11540,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11544,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11545,11529,700870937566,15/04/2025,20000.0,20000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11546,11531,700870937566,15/04/2025,10000.0,10000.0,0.0,ATW/512293XXXXXX5804/PLOT NO.21 SECTOR-E JODHPU 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11556,11553,700870937566,15/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11557,11554,700870937566,15/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11558,11555,700870937566,15/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11559,11553,700870937566,15/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11560,11554,700870937566,15/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11561,11555,700870937566,15/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11568,11565,700870937566,05/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11569,11566,700870937566,05/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11570,11567,700870937566,05/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11572,11565,700870937566,05/04/2025,10000.0,10000.0,0.0,IMT-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11573,11566,700870937566,05/04/2025,20.0,20.0,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+11574,11567,700870937566,05/04/2025,3.6,3.6,0.0,IMT-CHRGS-CARDLESS CASH 15-Apr-2025,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_003
+12030,12029,42618891001229,04/05/2025,8.0,8.0,0.0,CHRG/IMPS/100000/02-05-2025 TRF 04-May-25,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_006
+12057,12056,42618891001229,07/05/2025,8.0,8.0,0.0,CHRG/IMPS/50000/03-05-2025 TRF 07-May-25,exact_duplicate (same Date + Narration + Debit + Credit + Account),acct_006
