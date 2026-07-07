@@ -60,6 +60,9 @@ tools/
 *.swp
 chroma_store/
 
+# Claude Code internal files
+.claude/
+
 # Synthetic test dataset and synthetic dev artifacts
 synthetic_test_data/
 analysis/synthetic_cases/
