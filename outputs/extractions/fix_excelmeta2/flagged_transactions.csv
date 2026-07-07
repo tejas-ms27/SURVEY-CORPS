@@ -1,3 +1,0 @@
-Date,Time,Narration,Debit,Credit,Balance,Account_ID,Bank_Name,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,IFSC_Code,flag_reason,mismatch_diagnosis
-03/07/2024,,CHRG/IMPS/10000 05-03-2024 S66258218,6.0,0.0,8908.16,17496072039317,,S98747079,,,,UNKNOWN,balance_mismatch,missing_transaction
-03/07/2024,,CHRG/IMPS/2500 05-03-2024 S59767793,6.0,0.0,8920.16,17496072039317,,S98747496,,,,UNKNOWN,balance_mismatch,direction_inverted

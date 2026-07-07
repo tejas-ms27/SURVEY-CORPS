@@ -1,2 +1,0 @@
-Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis
-25/05/2017,,ATL/0923572005/800001/+868DR 714511002248 MUKHARJEENAGARDELHID,,,714511002248,,500.0,0.0,17671.0,debit,763010062770,Unknown Bank,UNKNOWN,balance_mismatch,direction_inverted

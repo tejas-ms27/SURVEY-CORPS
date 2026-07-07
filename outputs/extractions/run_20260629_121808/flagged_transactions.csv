@@ -1,3 +1,0 @@
-Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis
-06/10/2022,,TRFR FROM: SUNITA KAVYA SETHI,,,,,0.0,50000.0,50000.0,credit,UNKNOWN-280442153117,Axis Bank,UTIB0001591,balance_mismatch,missing_transaction
-15/04/2024,,UPI/410584777324/Salary/ravigodhaniya57//ICI 4d72af,,,410584777324,,100.0,0.0,1.14,debit,UNKNOWN-280442153117,Axis Bank,UTIB0001591,balance_mismatch,missing_transaction

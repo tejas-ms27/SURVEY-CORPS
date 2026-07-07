@@ -1,8 +1,0 @@
-[
-  {
-    "filename": "(whole analysis phase)",
-    "phase": "analysis",
-    "exception": "ValueError('No transaction rows found in /Users/tejas.m.s/Automated-Financial-Data-Analysis-System-Survey-Corps-/outputs/extractions/validation_original_20260703_215722')",
-    "root_cause": "analysis phase crashed"
-  }
-]

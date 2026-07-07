@@ -1,4 +1,0 @@
-Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
-22/01/2025,,- PAY_PM9OQCXVXBYBWK,,,,,0.0,500.0,500.0,credit,216655101347,RBL Bank,RATN0000176,balance_mismatch,missing_transaction,acct_001
-21/05/2025,,UPI/444121271314/PAYMENT FROM PHONEPE/8619111608@P 21-May-2025,,,444121271314,,1.0,0.0,48470.31,debit,839178205347,RBL Bank,RATN0000176,balance_mismatch,missing_amount,acct_006
-22/05/2025,,UPI/514264994139/UPI PAYMEN/8302107997@FAM 22-May-2025,,,514264994139,,100.0,0.0,10092.95,debit,839178205347,RBL Bank,RATN0000176,balance_mismatch,missing_transaction,acct_006

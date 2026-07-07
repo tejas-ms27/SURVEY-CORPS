@@ -1,5 +1,0 @@
-duplicate_row_number,original_row_number,account_number,date,amount,debit,credit,narration,reason_flagged
-1368,1367,520698390475976,14/07/2023,10000.0,10000.0,0.0,ATMCASHN R MOHALLAMYSORE140723,exact_duplicate (same Date + Narration + Debit + Credit + Account)
-1722,1720,520698390475976,19/10/2023,1500.0,1500.0,0.0,ATMCASHKBL ASHOKA ROAD MYMYSORE191023,exact_duplicate (same Date + Narration + Debit + Credit + Account)
-1803,1802,520698390475976,06/11/2023,10000.0,10000.0,0.0,ATMCASHE LOUNGE N R MOHALMYSORE061123,exact_duplicate (same Date + Narration + Debit + Credit + Account)
-2776,2775,520698390475976,26/05/2024,10000.0,10000.0,0.0,ATMCASHASHOKA ROADMYSORE260524,exact_duplicate (same Date + Narration + Debit + Credit + Account)

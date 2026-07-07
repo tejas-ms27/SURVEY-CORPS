@@ -1,5 +1,0 @@
-Date,Time,Narration,Transaction_ID,Reference_Number,Transaction_Reference,Cheque_Number,Debit,Credit,Balance,Transaction_Type,Account_ID,Bank_Name,IFSC_Code,flag_reason,mismatch_diagnosis,source_account_id
-21/05/2025,,IMT-CARDLESS CASH 21-May-2025,,,,,10000.0,0.0,87167.58,debit,001029700065,RBL Bank,RATN0000537,balance_mismatch,missing_transaction,acct_003
-21/05/2025,,NEFT/IDFBH25141565324/SUNITA SHR E 21-May-2025 RECOVERY SERVICE,,,25141565324,,0.0,61152.0,88295.98,credit,001029700065,RBL Bank,RATN0000537,balance_mismatch,missing_transaction,acct_003
-21/05/2025,,IMT-CARDLESS CASH 21-May-2025,,,,,10000.0,0.0,67772.38,debit,001029700065,RBL Bank,RATN0000537,balance_mismatch,missing_transaction,acct_003
-21/05/2025,,ATW/512293XXXXXX0263/SHASTRI NAGAR JODHPUR JODHPU 21-May-2025,,,512293,,0.0,10000.0,70548.78,credit,001029700065,RBL Bank,RATN0000537,balance_mismatch,missing_transaction,acct_003
