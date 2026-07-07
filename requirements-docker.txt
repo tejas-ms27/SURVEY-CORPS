@@ -1,0 +1,37 @@
+# Survey Corps — Docker dependencies (deduplicated, no dev tools)
+
+# Web API
+fastapi
+uvicorn
+python-multipart
+aiofiles
+python-dotenv
+
+# Data / numeric core
+pandas
+numpy
+scikit-learn
+networkx
+
+# Document & statement parsing
+pdfplumber
+pymupdf
+pytesseract
+pillow
+opencv-python
+python-docx
+openpyxl
+xlrd>=2.0.1
+
+# LLM + RAG
+groq
+requests
+chromadb
+sentence-transformers
+
+# Charts / graphs / reports
+matplotlib
+plotly
+kaleido
+pyvis
+reportlab

@@ -109,7 +109,8 @@ This will:
 - Build the React frontend image (compiles the app, serves via nginx)
 - Start both services
 
-> **First build takes 5–10 minutes** — it downloads and installs Chromium for PDF generation. Subsequent starts are instant.
+> **First build takes 15–20 minutes** — `sentence-transformers` pulls in PyTorch (~2 GB) and Playwright downloads Chromium (~300 MB). Subsequent starts are instant (under 30 seconds).
+> You will need approximately **5 GB of free disk space** for the Docker images.
 
 ### Step 4 — Open the Application
 
