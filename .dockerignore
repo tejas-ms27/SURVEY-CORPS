@@ -1,0 +1,25 @@
+.git/
+.claude/
+.env
+.report_venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+node_modules/
+chatbot_ui/frontend/node_modules/
+chatbot_ui/frontend/dist/
+frontend/dist/
+analysis/outputs/
+uploads/
+outputs/
+chroma_store/
+storage/
+Bank-statements-dataset/
+Bank-statements-dataset 2/
+synthetic_test_data/
+*.db
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/

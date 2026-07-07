@@ -1,6 +1,6 @@
 # Survey Corps — Automated Financial Data Analysis System
 
-> Built for **CIDECODE Hackathon 2026** | Problem Statement 1
+> **CIDECODE Hackathon 2026** | Problem Statement 1
 > Organised by **CCITR – CID Karnataka** in association with **PES University, Bengaluru**
 
 ---
@@ -16,117 +16,253 @@
 
 ---
 
-## Problem Statement
+## Project Overview
 
-Financial cybercrime investigations in India are severely hampered by the manual effort required to analyse bank statements. CID investigators regularly receive statements from multiple suspects across different banks in inconsistent formats — PDF, scanned images, and Excel sheets. The current process requires manually reviewing thousands of transactions, takes weeks, and routinely misses hidden connections between accounts.
+**Survey Corps** is an AI-powered financial forensics platform built for CID Karnataka investigators. It takes bank statements from multiple suspects — in any format (PDF, scanned image, Excel, CSV, Word) — and automatically:
 
-### Core Challenges
+- Extracts and standardises all transactions into a unified table
+- Runs **23 fraud detection algorithms** (round-tripping, layering, smurfing, hawala, mule chains, dormancy activation, and more)
+- Assigns each account a **suspicion score (0–100)**
+- Generates an interactive **money-flow graph** of the suspect network
+- Produces a **court-ready forensic report** (PDF + Excel)
+- Provides a **RAG-powered investigation chatbot** that answers questions in plain English directly from the uploaded transaction data
 
-- Every bank produces statements in a different layout, making unified analysis impractical
-- Cyber-fraud cases routinely involve hundreds of accounts and thousands of transactions
-- Money-mule chains and hawala networks span multiple accounts and are invisible without cross-account analysis
-- Manually compiling a court-ready forensic report from raw findings is slow and error-prone
+The core design principle: every numeric finding is produced by **deterministic code** (pandas, NetworkX, scikit-learn) — reproducible and legally defensible. LLMs (Groq API) are used only for document understanding, plain-English explanations, and natural-language Q&A.
 
----
-
-## Solution
-
-**Survey Corps** is a fully implemented AI-powered investigation platform that processes multi-format bank statements end-to-end — from raw uploads to a court-ready forensic report and an interactive investigation chatbot — in minutes.
-
-The design principle: every numeric finding is produced by **deterministic code** (pandas, NetworkX, scikit-learn) so results are reproducible and legally defensible. LLMs are used only where they add genuine value over code — reading the investigator's case brief, generating context-appropriate thresholds, and writing plain-English explanations of what the mathematics found.
-
----
-
-## System Architecture
+### System Flow
 
 ```
-uploads/  →  Extraction  →  Analysis Engine  →  Reporting  →  Chatbot (RAG)
-              (Phase 2)       (Phase 3)          (Phase 4)
-                ↓                 ↓                  ↓              ↓
-          Standardised      25 Fraud          PDF + Excel      Natural-language
-          transaction       Detectors         Reports          query over data
-          tables            + Scoring
+Upload Files + Case Brief
+        ↓
+  Extraction Pipeline
+  (PDF / OCR / Excel / CSV / DOCX)
+        ↓
+  Analysis Engine
+  (23 Fraud Detectors + Scoring)
+        ↓
+  Report Generation          RAG Chatbot
+  (PDF + Excel + Graphs)     (ChromaDB + Groq)
 ```
 
 ---
 
-## Implementation Status
+## Prerequisites
 
-| Phase | Component | Status |
-|-------|-----------|--------|
-| Phase 1 | Case brief intake & file upload | ✅ Complete |
-| Phase 2 | Extraction pipeline (PDF/OCR/Excel/CSV/DOCX) | ✅ Complete |
-| Phase 2 | LLM structuring & column identification | ✅ Complete |
-| Phase 2 | Account anonymisation & standardisation | ✅ Complete |
-| Phase 3 | Analysis engine — all 25 detectors | ✅ Complete |
-| Phase 3 | Composite suspicion scoring | ✅ Complete |
-| Phase 3 | Money-flow graph generation (NetworkX) | ✅ Complete |
-| Phase 4 | PDF report generation (ReportLab) | ✅ Complete |
-| Phase 4 | Excel report generation (openpyxl) | ✅ Complete |
-| Phase 4 | RAG chatbot (ChromaDB + sentence-transformers) | ✅ Complete |
-| API | FastAPI backend with full routing | ✅ Complete |
-| Frontend | React + TypeScript + Tailwind UI | ✅ Complete |
+Before running the project (Docker or manual), you need:
+
+### 1. Groq API Key (Free)
+The system uses [Groq](https://console.groq.com) for LLM-powered extraction and the investigation chatbot.
+
+1. Go to [console.groq.com](https://console.groq.com)
+2. Sign up for a free account
+3. Navigate to **API Keys** → **Create API Key**
+4. Copy the key — you will need it in the `.env` setup step
+
+> A single free-tier key is sufficient to run the demo. The system supports multiple keys for heavy workloads.
+
+### 2. Docker (Recommended path)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Mac / Windows / Linux)
+- Docker Compose (included with Docker Desktop)
+
+### 3. Manual path (without Docker)
+- Python 3.11+
+- Node.js 18+
+- Tesseract OCR (`brew install tesseract` on macOS, `apt install tesseract-ocr` on Linux)
+
+---
+
+## Docker Setup and Execution (Recommended)
+
+This is the fastest way to run the full system — one command starts everything.
+
+### Step 1 — Clone the Repository
+
+```bash
+git clone https://github.com/tejas-ms27/SURVEY-CORPS.git
+cd SURVEY-CORPS
+```
+
+### Step 2 — Set Up Environment Variables
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and fill in your Groq API key:
+
+```env
+GROQ1=gsk_your_key_here
+GROQ2=gsk_your_key_here
+GROQ3=gsk_your_key_here
+```
+
+> You can use the same key for GROQ1, GROQ2, and GROQ3 if you only have one. For best performance, use separate keys (each has its own free-tier quota).
+
+### Step 3 — Build and Start
+
+```bash
+docker-compose up --build
+```
+
+This will:
+- Build the Python backend image (installs Tesseract, OpenCV, Playwright/Chromium, all pip packages)
+- Build the React frontend image (compiles the app, serves via nginx)
+- Start both services
+
+> **First build takes 5–10 minutes** — it downloads and installs Chromium for PDF generation. Subsequent starts are instant.
+
+### Step 4 — Open the Application
+
+| Service | URL |
+|---------|-----|
+| Frontend (React UI) | http://localhost:3000 |
+| Backend API | http://localhost:8000 |
+| API Health Check | http://localhost:8000/api/health |
+
+### Step 5 — Stop
+
+```bash
+docker-compose down
+```
+
+To also remove stored data (uploads, outputs, ChromaDB):
+
+```bash
+docker-compose down -v
+```
+
+---
+
+## Manual Setup and Installation (Without Docker)
+
+Follow these steps if you prefer to run without Docker.
+
+### Step 1 — Clone the Repository
+
+```bash
+git clone https://github.com/tejas-ms27/SURVEY-CORPS.git
+cd SURVEY-CORPS
+```
+
+### Step 2 — Install Tesseract OCR
+
+**macOS:**
+```bash
+brew install tesseract
+brew install tesseract-lang   # includes Hindi and Kannada language packs
+```
+
+**Ubuntu / Debian:**
+```bash
+sudo apt-get update
+sudo apt-get install tesseract-ocr tesseract-ocr-hin tesseract-ocr-kan
+```
+
+**Windows:**
+Download and install from: https://github.com/UB-Mannheim/tesseract/wiki
+
+### Step 3 — Set Up Environment Variables
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` and add your Groq API key:
+
+```env
+GROQ1=gsk_your_key_here
+GROQ2=gsk_your_key_here
+GROQ3=gsk_your_key_here
+```
+
+### Step 4 — Install Python Dependencies
+
+```bash
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Step 5 — Install Playwright (for PDF Reports)
+
+```bash
+pip install playwright
+playwright install chromium
+```
+
+### Step 6 — Install Frontend Dependencies
+
+```bash
+cd chatbot_ui/frontend
+npm install
+cd ../..
+```
+
+---
+
+## Running the Project (Manual)
+
+You need two terminals — one for the backend, one for the frontend.
+
+### Terminal 1 — Start the Backend
+
+```bash
+source venv/bin/activate        # Windows: venv\Scripts\activate
+uvicorn api.main:app --reload --port 8000
+```
+
+Backend is ready when you see:
+```
+INFO:     Uvicorn running on http://0.0.0.0:8000
+```
+
+### Terminal 2 — Start the Frontend
+
+```bash
+cd chatbot_ui/frontend
+npm run dev
+```
+
+Frontend is ready when you see:
+```
+  VITE ready in Xs
+  ➜  Local:   http://localhost:5173/
+```
+
+### Open the Application
+
+| Service | URL |
+|---------|-----|
+| Frontend | http://localhost:5173 |
+| Backend API | http://localhost:8000 |
+| API Docs (Swagger) | http://localhost:8000/docs |
+
+---
+
+## How to Use
+
+1. **Open the app** at http://localhost:3000 (Docker) or http://localhost:5173 (manual)
+2. Click **Open Case** on the landing page
+3. **Upload bank statements** — drag and drop PDF, Excel, CSV, DOCX, or image files
+4. **Type a case brief** — describe the suspected fraud, suspect names, amounts of interest
+5. Click **Run Extraction** — the system standardises all uploaded statements
+6. Click **Run Analysis** — 23 fraud detectors run across all accounts
+7. View the **suspicion scores**, **money-flow graph**, and **findings**
+8. Download the **PDF or Excel report**
+9. Ask questions in the **Investigation Chatbot** — "Which accounts show round-tripping?", "What is the total volume for ACCT_003?"
 
 ---
 
 ## Key Features
 
-- **Multi-format ingestion** — PDF (digital and scanned via OCR), Excel, CSV, DOCX, JPG, PNG covering multiple suspect accounts in a single session
-- **LLM-guided extraction** — Claude/Groq identifies document structure and standardises transactions regardless of bank format
-- **25 fraud detection cases** across seven categories with weighted composite suspicion scoring (0–100 per account)
-- **Interactive money-flow graph** — NetworkX-powered visualisation of the full suspect transaction network
-- **Court-ready forensic reports** — PDF and Excel with executive summary, per-account findings, graph exports, and technical appendix
-- **RAG-powered investigation chatbot** — ChromaDB + sentence-transformers lets investigators query transaction data in plain English
-- **React + TypeScript frontend** — full-featured UI for case management, upload, analysis dashboard, and chatbot
-- **FastAPI backend** — RESTful API serving all pipeline stages with session management
-
----
-
-## Fraud Detection Cases (Phase 3)
-
-### Graph-Based
-| Case | Description |
-|------|-------------|
-| Round-trip detection | Identifies money that returns to sender via intermediaries |
-| Multi-hop layering | Detects funds routed through 3+ accounts to obscure origin |
-| Hub identification | Flags accounts that act as central routing nodes |
-| Circular flow | Money loops between a set of accounts |
-| Cross-statement links | Counterparty connections across different uploaded statements |
-
-### Time-Based
-| Case | Description |
-|------|-------------|
-| Dormancy reactivation | Account idle >90 days suddenly becomes highly active |
-| Velocity spike | Sudden surge in transaction frequency vs. account baseline |
-| Synchronised transactions | Multiple accounts transact in tight time windows |
-| Reversal clusters | Failed/reversed transactions that indicate testing |
-| First-contact large transfer | Large credit from a never-before-seen counterparty |
-
-### Amount-Based
-| Case | Description |
-|------|-------------|
-| Structuring / smurfing | Repeated deposits just below reporting thresholds |
-| Hawala matched pairs | Near-equal credit/debit pairs with short time gap |
-| FIFO money trail | Inbound funds forwarded out within hours |
-| Round-value debits | Unusually high proportion of round-number withdrawals |
-| Low-value testing | Micro-transactions testing whether an account is live |
-
-### Counterparty
-| Case | Description |
-|------|-------------|
-| Fan-in / fan-out | Single account aggregating from or distributing to many |
-| Single counterparty concentration | >60 % of volume to/from one entity |
-| Shared UPI IDs | Multiple accounts using the same UPI handle |
-| Hub ranking | Eigenvector-centrality ranking of the transaction graph |
-
-### Narration & Statistical
-| Case | Description |
-|------|-------------|
-| Blank / generic narrations | Systematic absence of meaningful transaction descriptions |
-| Case-brief keyword matching | Narrations matching suspect names, addresses, or keywords |
-| Isolation Forest anomaly | ML-detected statistical outliers (scikit-learn) |
-| LLM-guided pattern matching | Hypothesis generation using investigator case brief |
-| Balance parking | Funds held in an account with minimal further activity |
+- **Multi-format ingestion** — PDF (digital & scanned), Excel, CSV, DOCX, JPG, PNG
+- **LLM-guided extraction** — Groq identifies document structure regardless of bank format
+- **23 fraud detection cases** — round-trips, layering, smurfing, hawala, mule chains, dormancy, velocity spikes, and more
+- **Tiered suspicion scoring** — 0–100 composite score per account with tier-weighted evidence
+- **Interactive money-flow graph** — NetworkX-powered network of the full suspect ecosystem
+- **Court-ready reports** — PDF (A4, Playwright-rendered) and Excel with all findings and evidence
+- **RAG investigation chatbot** — ChromaDB + Groq, answers questions from actual uploaded data
+- **Multilingual support** — Kannada and Hindi question/answer support
 
 ---
 
@@ -134,98 +270,59 @@ uploads/  →  Extraction  →  Analysis Engine  →  Reporting  →  Chatbot (R
 
 | Layer | Technology |
 |-------|------------|
+| Backend API | Python, FastAPI, uvicorn |
 | Data processing | pandas, NumPy |
 | Graph analysis | NetworkX |
-| Statistical anomaly detection | scikit-learn (Isolation Forest) |
-| OCR | Tesseract (pytesseract) |
-| Digital PDF extraction | pdfplumber |
-| LLM integration | Claude API (Anthropic) / Groq API |
+| Anomaly detection | scikit-learn (Isolation Forest) |
+| OCR | Tesseract, OpenCV, Groq Vision |
+| PDF extraction | pdfplumber, PyMuPDF |
+| LLM | Groq API (llama / gpt-oss models) |
 | Vector store & RAG | ChromaDB, sentence-transformers |
-| Report generation | ReportLab, openpyxl, matplotlib |
-| Backend API | Python, FastAPI |
-| Frontend | React, TypeScript, Tailwind CSS, Vite |
-| Database | SQLite (per-case analysis DB) |
+| Report generation | Jinja2, Playwright (Chromium), ReportLab |
+| Charts | matplotlib, plotly |
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS |
+| State management | Zustand |
+| Containerisation | Docker, Docker Compose, nginx |
 
 ---
 
 ## Repository Structure
 
 ```
-survey-corps/
-├── extraction/              # Multi-format file parsing and standardisation
-│   ├── router.py            # File-type dispatcher
-│   ├── extractor_digital_pdf.py
-│   ├── extractor_ocr.py
-│   ├── extractor_excel_csv.py
-│   ├── extractor_docx.py
-│   ├── vision_extractor.py
-│   ├── llm_structurer.py    # LLM-based column identification
-│   ├── standardiser.py
-│   └── extraction_pipeline.py
-├── analysis/
-│   └── analysis_engine/     # 25 fraud detectors + scoring
-│       ├── pipeline.py
-│       ├── scoring.py
-│       ├── graph.py
-│       └── detectors/       # One file per detection case
-├── reporting/               # PDF and Excel report generation
-│   ├── build_report.py
-│   └── report_template.html
-├── chatbot/                 # RAG-powered investigation chatbot
-│   ├── rag_chat.py
-│   ├── vector_store.py
-│   ├── reasoning_engine.py
-│   └── language.py
-├── api/                     # FastAPI backend
-│   ├── main.py
-│   └── routers/
-├── frontend/                # React + TypeScript frontend
-│   └── src/
-├── config/                  # Settings and configuration
-├── requirements.txt
-└── .env.example
-
-> **Note:** Bank statement files and upload data are excluded from version control (contain PII).
+SURVEY-CORPS/
+├── extraction/          # Phase 2 — multi-format extraction pipeline
+├── analysis/            # Phase 3 — 23 fraud detectors + scoring engine
+│   └── analysis_engine/
+│       └── detectors/   # one file per fraud pattern
+├── reporting/           # Phase 4 — PDF + Excel report generation
+├── chatbot/             # Phase 5 — RAG chatbot (ChromaDB + Groq)
+├── api/                 # FastAPI backend + route handlers
+├── chatbot_ui/
+│   └── frontend/        # React + TypeScript frontend (Vite)
+├── config/              # Central settings and configuration
+├── Dockerfile           # Backend container
+├── Dockerfile.frontend  # Frontend container
+├── docker-compose.yml   # Orchestrates backend + frontend
+├── nginx.conf           # nginx config for React SPA
+├── requirements.txt     # Python dependencies
+├── .env.example         # Environment variable template
+└── PROJECT.md           # Full technical documentation
 ```
 
 ---
 
-## Getting Started
+## Environment Variables Reference
 
-### Prerequisites
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GROQ1` | Yes | Groq API key for extraction (column identification) |
+| `GROQ2` | Yes | Groq API key for OCR vision fallback |
+| `GROQ3` | Yes | Groq API key for analysis + report narration |
+| `GROQ4`–`GROQ10` | No | Additional keys for rotation under heavy load |
+| `TESSERACT_CMD` | No | Path to Tesseract binary (auto-detected if on PATH) |
 
-```bash
-# Python 3.10+
-pip install -r requirements.txt
-
-# Tesseract OCR (macOS)
-brew install tesseract
-
-# Frontend dependencies
-cd frontend && npm install
-```
-
-### Environment Variables
-
-Copy `.env.example` to `.env` and fill in:
-
-```
-ANTHROPIC_API_KEY=your_key_here
-GROQ_API_KEY=your_key_here
-```
-
-### Running the Backend
-
-```bash
-uvicorn api.main:app --reload --port 8000
-```
-
-### Running the Frontend
-
-```bash
-cd frontend && npm run dev
-```
+Get free Groq API keys at [console.groq.com](https://console.groq.com). A single key works for all three variables in a demo setting.
 
 ---
 
-*CIDECODE Hackathon 2026 — Survey Corps*
+*CIDECODE Hackathon 2026 — Survey Corps — CID Karnataka / PES University, Bengaluru*
